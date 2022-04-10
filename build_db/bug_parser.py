@@ -44,15 +44,6 @@ def parse_diff(patch_f, proj_name, bug):
     patch_f.close()
     return bug_diff_data
 
-#def reform_block(all_lines, in_both, changed_lines):
-#    block = ""
-#    for line in all_lines:
-#        if line in in_both:
-#            block += line[1:] #remove the added white space
-#        if line in changed_lines:
-#            block += line[1:] #remove the '-' or '+'
-#    return block
-
 def reform_block(in_both, changed_lines, total_lines):
     block = ""
     both_keys = list(in_both.keys())
@@ -112,7 +103,7 @@ def extract_code(patch_f, proj_name, bug, bug_diff_data):
     assert(len(reformed_old) == lines_in_old or len(reformed_old) == lines_in_old+1) 
     assert(len(reformed_new) == lines_in_new or len(reformed_new) == lines_in_new+1)
 
-    return old_snippet, new_snippet
+    return old_snippet, new_snippet, lines_removed, lines_added
 
    
 
@@ -210,6 +201,64 @@ def verify_old(old_snippet, bug_data):
     assert(is_match) #ensure that your parsing the bug correctly 
     return data
 
+#def clean_bugs(lines_removed):
+#    bugs, bug_seen = [], {}
+#    for idx, line in lines_removed.items():
+#        bug = line[1:].replace("\n", "")
+#        bugs.append(bug)
+#        bug_seen[bug] = False
+#    return bugs, bug_seen
+
+def clean_bugs(lines_removed):
+    bugs = {}
+    for idx, line in lines_removed.items():
+        bug = line[1:].replace("\n", "")
+        bugs[idx] = bug
+    return bugs
+
+def find_del_line_numbers(diff_block, bug_start_line, lines_removed):
+    diff_block = diff_block.split("\n")
+    bugs = clean_bugs(lines_removed)
+    adjusted_idx = {}
+    start_line, lines_seen = bug_start_line, 0
+    for idx, bug in bugs.items():
+        offset = 0
+        for line in diff_block:
+            if offset < lines_seen:
+                offset += 1
+                continue
+            if line == bug:
+                adjusted_idx[start_line+offset] = line + "\n"
+                lines_seen += 1
+                break
+            lines_seen += 1
+            offset += 1
+    return adjusted_idx
+
+'''
+def find_del_line_numbers(diff_block, bug_start_line, lines_removed):
+    file_idx = bug_start_line 
+    diff_block = diff_block.split("\n")
+    bugs, bug_seen = clean_bugs(lines_removed)
+    adjusted_idx = {}
+    for line in diff_block:
+        if line in bugs:
+            if bug_seen[line] == False:
+                bug_seen[line] = True
+                adjusted_idx[file_idx] = line + "\n"
+        file_idx += 1
+    return adjusted_idx
+'''
+
+def check_line_match(adjusted_idx, bug_f):
+    line_count = 0
+    for line in bug_f:
+        if line_count in adjusted_idx:
+            if line != adjusted_idx[line_count]:
+                return False
+        line_count += 1
+    return True
+
 def clone_projects(proj_bugs):
     projects = list(proj_bugs.keys())
     for proj in projects:
@@ -239,10 +288,25 @@ for proj, bugs in proj_bugs.items():
             reformed_blocks = extract_code(patch_f, proj, bug, bug_diff_data)
             bug_data = aggregate(proj, bug, bug_meta_data, bug_diff_data)
             if reformed_blocks is not None:
-                old_snippet, new_snippet = reformed_blocks
-                data = verify_old(old_snippet, bug_data)
-                #if proj == 'youtube-dl':
-                print(data)
+                old_snippet, new_snippet, lines_removed, lines_added = reformed_blocks
+                #if proj == "youtube-dl":
+                if proj == "pandas" and bug == 93:
+                    continue
+                if True:
+                    data = verify_old(old_snippet, bug_data)
+                    bug_start_line = int(data["bug_start_line"])
+                    diff_block = data["snippet_str"]
+                    if len(lines_removed) > 0:
+                        adjusted_idx = find_del_line_numbers(diff_block, bug_start_line, lines_removed)
+                        print(lines_removed)
+                        print(adjusted_idx)
+                        assert(len(adjusted_idx) == len(lines_removed))
+                        path = "BugsInPy/temp/projects/" + proj
+                        bug_f = open(path + "/" + data["file_changed"], "r")
+                        correct_lines = check_line_match(adjusted_idx, bug_f)
+                        bug_f.close()
+                        assert(correct_lines)
+
 
 
 
