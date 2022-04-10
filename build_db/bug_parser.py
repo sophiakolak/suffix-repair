@@ -167,47 +167,47 @@ def check_match(change_f, old_snippet, start_line, end_line):
         curr_line += 1
     return compare(lines, old_snippet, num_lines)
 
-def verify_old(old_snippet, bug_data):
+def get_code(snippet, bug_data, version):
     data = {}
     proj_name = bug_data["proj_name"]
     bug = bug_data["bug"]
-    #if proj_name != 'youtube-dl':
-    #    return
+    if proj_name != 'youtube-dl':
+        return
     print("PROJ: " + proj_name, "BUG: " + str(bug))
 
     proj_path = "BugsInPy/temp/projects/" + proj_name
     bug_meta_data = bug_data["bug_meta_data"]
-    buggy_commit_id = bug_meta_data["buggy_commit_id"]
-    bug_diff_data = bug_data["bug_diff_data"]
-    code_type = bug_diff_data[0]["code_type"]
-    file_changed = bug_diff_data[0]["file"][2:]  
-    old_start_line = int(bug_diff_data[0]["old_indices"].split(",")[0][1:])
-    num_lines = bug_diff_data[0]["old_indices"].split(",")[1]
-    old_end_line = int(old_start_line) + int(num_lines) - 1
+    diff_data = bug_data["bug_diff_data"]
+    if version == "old":
+        commit_id = bug_meta_data["buggy_commit_id"]
+        start_line = int(diff_data[0]["old_indices"].split(",")[0][1:])
+        num_lines = diff_data[0]["old_indices"].split(",")[1]
+        end_line = int(start_line) + int(num_lines) - 1
+    elif version == "new":
+        commit_id = bug_meta_data["fixed_commit_id"]
+        start_line = int(diff_data[0]["new_indices"].split(",")[0][1:])
+        num_lines = diff_data[0]["new_indices"].split(",")[1]
+        end_line = int(start_line) + int(num_lines) - 1
+    file_changed = diff_data[0]["file"][2:]  
 
     data["file_changed"] = file_changed
-    data["bug_start_line"] = old_start_line
+    data["start_line"] = start_line
     data["num_lines"] = num_lines
 
-    print("buggy_commit_id: " + buggy_commit_id, "file_changed: " + file_changed, "old_start_line: " + str(old_start_line), "num_lines: " + num_lines, "old_end_line: " + str(old_end_line))
+    print("commit_id: " + commit_id, "file_changed: " + file_changed, "old_start_line: " + str(start_line), "num_lines: " + num_lines, "end_line: " + str(end_line))
 
-    checkout_version(buggy_commit_id, proj_path)
+    checkout_version(commit_id, proj_path)
     path_to_change = proj_path + "/" + file_changed
     assert(os.path.isfile(path_to_change))
 
-    change_f = open(path_to_change, "r")
-    is_match, data["file_str"], data["snippet_str"] = check_match(change_f, old_snippet, old_start_line, old_end_line)
-    change_f.close()
-    assert(is_match) #ensure that your parsing the bug correctly 
-    return data
+    if (version == "new"):
+        return path_to_change
 
-#def clean_bugs(lines_removed):
-#    bugs, bug_seen = [], {}
-#    for idx, line in lines_removed.items():
-#        bug = line[1:].replace("\n", "")
-#        bugs.append(bug)
-#        bug_seen[bug] = False
-#    return bugs, bug_seen
+    change_f = open(path_to_change, "r")
+    is_match, data["file_str"], data["snippet_str"] = check_match(change_f, old_snippet, start_line, end_line)
+    change_f.close()
+    assert(is_match) #ensure that your parsing the change correctly 
+    return data
 
 def clean_bugs(lines_removed):
     bugs = {}
@@ -234,21 +234,6 @@ def find_del_line_numbers(diff_block, bug_start_line, lines_removed):
             lines_seen += 1
             offset += 1
     return adjusted_idx
-
-'''
-def find_del_line_numbers(diff_block, bug_start_line, lines_removed):
-    file_idx = bug_start_line 
-    diff_block = diff_block.split("\n")
-    bugs, bug_seen = clean_bugs(lines_removed)
-    adjusted_idx = {}
-    for line in diff_block:
-        if line in bugs:
-            if bug_seen[line] == False:
-                bug_seen[line] = True
-                adjusted_idx[file_idx] = line + "\n"
-        file_idx += 1
-    return adjusted_idx
-'''
 
 def check_line_match(adjusted_idx, bug_f):
     line_count = 0
@@ -289,23 +274,24 @@ for proj, bugs in proj_bugs.items():
             bug_data = aggregate(proj, bug, bug_meta_data, bug_diff_data)
             if reformed_blocks is not None:
                 old_snippet, new_snippet, lines_removed, lines_added = reformed_blocks
-                #if proj == "youtube-dl":
                 if proj == "pandas" and bug == 93:
                     continue
-                if True:
-                    data = verify_old(old_snippet, bug_data)
-                    bug_start_line = int(data["bug_start_line"])
-                    diff_block = data["snippet_str"]
+                if proj == "youtube-dl":
+                #if True:
+                    old_data = get_code(old_snippet, bug_data, version="old")
+                    bug_start_line = int(old_data["start_line"])
+                    diff_block = old_data["snippet_str"]
                     if len(lines_removed) > 0:
                         adjusted_idx = find_del_line_numbers(diff_block, bug_start_line, lines_removed)
-                        print(lines_removed)
-                        print(adjusted_idx)
                         assert(len(adjusted_idx) == len(lines_removed))
                         path = "BugsInPy/temp/projects/" + proj
-                        bug_f = open(path + "/" + data["file_changed"], "r")
+                        bug_f = open(path + "/" + old_data["file_changed"], "r")
                         correct_lines = check_line_match(adjusted_idx, bug_f)
                         bug_f.close()
                         assert(correct_lines)
+                    new_data = get_code(new_snippet, bug_data, version="new")
+                    print(new_data)
+                    
 
 
 
