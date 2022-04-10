@@ -61,9 +61,9 @@ def reform_block(in_both, changed_lines, total_lines):
     assert(len(all_keys) == total_lines)
     for i in sorted(all_keys):
         if i in both_keys:
-            block += in_both[i]
+            block += in_both[i][1:]
         if i in changed_keys:
-            block += changed_lines[i]
+            block += changed_lines[i][1:]
     return block
 
 
@@ -140,14 +140,92 @@ def get_proj_url(proj_name):
         if proj_name in dic:
             return dic[proj_name]
 
+def checkout_version(buggy_commit, proj_path):
+    os.chdir(proj_path)
+    os.system("git checkout " + buggy_commit)
+    os.chdir("../../../../")
+
+def combine_new(file_lines, snippet_lines):
+    file_str, snippet_str = "", ""
+    for line in file_lines:
+        file_str += line + '\n'
+    for line in snippet_lines:
+        snippet_str += line + '\n'
+    return file_str, snippet_str
+
+def compare(file, snippet, num_lines):
+    snippet_lines = snippet.split("\n")
+    file_lines = file.split("\n")
+    #checking that you have the # of lines stated by diff file
+    assert(len(file_lines) == num_lines)
+    if len(snippet_lines) == len(file_lines)+1:
+        snippet_lines = snippet_lines[1:]
+    file_str, snippet_str = combine_new(file_lines, snippet_lines)
+    for i in range(len(snippet_lines)):
+        if snippet_lines[i] != file_lines[i]:
+            return False
+    return True, file_str, snippet_str
+
+def check_match(change_f, old_snippet, start_line, end_line):
+    num_lines = end_line - start_line + 1
+    curr_line = 0
+    lines = ""
+    for line in change_f:
+        if curr_line >= start_line and curr_line <= end_line-1:
+            lines += line
+        curr_line += 1
+    return compare(lines, old_snippet, num_lines)
+
 def verify_old(old_snippet, bug_data):
+    data = {}
     proj_name = bug_data["proj_name"]
     bug = bug_data["bug"]
-    proj_url = get_proj_url(proj_name)
-    print("PROJ: " + proj_name, "BUG: " + str(bug), "URL: " + proj_url)
-    print(bug_data)        
+    #if proj_name != 'youtube-dl':
+    #    return
+    print("PROJ: " + proj_name, "BUG: " + str(bug))
+
+    proj_path = "BugsInPy/temp/projects/" + proj_name
+    bug_meta_data = bug_data["bug_meta_data"]
+    buggy_commit_id = bug_meta_data["buggy_commit_id"]
+    bug_diff_data = bug_data["bug_diff_data"]
+    code_type = bug_diff_data[0]["code_type"]
+    file_changed = bug_diff_data[0]["file"][2:]  
+    old_start_line = int(bug_diff_data[0]["old_indices"].split(",")[0][1:])
+    num_lines = bug_diff_data[0]["old_indices"].split(",")[1]
+    old_end_line = int(old_start_line) + int(num_lines) - 1
+
+    data["file_changed"] = file_changed
+    data["bug_start_line"] = old_start_line
+    data["num_lines"] = num_lines
+
+    print("buggy_commit_id: " + buggy_commit_id, "file_changed: " + file_changed, "old_start_line: " + str(old_start_line), "num_lines: " + num_lines, "old_end_line: " + str(old_end_line))
+
+    checkout_version(buggy_commit_id, proj_path)
+    path_to_change = proj_path + "/" + file_changed
+    assert(os.path.isfile(path_to_change))
+
+    change_f = open(path_to_change, "r")
+    is_match, data["file_str"], data["snippet_str"] = check_match(change_f, old_snippet, old_start_line, old_end_line)
+    change_f.close()
+    assert(is_match) #ensure that your parsing the bug correctly 
+    return data
+
+def clone_projects(proj_bugs):
+    projects = list(proj_bugs.keys())
+    for proj in projects:
+        proj_url = get_proj_url(proj)
+        clone_folder = "BugsInPy/temp/projects"
+        if not os.path.exists(clone_folder):
+            os.makedirs(clone_folder)
+        proj_path = clone_folder + "/" + proj
+        if not os.path.exists(proj_path):
+            command = "git clone " + proj_url + " " + proj_path
+            print("Cloning " + proj + " to " + proj_path)
+            os.system(command)
+
 
 proj_bugs = map_proj_bug(project_tests)
+clone_projects(proj_bugs)
 single_change_count, total = 0,0
 for proj, bugs in proj_bugs.items():
     for bug in bugs:
@@ -162,7 +240,9 @@ for proj, bugs in proj_bugs.items():
             bug_data = aggregate(proj, bug, bug_meta_data, bug_diff_data)
             if reformed_blocks is not None:
                 old_snippet, new_snippet = reformed_blocks
-                verify_old(old_snippet, bug_data)
+                data = verify_old(old_snippet, bug_data)
+                #if proj == 'youtube-dl':
+                print(data)
 
 
 
