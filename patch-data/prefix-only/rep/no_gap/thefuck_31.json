@@ -1,0 +1,20 @@
+{"candidate": "    return command.script.replace('diff', 'diff --staged', 1)", "entropy": 5.9474107062}
+{"candidate": "    return command.script.replace('diff', 'diff --staged', 1)", "entropy": 5.947410806200001}
+{"candidate": "    return command.script.replace('diff', 'diff --staged', 1)", "entropy": 7.0230860449999994}
+{"candidate": "    return command.script.replace('diff', 'diff --staged', 1)", "entropy": 7.745934965}
+{"candidate": "    return command.script.replace('diff', 'diff --staged', 1)", "entropy": 8.2000893826}
+{"candidate": "    return command.script.replace('diff', 'diff --staged', 1)", "entropy": 8.358796621000002}
+{"candidate": "    return command.script.replace('diff', 'diff --staged', 1)", "entropy": 8.394387146}
+{"candidate": "    return u'{} --staged'.format(command.script)", "entropy": 8.504145359559999}
+{"candidate": "    return command.script + ' --staged'", "entropy": 5.62171256367632}
+{"candidate": "    return command.script.replace('diff', 'diff --staged', 1)", "entropy": 9.305374445}
+{"candidate": "    return command.script.replace('diff ', 'diff --staged ', 1)", "entropy": 10.323812536428}
+{"candidate": "    return command.script.replace('git diff', 'git diff --staged')", "entropy": 10.690228049800002}
+{"candidate": "    return command.script + ' --staged'", "entropy": 7.4037517167}
+{"candidate": "    return u'{} --staged'.format(command.script)", "entropy": 11.3678925345}
+{"candidate": "    parsed = command.script_parts[:]\n    index = parsed.index('diff')\n    parsed[index+1:index+1] = ['--staged']\n    return ' '.join(parsed)", "entropy": 29.16061508963}
+{"candidate": "    return command.script.replace('diff', 'diff --staged', 1)", "entropy": 12.6524443826}
+{"candidate": "    return '{} --staged'.format(command.script)", "entropy": 14.371800127476002}
+{"candidate": "    return u'{} --staged'.format(command.script)", "entropy": 15.6803449852}
+{"candidate": "    return command.script.replace(\n        'git diff ', 'git diff --staged ', 1).replace(\n            'git diff', 'git diff --staged', 1)", "entropy": 34.2160025978}
+{"candidate": "    return u'{} --staged'.format(command.script)", "entropy": 17.9019198732}

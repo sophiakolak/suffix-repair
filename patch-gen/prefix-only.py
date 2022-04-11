@@ -12,7 +12,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 openai.Engine.list()
 
 path = "data/rep/no_gap_context"
-done_f = open("done_pre_only.txt", "a+")
+done_f_path = "done_pre_only.txt"
 
 def query_openai_prefix_only(prefix):
     response = openai.Completion.create(
@@ -73,7 +73,9 @@ for file in files:
         response = query_openai_prefix_only(prefix)
         candidates, entropies = get_candidates(response)
         save_data(candidates, entropies, file) 
+        done_f = open(done_f_path, "a+")
         done_f.write(file+"\n")
+        done_f.close()
         count += 1
     except:
         print("Timed out on file {}".format(file))

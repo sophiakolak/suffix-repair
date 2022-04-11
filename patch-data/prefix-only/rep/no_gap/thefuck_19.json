@@ -1,0 +1,20 @@
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')", "entropy": 1.9830345209329998}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')", "entropy": 1.985537504703}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')", "entropy": 1.9903913218529996}
+{"candidate": "    return replace_argument(command.script, 'push', 'push -f')", "entropy": 4.37490679839736}
+{"candidate": "    return replace_argument(command.script, 'push', 'push -f')", "entropy": 4.38375192749736}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')\n\n\nenabled_by_default = True", "entropy": 7.90233914121936}
+{"candidate": "    return replace_argument(command.script, 'push', 'push -f')", "entropy": 5.156096199603001}
+{"candidate": "    return replace_argument(command.script, 'push', 'push -f')", "entropy": 5.780026568603001}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force')", "entropy": 6.260165264903}
+{"candidate": "    return replace_argument(command.script, 'push', 'push -f')", "entropy": 6.359329829263}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force')\n\n\nenabled_by_default = True", "entropy": 10.231137233984999}
+{"candidate": "    return replace_argument(command.script,\n                            command.script.index('push') + 1,\n                            '--force-with-lease')", "entropy": 13.29355372352736}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force')", "entropy": 8.023926722603}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force')", "entropy": 8.167444662603}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force')", "entropy": 8.225107852603001}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force')", "entropy": 8.285984692703}
+{"candidate": "    return replace_argument(command.script, 'push', 'pull')", "entropy": 8.484254101803}
+{"candidate": "    return [replace_argument(command.script, 'push', 'push -f')]", "entropy": 8.90375030187}
+{"candidate": "    return replace_argument(command.script, 'push', 'push -f')", "entropy": 9.858731341402999}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')\n\n\nenabled_by_default = True", "entropy": 17.810632606747}
