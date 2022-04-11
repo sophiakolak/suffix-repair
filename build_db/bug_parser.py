@@ -157,7 +157,7 @@ def compare(file, snippet, num_lines):
             return False
     return True, file_str, snippet_str
 
-def check_match(change_f, old_snippet, start_line, end_line):
+def check_match_old(change_f, old_snippet, start_line, end_line):
     num_lines = end_line - start_line + 1
     curr_line = 0
     lines = ""
@@ -167,12 +167,23 @@ def check_match(change_f, old_snippet, start_line, end_line):
         curr_line += 1
     return compare(lines, old_snippet, num_lines)
 
+def check_match_new(change_f, new_snippet, start_line, end_line):
+    num_lines = end_line - start_line + 1
+    print("start", start_line, "end", end_line)
+    curr_line = 0
+    lines = ""
+    for line in change_f:
+        if curr_line >= start_line and curr_line <= end_line-1:
+            lines += line
+        curr_line += 1
+    return compare(lines, new_snippet, num_lines)
+
 def get_code(snippet, bug_data, version):
     data = {}
     proj_name = bug_data["proj_name"]
     bug = bug_data["bug"]
-    if proj_name != 'youtube-dl':
-        return
+    #if proj_name != 'youtube-dl':
+    #    return
     print("PROJ: " + proj_name, "BUG: " + str(bug))
 
     proj_path = "BugsInPy/temp/projects/" + proj_name
@@ -194,31 +205,36 @@ def get_code(snippet, bug_data, version):
     data["start_line"] = start_line
     data["num_lines"] = num_lines
 
-    print("commit_id: " + commit_id, "file_changed: " + file_changed, "old_start_line: " + str(start_line), "num_lines: " + num_lines, "end_line: " + str(end_line))
+    #print("commit_id: " + commit_id, "file_changed: " + file_changed, "old_start_line: " + str(start_line), "num_lines: " + num_lines, "end_line: " + str(end_line))
 
     checkout_version(commit_id, proj_path)
     path_to_change = proj_path + "/" + file_changed
     assert(os.path.isfile(path_to_change))
 
-    if (version == "new"):
-        return path_to_change
-
     change_f = open(path_to_change, "r")
-    is_match, data["file_str"], data["snippet_str"] = check_match(change_f, old_snippet, start_line, end_line)
-    change_f.close()
-    assert(is_match) #ensure that your parsing the change correctly 
-    return data
 
-def clean_bugs(lines_removed):
+    if version == "new":
+        is_match, data["file_str"], data["snippet_str"] = check_match_new(change_f, snippet, start_line, end_line)
+        change_f.close()
+        assert(is_match)
+        return data
+    
+    elif version == "old":
+        is_match, data["file_str"], data["snippet_str"] = check_match_old(change_f, snippet, start_line, end_line)
+        change_f.close()
+        assert(is_match) #ensure that your parsing the change correctly 
+        return data
+
+def clean_diffs(lines_changed):
     bugs = {}
-    for idx, line in lines_removed.items():
+    for idx, line in lines_changed.items():
         bug = line[1:].replace("\n", "")
         bugs[idx] = bug
     return bugs
 
 def find_del_line_numbers(diff_block, bug_start_line, lines_removed):
     diff_block = diff_block.split("\n")
-    bugs = clean_bugs(lines_removed)
+    bugs = clean_diffs(lines_removed)
     adjusted_idx = {}
     start_line, lines_seen = bug_start_line, 0
     for idx, bug in bugs.items():
@@ -234,6 +250,30 @@ def find_del_line_numbers(diff_block, bug_start_line, lines_removed):
             lines_seen += 1
             offset += 1
     return adjusted_idx
+
+
+def find_add_line_numbers(diff_block, bug_start_line, lines_added):
+    #print("lines_added: ", lines_added, "\n")
+    #print("bug_start_line: ", bug_start_line, "\n")
+    #print("diff_block:", diff_block)
+    diff_block = diff_block.split("\n")
+    patches = clean_diffs(lines_added)
+    adjusted_idx = {}
+    start_line, lines_seen = bug_start_line, 0
+    for idx, patch in patches.items():
+        offset = 0
+        for line in diff_block:
+            if offset < lines_seen:
+                offset += 1
+                continue
+            if line == patch:
+                adjusted_idx[start_line+offset] = line + "\n"
+                lines_seen += 1
+                break
+            lines_seen += 1
+            offset += 1
+    return adjusted_idx
+    
 
 def check_line_match(adjusted_idx, bug_f):
     line_count = 0
@@ -276,21 +316,34 @@ for proj, bugs in proj_bugs.items():
                 old_snippet, new_snippet, lines_removed, lines_added = reformed_blocks
                 if proj == "pandas" and bug == 93:
                     continue
-                if proj == "youtube-dl":
-                #if True:
+                #if proj == "youtube-dl":
+                if True:
                     old_data = get_code(old_snippet, bug_data, version="old")
-                    bug_start_line = int(old_data["start_line"])
+                    del_start_line = int(old_data["start_line"])
                     diff_block = old_data["snippet_str"]
                     if len(lines_removed) > 0:
-                        adjusted_idx = find_del_line_numbers(diff_block, bug_start_line, lines_removed)
-                        assert(len(adjusted_idx) == len(lines_removed))
+                        adjusted_del_idx = find_del_line_numbers(diff_block, del_start_line, lines_removed)
+                        assert(len(adjusted_del_idx) == len(lines_removed))
                         path = "BugsInPy/temp/projects/" + proj
                         bug_f = open(path + "/" + old_data["file_changed"], "r")
-                        correct_lines = check_line_match(adjusted_idx, bug_f)
+                        correct_lines = check_line_match(adjusted_del_idx, bug_f)
                         bug_f.close()
                         assert(correct_lines)
                     new_data = get_code(new_snippet, bug_data, version="new")
-                    print(new_data)
+                    add_start_line = int(new_data["start_line"])
+                    diff_block = new_data["snippet_str"]
+                    if len(lines_added) > 0:
+                        adjusted_add_idx = find_add_line_numbers(diff_block, add_start_line, lines_added)
+                        print(adjusted_add_idx)
+                        if len(lines_removed) > 0:
+                            print(adjusted_del_idx)
+                        assert(len(adjusted_add_idx) == len(lines_added))
+                        path = "BugsInPy/temp/projects/" + proj
+                        change_f = open(path + "/" + new_data["file_changed"], "r")
+                        correct_lines = check_line_match(adjusted_add_idx, change_f)
+                        change_f.close()
+                        assert(correct_lines)
+                    
                     
 
 
