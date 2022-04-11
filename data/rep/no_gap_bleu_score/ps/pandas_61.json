@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 2, "bleu_score": 9.434137710479516e-155, "candidate": "                return self.reindex(key)\n"}
+{"rank": 3, "bleu_score": 0, "candidate": "                # GH#3083\n"}
+{"rank": 4, "bleu_score": 9.434137710479516e-155, "candidate": "                return self.reindex(key)\n"}
+{"rank": 5, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 6, "bleu_score": 9.434137710479516e-155, "candidate": "                return self.reindex(key)\n"}
+{"rank": 7, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 8, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 9, "bleu_score": 3.9866508128531494e-155, "candidate": "                if isinstance(key, (np.ndarray, Index, Series)):\n"}
+{"rank": 10, "bleu_score": 6.08970970641905e-155, "candidate": "                if is_list_like_indexer(key):\n"}
+{"rank": 11, "bleu_score": 5.637975647982813e-155, "candidate": "                if not is_list_like(key):\n"}
+{"rank": 12, "bleu_score": 5.273843307431707e-155, "candidate": "                self._invalid_indexer(\"index\", key)\n"}
+{"rank": 13, "bleu_score": 9.434137710479516e-155, "candidate": "                return self.reindex(key)\n"}
+{"rank": 14, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 15, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 16, "bleu_score": 9.434137710479516e-155, "candidate": "                return self.reindex(key)\n"}
+{"rank": 17, "bleu_score": 9.434137710479516e-155, "candidate": "                return self.reindex(key)\n"}
+{"rank": 18, "bleu_score": 0, "candidate": "                # For IntervalIndex.get_loc() to work correctly we sort the\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "                # We do not want to allow integer indexing here.  In particular\n"}
+{"rank": 20, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}

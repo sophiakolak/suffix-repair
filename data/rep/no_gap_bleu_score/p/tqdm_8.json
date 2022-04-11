@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.39753705762405595, "candidate": "                    bar_args['l_bar'] = l_bar_user.format(**bar_args)\n"}
+{"rank": 2, "bleu_score": 0.39753705762405595, "candidate": "                    bar_args['l_bar'] = l_bar_user.format(**bar_args)\n"}
+{"rank": 3, "bleu_score": 0.3828568103978276, "candidate": "                    l_bar = l_bar_user.format(**bar_args) + ' '\n"}
+{"rank": 4, "bleu_score": 0.3005697797211124, "candidate": "                    l_bar = l_bar_user.format(**bar_args)\n"}
+{"rank": 5, "bleu_score": 0.3005697797211124, "candidate": "                    l_bar = l_bar_user.format(**bar_args)\n"}
+{"rank": 6, "bleu_score": 6.067774697358228e-155, "candidate": "                    bar_format = bar_format.replace('{bar}', '{bar:' +\n"}
+{"rank": 7, "bleu_score": 0.37069951266321927, "candidate": "                    l_bar_w = len(l_bar_user.format(**bar_args))\n"}
+{"rank": 8, "bleu_score": 0.2811572841336291, "candidate": "                    l_bar_user = l_bar_user.format(**bar_args)\n"}
+{"rank": 9, "bleu_score": 0, "candidate": "                    if l_bar_user:\n"}
+{"rank": 10, "bleu_score": 2.9655589225275416e-155, "candidate": "                    format_str = ''.join([l_bar_user,\n"}
+{"rank": 11, "bleu_score": 0.3005697797211124, "candidate": "                    l_bar = l_bar_user.format(**bar_args)\n"}
+{"rank": 12, "bleu_score": 8.612150057732663e-155, "candidate": "                    bar = ' ' * (ncols - len(l_bar_user) - len(r_bar_user))\n"}
+{"rank": 13, "bleu_score": 0.3005697797211124, "candidate": "                    l_bar = l_bar_user.format(**bar_args)\n"}
+{"rank": 14, "bleu_score": 4.0145840645974535e-155, "candidate": "                    # Calculate size of left/right sides (in term of chars)\n"}
+{"rank": 15, "bleu_score": 1.9108099984634143e-155, "candidate": "                    bar_args['bar'] = full_bar\n"}
+{"rank": 16, "bleu_score": 0.3005697797211124, "candidate": "                    l_bar = l_bar_user.format(**bar_args)\n"}
+{"rank": 17, "bleu_score": 0.4444599422113201, "candidate": "                    l_bar = l_bar_user.format(**bar_args).ljust(bar_width)\n"}
+{"rank": 18, "bleu_score": 0.45591539215353666, "candidate": "                    l_bar = l_bar_user.format(**bar_args).strip('\\r\\n\\t ')\n"}
+{"rank": 19, "bleu_score": 0.3005697797211124, "candidate": "                    l_bar = l_bar_user.format(**bar_args)\n"}
+{"rank": 20, "bleu_score": 8.612150057732663e-155, "candidate": "                    bar_size = max(0, ncols - len(l_bar_user) - len(r_bar_user))\n"}

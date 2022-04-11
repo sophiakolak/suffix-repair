@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 2, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 3, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 4, "bleu_score": 0.6666666666666667, "candidate": "            return [Series(others, index=idx)._values]\n"}
+{"rank": 5, "bleu_score": 0.6030226891555273, "candidate": "            return [Series(others, index=idx, name=others.name)]\n"}
+{"rank": 6, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 7, "bleu_score": 0, "candidate": "            if others.shape != idx.shape:\n"}
+{"rank": 8, "bleu_score": 0.6030226891555273, "candidate": "            return [Series(others, index=idx, dtype=idx.dtype)]\n"}
+{"rank": 9, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 10, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 11, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 12, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 13, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 14, "bleu_score": 0.23585721816862673, "candidate": "            others = Series(others.values, index=others)\n"}
+{"rank": 15, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 16, "bleu_score": 4.1371430671115046e-155, "candidate": "            # Since Index inherits from list, we explicitly test for it first\n"}
+{"rank": 17, "bleu_score": 0.35018063965685026, "candidate": "            return [others.to_series()]\n"}
+{"rank": 18, "bleu_score": 0, "candidate": "            # flatten multiindex as we do for lists\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "            # This case should really be forbidden\n"}
+{"rank": 20, "bleu_score": 0, "candidate": "            # Index\n"}

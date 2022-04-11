@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.1431530364172183, "candidate": "        if new_status == FAILED:\n"}
+{"rank": 2, "bleu_score": 7.745153834214218e-155, "candidate": "        if task.status == DISABLED and config is not None:\n"}
+{"rank": 3, "bleu_score": 0.1431530364172183, "candidate": "        if new_status == FAILED:\n"}
+{"rank": 4, "bleu_score": 0.1431530364172183, "candidate": "        if new_status == FAILED:\n"}
+{"rank": 5, "bleu_score": 0.1966398326430567, "candidate": "        if config and new_status == FAILED:\n"}
+{"rank": 6, "bleu_score": 0.1431530364172183, "candidate": "        if new_status == FAILED:\n"}
+{"rank": 7, "bleu_score": 0.1431530364172183, "candidate": "        if new_status == FAILED:\n"}
+{"rank": 8, "bleu_score": 3.830833456920148e-155, "candidate": "        # Task should not be pending if it has no more remaining stakeholders\n"}
+{"rank": 9, "bleu_score": 0.1431530364172183, "candidate": "        if new_status == FAILED:\n"}
+{"rank": 10, "bleu_score": 0.1431530364172183, "candidate": "        if new_status == FAILED:\n"}
+{"rank": 11, "bleu_score": 0.1431530364172183, "candidate": "        if new_status == FAILED:\n"}
+{"rank": 12, "bleu_score": 0.1966398326430567, "candidate": "        if config and new_status == FAILED:\n"}
+{"rank": 13, "bleu_score": 0.1431530364172183, "candidate": "        if new_status == FAILED:\n"}
+{"rank": 14, "bleu_score": 0.08335673411476816, "candidate": "        if new_status not in self._status_tasks:\n"}
+{"rank": 15, "bleu_score": 0.6703200460356393, "candidate": "        if new_status == FAILED and task.status != DISABLED:\n"}
+{"rank": 16, "bleu_score": 0.4000304601818309, "candidate": "        if new_status == FAILED and task.status == RUNNING:\n"}
+{"rank": 17, "bleu_score": 0.1431530364172183, "candidate": "        if new_status == FAILED:\n"}
+{"rank": 18, "bleu_score": 0.1431530364172183, "candidate": "        if new_status == FAILED:\n"}
+{"rank": 19, "bleu_score": 0.1431530364172183, "candidate": "        if new_status == FAILED:\n"}
+{"rank": 20, "bleu_score": 0.1431530364172183, "candidate": "        if new_status == FAILED:\n"}

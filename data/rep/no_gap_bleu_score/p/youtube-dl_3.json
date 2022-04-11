@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.22995142851217668, "candidate": "        r'&(%s);' % '|'.join(compat_html_entities.name2codepoint),\n"}
+{"rank": 2, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 3, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 4, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 5, "bleu_score": 0.20084075461628778, "candidate": "        r'&(%s|#x?\\d+|#[0-9]*);' % '|'.join(\n"}
+{"rank": 6, "bleu_score": 0.22995142851217668, "candidate": "        r'&(%s);' % '|'.join(compat_html_entities.name2codepoint),\n"}
+{"rank": 7, "bleu_score": 0.2956295861639808, "candidate": "        r'&(#(x[0-9a-fA-F]+|\\d+)|[a-zA-Z0-9]+);',\n"}
+{"rank": 8, "bleu_score": 0.35634027073045055, "candidate": "        r'&(%s|#x?[0-9a-fA-F]+);' % '|'.join(compat_html_entities.name2codepoint.keys()),\n"}
+{"rank": 9, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 10, "bleu_score": 0.2008048322256247, "candidate": "        r'&(#\\d{1,4}|#x[0-9a-f]{1,4}|[a-zA-Z][a-zA-Z0-9]{1,31});',\n"}
+{"rank": 11, "bleu_score": 0.2444257647646757, "candidate": "        '(?s)&(((#[0-9]+)|(#[xX][0-9a-fA-F]+)|([a-zA-Z][a-zA-Z0-9]+))'\n"}
+{"rank": 12, "bleu_score": 0.24071229169263678, "candidate": "        r'&(#?x?[a-zA-Z0-9]+);',\n"}
+{"rank": 13, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 14, "bleu_score": 0.2969443952507272, "candidate": "        r'&(#?)([xX]?)(\\w+);',\n"}
+{"rank": 15, "bleu_score": 0.316227766016838, "candidate": "        r'(?s)&(?:(\\w+)|#([0-9]+)|#[xX]([0-9A-Fa-f]+));',\n"}
+{"rank": 16, "bleu_score": 0.2626128657194451, "candidate": "        compat_str(r'''&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));'''),\n"}
+{"rank": 17, "bleu_score": 0.34591634777518054, "candidate": "        r'&(#?(?:x[0-9a-fA-F]+|[0-9]+|[a-zA-Z]+));',\n"}
+{"rank": 18, "bleu_score": 0.24970632923784916, "candidate": "        r'&(%s);' % '|'.join(name2codepoint or compat_html_entities.name2codepoint),\n"}
+{"rank": 19, "bleu_score": 0.284031719055601, "candidate": "        r'&(%s);' % '|'.join(name for _, name in compat_html_entities.entitydefs),\n"}
+{"rank": 20, "bleu_score": 0.3757386465376429, "candidate": "        compat_str(r'&(?P<name>[^;]+);'),\n"}

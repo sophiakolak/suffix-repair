@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 9.434137710479516e-155, "candidate": "    def _stop_reactor(self):\n        reactor.stop() # \n"}
+{"rank": 2, "bleu_score": 5.850803834986753e-155, "candidate": "        log.start(logfile=settings.get('LOG_FILE'), loglevel=settings.get('LOG_LEVEL'), logstdout=settings.getbool('LOG_STDOUT'))\n    def _stop_reactor(self):\n"}
+{"rank": 3, "bleu_score": 0, "candidate": ""}
+{"rank": 4, "bleu_score": 0, "candidate": ""}
+{"rank": 5, "bleu_score": 7.031791076575252e-155, "candidate": "    def _stop_reactor(self):\n        if reactor.running:\n"}
+{"rank": 6, "bleu_score": 7.031791076575252e-155, "candidate": "        self._singleton = None\n    def _stop_reactor(self):\n"}
+{"rank": 7, "bleu_score": 0.19462473604038075, "candidate": "        configure_logging(settings, install_root_handler=False)\n    def _stop_reactor(self):\n"}
+{"rank": 8, "bleu_score": 0, "candidate": "        self._reactor_stopped = False\n        self._stopping = False\n"}
+{"rank": 9, "bleu_score": 0.2265870956238665, "candidate": "        configure_logging(settings, install_root_handler=False)\n"}
+{"rank": 10, "bleu_score": 6.360494346864465e-155, "candidate": "    def start(self, stop_after_crawl=True):\n        \"\"\"\n"}
+{"rank": 11, "bleu_score": 0.2357022603955158, "candidate": "        configure_logging(settings)\n    def start(self):\n"}
+{"rank": 12, "bleu_score": 0.23168286407366764, "candidate": "        configure_logging(settings)\n        self._reactor = None\n"}
+{"rank": 13, "bleu_score": 9.94445430826712e-155, "candidate": "    def _stop_reactor(self):\n        reactor.stop()\n"}
+{"rank": 14, "bleu_score": 6.360494346864465e-155, "candidate": "    def start(self, stop_after_crawl=True):\n        \"\"\"\n"}
+{"rank": 15, "bleu_score": 6.360494346864465e-155, "candidate": "    def start(self, stop_after_crawl=True):\n        \"\"\"\n"}
+{"rank": 16, "bleu_score": 0.26352313834736496, "candidate": "        self.configure_logging()\n    def configure_logging(self):\n"}
+{"rank": 17, "bleu_score": 0, "candidate": "        global _crawler_process\n        _crawler_process = self\n"}
+{"rank": 18, "bleu_score": 0.2773500981126146, "candidate": "        configure_logging(self.settings, install_root_handler=False)\n        if self.settings.getbool('LOG_ENABLED'):\n"}
+{"rank": 19, "bleu_score": 7.973301625706314e-155, "candidate": "        self.log_observer = ScrapyFileLogObserver(settings.get('LOG_FILE'), level=logging.INFO)\n        global _logging_configured\n"}
+{"rank": 20, "bleu_score": 8.995097368733392e-155, "candidate": "        install_thread_excepthook()\n    def start(self, stop_after_crawl=True):\n"}

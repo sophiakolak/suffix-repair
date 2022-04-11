@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.39949970082700503, "candidate": "        positional_params = [p for p in params if p[1].is_positional]\n"}
+{"rank": 2, "bleu_score": 0.5453307445166031, "candidate": "        positional_params = [(param_name, param_obj) for param_name, param_obj in params if not param_obj.is_global]\n"}
+{"rank": 3, "bleu_score": 0.38213236819967034, "candidate": "        positional_params = [param for param in params if not param[1]._kwarg]\n"}
+{"rank": 4, "bleu_score": 0.1253118610136144, "candidate": "        positional_params = params[:len(args)]\n"}
+{"rank": 5, "bleu_score": 0.41675437673324534, "candidate": "        positional_params = [p for p in params if not p[1]._is_global]  # pylint: disable=protected-access\n"}
+{"rank": 6, "bleu_score": 0.39949970082700503, "candidate": "        positional_params = [p for p in params if p[1].positional]\n"}
+{"rank": 7, "bleu_score": 0.3779644730092272, "candidate": "        positional_params = [p for p in params if not p[1].is_global and p[1].positional]\n"}
+{"rank": 8, "bleu_score": 0.38213236819967034, "candidate": "        positional_params = [param for param in params if not param[1]._is_optional]\n"}
+{"rank": 9, "bleu_score": 0.31959976066160395, "candidate": "        positional_params = [param for param in params if param[1].positional]\n"}
+{"rank": 10, "bleu_score": 0.38213236819967034, "candidate": "        positional_params = [param for param in params if not param[1].positional]\n"}
+{"rank": 11, "bleu_score": 0.38213236819967034, "candidate": "        positional_params = [param for param in params if not param[1]._is_global]\n"}
+{"rank": 12, "bleu_score": 0.15979988033080197, "candidate": "        positional_params = filter(lambda x: x[1].positional, params)\n"}
+{"rank": 13, "bleu_score": 0.38213236819967034, "candidate": "        positional_params = [param for param in params if not param[1]._is_global]\n"}
+{"rank": 14, "bleu_score": 0.8556434357576915, "candidate": "        positional_params = [(n, p) for n, p in params if p.positional]\n"}
+{"rank": 15, "bleu_score": 0.1253118610136144, "candidate": "        positional_params = params[:len(args)]\n"}
+{"rank": 16, "bleu_score": 0.004764448014328882, "candidate": "        positional_params = params\n"}
+{"rank": 17, "bleu_score": 0.004764448014328882, "candidate": "        positional_params = params\n"}
+{"rank": 18, "bleu_score": 0.4851042304199408, "candidate": "        positional_params = [(param_name, param_obj) for param_name, param_obj in params if param_obj.positional]\n"}
+{"rank": 19, "bleu_score": 0.39949970082700503, "candidate": "        positional_params = [p for p in params if p[1].positional]\n"}
+{"rank": 20, "bleu_score": 0.38213236819967034, "candidate": "        positional_params = [item for item in params if not item[1].is_global]\n"}

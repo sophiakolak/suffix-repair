@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.18257418583505536, "candidate": "        spider_manager_cls = load_object(settings['SPIDER_MANAGER_CLASS'])\n        return spider_manager_cls.from_settings(settings)\n"}
+{"rank": 2, "bleu_score": 0.17906340134265866, "candidate": "        spider_loader_cls = load_object(settings['SPIDER_MANAGER_CLASS'])\n    else:\n"}
+{"rank": 3, "bleu_score": 0.18257418583505536, "candidate": "        spider_manager_cls = load_object(settings['SPIDER_MANAGER_CLASS'])\n        return spider_manager_cls.from_settings(settings)\n"}
+{"rank": 4, "bleu_score": 0.4138801610506695, "candidate": "        spider_loader_cls_path = settings.get('SPIDER_MANAGER_CLASS')\n    else:\n"}
+{"rank": 5, "bleu_score": 0.17906340134265866, "candidate": "        SpiderLoader = load_object(settings['SPIDER_MANAGER_CLASS'])\n    else:\n"}
+{"rank": 6, "bleu_score": 3.3836527003416397e-155, "candidate": "        return _get_spider_manager(settings)\n    else:\n"}
+{"rank": 7, "bleu_score": 0.17906340134265866, "candidate": "        cls = load_object(settings['SPIDER_MANAGER_CLASS'])\n    else:\n"}
+{"rank": 8, "bleu_score": 0.17906340134265866, "candidate": "        SpiderLoader = load_object(settings['SPIDER_MANAGER_CLASS'])\n    else:\n"}
+{"rank": 9, "bleu_score": 0.17906340134265866, "candidate": "        spider_manager_cls = load_object(settings['SPIDER_MANAGER_CLASS'])\n    else:\n"}
+{"rank": 10, "bleu_score": 0.18257418583505536, "candidate": "        spider_loader_cls = load_object(settings['SPIDER_MANAGER_CLASS'])\n        return spider_loader_cls.from_settings(settings)\n"}
+{"rank": 11, "bleu_score": 5.602803402104823e-155, "candidate": "        warnings.warn(\n            'Importing from module \"scrapy.spidermanager\" is deprecated. '\n"}
+{"rank": 12, "bleu_score": 0.17906340134265866, "candidate": "        SpiderLoaderClass = load_object(settings['SPIDER_MANAGER_CLASS'])\n    else:\n"}
+{"rank": 13, "bleu_score": 0.18257418583505536, "candidate": "        spider_manager_cls = load_object(settings['SPIDER_MANAGER_CLASS'])\n        return spider_manager_cls.from_settings(settings)\n"}
+{"rank": 14, "bleu_score": 0.17906340134265866, "candidate": "        SpiderLoader = load_object(settings['SPIDER_MANAGER_CLASS'])\n    else:\n"}
+{"rank": 15, "bleu_score": 0.17906340134265866, "candidate": "        SpiderLoader = load_object(settings['SPIDER_MANAGER_CLASS'])\n    else:\n"}
+{"rank": 16, "bleu_score": 0.17906340134265866, "candidate": "        cls = load_object(settings['SPIDER_MANAGER_CLASS'])\n    else:\n"}
+{"rank": 17, "bleu_score": 0.18257418583505536, "candidate": "        spider_manager_cls = load_object(settings['SPIDER_MANAGER_CLASS'])\n        return spider_manager_cls.from_settings(settings)\n"}
+{"rank": 18, "bleu_score": 0.13088039872774232, "candidate": "        path = settings['SPIDER_MANAGER_CLASS']\n    else:\n"}
+{"rank": 19, "bleu_score": 0.17906340134265866, "candidate": "        spider_loader_cls = load_object(settings['SPIDER_MANAGER_CLASS'])\n    else:\n"}
+{"rank": 20, "bleu_score": 0.17906340134265866, "candidate": "        SpiderLoaderClass = load_object(settings['SPIDER_MANAGER_CLASS'])\n    else:\n"}

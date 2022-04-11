@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 4.73938110048967e-155, "candidate": "        for pos, value in enumerate(args):\n"}
+{"rank": 2, "bleu_score": 4.73938110048967e-155, "candidate": "        for i, arg in enumerate(args):\n"}
+{"rank": 3, "bleu_score": 4.73938110048967e-155, "candidate": "        for i, value in enumerate(args):\n"}
+{"rank": 4, "bleu_score": 4.73938110048967e-155, "candidate": "        for i, arg in enumerate(args):\n"}
+{"rank": 5, "bleu_score": 4.73938110048967e-155, "candidate": "        for i, value in enumerate(args):\n"}
+{"rank": 6, "bleu_score": 4.73938110048967e-155, "candidate": "        for index, value in enumerate(args):\n"}
+{"rank": 7, "bleu_score": 4.73938110048967e-155, "candidate": "        for i, arg in enumerate(args):\n"}
+{"rank": 8, "bleu_score": 0, "candidate": "        try:\n"}
+{"rank": 9, "bleu_score": 0.22886885410853178, "candidate": "        for name, value in zip([p[0] for p in params], args):\n"}
+{"rank": 10, "bleu_score": 4.73938110048967e-155, "candidate": "        for i, arg in enumerate(args):\n"}
+{"rank": 11, "bleu_score": 4.73938110048967e-155, "candidate": "        for index, arg in enumerate(args):\n"}
+{"rank": 12, "bleu_score": 7.926346985543999e-155, "candidate": "        for i, (param_name, param_obj) in enumerate(params):\n"}
+{"rank": 13, "bleu_score": 4.73938110048967e-155, "candidate": "        for i, value in enumerate(args):\n"}
+{"rank": 14, "bleu_score": 1.6483051758939467e-155, "candidate": "        positional_arguments = dict(params)\n"}
+{"rank": 15, "bleu_score": 1.4274741555135713e-155, "candidate": "        num_positional = len(args)\n"}
+{"rank": 16, "bleu_score": 0.18287587473759412, "candidate": "        for param_name, p in list(params_dict.items()):\n"}
+{"rank": 17, "bleu_score": 0, "candidate": "        try:\n"}
+{"rank": 18, "bleu_score": 5.8028210637173526e-157, "candidate": "        i = 0\n"}
+{"rank": 19, "bleu_score": 5.8028210637173526e-157, "candidate": "        if args:\n"}
+{"rank": 20, "bleu_score": 4.73938110048967e-155, "candidate": "        for position, value in enumerate(args):\n"}

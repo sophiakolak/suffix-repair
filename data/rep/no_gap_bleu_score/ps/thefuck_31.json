@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.6055300708194984, "candidate": "    return command.script.replace('git diff', 'git diff --staged', 1)\n"}
+{"rank": 2, "bleu_score": 0.6055300708194984, "candidate": "    return command.script.replace('git diff', 'git diff --staged', 1)\n"}
+{"rank": 3, "bleu_score": 0.7510676161988107, "candidate": "    return command.script.replace('git diff', 'git diff --staged')\n"}
+{"rank": 4, "bleu_score": 0.5370861555295747, "candidate": "    return command.script.replace('diff', 'diff --staged', 1)\n"}
+{"rank": 5, "bleu_score": 0.7510676161988107, "candidate": "    return command.script.replace('git diff', 'git diff --staged')\n"}
+{"rank": 6, "bleu_score": 0.5841681897718051, "candidate": "    return command.script.replace('diff', 'diff --staged')\n"}
+{"rank": 7, "bleu_score": 0.5841681897718051, "candidate": "    return command.script.replace('diff', 'diff --staged')\n"}
+{"rank": 8, "bleu_score": 0.23895382239484972, "candidate": "    return command.script + ['--staged']\n"}
+{"rank": 9, "bleu_score": 1.0, "candidate": "    return command.script.replace(' diff ', ' diff --staged ')\n"}
+{"rank": 10, "bleu_score": 0.5370861555295747, "candidate": "    return command.script.replace('diff', 'diff --staged', 1)\n"}
+{"rank": 11, "bleu_score": 0.7510676161988107, "candidate": "    return command.script.replace('git diff', 'git diff --staged')\n"}
+{"rank": 12, "bleu_score": 0.7510676161988107, "candidate": "    return command.script.replace('git diff', 'git diff --staged')\n"}
+{"rank": 13, "bleu_score": 0.5841681897718051, "candidate": "    return command.script.replace('git ', 'git --staged ')\n"}
+{"rank": 14, "bleu_score": 0.5370861555295747, "candidate": "    return command.script.replace('diff', 'diff --staged', 1)\n"}
+{"rank": 15, "bleu_score": 0.8251983888449983, "candidate": "    return command.script.replace(' diff', ' diff --staged', 1)\n"}
+{"rank": 16, "bleu_score": 0.7510676161988107, "candidate": "    return command.script.replace('git diff', 'git diff --staged')\n"}
+{"rank": 17, "bleu_score": 0.6055300708194984, "candidate": "    return command.script.replace('git diff', 'git diff --staged', 1)\n"}
+{"rank": 18, "bleu_score": 0.5841681897718051, "candidate": "    return command.script.replace('diff', 'diff --staged')\n"}
+{"rank": 19, "bleu_score": 0.7510676161988107, "candidate": "    return command.script.replace('git diff', 'git diff --staged')\n"}
+{"rank": 20, "bleu_score": 0.207072745526756, "candidate": "    return command.script + ' --staged'\n"}

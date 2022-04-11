@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 2, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 3, "bleu_score": 7.387191291385562e-155, "candidate": "                if not left_value == right_value:\n"}
+{"rank": 4, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 5, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 6, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 7, "bleu_score": 7.387191291385562e-155, "candidate": "                if left_value is not right_value:\n"}
+{"rank": 8, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 9, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 10, "bleu_score": 7.387191291385562e-155, "candidate": "                if not left_value == right_value:\n"}
+{"rank": 11, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 12, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 13, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 14, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 15, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 16, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 17, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 18, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 19, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}
+{"rank": 20, "bleu_score": 0.4698166288062454, "candidate": "                if left_value != right_value:\n"}

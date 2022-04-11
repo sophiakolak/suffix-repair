@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 3.185125369274878e-156, "candidate": "        return (\n"}
+{"rank": 2, "bleu_score": 3.185125369274878e-156, "candidate": "        return (\n"}
+{"rank": 3, "bleu_score": 6.6709427497276e-155, "candidate": "        return CategoricalDtype.is_dtype(dtype) or PeriodDtype.is_dtype(dtype)\n"}
+{"rank": 4, "bleu_score": 3.185125369274878e-156, "candidate": "        if (\n"}
+{"rank": 5, "bleu_score": 3.185125369274878e-156, "candidate": "        return (\n"}
+{"rank": 6, "bleu_score": 3.185125369274878e-156, "candidate": "        return (\n"}
+{"rank": 7, "bleu_score": 6.6709427497276e-155, "candidate": "        return is_datetime64_dtype(dtype) or is_datetime64tz_dtype(dtype)\n"}
+{"rank": 8, "bleu_score": 3.185125369274878e-156, "candidate": "        return (\n"}
+{"rank": 9, "bleu_score": 6.6709427497276e-155, "candidate": "        return is_datetime64_any_dtype(dtype) or is_timedelta64_dtype(dtype)\n"}
+{"rank": 10, "bleu_score": 7.031791076575252e-155, "candidate": "        return lib.infer_dtype(dtype) == \"period\"\n"}
+{"rank": 11, "bleu_score": 6.08970970641905e-155, "candidate": "        return np.dtype(dtype).name in (\"datetime64[ns]\", \"datetime64[ns, tz]\")\n"}
+{"rank": 12, "bleu_score": 3.185125369274878e-156, "candidate": "        return (\n"}
+{"rank": 13, "bleu_score": 3.185125369274878e-156, "candidate": "        return (\n"}
+{"rank": 14, "bleu_score": 7.031791076575252e-155, "candidate": "        def is_categorical(dtype) -> bool:\n"}
+{"rank": 15, "bleu_score": 3.185125369274878e-156, "candidate": "        return (\n"}
+{"rank": 16, "bleu_score": 6.6709427497276e-155, "candidate": "        return is_datetime64_any_dtype(dtype) or is_datetime64tz_dtype(dtype) or is_period_dtype(dtype)\n"}
+{"rank": 17, "bleu_score": 7.789982830837433e-155, "candidate": "        if not hasattr(arr_or_dtype, \"dtype\"):\n"}
+{"rank": 18, "bleu_score": 0, "candidate": "        return dtype.name in [\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "        if dtype.name == \"category\":\n"}
+{"rank": 20, "bleu_score": 7.165741990418252e-155, "candidate": "        if dtype.name in (\"category\", \"interval\"):\n"}

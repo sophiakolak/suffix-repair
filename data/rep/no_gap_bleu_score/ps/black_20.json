@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 1.0, "candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n"}
+{"rank": 2, "bleu_score": 1.0, "candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n"}
+{"rank": 3, "bleu_score": 0.4777665429529547, "candidate": "        src_name = str(src) + \"  (original)\"\n        dst_name = str(src) + \"  (formatted)\"\n"}
+{"rank": 4, "bleu_score": 0.15553602222800345, "candidate": "        dst_name = \"<stdout> (formatted)\"\n"}
+{"rank": 5, "bleu_score": 0.48349377841522817, "candidate": "        src_name = src.as_posix() + \"  (original)\"\n        dst_name = src.as_posix() + \"  (formatted)\"\n"}
+{"rank": 6, "bleu_score": 1.0, "candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n"}
+{"rank": 7, "bleu_score": 0.4777665429529547, "candidate": "        src_name = str(src) + \"  (original)\"\n        dst_name = str(src) + \"  (formatted)\"\n"}
+{"rank": 8, "bleu_score": 0.22696151225837344, "candidate": "        src_name = str(src) + \"  (original)\"\n"}
+{"rank": 9, "bleu_score": 0.6324555320336759, "candidate": "        src_name = f\"<{src.name}>  (original)\"\n        dst_name = f\"<{src.name}>  (formatted)\"\n"}
+{"rank": 10, "bleu_score": 1.0, "candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n"}
+{"rank": 11, "bleu_score": 0.3102526139970115, "candidate": "        src_name = str(src.relative_to(src.cwd())) + \"  (original)\"\n        dst_name = str(src.relative_to(src.cwd())) + \"  (formatted)\"\n"}
+{"rank": 12, "bleu_score": 1.0, "candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n"}
+{"rank": 13, "bleu_score": 0.5262348115842176, "candidate": "        src_name = \"{}  (original)\".format(src)\n        dst_name = \"{}  (formatted)\".format(src)\n"}
+{"rank": 14, "bleu_score": 0, "candidate": ""}
+{"rank": 15, "bleu_score": 0.4923659639173309, "candidate": "        src_name = \"%s  (original)\" % src\n        dst_name = \"%s  (formatted)\" % src\n"}
+{"rank": 16, "bleu_score": 1.0, "candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n"}
+{"rank": 17, "bleu_score": 1.0, "candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n"}
+{"rank": 18, "bleu_score": 0.4777665429529547, "candidate": "        src_name = str(src) + \" (original)\"\n        dst_name = str(src) + \" (formatted)\"\n"}
+{"rank": 19, "bleu_score": 0.48349377841522817, "candidate": "        src_name = src.as_posix() + \"  (original)\"\n        dst_name = src.as_posix() + \"  (formatted)\"\n"}
+{"rank": 20, "bleu_score": 0.4777665429529547, "candidate": "        src_name = str(src) + \"  (original)\"\n        dst_name = str(src) + \"  (formatted)\"\n"}

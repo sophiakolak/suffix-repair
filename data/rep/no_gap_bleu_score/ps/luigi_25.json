@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.25819888974716115, "candidate": "        path = self.input().path\n"}
+{"rank": 2, "bleu_score": 0.25819888974716115, "candidate": "        path = self.input().path\n"}
+{"rank": 3, "bleu_score": 0.25819888974716115, "candidate": "        path = self.input().path\n"}
+{"rank": 4, "bleu_score": 0, "candidate": "        # get file to insert\n"}
+{"rank": 5, "bleu_score": 0.25819888974716115, "candidate": "        path = self.input().path\n"}
+{"rank": 6, "bleu_score": 0, "candidate": "        if not (self.schema):\n"}
+{"rank": 7, "bleu_score": 0.25819888974716115, "candidate": "        path = self.input().path\n"}
+{"rank": 8, "bleu_score": 0, "candidate": "        # make sure credentials are loaded\n"}
+{"rank": 9, "bleu_score": 0, "candidate": "        try:\n"}
+{"rank": 10, "bleu_score": 6.08970970641905e-155, "candidate": "        # get full path to file\n"}
+{"rank": 11, "bleu_score": 0, "candidate": "        if not (self.columns):\n"}
+{"rank": 12, "bleu_score": 0, "candidate": ""}
+{"rank": 13, "bleu_score": 0, "candidate": "        # get connection and make sure table is present\n"}
+{"rank": 14, "bleu_score": 0.25819888974716115, "candidate": "        path = self.input().path\n"}
+{"rank": 15, "bleu_score": 0.316227766016838, "candidate": "        path = self.input()\n"}
+{"rank": 16, "bleu_score": 0.25819888974716115, "candidate": "        path = self.input().path\n"}
+{"rank": 17, "bleu_score": 0.25819888974716115, "candidate": "        path = self.input().path\n"}
+{"rank": 18, "bleu_score": 5.273843307431707e-155, "candidate": "        connection = self.output().connect()\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "        logger.info(\"Getting credentials\")\n"}
+{"rank": 20, "bleu_score": 0, "candidate": "        # make sure aws credentials are available\n"}

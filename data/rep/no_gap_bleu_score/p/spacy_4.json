@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.11057344259682632, "candidate": "                    head = int(head) - 1\n"}
+{"rank": 2, "bleu_score": 0.5686865915226567, "candidate": "                    head = (int(head) - 1) if head != \"_\" else -1\n"}
+{"rank": 3, "bleu_score": 0.5686865915226567, "candidate": "                    head = (int(head) - 1) if head != \"_\" else None\n"}
+{"rank": 4, "bleu_score": 0, "candidate": "                except ValueError:\n"}
+{"rank": 5, "bleu_score": 0.5686865915226567, "candidate": "                    head = (int(head) - 1) if head != \"_\" else None\n"}
+{"rank": 6, "bleu_score": 0.5686865915226567, "candidate": "                    head = (int(head) - 1) if head != \"_\" else None\n"}
+{"rank": 7, "bleu_score": 0.5686865915226567, "candidate": "                    head = (int(head) - 1) if head != \"_\" else None\n"}
+{"rank": 8, "bleu_score": 0.608316784612871, "candidate": "                    head = (int(head) - 1) if head != \"0\" else id_\n"}
+{"rank": 9, "bleu_score": 0, "candidate": "                except ValueError:\n"}
+{"rank": 10, "bleu_score": 0, "candidate": "                except ValueError:\n"}
+{"rank": 11, "bleu_score": 0, "candidate": "                except ValueError:\n"}
+{"rank": 12, "bleu_score": 0, "candidate": "                except ValueError:\n"}
+{"rank": 13, "bleu_score": 0, "candidate": "                except ValueError:\n"}
+{"rank": 14, "bleu_score": 0.22313016014842982, "candidate": "                    head = (int(head) - 1)\n"}
+{"rank": 15, "bleu_score": 0.5290266783296574, "candidate": "                    head = (int(head) - 1) if head != '0' else id_\n"}
+{"rank": 16, "bleu_score": 0.5686865915226567, "candidate": "                    head = (int(head) - 1) if head != \"0\" else head\n"}
+{"rank": 17, "bleu_score": 0, "candidate": "                except ValueError:\n"}
+{"rank": 18, "bleu_score": 0, "candidate": "                except ValueError:\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "                except ValueError:\n"}
+{"rank": 20, "bleu_score": 0, "candidate": "                except ValueError:\n"}

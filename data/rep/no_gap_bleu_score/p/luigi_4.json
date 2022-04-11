@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.06856953606192479, "candidate": "        if self.columns:\n"}
+{"rank": 2, "bleu_score": 0.16235674858647758, "candidate": "        if self.columns is not None:\n"}
+{"rank": 3, "bleu_score": 5.808561601872144e-155, "candidate": "        colnames += ', '.join(self._column_names)\n"}
+{"rank": 4, "bleu_score": 0.16235674858647758, "candidate": "        if self.columns is not None:\n"}
+{"rank": 5, "bleu_score": 0.06856953606192479, "candidate": "        if self.columns:\n"}
+{"rank": 6, "bleu_score": 6.361471949532526e-155, "candidate": "        for colname in self.get_coldefs():\n"}
+{"rank": 7, "bleu_score": 0.16235674858647758, "candidate": "        if self.columns is not None:\n"}
+{"rank": 8, "bleu_score": 0.06856953606192479, "candidate": "        if self.columns:\n"}
+{"rank": 9, "bleu_score": 0.06856953606192479, "candidate": "        if self.columns:\n"}
+{"rank": 10, "bleu_score": 0.06856953606192479, "candidate": "        if self.columns:\n"}
+{"rank": 11, "bleu_score": 0.06856953606192479, "candidate": "        if self.columns:\n"}
+{"rank": 12, "bleu_score": 0.16235674858647758, "candidate": "        if self.columns is not None:\n"}
+{"rank": 13, "bleu_score": 3.470625308865635e-155, "candidate": "        for c in self.columns:\n"}
+{"rank": 14, "bleu_score": 0, "candidate": "        colnames_with_data_type = []\n"}
+{"rank": 15, "bleu_score": 0, "candidate": "        coldefs = ''\n"}
+{"rank": 16, "bleu_score": 0.06856953606192479, "candidate": "        if self.columns:\n"}
+{"rank": 17, "bleu_score": 0, "candidate": "        colnames_list = []\n"}
+{"rank": 18, "bleu_score": 3.470625308865635e-155, "candidate": "        for colname in self.columns:\n"}
+{"rank": 19, "bleu_score": 7.165741990418252e-155, "candidate": "        with self.input().open('r') as input_file:\n"}
+{"rank": 20, "bleu_score": 3.470625308865635e-155, "candidate": "        for col in self.columns:\n"}

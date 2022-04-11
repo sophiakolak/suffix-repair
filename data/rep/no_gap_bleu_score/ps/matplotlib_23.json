@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.28972725374474806, "candidate": "        x0, y0 = dL.intervalx.get_bounds()\n        x1, y1 = dL.intervaly.get_bounds()\n"}
+{"rank": 2, "bleu_score": 0.3003723059100852, "candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n"}
+{"rank": 3, "bleu_score": 0.26448358733336935, "candidate": "        x0, y0 = dL.x0, dL.y0\n        x1, y1 = dL.x1, dL.y1\n"}
+{"rank": 4, "bleu_score": 0.3003723059100852, "candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n"}
+{"rank": 5, "bleu_score": 0.3003723059100852, "candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n"}
+{"rank": 6, "bleu_score": 0, "candidate": ""}
+{"rank": 7, "bleu_score": 0.3003723059100852, "candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n"}
+{"rank": 8, "bleu_score": 0.26448358733336935, "candidate": "        x0, y0 = dL.xmin, dL.ymin\n        x1, y1 = dL.xmax, dL.ymax\n"}
+{"rank": 9, "bleu_score": 0.24281119593915615, "candidate": "        self.set_xbound(dL.x0, dL.x1)\n        x0, x1 = self.get_xbound()\n"}
+{"rank": 10, "bleu_score": 0.3003723059100852, "candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n"}
+{"rank": 11, "bleu_score": 0.3003723059100852, "candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n"}
+{"rank": 12, "bleu_score": 1.1810622679088496e-155, "candidate": "        x0 = dL.x0\n        y0 = dL.y0\n"}
+{"rank": 13, "bleu_score": 0.3003723059100852, "candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n"}
+{"rank": 14, "bleu_score": 0.26448358733336935, "candidate": "        x0, y0 = dL.x0, dL.y0\n        x1, y1 = dL.x1, dL.y1\n"}
+{"rank": 15, "bleu_score": 0.5222329678670935, "candidate": "        x0, x1 = x_trf.inverted().transform(dL.intervalx)\n        y0, y1 = y_trf.inverted().transform(dL.intervaly)\n"}
+{"rank": 16, "bleu_score": 0.3740362762319399, "candidate": "        x0, x1 = 0, dL.width\n        y0, y1 = dL.y0, dL.y1\n"}
+{"rank": 17, "bleu_score": 0.2758386421836852, "candidate": "        x0, y0 = x_trf.transform_point((dL.xmin, dL.ymin))\n        x1, y1 = x_trf.transform_point((dL.xmax, dL.ymax))\n"}
+{"rank": 18, "bleu_score": 0.035409156163333816, "candidate": "        x0 = dL.xmin\n        x1 = dL.xmax\n"}
+{"rank": 19, "bleu_score": 0.035409156163333816, "candidate": "        x0 = dL.xmin\n        x1 = dL.xmax\n"}
+{"rank": 20, "bleu_score": 0.29747934101800183, "candidate": "        x0, x1, y0, y1 = dL.intervalx + dL.intervaly\n"}

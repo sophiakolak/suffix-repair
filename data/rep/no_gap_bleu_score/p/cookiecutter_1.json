@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.3903600291794132, "candidate": "        with codecs.open(context_file, 'r', 'utf-8') as fh:\n"}
+{"rank": 2, "bleu_score": 0.15869282816710692, "candidate": "        if os.path.isfile(context_file):\n"}
+{"rank": 3, "bleu_score": 0.6396021490668313, "candidate": "        with open(context_file, 'r') as f:\n"}
+{"rank": 4, "bleu_score": 0.48598690966990804, "candidate": "        with open(context_file) as f:\n"}
+{"rank": 5, "bleu_score": 0.6172133998483675, "candidate": "        with open(context_file, 'r', encoding='utf-8') as fp:\n"}
+{"rank": 6, "bleu_score": 3.742824986484746e-155, "candidate": "        context.update(get_user_config())\n"}
+{"rank": 7, "bleu_score": 0.48598690966990804, "candidate": "        with open(context_file) as f:\n"}
+{"rank": 8, "bleu_score": 0.48598690966990804, "candidate": "        with open(context_file) as f:\n"}
+{"rank": 9, "bleu_score": 0.6396021490668313, "candidate": "        with open(context_file, 'r') as fp:\n"}
+{"rank": 10, "bleu_score": 0.6172133998483675, "candidate": "        with open(context_file, 'r', encoding='utf-8') as fh:\n"}
+{"rank": 11, "bleu_score": 3.742824986484746e-155, "candidate": "        context.update(read_user_config())\n"}
+{"rank": 12, "bleu_score": 0.1374320205911133, "candidate": "        file_path = expanduser(context_file)\n"}
+{"rank": 13, "bleu_score": 0.5168737710303626, "candidate": "        config_data_file = io.open(context_file, encoding='utf-8')\n"}
+{"rank": 14, "bleu_score": 0.7006490497453707, "candidate": "        with io.open(context_file, encoding='utf-8') as fp:\n"}
+{"rank": 15, "bleu_score": 0.6396021490668313, "candidate": "        with open(context_file, 'r') as context_file:\n"}
+{"rank": 16, "bleu_score": 0.48598690966990804, "candidate": "        with open(context_file) as f:\n"}
+{"rank": 17, "bleu_score": 0.48598690966990804, "candidate": "        with open(context_file) as f:\n"}
+{"rank": 18, "bleu_score": 0.48598690966990804, "candidate": "        with open(context_file) as f:\n"}
+{"rank": 19, "bleu_score": 0.1374320205911133, "candidate": "        context = load_context(context_file)\n"}
+{"rank": 20, "bleu_score": 0.31815311433143145, "candidate": "        with io.open(context_file) as f:\n"}

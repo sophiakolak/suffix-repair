@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.09230661443708028, "candidate": "                if not ax.is_numeric():\n"}
+{"rank": 2, "bleu_score": 0.15688843069557976, "candidate": "                if not is_hashable(i):\n"}
+{"rank": 3, "bleu_score": 0.15987974607969388, "candidate": "                if is_integer(i):\n"}
+{"rank": 4, "bleu_score": 0.15987974607969388, "candidate": "                if is_integer(i):\n"}
+{"rank": 5, "bleu_score": 0.15987974607969388, "candidate": "                if is_integer(i):\n"}
+{"rank": 6, "bleu_score": 0.19567425187049586, "candidate": "                if not is_integer(i):\n"}
+{"rank": 7, "bleu_score": 0.15987974607969388, "candidate": "                if is_integer(i):\n"}
+{"rank": 8, "bleu_score": 0.15688843069557976, "candidate": "                if not lib.isscalar(i):\n"}
+{"rank": 9, "bleu_score": 0, "candidate": "                # non integer index\n"}
+{"rank": 10, "bleu_score": 0.15688843069557976, "candidate": "                if not is_scalar(i):\n"}
+{"rank": 11, "bleu_score": 0.15688843069557976, "candidate": "                if not is_hashable(i):\n"}
+{"rank": 12, "bleu_score": 0.15987974607969388, "candidate": "                if is_integer(i):\n"}
+{"rank": 13, "bleu_score": 0.45591539215353666, "candidate": "                if not is_integer(i) and not is_float(i):\n"}
+{"rank": 14, "bleu_score": 0.15987974607969388, "candidate": "                if is_integer(i):\n"}
+{"rank": 15, "bleu_score": 0.15987974607969388, "candidate": "                if is_integer(i):\n"}
+{"rank": 16, "bleu_score": 0.1678358897882423, "candidate": "                if not isinstance(i, ax.inferred_type):\n"}
+{"rank": 17, "bleu_score": 0.3356717795764846, "candidate": "                if is_integer(i) and not self.obj._can_hold_na:\n"}
+{"rank": 18, "bleu_score": 0.15987974607969388, "candidate": "                if is_integer(i):\n"}
+{"rank": 19, "bleu_score": 0.15987974607969388, "candidate": "                if is_integer(i):\n"}
+{"rank": 20, "bleu_score": 0.15987974607969388, "candidate": "                if is_integer(i):\n"}

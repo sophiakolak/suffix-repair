@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 1.0, "candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')\n"}
+{"rank": 2, "bleu_score": 1.0, "candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')\n"}
+{"rank": 3, "bleu_score": 1.0, "candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')\n"}
+{"rank": 4, "bleu_score": 0.7967818356789772, "candidate": "    return replace_argument(command.script, 'push', 'push -f')\n"}
+{"rank": 5, "bleu_score": 0.7967818356789772, "candidate": "    return replace_argument(command.script, 'push', 'push -f')\n"}
+{"rank": 6, "bleu_score": 1.0, "candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')\n"}
+{"rank": 7, "bleu_score": 0.7967818356789772, "candidate": "    return replace_argument(command.script, 'push', 'push -f')\n"}
+{"rank": 8, "bleu_score": 0.7967818356789772, "candidate": "    return replace_argument(command.script, 'push', 'push -f')\n"}
+{"rank": 9, "bleu_score": 0.8770580193070293, "candidate": "    return replace_argument(command.script, 'push', 'push --force')\n"}
+{"rank": 10, "bleu_score": 0.7967818356789772, "candidate": "    return replace_argument(command.script, 'push', 'push -f')\n"}
+{"rank": 11, "bleu_score": 0.8770580193070293, "candidate": "    return replace_argument(command.script, 'push', 'push --force')\n"}
+{"rank": 12, "bleu_score": 0.20189651799465538, "candidate": "    return replace_argument(command.script,\n"}
+{"rank": 13, "bleu_score": 0.8770580193070293, "candidate": "    return replace_argument(command.script, 'push', 'push --force')\n"}
+{"rank": 14, "bleu_score": 0.8770580193070293, "candidate": "    return replace_argument(command.script, 'push', 'push --force')\n"}
+{"rank": 15, "bleu_score": 0.8770580193070293, "candidate": "    return replace_argument(command.script, 'push', 'push --force')\n"}
+{"rank": 16, "bleu_score": 0.8770580193070293, "candidate": "    return replace_argument(command.script, 'push', 'push --force')\n"}
+{"rank": 17, "bleu_score": 0.7110268775888362, "candidate": "    return replace_argument(command.script, 'push', 'pull')\n"}
+{"rank": 18, "bleu_score": 0.6953534953651154, "candidate": "    return [replace_argument(command.script, 'push', 'push -f')]\n"}
+{"rank": 19, "bleu_score": 0.7967818356789772, "candidate": "    return replace_argument(command.script, 'push', 'push -f')\n"}
+{"rank": 20, "bleu_score": 1.0, "candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')\n"}

@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.7703288865196432, "candidate": "                    op = lambda attr, val: not str_op(attr, val)\n"}
+{"rank": 2, "bleu_score": 1.0, "candidate": "                    op = lambda attr, value: not str_op(attr, value)\n"}
+{"rank": 3, "bleu_score": 1.0, "candidate": "                    op = lambda attr, value: not str_op(attr, value)\n"}
+{"rank": 4, "bleu_score": 1.0, "candidate": "                    op = lambda attr, value: not str_op(attr, value)\n"}
+{"rank": 5, "bleu_score": 1.0, "candidate": "                    op = lambda attr, value: not str_op(attr, value)\n"}
+{"rank": 6, "bleu_score": 1.0, "candidate": "                    op = lambda attr, value: not str_op(attr, value)\n"}
+{"rank": 7, "bleu_score": 1.0, "candidate": "                    op = lambda attr, value: not str_op(attr, value)\n"}
+{"rank": 8, "bleu_score": 0.12572462101949167, "candidate": "                    # This looks better than lambda: not; thanks to\n"}
+{"rank": 9, "bleu_score": 1.0, "candidate": "                    op = lambda attr, value: not str_op(attr, value)\n"}
+{"rank": 10, "bleu_score": 5.570463885478938e-155, "candidate": "                    def op(actual_value, _):\n"}
+{"rank": 11, "bleu_score": 0.21866322449395123, "candidate": "                    def op(actual_value, value):\n"}
+{"rank": 12, "bleu_score": 1.0, "candidate": "                    op = lambda attr, value: not str_op(attr, value)\n"}
+{"rank": 13, "bleu_score": 0.7703288865196432, "candidate": "                    op = lambda attr, val: not str_op(attr, val)\n"}
+{"rank": 14, "bleu_score": 1.0, "candidate": "                    op = lambda attr, value: not str_op(attr, value)\n"}
+{"rank": 15, "bleu_score": 0.5241424183609592, "candidate": "                    op = lambda a, b: not str_op(a, b)\n"}
+{"rank": 16, "bleu_score": 1.0, "candidate": "                    op = lambda attr, value: not str_op(attr, value)\n"}
+{"rank": 17, "bleu_score": 0.3340135926488844, "candidate": "                    def op(attr, value):\n"}
+{"rank": 18, "bleu_score": 1.0, "candidate": "                    op = lambda attr, value: not str_op(attr, value)\n"}
+{"rank": 19, "bleu_score": 1.0, "candidate": "                    op = lambda attr, value: not str_op(attr, value)\n"}
+{"rank": 20, "bleu_score": 5.570463885478938e-155, "candidate": "                    def op(actual_value, comparison_value):\n"}

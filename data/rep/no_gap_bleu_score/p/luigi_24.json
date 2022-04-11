@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.6856635127117456, "candidate": "                command.append('{0}={1}'.format(prop, value))\n"}
+{"rank": 2, "bleu_score": 0.5603701168071981, "candidate": "                command.append(\"{0}={1}\".format(prop, value))\n"}
+{"rank": 3, "bleu_score": 0.8017837257372731, "candidate": "                command += [name, \"{0}={1}\".format(prop, value)]\n"}
+{"rank": 4, "bleu_score": 2.3660554576954645e-156, "candidate": "                command.append(name)\n"}
+{"rank": 5, "bleu_score": 2.3660554576954645e-156, "candidate": "                command.append(name)\n"}
+{"rank": 6, "bleu_score": 0.8535639569308374, "candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n"}
+{"rank": 7, "bleu_score": 3.3212668275879433e-156, "candidate": "                if value is False:\n"}
+{"rank": 8, "bleu_score": 2.3660554576954645e-156, "candidate": "                command.append(name)\n"}
+{"rank": 9, "bleu_score": 2.3660554576954645e-156, "candidate": "                command.append(name)\n"}
+{"rank": 10, "bleu_score": 0.6856635127117456, "candidate": "                command.append('{0}={1}'.format(prop, value))\n"}
+{"rank": 11, "bleu_score": 1.524533346000754e-155, "candidate": "                command.append('--conf')\n"}
+{"rank": 12, "bleu_score": 3.470625308865635e-155, "candidate": "                if value and isinstance(value, six.string_types):\n"}
+{"rank": 13, "bleu_score": 0.8535639569308374, "candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n"}
+{"rank": 14, "bleu_score": 2.3535070035699275e-155, "candidate": "                if isinstance(value, six.string_types):\n"}
+{"rank": 15, "bleu_score": 0.6796738348201514, "candidate": "                command.extend(['--conf', '{0}={1}'.format(prop, value)])\n"}
+{"rank": 16, "bleu_score": 0.45885380368743073, "candidate": "                command.extend([name, '%s=%s' % (prop, value)])\n"}
+{"rank": 17, "bleu_score": 0.47445571459117775, "candidate": "                command.append(\"{0} {1} {2}\".format(name, prop, value))\n"}
+{"rank": 18, "bleu_score": 2.3660554576954645e-156, "candidate": "                command.append(name)\n"}
+{"rank": 19, "bleu_score": 0.8535639569308374, "candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n"}
+{"rank": 20, "bleu_score": 5.905311339544237e-156, "candidate": "                if value is not None:\n"}

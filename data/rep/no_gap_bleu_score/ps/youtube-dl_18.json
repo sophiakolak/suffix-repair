@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.05745474671980603, "candidate": "            force_fields = self.params.get('force_fields', [])\n"}
+{"rank": 2, "bleu_score": 0.11005499523299424, "candidate": "            force_input_keys = ['title', 'thumbnail', 'description']\n"}
+{"rank": 3, "bleu_score": 1.2855512329833862e-155, "candidate": "            # Force overwrite filetype as it is already checked in\n"}
+{"rank": 4, "bleu_score": 0.5257880244257798, "candidate": "            for f in ('_type', 'url', 'ie_key'):\n"}
+{"rank": 5, "bleu_score": 0.9325048082403138, "candidate": "            for f in ('_type', 'url', 'extractor', 'ie_key', 'webpage_url', 'id'):\n"}
+{"rank": 6, "bleu_score": 0.5365400671222621, "candidate": "            for f in ('protocol', 'ext', 'extractor', 'width', 'height',\n"}
+{"rank": 7, "bleu_score": 0.10128097161185579, "candidate": "            force_properties['ie_key'] = ie_result.get('ie_key')\n"}
+{"rank": 8, "bleu_score": 0.7453949728239978, "candidate": "            for f in ('url', 'id', 'extractor', 'webpage_url', '_type'):\n"}
+{"rank": 9, "bleu_score": 0.5051607938647451, "candidate": "            for f in ('extractor', 'id', 'url'):\n"}
+{"rank": 10, "bleu_score": 0.6079378135647331, "candidate": "            for f in ('url', 'id', 'ext', 'title', 'thumbnail', 'description',\n"}
+{"rank": 11, "bleu_score": 0.6572394463515476, "candidate": "            for f in ('url', '_type', 'id', 'ie_key'):\n"}
+{"rank": 12, "bleu_score": 0.793533545339742, "candidate": "            for f in ('_type', 'id', 'url', 'ie_key', 'title'):\n"}
+{"rank": 13, "bleu_score": 0.5582711408148076, "candidate": "            for f in ('url', 'id', 'title', 'ext', 'width', 'height', 'formats',\n"}
+{"rank": 14, "bleu_score": 0.7250459982682086, "candidate": "            for f in ['_type', 'id', 'title', 'url', 'ext', 'ie_key']:\n"}
+{"rank": 15, "bleu_score": 0.5819797169908829, "candidate": "            for f in ('_type', 'url', 'id', 'title',\n"}
+{"rank": 16, "bleu_score": 0.06657918978807412, "candidate": "            for f in force_properties.copy():\n"}
+{"rank": 17, "bleu_score": 1.5107759917365179e-155, "candidate": "            # we remove undefined values for this keys as they cause\n"}
+{"rank": 18, "bleu_score": 0, "candidate": "            # Force all the values that we want to set\n"}
+{"rank": 19, "bleu_score": 0.6079378135647331, "candidate": "            for f in ('url', 'id', 'title', 'ext', 'format', 'thumbnail',\n"}
+{"rank": 20, "bleu_score": 0.2923725063965623, "candidate": "            for f in ('url', '_type', 'ie_key', 'id', 'display_id', 'title', 'ext', 'thumbnail', 'description', 'alt_title', 'duration', 'upload_date', 'timestamp', 'uploader', 'uploader_id', 'uploader_url', 'webpage_url', 'webpage_url_basename', 'extractor', 'extractor_key', 'categories',\n"}

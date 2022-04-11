@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.41931393468876726, "candidate": "        if is_list_like(data) and not isinstance(data, PeriodArray):\n"}
+{"rank": 2, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, ABCIndexClass):\n"}
+{"rank": 3, "bleu_score": 0.4236592728681617, "candidate": "        if isinstance(data, TimedeltaIndex) or is_list_like(data):\n"}
+{"rank": 4, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, TimedeltaIndex):\n"}
+{"rank": 5, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, ABCIndex):\n"}
+{"rank": 6, "bleu_score": 0.46056618647183833, "candidate": "        if isinstance(data, (ABCTimedeltaIndex, ABCTimedeltaArray)):\n"}
+{"rank": 7, "bleu_score": 0.1386750490563073, "candidate": "        # For compatibility with Index.astype(str) and Index.astype(object)\n"}
+{"rank": 8, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, ABCIndexClass):\n"}
+{"rank": 9, "bleu_score": 0.13433057891466246, "candidate": "        if dtype is not None:\n"}
+{"rank": 10, "bleu_score": 0.24779731389167603, "candidate": "        if is_list_like(data) and getattr(data, \"ndim\", 1) > 1:\n"}
+{"rank": 11, "bleu_score": 6.397495320955232e-155, "candidate": "        freq = _validate_freq_with_units(unit, freq)\n"}
+{"rank": 12, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, ABCPeriodIndex):\n"}
+{"rank": 13, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, ABCIndexClass):\n"}
+{"rank": 14, "bleu_score": 7.152617211696109e-155, "candidate": "        if is_dtype_equal(dtype, _TD_DTYPE):\n"}
+{"rank": 15, "bleu_score": 0, "candidate": "        # GH#22389 Prevent TimedeltaIndex subclassing from\n"}
+{"rank": 16, "bleu_score": 0.1743703854231245, "candidate": "        if data is None:\n"}
+{"rank": 17, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, ABCIndexClass):\n"}
+{"rank": 18, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, ABCIndexClass):\n"}
+{"rank": 19, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, ABCIndexClass):\n"}
+{"rank": 20, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, ABCIndexClass):\n"}

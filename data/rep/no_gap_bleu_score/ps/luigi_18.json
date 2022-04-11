@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.04913221953988768, "candidate": "            new_status = DISABLED\n"}
+{"rank": 2, "bleu_score": 2.841507672779064e-155, "candidate": "            if new_status == FAILED:\n"}
+{"rank": 3, "bleu_score": 5.630618124510453e-155, "candidate": "            if new_status in (RUNNING, PENDING):\n"}
+{"rank": 4, "bleu_score": 2.841507672779064e-155, "candidate": "            if new_status == FAILED:\n"}
+{"rank": 5, "bleu_score": 0, "candidate": "            # (ie. don't let them report tasks as anything other than disabled)\n"}
+{"rank": 6, "bleu_score": 5.630618124510453e-155, "candidate": "            if new_status in (RUNNING, FAILED):\n"}
+{"rank": 7, "bleu_score": 2.841507672779064e-155, "candidate": "            if new_status == PENDING:\n"}
+{"rank": 8, "bleu_score": 0.3073073403268802, "candidate": "            if task.scheduler_disable_time is not None:\n"}
+{"rank": 9, "bleu_score": 6.278088288256672e-155, "candidate": "            if config and config.worker_disconnect_delay and not config.allow_override:\n"}
+{"rank": 10, "bleu_score": 2.841507672779064e-155, "candidate": "            if new_status == PENDING:\n"}
+{"rank": 11, "bleu_score": 2.841507672779064e-155, "candidate": "            if new_status == PENDING:\n"}
+{"rank": 12, "bleu_score": 2.841507672779064e-155, "candidate": "            if new_status == PENDING:\n"}
+{"rank": 13, "bleu_score": 6.89607067075869e-155, "candidate": "            if task.scheduler_disable_time and time.time() < task.scheduler_disable_time:\n"}
+{"rank": 14, "bleu_score": 2.841507672779064e-155, "candidate": "            if new_status == FAILED:\n"}
+{"rank": 15, "bleu_score": 1.171742140909826e-156, "candidate": "            else:\n"}
+{"rank": 16, "bleu_score": 0.3073073403268802, "candidate": "            if task.scheduler_disable_time is not None:\n"}
+{"rank": 17, "bleu_score": 2.841507672779064e-155, "candidate": "            if new_status == FAILED:\n"}
+{"rank": 18, "bleu_score": 2.841507672779064e-155, "candidate": "            if new_status == PENDING:\n"}
+{"rank": 19, "bleu_score": 2.841507672779064e-155, "candidate": "            if new_status == PENDING:\n"}
+{"rank": 20, "bleu_score": 1.171742140909826e-156, "candidate": "            else:\n"}

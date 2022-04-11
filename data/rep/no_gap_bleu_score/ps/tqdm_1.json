@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.3922919972818223, "candidate": "    iterable = tqdm_class(iterable, total=total or len(iterable),\n"}
+{"rank": 2, "bleu_score": 0.3825022804916218, "candidate": "    return tqdm_class(enumerate(iterable), total=total\n"}
+{"rank": 3, "bleu_score": 0.4364357804719847, "candidate": "    return tqdm_class(enumerate(iterable), total=total or len(iterable),\n"}
+{"rank": 4, "bleu_score": 0.28687671036871637, "candidate": "    return tqdm_class(iterable, total=total or None,\n"}
+{"rank": 5, "bleu_score": 0.4364357804719847, "candidate": "    return tqdm_class(enumerate(iterable), total=total or len(iterable),\n"}
+{"rank": 6, "bleu_score": 0.41931393468876726, "candidate": "    return tqdm_class(iterable, total=total or len(iterable), start=start,\n"}
+{"rank": 7, "bleu_score": 0.47398785011707933, "candidate": "    return tqdm_class(enumerate(iterable, start=start),\n"}
+{"rank": 8, "bleu_score": 0.2295407032205458, "candidate": "    iterable_len = getattr(iterable, '__len__', None)\n"}
+{"rank": 9, "bleu_score": 0.6164241439984989, "candidate": "    return tqdm_class(enumerate(iterable, start), total=total,\n"}
+{"rank": 10, "bleu_score": 0.3570755503478859, "candidate": "    return tqdm_class(enumerate(iterable),\n"}
+{"rank": 11, "bleu_score": 0.4239476213483084, "candidate": "    return tqdm_class(enumerate(iterable), start=start,\n"}
+{"rank": 12, "bleu_score": 0.44474958999666075, "candidate": "    return tqdm_class(list(enumerate(list(iterable))),\n"}
+{"rank": 13, "bleu_score": 0.41677879041417215, "candidate": "    for i, obj in tqdm_class(enumerate(iterable),\n"}
+{"rank": 14, "bleu_score": 0.1431530364172183, "candidate": "    return tqdm_class(iterable,\n"}
+{"rank": 15, "bleu_score": 0.4364357804719847, "candidate": "    return tqdm_class(enumerate(iterable), total=total or len(iterable),\n"}
+{"rank": 16, "bleu_score": 0.4688786183641642, "candidate": "    return tqdm_class(list(enumerate(iterable)), start=start,\n"}
+{"rank": 17, "bleu_score": 0.17853777517394295, "candidate": "    if isinstance(iterable, str):\n"}
+{"rank": 18, "bleu_score": 0.24083362654088403, "candidate": "    return tqdm_class(iterable, total=total,\n"}
+{"rank": 19, "bleu_score": 0.4942388468095259, "candidate": "    return tqdm_class(enumerate(iterable, start=start), total=total,\n"}
+{"rank": 20, "bleu_score": 0.19985082528219703, "candidate": "        if hasattr(iterable, '__array__') and \\\n"}

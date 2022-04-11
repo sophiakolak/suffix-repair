@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0, "candidate": "        if len(self.columns[0]) == 1:\n"}
+{"rank": 2, "bleu_score": 0, "candidate": "        if isinstance(self.source_table, BaseOperator):\n"}
+{"rank": 3, "bleu_score": 0, "candidate": "        if not (self.columns):\n"}
+{"rank": 4, "bleu_score": 0, "candidate": "        if not (self.columns):\n"}
+{"rank": 5, "bleu_score": 0, "candidate": "        if not self.table_exists(self.table):\n"}
+{"rank": 6, "bleu_score": 0, "candidate": "        if self.first_run_time:\n"}
+{"rank": 7, "bleu_score": 5.273843307431707e-155, "candidate": "        connection = self.output().connect()\n"}
+{"rank": 8, "bleu_score": 0, "candidate": "        self.log.info('PrestoToMySqlOperator: start')\n"}
+{"rank": 9, "bleu_score": 5.273843307431707e-155, "candidate": "        connection = self.output().connect()\n"}
+{"rank": 10, "bleu_score": 6.6709427497276e-155, "candidate": "        cursor = self.connection.cursor()\n"}
+{"rank": 11, "bleu_score": 5.273843307431707e-155, "candidate": "        connection = self.output().connect()\n"}
+{"rank": 12, "bleu_score": 0, "candidate": "        if not self.check_table_exists():\n"}
+{"rank": 13, "bleu_score": 0, "candidate": "        if (not self.table_exists()) and self.create:\n"}
+{"rank": 14, "bleu_score": 0, "candidate": "        for i in range(self.num_tries):\n"}
+{"rank": 15, "bleu_score": 6.6709427497276e-155, "candidate": "        cursor = self.connection.cursor()\n"}
+{"rank": 16, "bleu_score": 0, "candidate": "        with get_connection(self.connection) as connection:\n"}
+{"rank": 17, "bleu_score": 5.273843307431707e-155, "candidate": "        connection = self.output().connect()\n"}
+{"rank": 18, "bleu_score": 0, "candidate": "        if 'insert' in self.mode:\n"}
+{"rank": 19, "bleu_score": 5.273843307431707e-155, "candidate": "        connection = self.output().connect()\n"}
+{"rank": 20, "bleu_score": 5.637975647982813e-155, "candidate": "        if self.connection != 'auto':\n"}

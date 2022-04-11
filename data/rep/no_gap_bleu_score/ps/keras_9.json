@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 2, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 3, "bleu_score": 0.242140748066519, "candidate": "    block = docstring[starting_point:ending_point]\n"}
+{"rank": 4, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 5, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 6, "bleu_score": 0.242140748066519, "candidate": "    block = docstring[starting_point:ending_point]\n"}
+{"rank": 7, "bleu_score": 0.1671096089935169, "candidate": "    if ending_point == -1:\n        ending_point = docstring.find('\\r\\n\\r\\n', starting_point)\n"}
+{"rank": 8, "bleu_score": 0.10129474235115733, "candidate": "    if ending_point == -1:\n        ending_point = section_end\n"}
+{"rank": 9, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 10, "bleu_score": 0.18857857160117855, "candidate": "    block = docstring[starting_point:ending_point].strip()\n    block = re.sub(r'\\n[ ]{%d}(\\S)' % (leading_spaces + 4), r'\\n\\1', block)\n"}
+{"rank": 11, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 12, "bleu_score": 0.10129474235115733, "candidate": "    if ending_point == -1:\n        ending_point = section_end\n"}
+{"rank": 13, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 14, "bleu_score": 0.15137553685498495, "candidate": "    if ending_point == -1:\n        ending_point = len(docstring)\n"}
+{"rank": 15, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 16, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 17, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 18, "bleu_score": 0.2480694691784169, "candidate": "    lines = docstring[starting_point:ending_point].split('\\n')\n    # Find the maximum common indentation of the lines in the block.\n"}
+{"rank": 19, "bleu_score": 0.32897584747988445, "candidate": "    block = docstring[starting_point: ending_point].strip('\\n')\n    # Find list roots and replace them by markers\n"}
+{"rank": 20, "bleu_score": 0.23533936216582083, "candidate": "    lines = docstring[starting_point:ending_point].split('\\n')\n    # Remove the computed number of leading white spaces from each line.\n"}

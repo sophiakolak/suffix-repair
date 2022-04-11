@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 6.220686189616977e-155, "candidate": "        \"\"\" property cache for the indexer \"\"\"\n        return self._engine_type(lambda: self._values, len(self))\n"}
+{"rank": 2, "bleu_score": 5.335078745434036e-155, "candidate": "        from pandas.core.indexes.period import PeriodEngine\n        return PeriodEngine(lambda s: s, len(self), self.freq)\n"}
+{"rank": 3, "bleu_score": 3.872603415931117e-155, "candidate": "        from pandas.core.indexes.period import PeriodEngine\n        return PeriodEngine(lambda: self.asi8, self.freq)\n"}
+{"rank": 4, "bleu_score": 5.167290034639644e-155, "candidate": "        return PeriodEngine(lambda s: s, len(self))\n    def _maybe_cast_slice_bound(self, label, side, kind):\n"}
+{"rank": 5, "bleu_score": 4.471666651098519e-155, "candidate": "        return PeriodEngine(lambda s: s, len(self))\n    @property\n"}
+{"rank": 6, "bleu_score": 4.952465347544888e-155, "candidate": "        raise AbstractMethodError(self)\n    def _maybe_cast_slice_bound(self, label, side, kind):\n"}
+{"rank": 7, "bleu_score": 3.872603415931117e-155, "candidate": "        return PeriodIndexEngine(self)\n    def _maybe_update_attributes(self, attrs):\n"}
+{"rank": 8, "bleu_score": 4.972227154133551e-155, "candidate": "        return PeriodArrayEngine(lambda: com.asarray_tuplesafe(self), self.freq)\n    def get_loc(self, key, method=None, tolerance=None) -> int:\n"}
+{"rank": 9, "bleu_score": 5.335078745434036e-155, "candidate": "        return PeriodArrayEngine(lambda: self, len(self), self.dtype)\n    @Appender(Index.isin.__doc__)\n"}
+{"rank": 10, "bleu_score": 0, "candidate": "        from pandas._libs import index as libindex\n        return libindex.PeriodEngine\n"}
+{"rank": 11, "bleu_score": 3.872603415931117e-155, "candidate": "        return self.array._engine\n    def __array__(self, dtype=None) -> np.ndarray:\n"}
+{"rank": 12, "bleu_score": 5.508349685012077e-155, "candidate": "        return self._base_indexer((0,), tuple())\n    @Appender(_index_shared_docs[\"get_loc\"])\n"}
+{"rank": 13, "bleu_score": 4.952465347544888e-155, "candidate": "        return self.array._engine\n    def _is_comparable_freq(self, other: \"PeriodArray\") -> bool:\n"}
+{"rank": 14, "bleu_score": 6.345597032700595e-155, "candidate": "        cls = type(self)\n        return cls._engine_type(lambda: self, len(self), self.freq)\n"}
+{"rank": 15, "bleu_score": 2.8765751812146635e-155, "candidate": "        \"\"\"\n        We use our Int64Index engine for period indexing.\n"}
+{"rank": 16, "bleu_score": 4.952465347544888e-155, "candidate": "        from pandas.core.indexes.period import PeriodEngine\n        return PeriodEngine(lambda s: s, len(self))\n"}
+{"rank": 17, "bleu_score": 1.8535600036129414e-155, "candidate": "        from pandas._libs.index import PeriodEngine\n        return PeriodEngine(self)\n"}
+{"rank": 18, "bleu_score": 4.952465347544888e-155, "candidate": "        return PeriodIndexEngine(lambda s: s.asi8, len(self), self.dtype.freq)\n    @property\n"}
+{"rank": 19, "bleu_score": 1.0384813204308049e-155, "candidate": "        if self.freq.n > 0:\n            cls = libindex.PeriodEngine\n"}
+{"rank": 20, "bleu_score": 7.069283256377956e-156, "candidate": "        from pandas.core.indexing import (\n            _get_loc_optional_integer_kwargs,\n"}

@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.22281281199135589, "candidate": "                field_info = get_field_info(field)\n                if isinstance(field_info, params.List):\n"}
+{"rank": 2, "bleu_score": 5.223533056060786e-155, "candidate": "                if received_body is not None and field.field_info.in_.value == \"formData\":\n"}
+{"rank": 3, "bleu_score": 0.26525189961441575, "candidate": "                if isinstance(received_body, FormData):\n"}
+{"rank": 4, "bleu_score": 0.33388413939089817, "candidate": "                if isinstance(field_info, params.Form) and field.shape in sequence_shapes:\n"}
+{"rank": 5, "bleu_score": 7.007071651240971e-156, "candidate": "                if field_info.in_ == params.In.QUERY:\n"}
+{"rank": 6, "bleu_score": 0.21139537144659207, "candidate": "                field_info = get_field_info(field)\n                if field.shape in sequence_shapes:  # type: ignore\n"}
+{"rank": 7, "bleu_score": 0.18879846521677512, "candidate": "                field_info = get_field_info(field)\n                if field.shape in sequence_shapes:\n"}
+{"rank": 8, "bleu_score": 0.05251935081834491, "candidate": "                if field.shape in sequence_shapes:\n"}
+{"rank": 9, "bleu_score": 0.05251935081834491, "candidate": "                if field.shape in sequence_shapes:\n"}
+{"rank": 10, "bleu_score": 0.05251935081834491, "candidate": "                if field.shape in sequence_shapes:\n"}
+{"rank": 11, "bleu_score": 0.20842230096383255, "candidate": "                field_info = get_field_info(field)\n                if (\n                    isinstance(field_info, params.File)\n"}
+{"rank": 12, "bleu_score": 0.4376299957190319, "candidate": "                if isinstance(field_info, params.Form) and isinstance(\n                    received_body, MultipartFormData\n                ):\n"}
+{"rank": 13, "bleu_score": 8.355580852035355e-155, "candidate": "                field_info = get_field_info(field)\n                if field_info.in_ == params.Body.Field:\n                    value = received_body.get(field.alias)\n"}
+{"rank": 14, "bleu_score": 0.2425521152099704, "candidate": "                field_info = get_field_info(field)\n                if isinstance(field_info, params.File):\n                    value = received_body\n"}
+{"rank": 15, "bleu_score": 0.05251935081834491, "candidate": "                if field.shape in sequence_shapes:\n"}
+{"rank": 16, "bleu_score": 5.632409158840889e-155, "candidate": "                field_info = get_field_info(field)\n                if field_info.style == \"form\":\n"}
+{"rank": 17, "bleu_score": 0.05251935081834491, "candidate": "                if field.shape in sequence_shapes:\n"}
+{"rank": 18, "bleu_score": 0.31510490058866203, "candidate": "                field_info = get_field_info(field)\n                if (\n                    isinstance(received_body, dict)\n"}
+{"rank": 19, "bleu_score": 0.22868032727481435, "candidate": "                field_info = get_field_info(field)\n                if isinstance(field_info, params.Query):\n                    value = field_info.default\n"}
+{"rank": 20, "bleu_score": 0.36027785181981536, "candidate": "                field_info = get_field_info(field)\n                if field.shape in sequence_shapes and isinstance(\n                    field_info, params.File\n"}

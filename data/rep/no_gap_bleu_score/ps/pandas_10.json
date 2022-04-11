@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 5.98401908459915e-156, "candidate": "        if axis != 0:\n"}
+{"rank": 2, "bleu_score": 2.1631910004127923e-157, "candidate": "        if transpose:\n"}
+{"rank": 3, "bleu_score": 0.03588109992305676, "candidate": "        new = self._maybe_coerce_values(new)\n"}
+{"rank": 4, "bleu_score": 2.1631910004127923e-157, "candidate": "        if transpose:\n"}
+{"rank": 5, "bleu_score": 2.1631910004127923e-157, "candidate": "        if transpose:\n"}
+{"rank": 6, "bleu_score": 2.1631910004127923e-157, "candidate": "        if transpose:\n"}
+{"rank": 7, "bleu_score": 3.856085034636466e-156, "candidate": "        if self.ndim == 2:\n"}
+{"rank": 8, "bleu_score": 0.03588109992305676, "candidate": "        new = self._maybe_coerce_values(new)\n"}
+{"rank": 9, "bleu_score": 1.8329130973442954e-155, "candidate": "        if self.ndim == 2 and not transpose:\n"}
+{"rank": 10, "bleu_score": 3.856085034636466e-156, "candidate": "        if self.ndim == 2:\n"}
+{"rank": 11, "bleu_score": 0.03588109992305676, "candidate": "        new = self._maybe_coerce_values(new)\n"}
+{"rank": 12, "bleu_score": 2.0703088041642235e-155, "candidate": "        # TODO: Break out each of these cases into separate methods.\n"}
+{"rank": 13, "bleu_score": 3.4156300504303905e-155, "candidate": "        # We may get a boolean mask from a Series with a non-boolean dtype,\n"}
+{"rank": 14, "bleu_score": 5.98401908459915e-156, "candidate": "        if axis >= self.ndim:\n"}
+{"rank": 15, "bleu_score": 0.17377394345044514, "candidate": "        if isinstance(new, ExtensionArray):\n"}
+{"rank": 16, "bleu_score": 0.08868495357339098, "candidate": "        if not len(new):\n"}
+{"rank": 17, "bleu_score": 0.1470952049873557, "candidate": "        if not isinstance(new, self._holder):\n"}
+{"rank": 18, "bleu_score": 3.3091113932923515e-155, "candidate": "        if transpose and self.ndim == 2 and new.ndim == 1:\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "        # Try to align the input masks.\n"}
+{"rank": 20, "bleu_score": 0.03588109992305676, "candidate": "        new = _maybe_promote(new)\n"}

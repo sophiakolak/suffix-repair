@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.0301973834223185, "candidate": "        exists=True,\n"}
+{"rank": 2, "bleu_score": 0.8819171036881969, "candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=True\n"}
+{"rank": 3, "bleu_score": 0.0301973834223185, "candidate": "        exists=True,\n"}
+{"rank": 4, "bleu_score": 0.8819171036881969, "candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=True\n"}
+{"rank": 5, "bleu_score": 0.0301973834223185, "candidate": "        exists=True,\n"}
+{"rank": 6, "bleu_score": 0.5773502691896257, "candidate": "        exists=False, file_okay=True, dir_okay=True, readable=True, allow_dash=True\n"}
+{"rank": 7, "bleu_score": 0.0301973834223185, "candidate": "        exists=True,\n"}
+{"rank": 8, "bleu_score": 1.0, "candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n"}
+{"rank": 9, "bleu_score": 0.0301973834223185, "candidate": "        dir_okay=False,\n"}
+{"rank": 10, "bleu_score": 0.8819171036881969, "candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=True\n"}
+{"rank": 11, "bleu_score": 1.0, "candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n"}
+{"rank": 12, "bleu_score": 0.6972166887783963, "candidate": "        exists=True, file_okay=True, dir_okay=True, readable=True, allow_dash=True\n"}
+{"rank": 13, "bleu_score": 1.0, "candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n"}
+{"rank": 14, "bleu_score": 0.8819171036881969, "candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=True\n"}
+{"rank": 15, "bleu_score": 0.6972166887783963, "candidate": "        exists=True, file_okay=True, dir_okay=True, readable=True, allow_dash=True\n"}
+{"rank": 16, "bleu_score": 0.6860017747837581, "candidate": "        dir_okay=False, exists=True, readable=True, allow_dash=False\n"}
+{"rank": 17, "bleu_score": 0.6972166887783963, "candidate": "        exists=True, file_okay=True, dir_okay=True, readable=True, allow_dash=True\n"}
+{"rank": 18, "bleu_score": 1.0, "candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n"}
+{"rank": 19, "bleu_score": 0.7453559924999299, "candidate": "        dir_okay=False, readable=True, exists=True, allow_dash=False, resolve_path=True\n"}
+{"rank": 20, "bleu_score": 0.6351142315744462, "candidate": "        exists=True, dir_okay=False, readable=True, allow_dash=True\n"}

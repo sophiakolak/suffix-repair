@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.27524094128159016, "candidate": "            results.addError(case, (AssertionError, failure.value, None))\n"}
+{"rank": 2, "bleu_score": 0.22147368276206617, "candidate": "            results.addError(case, failure.value)\n"}
+{"rank": 3, "bleu_score": 0.20425834259995942, "candidate": "            results.addError(case, sys.exc_info())\n"}
+{"rank": 4, "bleu_score": 0.22147368276206617, "candidate": "            results.addError(case, failure.value)\n"}
+{"rank": 5, "bleu_score": 0.22147368276206617, "candidate": "            results.addError(case, failure.value)\n"}
+{"rank": 6, "bleu_score": 0.1740243594994629, "candidate": "            tb = failure.getTraceback()\n"}
+{"rank": 7, "bleu_score": 6.397495320955232e-155, "candidate": "            results.addError(case, failure)\n"}
+{"rank": 8, "bleu_score": 5.223533056060786e-155, "candidate": "            if failure.check(SkipItem):\n"}
+{"rank": 9, "bleu_score": 0.22147368276206617, "candidate": "            results.addFailure(case, failure.value)\n"}
+{"rank": 10, "bleu_score": 0.22147368276206617, "candidate": "            results.addError(case, failure.value)\n"}
+{"rank": 11, "bleu_score": 0.22147368276206617, "candidate": "            results.addError(case, failure.value)\n"}
+{"rank": 12, "bleu_score": 6.397495320955232e-155, "candidate": "            results.addError(case, failure.value.exc_info)\n"}
+{"rank": 13, "bleu_score": 0.26352313834736496, "candidate": "            results.addError(case, failure.type, *failure.value.args)\n"}
+{"rank": 14, "bleu_score": 8.061224930331203e-155, "candidate": "            if isinstance(failure, ConnectionRefusedError):\n"}
+{"rank": 15, "bleu_score": 0.22147368276206617, "candidate": "            results.addError(case, failure.value)\n"}
+{"rank": 16, "bleu_score": 0.20425834259995942, "candidate": "            results.addError(case, sys.exc_info())\n"}
+{"rank": 17, "bleu_score": 0.22147368276206617, "candidate": "            results.addError(case, failure.value)\n"}
+{"rank": 18, "bleu_score": 0.22147368276206617, "candidate": "            results.addError(case, failure.value)\n"}
+{"rank": 19, "bleu_score": 0.20425834259995942, "candidate": "            results.addError(case, failure.exc_info())\n"}
+{"rank": 20, "bleu_score": 0.20425834259995942, "candidate": "            results.addError(case, sys.exc_info())\n"}

@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.20412414523193154, "candidate": "            return len(stdout.strip()) > 0\n"}
+{"rank": 2, "bleu_score": 0.18916826637569276, "candidate": "            if stdout.strip() == table:\n"}
+{"rank": 3, "bleu_score": 8.170202920075766e-155, "candidate": "            for line in stdout.split(\"\\n\"):\n"}
+{"rank": 4, "bleu_score": 8.170202920075766e-155, "candidate": "            for line in stdout.split(\"\\n\"):\n"}
+{"rank": 5, "bleu_score": 0.18916826637569276, "candidate": "            if stdout.strip() == table:\n"}
+{"rank": 6, "bleu_score": 0.2265870956238665, "candidate": "            return stdout.strip() == table\n"}
+{"rank": 7, "bleu_score": 0, "candidate": "        else:\n"}
+{"rank": 8, "bleu_score": 9.77487297713204e-155, "candidate": "            return len(stdout) > 0\n"}
+{"rank": 9, "bleu_score": 8.170202920075766e-155, "candidate": "            for line in stdout.split(\"\\n\"):\n"}
+{"rank": 10, "bleu_score": 0, "candidate": "        else:\n"}
+{"rank": 11, "bleu_score": 8.170202920075766e-155, "candidate": "            for line in stdout.split(\"\\n\"):\n"}
+{"rank": 12, "bleu_score": 7.458340731200295e-155, "candidate": "            return len(stdout.split(\"\\n\")) == 2\n"}
+{"rank": 13, "bleu_score": 7.322182009535188e-155, "candidate": "            return bool(stdout)\n"}
+{"rank": 14, "bleu_score": 0.13483997249264845, "candidate": "            if len(stdout.strip()) != 0:\n"}
+{"rank": 15, "bleu_score": 0, "candidate": "            interesting_lines = [\n"}
+{"rank": 16, "bleu_score": 8.170202920075766e-155, "candidate": "            for line in stdout.split(\"\\n\"):\n"}
+{"rank": 17, "bleu_score": 0.20412414523193154, "candidate": "            return len(stdout.strip()) > 0\n"}
+{"rank": 18, "bleu_score": 0, "candidate": "            # hive > 0.11.0\n"}
+{"rank": 19, "bleu_score": 0.372677996249965, "candidate": "            return 'OK' in stdout and table in stdout\n"}
+{"rank": 20, "bleu_score": 5.850803834986753e-155, "candidate": "            regex = '.*{0}.*'.format(table)\n"}

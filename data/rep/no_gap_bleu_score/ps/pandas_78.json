@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.21821789023599233, "candidate": "            if not np.isscalar(result) or not isinstance(result, constructor):\n"}
+{"rank": 2, "bleu_score": 0.41368954504257266, "candidate": "            result = constructor(result)\n"}
+{"rank": 3, "bleu_score": 0.41368954504257266, "candidate": "            result = constructor(result)\n"}
+{"rank": 4, "bleu_score": 0, "candidate": "            if numeric_only:\n"}
+{"rank": 5, "bleu_score": 0.22645540682891918, "candidate": "            if len(labels) and isinstance(result, list):\n"}
+{"rank": 6, "bleu_score": 0.41368954504257266, "candidate": "            result = constructor(result)\n"}
+{"rank": 7, "bleu_score": 0.41368954504257266, "candidate": "            result = constructor(result)\n"}
+{"rank": 8, "bleu_score": 0.3779644730092272, "candidate": "            if isinstance(result, np.ndarray):\n"}
+{"rank": 9, "bleu_score": 0, "candidate": "            # Get a new object if we are supposed to\n"}
+{"rank": 10, "bleu_score": 0.3779644730092272, "candidate": "            if isinstance(result, list):\n"}
+{"rank": 11, "bleu_score": 0.41368954504257266, "candidate": "            result = constructor(result)\n"}
+{"rank": 12, "bleu_score": 5.4468019467171996e-155, "candidate": "            if len(result.shape) == 2 and result.shape[1] == 1:\n"}
+{"rank": 13, "bleu_score": 0, "candidate": "            try:\n"}
+{"rank": 14, "bleu_score": 0, "candidate": "            # we may need to broadcast\n"}
+{"rank": 15, "bleu_score": 0.41368954504257266, "candidate": "            result = constructor(result)\n"}
+{"rank": 16, "bleu_score": 0.41368954504257266, "candidate": "            result = constructor(result)\n"}
+{"rank": 17, "bleu_score": 0, "candidate": "            try:\n"}
+{"rank": 18, "bleu_score": 0.20965696734438366, "candidate": "            if hasattr(result, \"shape\") and result.ndim == 0:\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "            if axis is not None:\n"}
+{"rank": 20, "bleu_score": 0.41368954504257266, "candidate": "            result = constructor(result)\n"}

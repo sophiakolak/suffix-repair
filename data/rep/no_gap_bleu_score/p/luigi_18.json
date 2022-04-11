@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0, "candidate": "            return\n"}
+{"rank": 2, "bleu_score": 5.630618124510453e-155, "candidate": "            if new_status == RUNNING or new_status == PENDING:\n"}
+{"rank": 3, "bleu_score": 3.4801219492560007e-155, "candidate": "            elif new_status == FAILED:\n"}
+{"rank": 4, "bleu_score": 8.4626809469398e-156, "candidate": "            if task.scheduler_disable_time:\n"}
+{"rank": 5, "bleu_score": 0.0401162892677087, "candidate": "            task.status = DISABLED\n"}
+{"rank": 6, "bleu_score": 0, "candidate": "            return\n"}
+{"rank": 7, "bleu_score": 0, "candidate": "            return\n"}
+{"rank": 8, "bleu_score": 8.4626809469398e-156, "candidate": "            if task.scheduler_disable_time:\n"}
+{"rank": 9, "bleu_score": 0, "candidate": "            return\n"}
+{"rank": 10, "bleu_score": 0, "candidate": "            return\n"}
+{"rank": 11, "bleu_score": 0, "candidate": "            return\n"}
+{"rank": 12, "bleu_score": 0, "candidate": "            return\n"}
+{"rank": 13, "bleu_score": 0, "candidate": "            # (no-op)\n"}
+{"rank": 14, "bleu_score": 0, "candidate": "            return\n"}
+{"rank": 15, "bleu_score": 0, "candidate": "            return\n"}
+{"rank": 16, "bleu_score": 0.22442554984526566, "candidate": "            if config is not None:\n"}
+{"rank": 17, "bleu_score": 0, "candidate": "            return\n"}
+{"rank": 18, "bleu_score": 3.4801219492560007e-155, "candidate": "            elif new_status == PENDING:\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "            return\n"}
+{"rank": 20, "bleu_score": 0, "candidate": "            return\n"}

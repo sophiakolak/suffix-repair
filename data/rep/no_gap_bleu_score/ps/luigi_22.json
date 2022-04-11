@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active=None):\n"}
+{"rank": 2, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active):\n"}
+{"rank": 3, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active=None):\n"}
+{"rank": 4, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active=None):\n"}
+{"rank": 5, "bleu_score": 0.5883484054145521, "candidate": "    def __init__(self, worker_id, last_active, **kwargs):\n"}
+{"rank": 6, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active):\n"}
+{"rank": 7, "bleu_score": 0.6908492797077574, "candidate": "    def __init__(self, worker_id, last_active=0, tasks=None):\n"}
+{"rank": 8, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active):\n"}
+{"rank": 9, "bleu_score": 0.6908492797077574, "candidate": "    def __init__(self, worker_id, last_active, assistant=False):\n"}
+{"rank": 10, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active):\n"}
+{"rank": 11, "bleu_score": 0.6908492797077574, "candidate": "    def __init__(self, worker_id, last_active, assistant=False):\n"}
+{"rank": 12, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active=None):\n"}
+{"rank": 13, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active=0):\n"}
+{"rank": 14, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active):\n"}
+{"rank": 15, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active=0):\n"}
+{"rank": 16, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active=0):\n"}
+{"rank": 17, "bleu_score": 0.6908492797077574, "candidate": "    def __init__(self, worker_id, last_active=0, assistant=False):\n"}
+{"rank": 18, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active):\n"}
+{"rank": 19, "bleu_score": 0.6908492797077574, "candidate": "    def __init__(self, worker_id, worker_reference, last_active=0):\n"}
+{"rank": 20, "bleu_score": 0.6849992935944881, "candidate": "    def __init__(self, worker_id, last_active=None):\n"}

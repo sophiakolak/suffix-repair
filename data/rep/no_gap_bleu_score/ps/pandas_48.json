@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 3.210460101135254e-155, "candidate": "                    except NotImplementedError:\n"}
+{"rank": 2, "bleu_score": 3.931994543672716e-155, "candidate": "                    except TypeError:\n"}
+{"rank": 3, "bleu_score": 3.931994543672716e-155, "candidate": "                    except TypeError:\n"}
+{"rank": 4, "bleu_score": 7.2900276358863456e-155, "candidate": "                        result = result.reshape(block.values.shape)\n"}
+{"rank": 5, "bleu_score": 0.5773502691896257, "candidate": "                    except (TypeError, ValueError):\n"}
+{"rank": 6, "bleu_score": 3.210460101135254e-155, "candidate": "                    except Exception:\n"}
+{"rank": 7, "bleu_score": 3.931994543672716e-155, "candidate": "                    except ValueError:\n"}
+{"rank": 8, "bleu_score": 1.0, "candidate": "                    except (ValueError, TypeError):\n"}
+{"rank": 9, "bleu_score": 3.931994543672716e-155, "candidate": "                    except ValueError:\n"}
+{"rank": 10, "bleu_score": 0.5773502691896257, "candidate": "                    except (TypeError, ValueError):\n"}
+{"rank": 11, "bleu_score": 3.210460101135254e-155, "candidate": "                    except Exception:\n"}
+{"rank": 12, "bleu_score": 3.931994543672716e-155, "candidate": "                    except ValueError:\n"}
+{"rank": 13, "bleu_score": 3.931994543672716e-155, "candidate": "                    except TypeError:\n"}
+{"rank": 14, "bleu_score": 7.789982830837433e-155, "candidate": "                        result = result.reshape(result.shape[0], -1)\n"}
+{"rank": 15, "bleu_score": 3.210460101135254e-155, "candidate": "                    except Exception:\n"}
+{"rank": 16, "bleu_score": 3.210460101135254e-155, "candidate": "                    except Exception:\n"}
+{"rank": 17, "bleu_score": 3.931994543672716e-155, "candidate": "                    except ValueError:\n"}
+{"rank": 18, "bleu_score": 1.0, "candidate": "                    except (ValueError, TypeError):\n"}
+{"rank": 19, "bleu_score": 3.210460101135254e-155, "candidate": "                    except Exception:\n"}
+{"rank": 20, "bleu_score": 0.5773502691896257, "candidate": "                    except (TypeError, ValueError):\n"}

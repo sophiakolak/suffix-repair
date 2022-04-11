@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.3834824944236852, "candidate": "            series = self._take_with_is_copy(self._xs(col, axis=1), index, axis=0)\n        else:\n"}
+{"rank": 2, "bleu_score": 0.36429287039633934, "candidate": "            series = self._iget_item_cache(col)\n            return series._get_values(index)\n"}
+{"rank": 3, "bleu_score": 0.2946898458772509, "candidate": "            series = self._take(index, convert=True, is_copy=False, validate=False)\n            return _maybe_box_datetimelike(series._values[col])\n"}
+{"rank": 4, "bleu_score": 0.2572478777137633, "candidate": "            series = self._take(index, convert=True, is_copy=False)\n            return series._values.ravel()[0]\n"}
+{"rank": 5, "bleu_score": 0.5601120336112039, "candidate": "            series = self._take(col, axis=1, convert=False)\n            return _maybe_box_datetimelike(series._values[index])\n"}
+{"rank": 6, "bleu_score": 0.3825568841689739, "candidate": "            series = self._ixs(index, col)\n        else:\n"}
+{"rank": 7, "bleu_score": 0.24152294576982403, "candidate": "            series = self._take(index, axis=0, convert=True)._iget_item_cache(col)\n        else:\n"}
+{"rank": 8, "bleu_score": 0.42817441928883765, "candidate": "            series = self._take(self._row_labels_to_numeric(index), axis=1)\n            return series[col]\n"}
+{"rank": 9, "bleu_score": 0.36697077150869745, "candidate": "            series = self._take(\n                self.columns.get_loc(col), axis=1, verify_integrity=False\n"}
+{"rank": 10, "bleu_score": 9.434137710479516e-155, "candidate": "            return self._take(self._validate_read_indexer(index, axis=0), col)\n        self._check_setitem_copy()\n"}
+{"rank": 11, "bleu_score": 0.1815682598006407, "candidate": "            series = self._take(index, convert=False, is_copy=False, validate=False)\n        else:\n"}
+{"rank": 12, "bleu_score": 0.50709255283711, "candidate": "            series = self._take(self.loc._convert_to_indexer(col, axis=1), axis=1)\n            return _maybe_box_datetimelike(series._values[index])\n"}
+{"rank": 13, "bleu_score": 0.40219983326992187, "candidate": "            series = self._take(index, convert=True, axis=0, is_copy=False)\n            return series._values[col]\n"}
+{"rank": 14, "bleu_score": 0.20701966780270625, "candidate": "            return self._take(np.array([index]), np.array([col]), axis=1).get_values()[0]\n        return self._xs(col, axis=1)._get_value(index)\n"}
+{"rank": 15, "bleu_score": 0.4696682183138622, "candidate": "            series = self._take(self._row_labels_to_numbers([index]), col, axis=1)\n        else:\n"}
+{"rank": 16, "bleu_score": 0.5244044240850758, "candidate": "            series = self._take(self._row_indexer(index), axis=1)\n            return series._values[0]\n"}
+{"rank": 17, "bleu_score": 0.36429287039633934, "candidate": "            series = self._iget_item_cache(col)\n            return series.iat(index)\n"}
+{"rank": 18, "bleu_score": 0.36313651960128146, "candidate": "            series = self._ take_with_is_copy(index, axis=0)\n            return series._get_value(col)\n"}
+{"rank": 19, "bleu_score": 0.19615412827794998, "candidate": "            series = self._take(index, convert=True, verify_is_slice_like=False)\n        else:\n"}
+{"rank": 20, "bleu_score": 0.20851441405707477, "candidate": "            series = self._take(self._row_axis.reindex(index), col, axis=1, verify=True)\n        elif col in self.columns and index in self.index:\n"}

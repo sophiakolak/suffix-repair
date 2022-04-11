@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.25091539267089075, "candidate": "    if not int_str:\n        return None\n"}
+{"rank": 2, "bleu_score": 0.9045340337332909, "candidate": "    if not isinstance(int_str, compat_str):\n        return None\n"}
+{"rank": 3, "bleu_score": 0, "candidate": ""}
+{"rank": 4, "bleu_score": 0, "candidate": ""}
+{"rank": 5, "bleu_score": 0.25091539267089075, "candidate": "    if not int_str:\n        return None\n"}
+{"rank": 6, "bleu_score": 0.25091539267089075, "candidate": "    if not int_str:\n        return None\n"}
+{"rank": 7, "bleu_score": 0, "candidate": ""}
+{"rank": 8, "bleu_score": 0, "candidate": ""}
+{"rank": 9, "bleu_score": 0, "candidate": ""}
+{"rank": 10, "bleu_score": 0, "candidate": ""}
+{"rank": 11, "bleu_score": 0, "candidate": ""}
+{"rank": 12, "bleu_score": 0, "candidate": ""}
+{"rank": 13, "bleu_score": 0, "candidate": ""}
+{"rank": 14, "bleu_score": 0.2335496832484569, "candidate": "    int_str = str_or_none(int_str)\n    if int_str is None:\n"}
+{"rank": 15, "bleu_score": 0, "candidate": ""}
+{"rank": 16, "bleu_score": 0, "candidate": ""}
+{"rank": 17, "bleu_score": 0, "candidate": ""}
+{"rank": 18, "bleu_score": 0.9045340337332909, "candidate": "    if not isinstance(int_str, compat_str):\n        return None\n"}
+{"rank": 19, "bleu_score": 0, "candidate": ""}
+{"rank": 20, "bleu_score": 0.25091539267089075, "candidate": "    if not int_str:\n        return None\n"}

@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.4472135954999579, "candidate": "                pipe.pipe(docs, golds=golds, **kwargs)\n"}
+{"rank": 2, "bleu_score": 0.4830458915396479, "candidate": "                pipe(docs, golds, **kwargs)\n"}
+{"rank": 3, "bleu_score": 0.21081851067789192, "candidate": "                with self.use_params(optimizer=self.optimizer, **kwargs):\n"}
+{"rank": 4, "bleu_score": 0.4830458915396479, "candidate": "                pipe(docs, golds, **kwargs)\n"}
+{"rank": 5, "bleu_score": 0.44153854132913556, "candidate": "                pipe(docs, **kwargs)\n"}
+{"rank": 6, "bleu_score": 6.361471949532526e-155, "candidate": "                scorer.scores.setdefault(name, {})\n"}
+{"rank": 7, "bleu_score": 4.1072732976237014e-155, "candidate": "                if pipe is golds[0]:\n"}
+{"rank": 8, "bleu_score": 0, "candidate": "                continue\n"}
+{"rank": 9, "bleu_score": 0.33968311024337877, "candidate": "                scorer.add_scores(pipe.evaluate(docs, golds, **kwargs))\n"}
+{"rank": 10, "bleu_score": 3.470625308865635e-155, "candidate": "                pipe = [pipe]\n"}
+{"rank": 11, "bleu_score": 0, "candidate": "                if verbose:\n"}
+{"rank": 12, "bleu_score": 0.44153854132913556, "candidate": "                pipe(docs, **kwargs)\n"}
+{"rank": 13, "bleu_score": 0.557773351022717, "candidate": "                docs = pipe.process(docs, **kwargs)\n"}
+{"rank": 14, "bleu_score": 0.4030676984898244, "candidate": "                pipe.pipe(docs, **kwargs)\n"}
+{"rank": 15, "bleu_score": 5.415362874261817e-155, "candidate": "                pipe.model = self.get_pipe(name)\n"}
+{"rank": 16, "bleu_score": 0.3692744729379982, "candidate": "                pipe.pipe_score(docs, golds, verbose=verbose, **kwargs)\n"}
+{"rank": 17, "bleu_score": 0.44153854132913556, "candidate": "                pipe(docs, **kwargs)\n"}
+{"rank": 18, "bleu_score": 1.1810622679088496e-155, "candidate": "                pipe = pipe.__call__\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "                continue\n"}
+{"rank": 20, "bleu_score": 0.4472135954999579, "candidate": "                pipe.pipe(docs, golds, **kwargs)\n"}

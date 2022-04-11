@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.372677996249965, "candidate": "        if hasattr(intensity, 'mask'):\n"}
+{"rank": 2, "bleu_score": 0.26726124191242434, "candidate": "        if np.issubdtype(elevation.dtype, np.bool_):\n"}
+{"rank": 3, "bleu_score": 0.3661475238303926, "candidate": "        if intensity.mask.any():\n"}
+{"rank": 4, "bleu_score": 0, "candidate": "        blend[intensity.mask] = 0\n"}
+{"rank": 5, "bleu_score": 0.36514837167011077, "candidate": "        if np.any(intensity.mask):\n"}
+{"rank": 6, "bleu_score": 8.612150057732663e-155, "candidate": "        if intensity.mask is not None:\n"}
+{"rank": 7, "bleu_score": 7.973301625706314e-155, "candidate": "        if (intensity.mask is not None and\n"}
+{"rank": 8, "bleu_score": 0.3661475238303926, "candidate": "        if intensity.mask.any():\n"}
+{"rank": 9, "bleu_score": 7.458340731200295e-155, "candidate": "        if blend.shape[2] == 4:\n"}
+{"rank": 10, "bleu_score": 7.458340731200295e-155, "candidate": "        if blend.shape[2] == 4:\n"}
+{"rank": 11, "bleu_score": 0.42257712736425823, "candidate": "        if isinstance(intensity, np.ma.MaskedArray):\n"}
+{"rank": 12, "bleu_score": 0.165748386032949, "candidate": "        if hasattr(intensity, 'mask') and intensity.mask is not None:\n"}
+{"rank": 13, "bleu_score": 0.3661475238303926, "candidate": "        if intensity.mask.any():\n"}
+{"rank": 14, "bleu_score": 7.724018672342283e-155, "candidate": "        if blend.ndim == 3:\n"}
+{"rank": 15, "bleu_score": 6.08970970641905e-155, "candidate": "        if intensity.ndim == rgb.ndim and intensity.shape[2] == 1:\n"}
+{"rank": 16, "bleu_score": 8.612150057732663e-155, "candidate": "        if intensity.mask is not ma.nomask:\n"}
+{"rank": 17, "bleu_score": 1.0, "candidate": "        if np.ma.is_masked(intensity):\n"}
+{"rank": 18, "bleu_score": 0.19174124721184263, "candidate": "        if hasattr(intensity, 'mask') and hasattr(rgb, 'mask'):\n"}
+{"rank": 19, "bleu_score": 0.7559289460184544, "candidate": "        if not np.ma.is_masked(intensity):\n"}
+{"rank": 20, "bleu_score": 1.0547686614863434e-154, "candidate": "        if intensity is not None:\n"}

@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 5.251383946170092e-156, "candidate": "        else:\n"}
+{"rank": 2, "bleu_score": 0, "candidate": "            (indexer, missing) = self._engine.get_indexer_non_unique(tgt_values)\n"}
+{"rank": 3, "bleu_score": 4.363467676954367e-155, "candidate": "            if tgt_values.dtype != self.categories.dtype:\n"}
+{"rank": 4, "bleu_score": 0, "candidate": "            target = target.categories.take(tgt_values)\n"}
+{"rank": 5, "bleu_score": 0, "candidate": "            indexer = self.get_indexer(target.categories)\n"}
+{"rank": 6, "bleu_score": 0, "candidate": "            indexer, mask = self._engine.get_indexer_non_unique(tgt_values)\n"}
+{"rank": 7, "bleu_score": 0, "candidate": "            indexer, missing = self._engine.get_indexer_non_unique(tgt_values)\n"}
+{"rank": 8, "bleu_score": 3.6610910047675874e-155, "candidate": "            if self.categories.nlevels > 1:\n"}
+{"rank": 9, "bleu_score": 5.177564552024615e-155, "candidate": "            if self.categories.is_unique and self.is_unique:\n"}
+{"rank": 10, "bleu_score": 4.363467676954367e-155, "candidate": "            if self.categories.is_dtype_equal(target.categories):\n"}
+{"rank": 11, "bleu_score": 0, "candidate": "            target = target.remove_unused_categories()\n"}
+{"rank": 12, "bleu_score": 0, "candidate": "            target = target._constructor(\n"}
+{"rank": 13, "bleu_score": 0, "candidate": "            tgt_categories = target.categories\n"}
+{"rank": 14, "bleu_score": 5.251383946170092e-156, "candidate": "        else:\n"}
+{"rank": 15, "bleu_score": 0, "candidate": "            return lib.fast_zip(self, tgt_values)\n"}
+{"rank": 16, "bleu_score": 5.251383946170092e-156, "candidate": "        else:\n"}
+{"rank": 17, "bleu_score": 4.363467676954367e-155, "candidate": "            if target.categories is not self.categories:\n"}
+{"rank": 18, "bleu_score": 4.363467676954367e-155, "candidate": "            if self.dtype.categories.is_dtype_equal(target):\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "            tgt_codes = target.codes\n"}
+{"rank": 20, "bleu_score": 0, "candidate": "            indexer, missing = self._engine.get_indexer(tgt_values)\n"}

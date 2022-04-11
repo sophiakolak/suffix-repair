@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 5.99865201163633e-157, "candidate": "        if priority is not None:\n            task.priority = priority\n"}
+{"rank": 2, "bleu_score": 5.99865201163633e-157, "candidate": "        if expl_magnitude is not None:\n            task.expl_magnitude = expl_magnitude\n"}
+{"rank": 3, "bleu_score": 5.99865201163633e-157, "candidate": "        if priority is not None:\n            task.priority = priority\n"}
+{"rank": 4, "bleu_score": 5.99865201163633e-157, "candidate": "        task.priority = priority\n        if task.batch_id is not None:\n"}
+{"rank": 5, "bleu_score": 5.99865201163633e-157, "candidate": "        if expl_type is not None:\n            task.expl_type = expl_type\n"}
+{"rank": 6, "bleu_score": 5.99865201163633e-157, "candidate": "        if priority is not None:\n            task.priority = priority\n"}
+{"rank": 7, "bleu_score": 5.99865201163633e-157, "candidate": "        if priority is not None:\n            task.priority = priority\n"}
+{"rank": 8, "bleu_score": 2.4612373359765546e-156, "candidate": "        if priority is not None:\n            if batch_id is not None:\n"}
+{"rank": 9, "bleu_score": 4.006240734984027e-156, "candidate": "        if resources is not None:\n            assert isinstance(resources, dict)\n"}
+{"rank": 10, "bleu_score": 5.99865201163633e-157, "candidate": "        if comment is not None:\n            task.comment = comment\n"}
+{"rank": 11, "bleu_score": 7.097700778378077e-157, "candidate": "        if status is not None:\n            old_status = task.status\n"}
+{"rank": 12, "bleu_score": 7.097700778378077e-157, "candidate": "        if status is not None:\n            task.status = status\n"}
+{"rank": 13, "bleu_score": 5.99865201163633e-157, "candidate": "        if keep_result is not None:\n            task.keep_result = keep_result\n"}
+{"rank": 14, "bleu_score": 7.097700778378077e-157, "candidate": "        if status is not None:\n            task.status = status\n"}
+{"rank": 15, "bleu_score": 0.006674537674833809, "candidate": "        task.set_status(status)\n        if status == FAILED and not task.worker_running:\n"}
+{"rank": 16, "bleu_score": 5.99865201163633e-157, "candidate": "        if requires_docker is not None:\n            task.requires_docker = requires_docker\n"}
+{"rank": 17, "bleu_score": 2.53534190905184e-158, "candidate": "        if reset_dep_errors:\n            task.dep_errors = None\n"}
+{"rank": 18, "bleu_score": 0.1985774602186126, "candidate": "        # status can be forced, except when task is running\n        if task.status not in (RUNNING, FAILED_WAITING, UP_FOR_RETRY) or status not in (RUNNING,):\n"}
+{"rank": 19, "bleu_score": 2.53534190905184e-158, "candidate": "        task.priority = priority\n        self._state.prune_tree_cache()\n"}
+{"rank": 20, "bleu_score": 5.99865201163633e-157, "candidate": "        if origin is not None:\n            task.origin = origin\n"}

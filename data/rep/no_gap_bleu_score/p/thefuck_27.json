@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0, "candidate": "    old_cmd = command.script\n"}
+{"rank": 2, "bleu_score": 0.19462473604038075, "candidate": "    url = command.script.split(' ', 1)[1]\n"}
+{"rank": 3, "bleu_score": 0.17260359801008904, "candidate": "    address = command.script.split(' ')[1]\n"}
+{"rank": 4, "bleu_score": 4.523712324056519e-155, "candidate": "    url = command.script.split()[1]\n"}
+{"rank": 5, "bleu_score": 0.1815682598006407, "candidate": "    return 'xdg-open ' + command.script.split(' ', 1)[1]\n"}
+{"rank": 6, "bleu_score": 0.16210213737276044, "candidate": "    if not command.script.startswith('http'):\n"}
+{"rank": 7, "bleu_score": 0.17260359801008904, "candidate": "    website = command.script.split(' ')[1]\n"}
+{"rank": 8, "bleu_score": 0, "candidate": "    url = command.script_parts[1]\n"}
+{"rank": 9, "bleu_score": 0.12126781251816653, "candidate": "    url = re.sub('^open[ ]?', '', command.script).strip()\n"}
+{"rank": 10, "bleu_score": 3.880277057527462e-155, "candidate": "    if ' ' in command.script:\n"}
+{"rank": 11, "bleu_score": 0.14433756729740646, "candidate": "    url = command.script[command.script.index(' ') + 1:].strip()\n"}
+{"rank": 12, "bleu_score": 0.49248990186607133, "candidate": "    return 'xdg-open ' + command.script.replace('open ', '')\n"}
+{"rank": 13, "bleu_score": 3.168232950523297e-155, "candidate": "    if '.com' in command.script:\n"}
+{"rank": 14, "bleu_score": 6.689196389553558e-155, "candidate": "    return 'xdg-open \"{}\"'.format(command.script)\n"}
+{"rank": 15, "bleu_score": 0.2279211529192759, "candidate": "    return u' '.join(('xdg-open', 'http://' + command.script.split()[1]))\n"}
+{"rank": 16, "bleu_score": 0, "candidate": "    url = ''\n"}
+{"rank": 17, "bleu_score": 3.903263309996421e-155, "candidate": "    return u'xdg-open %s' % command.script\n"}
+{"rank": 18, "bleu_score": 0, "candidate": "    new_cmd = command.script\n"}
+{"rank": 19, "bleu_score": 0.160422236979937, "candidate": "    return 'open {}'.format(command.script[command.script.index(' ')+1:])\n"}
+{"rank": 20, "bleu_score": 0.14433756729740646, "candidate": "    name = command.script[command.script.find(' ') + 1:].lower()\n"}

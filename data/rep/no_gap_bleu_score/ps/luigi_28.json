@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 2, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 3, "bleu_score": 0.24618298195866542, "candidate": "            if '\\n{0}\\n'.format(table) in stdout:\n"}
+{"rank": 4, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 5, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 6, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 7, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 8, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 9, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 10, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 11, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 12, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 13, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 14, "bleu_score": 4.887436488566011e-155, "candidate": "            # stdout contains only the table name\n"}
+{"rank": 15, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 16, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 17, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 18, "bleu_score": 0.09128709291752769, "candidate": "            if stdout.strip().split(\"\\n\")[-1] == table:\n"}
+{"rank": 19, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}
+{"rank": 20, "bleu_score": 1.6266250338817998e-155, "candidate": "            if stdout:\n"}

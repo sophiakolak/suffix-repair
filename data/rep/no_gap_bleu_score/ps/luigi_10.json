@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.07392391013372138, "candidate": "            return state.get_pending_tasks(self)\n"}
+{"rank": 2, "bleu_score": 0.4688072309384954, "candidate": "            return six.moves.filter(lambda task: task.status in [PENDING, RUNNING],\n"}
+{"rank": 3, "bleu_score": 0.1795067867377381, "candidate": "            return six.moves.filter(state.has_task, self.tasks)\n"}
+{"rank": 4, "bleu_score": 2.614510115538735e-157, "candidate": "            return self.tasks\n"}
+{"rank": 5, "bleu_score": 7.458340731200295e-155, "candidate": "            return [task for task in self.tasks if task.status in [PENDING, RUNNING]]\n"}
+{"rank": 6, "bleu_score": 0.4688072309384954, "candidate": "            return six.moves.filter(lambda task: task.status in [PENDING, RUNNING],\n"}
+{"rank": 7, "bleu_score": 0.2970442628930023, "candidate": "            return six.moves.filter(lambda task_id: state.get_task(task_id).status in [PENDING, RUNNING],\n"}
+{"rank": 8, "bleu_score": 7.458340731200295e-155, "candidate": "            return [task for task in self.tasks if task.status in [PENDING, RUNNING]]\n"}
+{"rank": 9, "bleu_score": 0.4688072309384954, "candidate": "            return six.moves.filter(lambda task: task.status in [PENDING, RUNNING],\n"}
+{"rank": 10, "bleu_score": 0, "candidate": "            current_tasks = self.tasks\n"}
+{"rank": 11, "bleu_score": 0.4688072309384954, "candidate": "            return six.moves.filter(lambda task: task.status in [PENDING, RUNNING],\n"}
+{"rank": 12, "bleu_score": 2.614510115538735e-157, "candidate": "            return self.tasks\n"}
+{"rank": 13, "bleu_score": 0.4688072309384954, "candidate": "            return six.moves.filter(lambda task: task.status in [PENDING, RUNNING],\n"}
+{"rank": 14, "bleu_score": 0.4688072309384954, "candidate": "            return six.moves.filter(lambda task: task.status in [PENDING, RUNNING],\n"}
+{"rank": 15, "bleu_score": 0, "candidate": "            # Find all tasks that aren't done. Optimization for the case when\n"}
+{"rank": 16, "bleu_score": 0.4688072309384954, "candidate": "            return six.moves.filter(lambda task: task.status in [PENDING, RUNNING],\n"}
+{"rank": 17, "bleu_score": 2.614510115538735e-157, "candidate": "            return self.tasks\n"}
+{"rank": 18, "bleu_score": 2.7803400054195585e-155, "candidate": "            tasks = state.tasks_by_worker(self.id)\n"}
+{"rank": 19, "bleu_score": 0.4180179919586497, "candidate": "            return six.moves.filter(lambda task: task.status == PENDING,\n"}
+{"rank": 20, "bleu_score": 1.9099314207779188e-155, "candidate": "            return list(self.tasks)\n"}

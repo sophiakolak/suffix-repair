@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.3335524767176619, "candidate": "            exc_info = failure.getTraceback().exc_info()\n"}
+{"rank": 2, "bleu_score": 0, "candidate": "            # get the original exception\n"}
+{"rank": 3, "bleu_score": 0, "candidate": "            try:\n"}
+{"rank": 4, "bleu_score": 0.7567874686642695, "candidate": "            exc_info = (failure.type, failure.value, failure.getTracebackObject())\n"}
+{"rank": 5, "bleu_score": 0.7567874686642695, "candidate": "            exc_info = (failure.type, failure.value, failure.getTracebackObject())\n"}
+{"rank": 6, "bleu_score": 0.6351142315744462, "candidate": "            exc_info = failure.type, failure.value, failure.tb\n"}
+{"rank": 7, "bleu_score": 0, "candidate": "            try:\n"}
+{"rank": 8, "bleu_score": 0.4264014327112209, "candidate": "            exc_info = (type(failure.type), failure.value, failure.tb)\n"}
+{"rank": 9, "bleu_score": 0, "candidate": "            try:\n"}
+{"rank": 10, "bleu_score": 0.2841805890588978, "candidate": "            exc_info = failure.exc_info()\n"}
+{"rank": 11, "bleu_score": 0.11696509352786895, "candidate": "            # failure.printTraceback()\n"}
+{"rank": 12, "bleu_score": 1.1899395328239872e-154, "candidate": "            _, exc_info, _ = failure.trap(*failure.type)\n"}
+{"rank": 13, "bleu_score": 0.7567874686642695, "candidate": "            exc_info = (failure.type, failure.value, failure.getTracebackObject())\n"}
+{"rank": 14, "bleu_score": 0.6666666666666666, "candidate": "            exc_info = (failure.type, failure.value, failure.tb)\n"}
+{"rank": 15, "bleu_score": 0.2841805890588978, "candidate": "            exc_info = sys.exc_info()\n"}
+{"rank": 16, "bleu_score": 0.3922322702763681, "candidate": "            exc_info = (type(failure), failure, failure.getTracebackObject())\n"}
+{"rank": 17, "bleu_score": 0.6666666666666666, "candidate": "            exc_info = (failure.type, failure.value, failure.tb)\n"}
+{"rank": 18, "bleu_score": 0.7567874686642695, "candidate": "            exc_info = (failure.type, failure.value, failure.getTracebackObject())\n"}
+{"rank": 19, "bleu_score": 2.997447795420392e-155, "candidate": "            for exc_info in failure.value.exc_info:\n"}
+{"rank": 20, "bleu_score": 0.7567874686642695, "candidate": "            exc_info = (failure.type, failure.value, failure.getTracebackObject())\n"}

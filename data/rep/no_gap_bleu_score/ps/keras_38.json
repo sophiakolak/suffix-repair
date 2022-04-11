@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 1.0, "candidate": "            input_shape = (input_shape[0], output_dim)\n"}
+{"rank": 2, "bleu_score": 1.0, "candidate": "            input_shape = (input_shape[0], output_dim)\n"}
+{"rank": 3, "bleu_score": 1.0, "candidate": "            input_shape = (input_shape[0], output_dim)\n"}
+{"rank": 4, "bleu_score": 0.6201736729460423, "candidate": "            input_shape = tuple([input_shape[0], output_dim])\n"}
+{"rank": 5, "bleu_score": 1.0, "candidate": "            input_shape = (input_shape[0], output_dim)\n"}
+{"rank": 6, "bleu_score": 1.0, "candidate": "            input_shape = (input_shape[0], output_dim)\n"}
+{"rank": 7, "bleu_score": 1.0, "candidate": "            input_shape = (input_shape[0], output_dim)\n"}
+{"rank": 8, "bleu_score": 1.0, "candidate": "            input_shape = (input_shape[0], output_dim)\n"}
+{"rank": 9, "bleu_score": 0.6546536707079771, "candidate": "            input_shape = (input_shape[0], input_shape[1], output_dim)\n"}
+{"rank": 10, "bleu_score": 1.0, "candidate": "            input_shape = (input_shape[0], output_dim)\n"}
+{"rank": 11, "bleu_score": 1.0, "candidate": "            input_shape = (input_shape[0], output_dim)\n"}
+{"rank": 12, "bleu_score": 0, "candidate": ""}
+{"rank": 13, "bleu_score": 1.0, "candidate": "            input_shape = (input_shape[0], output_dim)\n"}
+{"rank": 14, "bleu_score": 0.6546536707079771, "candidate": "            input_shape = (input_shape[0], input_shape[1], output_dim)\n"}
+{"rank": 15, "bleu_score": 0.6546536707079771, "candidate": "            input_shape = (input_shape[0], input_shape[1], output_dim)\n"}
+{"rank": 16, "bleu_score": 0.6546536707079771, "candidate": "            input_shape = (input_shape[0], input_shape[1], output_dim)\n"}
+{"rank": 17, "bleu_score": 1.0, "candidate": "            input_shape = (input_shape[0], output_dim)\n"}
+{"rank": 18, "bleu_score": 0.4140393356054125, "candidate": "            input_shape = tuple([input_shape[0]] + [output_dim])\n"}
+{"rank": 19, "bleu_score": 1.0, "candidate": "            input_shape = (input_shape[0], output_dim)\n"}
+{"rank": 20, "bleu_score": 1.0, "candidate": "            input_shape = (input_shape[0], output_dim)\n"}

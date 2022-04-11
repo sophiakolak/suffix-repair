@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 3.168232950523297e-155, "candidate": "        self.float_format = float_format\n"}
+{"rank": 2, "bleu_score": 5.4617059812245815e-155, "candidate": "        self.cols = cols or df.columns\n"}
+{"rank": 3, "bleu_score": 3.168232950523297e-155, "candidate": "        self.float_format = float_format\n"}
+{"rank": 4, "bleu_score": 0.25819888974716115, "candidate": "            self.df = df[cols]\n"}
+{"rank": 5, "bleu_score": 5.637975647982813e-155, "candidate": "            if len(Index(cols)) != len(Index(cols).unique()):\n"}
+{"rank": 6, "bleu_score": 3.168232950523297e-155, "candidate": "        self.float_format = float_format\n"}
+{"rank": 7, "bleu_score": 3.168232950523297e-155, "candidate": "        self.float_format = float_format\n"}
+{"rank": 8, "bleu_score": 3.168232950523297e-155, "candidate": "        self.cols = cols\n"}
+{"rank": 9, "bleu_score": 6.08970970641905e-155, "candidate": "            df = df[cols]\n"}
+{"rank": 10, "bleu_score": 0.25819888974716115, "candidate": "            self.df = df[cols]\n"}
+{"rank": 11, "bleu_score": 3.168232950523297e-155, "candidate": "            self.columns = cols\n"}
+{"rank": 12, "bleu_score": 3.168232950523297e-155, "candidate": "        self.cols = cols\n"}
+{"rank": 13, "bleu_score": 3.168232950523297e-155, "candidate": "        self.cols = cols\n"}
+{"rank": 14, "bleu_score": 3.168232950523297e-155, "candidate": "            self.float_format = float_format\n"}
+{"rank": 15, "bleu_score": 3.168232950523297e-155, "candidate": "        self.cols = cols\n"}
+{"rank": 16, "bleu_score": 0.25819888974716115, "candidate": "            self.df = self.df[cols]\n"}
+{"rank": 17, "bleu_score": 3.168232950523297e-155, "candidate": "        self.cols = cols\n"}
+{"rank": 18, "bleu_score": 0, "candidate": "            # all are present, but not all in the same order, reorder\n"}
+{"rank": 19, "bleu_score": 3.168232950523297e-155, "candidate": "        self.float_format = float_format\n"}
+{"rank": 20, "bleu_score": 7.031791076575252e-155, "candidate": "        if not isinstance(cols, ABCIndexClass):\n"}

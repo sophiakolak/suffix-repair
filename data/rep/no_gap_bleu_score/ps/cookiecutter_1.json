@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.6363062286628628, "candidate": "        with open(context_file) as file_handle:\n"}
+{"rank": 2, "bleu_score": 0.50709255283711, "candidate": "        with codecs.open(context_file, 'r', 'utf-8') as file_handle:\n"}
+{"rank": 3, "bleu_score": 0.7237468644557459, "candidate": "        with open(context_file, 'r', encoding='utf-8') as file_handle:\n"}
+{"rank": 4, "bleu_score": 0.6363062286628628, "candidate": "        with open(context_file) as file_handle:\n"}
+{"rank": 5, "bleu_score": 0.778498944161523, "candidate": "        with open(context_file, 'r') as file_handle:\n"}
+{"rank": 6, "bleu_score": 0.8528028654224418, "candidate": "        with io.open(context_file, encoding='utf-8') as file_handle:\n"}
+{"rank": 7, "bleu_score": 0.6363062286628628, "candidate": "        with open(context_file) as file_handle:\n"}
+{"rank": 8, "bleu_score": 0.6363062286628628, "candidate": "        with open(context_file) as file_handle:\n"}
+{"rank": 9, "bleu_score": 0.6363062286628628, "candidate": "        with open(context_file) as file_handle:\n"}
+{"rank": 10, "bleu_score": 0.8528028654224418, "candidate": "        with io.open(context_file, encoding='utf-8') as file_handle:\n"}
+{"rank": 11, "bleu_score": 0.8528028654224418, "candidate": "        with codecs.open(context_file, encoding='utf-8') as file_handle:\n"}
+{"rank": 12, "bleu_score": 0.8528028654224418, "candidate": "        with io.open(context_file, encoding='utf-8') as file_handle:\n"}
+{"rank": 13, "bleu_score": 0.6363062286628628, "candidate": "        with open(context_file) as file_handle:\n"}
+{"rank": 14, "bleu_score": 9.628676480759687e-155, "candidate": "        logger.debug('Loading JSON context from %s', context_file)\n"}
+{"rank": 15, "bleu_score": 0.8528028654224418, "candidate": "        with io.open(context_file, encoding='utf-8') as file_handle:\n"}
+{"rank": 16, "bleu_score": 0.6363062286628628, "candidate": "        with open(context_file) as file_handle:\n"}
+{"rank": 17, "bleu_score": 0.6172133998483675, "candidate": "        with io.open(context_file, 'r', encoding='utf-8') as file_handle:\n"}
+{"rank": 18, "bleu_score": 0.8528028654224418, "candidate": "        with codecs.open(context_file, encoding='utf-8') as file_handle:\n"}
+{"rank": 19, "bleu_score": 0.6363062286628628, "candidate": "        with open(context_file) as file_handle:\n"}
+{"rank": 20, "bleu_score": 1.0, "candidate": "        with open(context_file, encoding='utf-8') as file_handle:\n"}

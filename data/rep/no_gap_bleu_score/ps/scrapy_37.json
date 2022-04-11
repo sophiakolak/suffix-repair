@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.07233975174477364, "candidate": "        if not has_scheme(self._url):\n"}
+{"rank": 2, "bleu_score": 0.4584940823244489, "candidate": "        if ':' not in self._url and self._url.startswith('//'):\n"}
+{"rank": 3, "bleu_score": 1.8426858432435992e-156, "candidate": "        if not self._parsed_url.scheme:\n"}
+{"rank": 4, "bleu_score": 0.16642074010454436, "candidate": "        if ':' not in self._url:\n"}
+{"rank": 5, "bleu_score": 1.8120188355374236e-155, "candidate": "        # FIXME: urlparse chokes on some URLs without a scheme\n"}
+{"rank": 6, "bleu_score": 7.069283256377956e-156, "candidate": "        if self.url != s:\n"}
+{"rank": 7, "bleu_score": 0.2657232342465004, "candidate": "        if not s.startswith('http') and not s.startswith('file'):\n"}
+{"rank": 8, "bleu_score": 2.127750335257155e-156, "candidate": "        if not self._url:\n"}
+{"rank": 9, "bleu_score": 0.025957555738330737, "candidate": "        parsed = urlparse(self._url)\n"}
+{"rank": 10, "bleu_score": 0.07233975174477364, "candidate": "        if not is_valid_url(self._url):\n"}
+{"rank": 11, "bleu_score": 2.127750335257155e-156, "candidate": "        if not self._url:\n"}
+{"rank": 12, "bleu_score": 2.127750335257155e-156, "candidate": "        if not self._url:\n"}
+{"rank": 13, "bleu_score": 8.658068412663807e-156, "candidate": "        if self._url != s:\n"}
+{"rank": 14, "bleu_score": 0.07233975174477364, "candidate": "        if not is_valid_url(self._url):\n"}
+{"rank": 15, "bleu_score": 0.04557619669598179, "candidate": "    def _set_body(self, body):\n"}
+{"rank": 16, "bleu_score": 1.8426858432435992e-156, "candidate": "        if not self._parsed_url:\n"}
+{"rank": 17, "bleu_score": 0.46292936719170963, "candidate": "        if not (self._url.startswith('http://') or self._url.startswith('https://')):\n"}
+{"rank": 18, "bleu_score": 0.26504370904307967, "candidate": "        if hasattr(self, '_encoding') and not hasattr(self, '_original_url'):\n"}
+{"rank": 19, "bleu_score": 8.658068412663807e-156, "candidate": "        if self._url != s:\n"}
+{"rank": 20, "bleu_score": 0, "candidate": "        # fix url\n"}

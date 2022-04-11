@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.6397631491849844, "candidate": "            with open(output, 'ab') as f:\n"}
+{"rank": 2, "bleu_score": 0.8660254037844387, "candidate": "            with open(output, 'a') as file:\n"}
+{"rank": 3, "bleu_score": 0.6458235274782097, "candidate": "            output = open(output, 'a')\n"}
+{"rank": 4, "bleu_score": 0.6866065623255951, "candidate": "            with open(output, 'a', encoding='utf-8') as f:\n"}
+{"rank": 5, "bleu_score": 0.8660254037844387, "candidate": "            with open(output, 'a') as f:\n"}
+{"rank": 6, "bleu_score": 0.8660254037844387, "candidate": "            with open(output, 'a') as f:\n"}
+{"rank": 7, "bleu_score": 0.7282190812544191, "candidate": "            with open(output, 'w') as f:\n"}
+{"rank": 8, "bleu_score": 0.8660254037844387, "candidate": "            with open(output, 'a') as f:\n"}
+{"rank": 9, "bleu_score": 1.0, "candidate": "            with open(output, 'a') as output_file:\n"}
+{"rank": 10, "bleu_score": 0.6458235274782097, "candidate": "            stderr = open(output, 'a')\n"}
+{"rank": 11, "bleu_score": 0.8660254037844387, "candidate": "            with open(output, 'a') as f:\n"}
+{"rank": 12, "bleu_score": 0.6201736729460423, "candidate": "            with open(output, mode='w') as f:\n"}
+{"rank": 13, "bleu_score": 0.6866065623255951, "candidate": "            with open(output, 'a', encoding='utf-8') as f:\n"}
+{"rank": 14, "bleu_score": 1.0, "candidate": "            with open(output, 'a') as output_file:\n"}
+{"rank": 15, "bleu_score": 0.8660254037844387, "candidate": "            with open(output, 'a') as f:\n"}
+{"rank": 16, "bleu_score": 0.6866065623255951, "candidate": "            with open(output, 'a', encoding='utf-8') as f:\n"}
+{"rank": 17, "bleu_score": 0.8660254037844387, "candidate": "            with open(output, 'a') as f:\n"}
+{"rank": 18, "bleu_score": 0.8660254037844387, "candidate": "            with open(output, 'a') as f:\n"}
+{"rank": 19, "bleu_score": 0.8660254037844387, "candidate": "            with open(output, 'a') as f:\n"}
+{"rank": 20, "bleu_score": 0.7282190812544191, "candidate": "            with open(output, 'w') as f:\n"}

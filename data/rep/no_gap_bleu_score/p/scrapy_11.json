@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 2, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 3, "bleu_score": 4.9823743656555826e-155, "candidate": "                    return output + f.extrabuf\n"}
+{"rank": 4, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 5, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 6, "bleu_score": 0, "candidate": "                    f.close()\n"}
+{"rank": 7, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 8, "bleu_score": 0, "candidate": "                    f.close()\n"}
+{"rank": 9, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 10, "bleu_score": 0, "candidate": "                    f.close()\n"}
+{"rank": 11, "bleu_score": 0.12309149097933275, "candidate": "                    output += getattr(f, 'extrabuf', b'')\n"}
+{"rank": 12, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 13, "bleu_score": 0, "candidate": "                    f.close()\n"}
+{"rank": 14, "bleu_score": 0, "candidate": "                    # re-create the GzipFile object to get the remaining data\n"}
+{"rank": 15, "bleu_score": 4.9823743656555826e-155, "candidate": "                    return output + f.extrabuf\n"}
+{"rank": 16, "bleu_score": 0, "candidate": "                    f.close()\n"}
+{"rank": 17, "bleu_score": 4.9823743656555826e-155, "candidate": "                    return output + f.extrabuf\n"}
+{"rank": 18, "bleu_score": 4.1371430671115046e-155, "candidate": "                    return output + getattr(f, 'extrabuf', b'')\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "                    f.close()\n"}
+{"rank": 20, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}

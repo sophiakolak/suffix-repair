@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 2, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 3, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 4, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 5, "bleu_score": 5.273843307431707e-155, "candidate": "                self._invalid_indexer(\"index\", key)\n"}
+{"rank": 6, "bleu_score": 9.434137710479516e-155, "candidate": "                return self.reindex(key)\n"}
+{"rank": 7, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 8, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values_for_integer_index(key)\n"}
+{"rank": 9, "bleu_score": 9.434137710479516e-155, "candidate": "                return self.reindex(key)\n"}
+{"rank": 10, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 11, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 12, "bleu_score": 0, "candidate": "                self._invalid_indexer(\n"}
+{"rank": 13, "bleu_score": 6.08970970641905e-155, "candidate": "                if is_integer(key):\n"}
+{"rank": 14, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 15, "bleu_score": 9.434137710479516e-155, "candidate": "                return self._get_values(key)\n"}
+{"rank": 16, "bleu_score": 5.273843307431707e-155, "candidate": "                self._invalid_indexer(\"indexers\", key)\n"}
+{"rank": 17, "bleu_score": 0, "candidate": "                # try and convert to an indexer\n"}
+{"rank": 18, "bleu_score": 9.434137710479516e-155, "candidate": "                return self.reindex(key)\n"}
+{"rank": 19, "bleu_score": 3.9866508128531494e-155, "candidate": "                # key is integer, but not an integer Index, treat as label\n"}
+{"rank": 20, "bleu_score": 0, "candidate": "                # First try to use fancy indexing\n"}

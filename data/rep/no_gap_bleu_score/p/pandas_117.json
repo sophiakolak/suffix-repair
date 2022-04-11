@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 1.0, "candidate": "    elif isinstance(obj, (ABCSeries, np.ndarray, ABCIndexClass, ABCExtensionArray)):\n"}
+{"rank": 2, "bleu_score": 0.2908342346129199, "candidate": "    elif isinstance(obj, ABCGeneric):\n"}
+{"rank": 3, "bleu_score": 1.0, "candidate": "    elif isinstance(obj, (ABCSeries, np.ndarray, ABCIndexClass, ABCExtensionArray)):\n"}
+{"rank": 4, "bleu_score": 0.1090473801416192, "candidate": "    elif is_extension_array_dtype(obj):\n"}
+{"rank": 5, "bleu_score": 0.3405901809296152, "candidate": "    elif isinstance(obj, ABCIndexClass):\n"}
+{"rank": 6, "bleu_score": 0.11569965176403985, "candidate": "    return bool(obj.isna().values.any())\n"}
+{"rank": 7, "bleu_score": 0.3405901809296152, "candidate": "    elif isinstance(obj, np.ndarray):\n"}
+{"rank": 8, "bleu_score": 0.7669649888473705, "candidate": "    elif isinstance(obj, (ABCSeries, ABCIndexClass, ABCExtensionArray, ABCDatetimeArray, ABCTimedeltaArray)):\n"}
+{"rank": 9, "bleu_score": 0.3405901809296152, "candidate": "    elif isinstance(obj, ABCIndexClass):\n"}
+{"rank": 10, "bleu_score": 0.40201836499596716, "candidate": "    elif isinstance(obj, np.ndarray) and obj.dtype.fields is not None:\n"}
+{"rank": 11, "bleu_score": 0.1090473801416192, "candidate": "    elif is_bool_dtype(obj):\n"}
+{"rank": 12, "bleu_score": 0.43105083831367547, "candidate": "    elif isinstance(obj, float) and not np.isfinite(obj):\n"}
+{"rank": 13, "bleu_score": 0.7603022137359318, "candidate": "    elif isinstance(obj, (ABCIndexClass, ABCSeries, np.ndarray)):\n"}
+{"rank": 14, "bleu_score": 0.832869345968568, "candidate": "    elif isinstance(obj, (ABCSeries, np.ndarray, ABCIndexClass)):\n"}
+{"rank": 15, "bleu_score": 0.1090473801416192, "candidate": "    elif is_list_like(obj):\n"}
+{"rank": 16, "bleu_score": 1.3602252811484492e-157, "candidate": "    elif (\n"}
+{"rank": 17, "bleu_score": 0.3109148749331935, "candidate": "    elif isinstance(obj, ABCSeries):\n"}
+{"rank": 18, "bleu_score": 0.6831857986552228, "candidate": "    elif isinstance(obj, (ABCSeries, np.ndarray)):\n"}
+{"rank": 19, "bleu_score": 0.24042867054737016, "candidate": "    elif is_extension_array_dtype(obj.dtype) and _isna_new(obj).any():\n"}
+{"rank": 20, "bleu_score": 9.61824520241473e-158, "candidate": "    try:\n"}

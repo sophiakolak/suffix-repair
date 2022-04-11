@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).ravel()\n"}
+{"rank": 2, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).ravel()\n"}
+{"rank": 3, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).ravel()\n"}
+{"rank": 4, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).ravel()\n"}
+{"rank": 5, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).ravel()\n"}
+{"rank": 6, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).ravel()\n"}
+{"rank": 7, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).ravel()\n"}
+{"rank": 8, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).ravel()\n"}
+{"rank": 9, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).ravel()\n"}
+{"rank": 10, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).ravel()\n"}
+{"rank": 11, "bleu_score": 0.80708865716328, "candidate": "        return np.squeeze(self.model.predict(x, **kwargs))\n"}
+{"rank": 12, "bleu_score": 0.80708865716328, "candidate": "        return np.squeeze(self.model.predict(x, **kwargs))\n"}
+{"rank": 13, "bleu_score": 0.80708865716328, "candidate": "        return np.squeeze(self.model.predict(x, **kwargs))\n"}
+{"rank": 14, "bleu_score": 0.80708865716328, "candidate": "        return np.squeeze(self.model.predict(x, **kwargs))\n"}
+{"rank": 15, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).ravel()\n"}
+{"rank": 16, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).ravel()\n"}
+{"rank": 17, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).flatten()\n"}
+{"rank": 18, "bleu_score": 0.6465110964513372, "candidate": "        return self.model.predict(x, **kwargs).ravel()\n"}
+{"rank": 19, "bleu_score": 1.0, "candidate": "        return np.squeeze(self.model.predict(x, **kwargs), axis=-1)\n"}
+{"rank": 20, "bleu_score": 0.5287555830077133, "candidate": "        y = self.model.predict(x, **kwargs)\n"}

@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.01831563888873418, "candidate": "        prompt,\n"}
+{"rank": 2, "bleu_score": 0.9045340337332909, "candidate": "        prompt, type=click.Choice(choices), default=default, show_choices=False)\n"}
+{"rank": 3, "bleu_score": 0.01831563888873418, "candidate": "        prompt,\n"}
+{"rank": 4, "bleu_score": 0.01831563888873418, "candidate": "        prompt,\n"}
+{"rank": 5, "bleu_score": 0.7788007830714049, "candidate": "        prompt, type=click.Choice(choices), default=default\n"}
+{"rank": 6, "bleu_score": 0.01831563888873418, "candidate": "        prompt,\n"}
+{"rank": 7, "bleu_score": 0.01831563888873418, "candidate": "        prompt,\n"}
+{"rank": 8, "bleu_score": 0.7788007830714049, "candidate": "        prompt, default=default, type=click.Choice(choices)\n"}
+{"rank": 9, "bleu_score": 1.9318761914937367e-156, "candidate": "        prompt=prompt,\n"}
+{"rank": 10, "bleu_score": 0.01831563888873418, "candidate": "        prompt,\n"}
+{"rank": 11, "bleu_score": 0.01831563888873418, "candidate": "        prompt,\n"}
+{"rank": 12, "bleu_score": 0.6744612626270504, "candidate": "        prompt=prompt, default=default, type=click.Choice(choices)\n"}
+{"rank": 13, "bleu_score": 0.01831563888873418, "candidate": "        prompt,\n"}
+{"rank": 14, "bleu_score": 0.01831563888873418, "candidate": "        prompt,\n"}
+{"rank": 15, "bleu_score": 0.7788007830714049, "candidate": "        prompt, default=default, type=click.Choice(choices)\n"}
+{"rank": 16, "bleu_score": 0.01831563888873418, "candidate": "        prompt,\n"}
+{"rank": 17, "bleu_score": 0.01831563888873418, "candidate": "        prompt,\n"}
+{"rank": 18, "bleu_score": 0.6744612626270504, "candidate": "        prompt=prompt, type=click.Choice(choices), default=default\n"}
+{"rank": 19, "bleu_score": 0.01831563888873418, "candidate": "        prompt,\n"}
+{"rank": 20, "bleu_score": 0.7788007830714049, "candidate": "        prompt, type=click.Choice(choices), default=default\n"}

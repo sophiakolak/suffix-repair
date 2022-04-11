@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.39753705762405595, "candidate": "                    bar_args['l_bar'] = l_bar_user.format(**bar_args)\n"}
+{"rank": 2, "bleu_score": 0.39753705762405595, "candidate": "                    bar_args['l_bar'] = l_bar_user.format(**bar_args)\n"}
+{"rank": 3, "bleu_score": 0.39753705762405595, "candidate": "                    bar_args['l_bar'] = l_bar_user.format(**bar_args)\n"}
+{"rank": 4, "bleu_score": 6.347614751172206e-155, "candidate": "                    bar_args['bar'] = self.format_bar(l_bar_user, r_bar_user)\n"}
+{"rank": 5, "bleu_score": 0, "candidate": "                    # Available space for the bar\n"}
+{"rank": 6, "bleu_score": 0.2811572841336291, "candidate": "                    l_bar_user = l_bar_user.format(**bar_args)\n"}
+{"rank": 7, "bleu_score": 0, "candidate": "                    # Formatting left and right sides of the bar\n"}
+{"rank": 8, "bleu_score": 0.3005697797211124, "candidate": "                    l_bar = l_bar_user.format(**bar_args)\n"}
+{"rank": 9, "bleu_score": 6.347614751172206e-155, "candidate": "                    # len(bar_format) = len(l_bar_user + r_bar_user)\n"}
+{"rank": 10, "bleu_score": 0.2811572841336291, "candidate": "                    l_bar_user = l_bar_user.format(**bar_args)\n"}
+{"rank": 11, "bleu_score": 0.2811572841336291, "candidate": "                    l_bar_user = l_bar_user.format(**bar_args)\n"}
+{"rank": 12, "bleu_score": 0.3005697797211124, "candidate": "                    l_bar = l_bar_user.format(**bar_args)\n"}
+{"rank": 13, "bleu_score": 3.041385479775974e-155, "candidate": "                    bar_format = '{l_bar_user}{bar}{r_bar_user}'\n"}
+{"rank": 14, "bleu_score": 0, "candidate": "                    # whitespace padding\n"}
+{"rank": 15, "bleu_score": 0.39753705762405595, "candidate": "                    bar_args['l_bar'] = l_bar_user.format(**bar_args)\n"}
+{"rank": 16, "bleu_score": 0.3005697797211124, "candidate": "                    l_bar = l_bar_user.format(**bar_args)\n"}
+{"rank": 17, "bleu_score": 6.800744678559658e-155, "candidate": "                    bar_length = max(1, ncols - len(l_bar_user) -\n"}
+{"rank": 18, "bleu_score": 9.94445430826712e-155, "candidate": "                    N_BARS = max(1, ncols - len(l_bar) - len(r_bar))\n"}
+{"rank": 19, "bleu_score": 0.2811572841336291, "candidate": "                    l_bar_user = l_bar_user.format(**bar_args)\n"}
+{"rank": 20, "bleu_score": 0.3005697797211124, "candidate": "                    l_bar = l_bar_user.format(**bar_args)\n"}

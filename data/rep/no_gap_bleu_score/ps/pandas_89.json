@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 4.363467676954367e-155, "candidate": "                level = clevels[i]\n"}
+{"rank": 2, "bleu_score": 0, "candidate": ""}
+{"rank": 3, "bleu_score": 0.10259783520851541, "candidate": "                result = result.reorder_levels([v for v in range(result.columns.nlevels) if i != v])\n"}
+{"rank": 4, "bleu_score": 1.0, "candidate": "                result = result.unstack(val, fill_value=fill_value)\n"}
+{"rank": 5, "bleu_score": 3.6610910047675874e-155, "candidate": "                if val < data.columns.nlevels:\n"}
+{"rank": 6, "bleu_score": 4.363467676954367e-155, "candidate": "                level = clevels[i]\n"}
+{"rank": 7, "bleu_score": 1.0, "candidate": "                result = result.unstack(val, fill_value=fill_value)\n"}
+{"rank": 8, "bleu_score": 0, "candidate": ""}
+{"rank": 9, "bleu_score": 0, "candidate": ""}
+{"rank": 10, "bleu_score": 4.363467676954367e-155, "candidate": "                name = cnames[i]\n"}
+{"rank": 11, "bleu_score": 4.363467676954367e-155, "candidate": "                clocs[i] = 0\n"}
+{"rank": 12, "bleu_score": 0.36514837167011066, "candidate": "                result = result.swaplevel(i, val, axis=1)\n"}
+{"rank": 13, "bleu_score": 0.4472135954999579, "candidate": "                result = result._swap_level_mapper(val, i, axis=1)\n"}
+{"rank": 14, "bleu_score": 6.17087516772532e-155, "candidate": "                level = result.columns.levels[val]\n"}
+{"rank": 15, "bleu_score": 0, "candidate": "                # we want to broadcast these\n"}
+{"rank": 16, "bleu_score": 0.14433756729740646, "candidate": "                result = result.swaplevel(i, -1, axis=1).sort_index(level=val, axis=1)\n"}
+{"rank": 17, "bleu_score": 0.557773351022717, "candidate": "                result = result.unstack(level=val, fill_value=fill_value, inplace=False)\n"}
+{"rank": 18, "bleu_score": 4.363467676954367e-155, "candidate": "                level = clevels[i]\n"}
+{"rank": 19, "bleu_score": 9.94445430826712e-155, "candidate": "                num = len(result.columns.levels[val])\n"}
+{"rank": 20, "bleu_score": 6.17087516772532e-155, "candidate": "                level = result.columns.levels[val]\n"}

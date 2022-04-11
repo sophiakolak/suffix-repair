@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.18393972058572114, "candidate": "            result = self._constructor(\n"}
+{"rank": 2, "bleu_score": 1.6266250338817998e-155, "candidate": "            if isinstance(\n"}
+{"rank": 3, "bleu_score": 0, "candidate": "            if self._is_datelike_mixed_type or self._is_datetimelike_mixed_type:\n"}
+{"rank": 4, "bleu_score": 6.360494346864465e-155, "candidate": "            if axis is not None and is_list_like(axis):\n"}
+{"rank": 5, "bleu_score": 0.33968311024337877, "candidate": "            result = constructor(result, **dict(axis=labels))\n"}
+{"rank": 6, "bleu_score": 0.41368954504257266, "candidate": "            result = constructor(result)\n"}
+{"rank": 7, "bleu_score": 0, "candidate": "            # work around for series\n"}
+{"rank": 8, "bleu_score": 0, "candidate": "            # convert to a builder if we don't have one\n"}
+{"rank": 9, "bleu_score": 0.5669467095138409, "candidate": "            result = constructor(result, labels=labels)\n"}
+{"rank": 10, "bleu_score": 0.41368954504257266, "candidate": "            result = constructor(result)\n"}
+{"rank": 11, "bleu_score": 0, "candidate": "            if numeric_only:\n"}
+{"rank": 12, "bleu_score": 0.19174124721184263, "candidate": "            if not isinstance(result, constructor) and notna(result).all():\n"}
+{"rank": 13, "bleu_score": 9.134564559628536e-155, "candidate": "            if isinstance(labels, MultiIndex):\n"}
+{"rank": 14, "bleu_score": 0, "candidate": "            if axis == 0:\n"}
+{"rank": 15, "bleu_score": 0.41368954504257266, "candidate": "            result = constructor(result)\n"}
+{"rank": 16, "bleu_score": 0, "candidate": "            # GH#20814\n"}
+{"rank": 17, "bleu_score": 0, "candidate": "            # GH#24162 constructor is not np.ndarray\n"}
+{"rank": 18, "bleu_score": 3.729170365600141e-155, "candidate": "            # if we are not passed a Series, we will try to construct a Series\n"}
+{"rank": 19, "bleu_score": 0.41368954504257266, "candidate": "            result = constructor(result)\n"}
+{"rank": 20, "bleu_score": 4.306075028866568e-155, "candidate": "            # Create the array first, then wrap it in the constructor\n"}

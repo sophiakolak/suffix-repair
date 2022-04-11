@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 3.0745475966509093e-155, "candidate": "        \\b\\w+\\b'''.format(comment=COMMENT_RE, skip=SKIP_RE), fix_kv, code)\n"}
+{"rank": 2, "bleu_score": 0.06264806271443364, "candidate": "        [a-zA-Z_][a-zA-Z_0-9]*|\n"}
+{"rank": 3, "bleu_score": 0.0640395907934167, "candidate": "        \\w+:{skip}[^{skip}]|\n"}
+{"rank": 4, "bleu_score": 0.26311740579210874, "candidate": "        [a-zA-Z_][\\w.]*:?|-?(?:0|[1-9]\\d*)(?:\\.\\d+)?(?:[eE][-+]?\\d+)?|\n"}
+{"rank": 5, "bleu_score": 0.06264806271443364, "candidate": "        [a-zA-Z_][a-zA-Z0-9_]*|\n"}
+{"rank": 6, "bleu_score": 0.14574511496760262, "candidate": "        [a-zA-Z_$][a-zA-Z_$0-9]*:?|\n"}
+{"rank": 7, "bleu_score": 0.09569649651041093, "candidate": "        [a-zA-Z_][.a-zA-Z_0-9]*|\n"}
+{"rank": 8, "bleu_score": 6.30965337528751e-155, "candidate": "        [^{skip}\"']+'''.format(comment=COMMENT_RE, skip=SKIP_RE), fix_kv, code)\n"}
+{"rank": 9, "bleu_score": 0.24342221990236906, "candidate": "        [a-zA-Z_$][a-zA-Z0-9_$]*|[0-9]+|\n"}
+{"rank": 10, "bleu_score": 0.16067503371192038, "candidate": "        [a-zA-Z_$][a-zA-Z_$0-9]*:'''.format(comment=COMMENT_RE,\n"}
+{"rank": 11, "bleu_score": 6.959153463577682e-155, "candidate": "        [^\\s:,\\[\\]{}]+'''.format(comment=COMMENT_RE, skip=SKIP_RE),\n"}
+{"rank": 12, "bleu_score": 4.79347659368226e-155, "candidate": "        [^{skip}\"']+'''.format(comment=COMMENT_RE, skip=SKIP_RE),\n"}
+{"rank": 13, "bleu_score": 8.776205752480093e-155, "candidate": "        [\\],:{}\\[\\]\"]'''.format(comment=COMMENT_RE, skip=SKIP_RE), fix_kv, code)\n"}
+{"rank": 14, "bleu_score": 0.058892316211545385, "candidate": "        [a-zA-Z_][a-zA-Z0-9_]*:|\n"}
+{"rank": 15, "bleu_score": 4.227463754260701e-155, "candidate": "        [^{skip}]+'''.format(comment=COMMENT_RE, skip=SKIP_RE),\n"}
+{"rank": 16, "bleu_score": 0.14892084929531763, "candidate": "        .+?(?={skip}[,:}]\"']|$)'''.format(comment=COMMENT_RE, skip=SKIP_RE), fix_kv, code)\n"}
+{"rank": 17, "bleu_score": 6.106372923567804e-155, "candidate": "        [^{skip}\\]\"},]'''.format(comment=COMMENT_RE, skip=SKIP_RE),\n"}
+{"rank": 18, "bleu_score": 0.03847735214036962, "candidate": "        \\b(?:true|false|null)\\b|\n"}
+{"rank": 19, "bleu_score": 4.726448163471526e-155, "candidate": "        [^\\s\\]},]+'''.format(comment=COMMENT_RE, skip=SKIP_RE),\n"}
+{"rank": 20, "bleu_score": 0.11879394331855204, "candidate": "        [a-zA-Z_0-9.:\\[\\]{}]+(?={skip}:)\n"}

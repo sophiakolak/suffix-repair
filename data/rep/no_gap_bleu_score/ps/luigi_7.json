@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 2.53534190905184e-158, "candidate": "        if assistant:\n            task.assistant = assistant\n"}
+{"rank": 2, "bleu_score": 0.06385160774103155, "candidate": "        if task.status != status and status in (FAILED, EXPIRED, DONE):\n            task.time_done = time.time()\n"}
+{"rank": 3, "bleu_score": 0.025438962140863716, "candidate": "        if owners is not None:\n            # if we've started running a task, we should clear the owners\n"}
+{"rank": 4, "bleu_score": 5.99865201163633e-157, "candidate": "        task.state = state\n        if priority is not None:\n"}
+{"rank": 5, "bleu_score": 2.6619728899679672e-155, "candidate": "        # update the status before the task\n        # so that get_running_jobs() works (ie: it won't return the task)\n"}
+{"rank": 6, "bleu_score": 7.097700778378077e-157, "candidate": "        status_old = task.status\n        if status is not None:\n"}
+{"rank": 7, "bleu_score": 5.613965580849458e-156, "candidate": "        if status == FAILED or status == SUCCESS:\n            task.time_complete = time.time()\n"}
+{"rank": 8, "bleu_score": 1.161430493073768e-156, "candidate": "        if owners is not None:\n            task.stakeholders.update(owners)\n"}
+{"rank": 9, "bleu_score": 1.2544883108058342e-156, "candidate": "        if status == FAILED:\n            task.time_fail = time.time()\n"}
+{"rank": 10, "bleu_score": 5.99865201163633e-157, "candidate": "        if priority is not None:\n            task.priority = priority\n"}
+{"rank": 11, "bleu_score": 1.161430493073768e-156, "candidate": "        if owners is not None:\n            task.stakeholders.update(owners)\n"}
+{"rank": 12, "bleu_score": 5.99865201163633e-157, "candidate": "        if finish_time is not None:\n            task.finish_time = finish_time\n"}
+{"rank": 13, "bleu_score": 5.99865201163633e-157, "candidate": "        if priority is not None:\n            task.priority = priority\n"}
+{"rank": 14, "bleu_score": 5.99865201163633e-157, "candidate": "        if service is not None:\n            task.service = service\n"}
+{"rank": 15, "bleu_score": 0.060822398430880054, "candidate": "        if priority is not None and task.priority != priority:\n            # note that you cannot change priority if task is running\n"}
+{"rank": 16, "bleu_score": 1.161430493073768e-156, "candidate": "        cancellation_time = time.time()\n        if task.status == SUSPENDED:\n"}
+{"rank": 17, "bleu_score": 7.081088068537261e-156, "candidate": "        if details is not None:\n            task.details = _get_default(details, {})\n"}
+{"rank": 18, "bleu_score": 5.99865201163633e-157, "candidate": "        if priority is not None:\n            task.priority = priority\n"}
+{"rank": 19, "bleu_score": 5.99865201163633e-157, "candidate": "        if priority is not None:\n            task.priority = priority\n"}
+{"rank": 20, "bleu_score": 1.6819056564016732e-156, "candidate": "        if owners is not None:\n            for owner in owners:\n"}

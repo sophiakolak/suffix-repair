@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.26726124191242434, "candidate": "        r'&(#x[0-9a-fA-F]+|#[0-9]+|[a-zA-Z_:][a-zA-Z0-9.\\-_:]*)(;|(?=\\s|$))',\n"}
+{"rank": 2, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 3, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 4, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 5, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 6, "bleu_score": 0.2923526731023431, "candidate": "        r'(?s)<!--.*?-->|<[^>]+>|&(' +\n"}
+{"rank": 7, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 8, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 9, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 10, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 11, "bleu_score": 0.2749064372795948, "candidate": "        r'&(#\\d{1,4}(;|(?=\\s))|#x[0-9a-fA-F]{1,4}(;|(?=\\s))|\\w+;)',\n"}
+{"rank": 12, "bleu_score": 0.32613992711786566, "candidate": "        r'&([^;]+;)',\n"}
+{"rank": 13, "bleu_score": 0.32613992711786566, "candidate": "        r'&([^;]+;)',\n"}
+{"rank": 14, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 15, "bleu_score": 0.32613992711786566, "candidate": "        r'&([^;]+;)',\n"}
+{"rank": 16, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 17, "bleu_score": 0.32613992711786566, "candidate": "        r'&([^;]+;)',\n"}
+{"rank": 18, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 19, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}
+{"rank": 20, "bleu_score": 0.3038347859248612, "candidate": "        r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));',\n"}

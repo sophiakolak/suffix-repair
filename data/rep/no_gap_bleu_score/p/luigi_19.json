@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 3.113246337572425e-156, "candidate": "        last_status = task.status\n"}
+{"rank": 2, "bleu_score": 0.2357684478004663, "candidate": "        if task.status != DISABLED:\n"}
+{"rank": 3, "bleu_score": 0.10454419629475865, "candidate": "        if new_status == RUNNING:\n"}
+{"rank": 4, "bleu_score": 3.8129324853204664e-156, "candidate": "        task.status = new_status\n"}
+{"rank": 5, "bleu_score": 0, "candidate": "        # update task\n"}
+{"rank": 6, "bleu_score": 3.113246337572425e-156, "candidate": "        old_status = task.status\n"}
+{"rank": 7, "bleu_score": 3.113246337572425e-156, "candidate": "        if config:\n"}
+{"rank": 8, "bleu_score": 2.2053988398396557e-155, "candidate": "        if task.status == RUNNING:\n"}
+{"rank": 9, "bleu_score": 1.9099314207779188e-155, "candidate": "        was_running = task.status == RUNNING\n"}
+{"rank": 10, "bleu_score": 4.314862771821976e-155, "candidate": "        self._status_tasks[task.status].pop(task.id)\n"}
+{"rank": 11, "bleu_score": 0.3098622620519841, "candidate": "        if new_status == DISABLED and task.status == PENDING:\n"}
+{"rank": 12, "bleu_score": 3.113246337572425e-156, "candidate": "        old_status = task.status\n"}
+{"rank": 13, "bleu_score": 3.8129324853204664e-156, "candidate": "        task.status = new_status\n"}
+{"rank": 14, "bleu_score": 3.113246337572425e-156, "candidate": "        old_status = task.status\n"}
+{"rank": 15, "bleu_score": 0, "candidate": "            # don't allow workers to override a config disable\n"}
+{"rank": 16, "bleu_score": 0.08335673411476816, "candidate": "        if new_status not in task.allowed_states:\n"}
+{"rank": 17, "bleu_score": 0.16562834595561268, "candidate": "        if task.status == RUNNING and new_status == DONE:\n"}
+{"rank": 18, "bleu_score": 5.273843307431707e-155, "candidate": "        # if we're confident that the task isn't still running, go ahead and\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "        # don't allow workers to modify the status of a task twice\n"}
+{"rank": 20, "bleu_score": 3.113246337572425e-156, "candidate": "        curr_status = task.status\n"}

@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.42257712736425823, "candidate": "        if isinstance(intensity, np.ma.MaskedArray):\n"}
+{"rank": 2, "bleu_score": 4.1371430671115046e-155, "candidate": "        blend[intensity.mask, :] = rgb[intensity.mask, :]\n"}
+{"rank": 3, "bleu_score": 0.21320071635561041, "candidate": "        return np.where(self._isnan(intensity), rgb, blend)\n"}
+{"rank": 4, "bleu_score": 0.1815682598006407, "candidate": "        np.copyto(rgb, blend, where=np.squeeze(~np.ma.getmaskarray(intensity)))\n"}
+{"rank": 5, "bleu_score": 0, "candidate": "        blend[intensity.mask] = rgb[intensity.mask]\n"}
+{"rank": 6, "bleu_score": 0.26726124191242434, "candidate": "        if np.issubdtype(intensity.dtype, np.floating):\n"}
+{"rank": 7, "bleu_score": 0.447213595499958, "candidate": "        mask = np.ma.getmask(intensity)\n"}
+{"rank": 8, "bleu_score": 0.372677996249965, "candidate": "        if hasattr(intensity, 'mask'):\n"}
+{"rank": 9, "bleu_score": 6.08970970641905e-155, "candidate": "        if elevation.shape[:2] != intensity.shape[:2]:\n"}
+{"rank": 10, "bleu_score": 0.372677996249965, "candidate": "        if not isinstance(intensity, ma.MaskedArray):\n"}
+{"rank": 11, "bleu_score": 0.19611613513818407, "candidate": "        blend = np.where(np.ma.getmaskarray(intensity), rgb, blend)\n"}
+{"rank": 12, "bleu_score": 0.3661475238303926, "candidate": "        if elevation.mask.any():\n"}
+{"rank": 13, "bleu_score": 4.717068855239749e-155, "candidate": "        mask = intensity[..., 0] == np.ma.masked\n"}
+{"rank": 14, "bleu_score": 0.3661475238303926, "candidate": "        if intensity.mask.any():\n"}
+{"rank": 15, "bleu_score": 4.972227154133551e-155, "candidate": "        is_masked = ~np.ma.getmaskarray(intensity.reshape(intensity.shape[0], -1)).all(axis=1)\n"}
+{"rank": 16, "bleu_score": 0.2335496832484569, "candidate": "        masked = np.ma.MaskedArray(blend, mask=np.ma.getmaskarray(intensity))\n"}
+{"rank": 17, "bleu_score": 0.23145502494313785, "candidate": "        masked_intensity = np.ma.masked_equal(intensity, 0)\n"}
+{"rank": 18, "bleu_score": 6.6709427497276e-155, "candidate": "        blend = np.ma.array(blend, mask=intensity.mask, copy=False)\n"}
+{"rank": 19, "bleu_score": 0.14824986333222023, "candidate": "        where = np.where(intensity[:,:,0] > 0)\n"}
+{"rank": 20, "bleu_score": 0.372677996249965, "candidate": "        if hasattr(intensity, 'mask'):\n"}

@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 2, "bleu_score": 0.10129474235115733, "candidate": "    if ending_point == -1:\n        ending_point = section_end\n"}
+{"rank": 3, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 4, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 5, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 6, "bleu_score": 0.39949970082700503, "candidate": "    block = docstring[starting_point:ending_point]\n    lines = block.split('\\n')\n"}
+{"rank": 7, "bleu_score": 0.300964632714423, "candidate": "    block = docstring[starting_point:ending_point].split('\\n')\n    for i in range(len(block)):\n"}
+{"rank": 8, "bleu_score": 0.3573233952160049, "candidate": "    block = docstring[starting_point:ending_point]\n    # Place marker for later reinjection.\n"}
+{"rank": 9, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 or ending_point > section_end:\n        ending_point = section_end\n"}
+{"rank": 10, "bleu_score": 0.13159033899195383, "candidate": "    # Find the index of the last character in the block\n    if ending_point != -1 and ending_point <= section_end:\n"}
+{"rank": 11, "bleu_score": 0.10129474235115733, "candidate": "    if ending_point == -1:\n        ending_point = section_end\n"}
+{"rank": 12, "bleu_score": 0.10129474235115733, "candidate": "    if ending_point == -1:\n        ending_point = section_end\n"}
+{"rank": 13, "bleu_score": 0.34178958067897675, "candidate": "    raw_block = docstring[starting_point:section_end].strip('\\n')\n    processed_block = raw_block\n"}
+{"rank": 14, "bleu_score": 6.808502433396784e-155, "candidate": "    # Find the first indented block\n    pos = docstring.find('\\n' + ' ' * (leading_spaces + 4), starting_point)\n"}
+{"rank": 15, "bleu_score": 0.21116687101607645, "candidate": "    if ending_point == -1 and section_end < starting_point:\n        ending_point = section_end\n"}
+{"rank": 16, "bleu_score": 0.3143473067309658, "candidate": "    block = docstring[starting_point: section_end].strip()\n    block = re.sub('  ', '\\t', block)\n"}
+{"rank": 17, "bleu_score": 0, "candidate": "    # If there are no more paragraphs before the next section,\n    # search for the next section.\n"}
+{"rank": 18, "bleu_score": 0.10129474235115733, "candidate": "    if ending_point == -1:\n        ending_point = section_end\n"}
+{"rank": 19, "bleu_score": 0.344692121722015, "candidate": "    block = docstring[starting_point:ending_point]\n    # Remove the last \\n\n"}
+{"rank": 20, "bleu_score": 0.15125781892550497, "candidate": "    # Consistency check\n    if docstring[section_end:section_end + 2] != '\\n\\n':\n"}

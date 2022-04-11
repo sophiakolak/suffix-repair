@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.014211044033028378, "candidate": "        '!': lambda x: not x,\n    }\n"}
+{"rank": 2, "bleu_score": 0.014211044033028378, "candidate": "        '!': lambda x: not x,\n    }\n"}
+{"rank": 3, "bleu_score": 0.11093687323456014, "candidate": "        'defined': lambda x: x is not None,\n        'undefined': lambda x: x is None,\n"}
+{"rank": 4, "bleu_score": 0.13313736058977796, "candidate": "        '!': lambda v: not v,\n        'not': lambda v: not v,\n"}
+{"rank": 5, "bleu_score": 0.001113191688888368, "candidate": "        '!': operator.not_,\n    }\n"}
+{"rank": 6, "bleu_score": 0.13926033229198637, "candidate": "        '!': lambda x: not x,\n        '!!': lambda x: x is not None,\n"}
+{"rank": 7, "bleu_score": 0.014211044033028378, "candidate": "        '!': lambda val: not val,\n    }\n"}
+{"rank": 8, "bleu_score": 0.13483823693854352, "candidate": "        '!': lambda x: not x,\n        '!!': lambda x: bool(x),\n"}
+{"rank": 9, "bleu_score": 0.20680778940731226, "candidate": "        '!': lambda v: not v,\n        '!!': lambda v: bool(v),\n"}
+{"rank": 10, "bleu_score": 0.014211044033028378, "candidate": "        '!': lambda x: not x,\n    }\n"}
+{"rank": 11, "bleu_score": 0.006051485437170419, "candidate": "        '-': lambda x: not x,\n    }\n"}
+{"rank": 12, "bleu_score": 0.014211044033028378, "candidate": "        '!': lambda o: not o,\n    }\n"}
+{"rank": 13, "bleu_score": 0.17003343255447537, "candidate": "        'empty': lambda x: x is None or x == '',\n        'present': lambda x: x is not None and x != '',\n"}
+{"rank": 14, "bleu_score": 0.32227164480911136, "candidate": "        '!': (lambda v: (not v)),\n        '!!': (lambda v: (bool(v))),\n"}
+{"rank": 15, "bleu_score": 0.06778195352298318, "candidate": "        '!': lambda x: not x,\n        'NOT': lambda x: not x\n"}
+{"rank": 16, "bleu_score": 0.052503675433583794, "candidate": "        '~': lambda b: not b,\n        '-': lambda b: not b,\n"}
+{"rank": 17, "bleu_score": 0.09238851848716409, "candidate": "        '!': lambda x: not x,\n        '!!': lambda x: x,\n"}
+{"rank": 18, "bleu_score": 0.001113191688888368, "candidate": "        '!': operator.not_,\n    }\n"}
+{"rank": 19, "bleu_score": 0.04494560301492343, "candidate": "        'neg': operator.not_,\n        'gt': (lambda x: x > 0),\n"}
+{"rank": 20, "bleu_score": 0.06952871895479115, "candidate": "        '@set': lambda dct, value: dct.get(value) is not None,\n    }\n"}

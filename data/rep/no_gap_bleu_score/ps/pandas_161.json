@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.26490647141300877, "candidate": "                mask = (codes == -1) & (value.index.isin(self.index))\n                if mask.any():\n"}
+{"rank": 2, "bleu_score": 0.37194074924457604, "candidate": "                mask = (codes == -1) & (~value.isna())\n                codes = np.where(mask, values_codes, codes)\n"}
+{"rank": 3, "bleu_score": 0.18132731507474042, "candidate": "                mask = codes == -1\n                if mask.any():\n"}
+{"rank": 4, "bleu_score": 0.18132731507474042, "candidate": "                mask = codes == -1\n                if mask.any():\n"}
+{"rank": 5, "bleu_score": 0.18132731507474042, "candidate": "                mask = codes == -1\n                if mask.any():\n"}
+{"rank": 6, "bleu_score": 0.18132731507474042, "candidate": "                mask = codes == -1\n                if mask.any():\n"}
+{"rank": 7, "bleu_score": 0.18132731507474042, "candidate": "                mask = codes == -1\n                if mask.any():\n"}
+{"rank": 8, "bleu_score": 0.20937874833966696, "candidate": "                mask = codes == -1\n                codes = codes.copy()\n"}
+{"rank": 9, "bleu_score": 0.19585588508964927, "candidate": "                na_mask = value.isna()\n                mask = codes == -1\n"}
+{"rank": 10, "bleu_score": 0.18132731507474042, "candidate": "                mask = codes == -1\n                if mask.any():\n"}
+{"rank": 11, "bleu_score": 0.3849136009195669, "candidate": "                codes = np.where(codes == -1, values_codes, codes)\n"}
+{"rank": 12, "bleu_score": 0.18132731507474042, "candidate": "                mask = codes == -1\n                if mask.any():\n"}
+{"rank": 13, "bleu_score": 0.18132731507474042, "candidate": "                mask = codes == -1\n                if mask.any():\n"}
+{"rank": 14, "bleu_score": 0.20937874833966696, "candidate": "                mask = codes == -1\n                codes = codes.copy()\n"}
+{"rank": 15, "bleu_score": 0.18898223650461357, "candidate": "                values_codes[-value.isna()] = codes[-value.isna()]\n                # If value is a dict, check that it matches the size of the\n"}
+{"rank": 16, "bleu_score": 0.18132731507474042, "candidate": "                mask = codes == -1\n                if mask.any():\n"}
+{"rank": 17, "bleu_score": 0.18132731507474042, "candidate": "                mask = codes == -1\n                if mask.any():\n"}
+{"rank": 18, "bleu_score": 0.37225335888568606, "candidate": "                values_codes[value.isna()] = -1\n                mask = codes == -1\n"}
+{"rank": 19, "bleu_score": 0.2871426077983707, "candidate": "                values_codes = values_codes.take(codes)\n                mask = codes == -1\n"}
+{"rank": 20, "bleu_score": 0.2210424825442673, "candidate": "                values_codes = values_codes.reindex(self.index)\n                mask = codes == -1\n"}

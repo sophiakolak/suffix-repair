@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 4.148190661436244e-155, "candidate": "            for exe in shell.all_executables()]\n"}
+{"rank": 2, "bleu_score": 6.379127036999949e-155, "candidate": "            for exe in pkg_resources.iter_entry_points(group='console_scripts')]\n"}
+{"rank": 3, "bleu_score": 1.0190033369114729e-154, "candidate": "            for exe in _safe(lambda: shell.get_all_processes(), [])]\n"}
+{"rank": 4, "bleu_score": 1.0547686614863434e-154, "candidate": "            for exe in _safe(lambda: shell.get_all_executables(), [])\n"}
+{"rank": 5, "bleu_score": 9.679221061541966e-155, "candidate": "            for exe in _safe(lambda: list(pkg_resources.iter_entry_points('console_scripts')), [])\n"}
+{"rank": 6, "bleu_score": 9.434137710479516e-155, "candidate": "            for exe in _safe(lambda: list(pkg_resources.iter_entry_points('console_scripts')), [])]\n"}
+{"rank": 7, "bleu_score": 4.148190661436244e-155, "candidate": "            for exe in get_executables()]\n"}
+{"rank": 8, "bleu_score": 6.8479711051927624e-155, "candidate": "            for exe in shell.all_shells[shell.get_key()].bin_dirs]\n"}
+{"rank": 9, "bleu_score": 9.866457383969696e-155, "candidate": "            for exe in _safe(lambda: shell.which_bin(tf_alias), [])]\n"}
+{"rank": 10, "bleu_score": 4.148190661436244e-155, "candidate": "            for exe in shell.get_all_executables()]\n"}
+{"rank": 11, "bleu_score": 3.210460101135254e-155, "candidate": "            for exe in shell.get_executables()\n"}
+{"rank": 12, "bleu_score": 7.070325777244754e-155, "candidate": "            for exe in _safe(_get_all_executables, [])\n"}
+{"rank": 13, "bleu_score": 6.379127036999949e-155, "candidate": "            for exe in pkg_resources.iter_entry_points('console_scripts')]\n"}
+{"rank": 14, "bleu_score": 4.9823743656555826e-155, "candidate": "            for exe in distutils.spawn.find_executable_iter(tf_entry_points)]\n"}
+{"rank": 15, "bleu_score": 6.379127036999949e-155, "candidate": "            for exe in iter_entry_points('console_scripts')]\n"}
+{"rank": 16, "bleu_score": 3.210460101135254e-155, "candidate": "            for exe in shell.get_all_executables()\n"}
+{"rank": 17, "bleu_score": 1.559452474871608e-155, "candidate": "            for exe in shell.path]\n"}
+{"rank": 18, "bleu_score": 2.9332137463561912e-155, "candidate": "            for exe in tf_entry_points + tf_alias]\n"}
+{"rank": 19, "bleu_score": 3.210460101135254e-155, "candidate": "            for exe in shell.get_app_dirs()\n"}
+{"rank": 20, "bleu_score": 7.070325777244754e-155, "candidate": "            for exe in _safe(AvailableBins.get, [])\n"}

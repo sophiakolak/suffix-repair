@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.305887645160749, "candidate": "            return self._take(np.array([index]), axis=0)._get_value(\n                col, col, takeable=True\n"}
+{"rank": 2, "bleu_score": 0.36313651960128146, "candidate": "            series = self._ixs(index, col)  # type: ignore\n        else:\n"}
+{"rank": 3, "bleu_score": 0.5370861555295747, "candidate": "            series = self._data.fast_xs(col, self.index[index])\n        else:\n"}
+{"rank": 4, "bleu_score": 0.36429287039633934, "candidate": "            series = self._iget_item_cache(col)\n            return series._get_value(index)\n"}
+{"rank": 5, "bleu_score": 0.3825568841689739, "candidate": "            series = self._ixs(index, col)\n        else:\n"}
+{"rank": 6, "bleu_score": 0.25819888974716115, "candidate": "            series = self._take_with_is_copy(self._get_item_cache(col), index)\n            if not self.columns.is_unique:\n"}
+{"rank": 7, "bleu_score": 0.2921826465551294, "candidate": "            series = self.loc[index, col]\n        else:\n"}
+{"rank": 8, "bleu_score": 0.5843652931102589, "candidate": "            series = self._ixs(col, axis=1)\n        else:\n"}
+{"rank": 9, "bleu_score": 0.3825568841689739, "candidate": "            series = self._ixs(index, col)\n        else:\n"}
+{"rank": 10, "bleu_score": 0.66510474218127, "candidate": "            series = self._iget_item_cache(col)\n            return series._values[index]\n"}
+{"rank": 11, "bleu_score": 0.3825568841689739, "candidate": "            series = self._ixs(index, col)\n        else:\n"}
+{"rank": 12, "bleu_score": 0.33968311024337877, "candidate": "            series = self._take(self._row_labels, col, axis=1, verify=True)\n        else:\n"}
+{"rank": 13, "bleu_score": 0.6793662204867574, "candidate": "            series = self._ixs(index, col)\n            return series._values[0]\n"}
+{"rank": 14, "bleu_score": 0.5332701581916272, "candidate": "            series = self._data.fast_xs(col)\n            return series[index]\n"}
+{"rank": 15, "bleu_score": 0.6793662204867574, "candidate": "            series = self._ixs(index, col)\n            return series._values[0]\n"}
+{"rank": 16, "bleu_score": 0.17407765595569785, "candidate": "            return self._take(com.default_indexer(index, self.index), com.default_indexer(col, self.columns))\n        align_copy = self.copy()\n"}
+{"rank": 17, "bleu_score": 0.3825568841689739, "candidate": "            series = self._ixs(index, col)\n        else:\n"}
+{"rank": 18, "bleu_score": 0.316227766016838, "candidate": "            series = self._ixs(index, col)\n            if isinstance(series, ABCDataFrame):\n"}
+{"rank": 19, "bleu_score": 1.0, "candidate": "            series = self._ixs(col, axis=1)\n            return series._values[index]\n"}
+{"rank": 20, "bleu_score": 5.508349685012077e-155, "candidate": "            if self.columns.nlevels > 1 or self.index.nlevels > 1:\n                raise ValueError(\"Cannot use takeable=True with multilevel index\")\n"}

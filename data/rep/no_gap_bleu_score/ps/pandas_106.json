@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 6.17087516772532e-155, "candidate": "        elif needs_i8_conversion(target):\n"}
+{"rank": 2, "bleu_score": 7.458340731200295e-155, "candidate": "        elif isinstance(target, ABCSeries):\n"}
+{"rank": 3, "bleu_score": 6.17087516772532e-155, "candidate": "        elif is_extension_type(target):\n"}
+{"rank": 4, "bleu_score": 6.17087516772532e-155, "candidate": "        elif is_integer_dtype(target):\n"}
+{"rank": 5, "bleu_score": 5.116379531646389e-155, "candidate": "        elif target.inferred_type in (\"integer\", \"boolean\", \"datetime64\"):\n"}
+{"rank": 6, "bleu_score": 6.17087516772532e-155, "candidate": "        elif is_extension_array_dtype(target):\n"}
+{"rank": 7, "bleu_score": 6.17087516772532e-155, "candidate": "        elif is_datetime64tz_dtype(target):\n"}
+{"rank": 8, "bleu_score": 7.458340731200295e-155, "candidate": "        elif isinstance(target, ABCSeries):\n"}
+{"rank": 9, "bleu_score": 6.17087516772532e-155, "candidate": "        elif is_datetime64tz_dtype(target):\n"}
+{"rank": 10, "bleu_score": 5.177564552024615e-155, "candidate": "        elif target.is_integer():\n"}
+{"rank": 11, "bleu_score": 6.17087516772532e-155, "candidate": "        elif is_timedelta64_dtype(target):\n"}
+{"rank": 12, "bleu_score": 7.789982830837433e-155, "candidate": "        elif is_integer_dtype(target) and is_integer_dtype(self):\n"}
+{"rank": 13, "bleu_score": 6.17087516772532e-155, "candidate": "        elif is_integer_dtype(target.dtype):\n"}
+{"rank": 14, "bleu_score": 6.9118789673669984e-155, "candidate": "        elif target.inferred_type == \"integer\":\n"}
+{"rank": 15, "bleu_score": 6.17087516772532e-155, "candidate": "        elif is_datetime64tz_dtype(target):\n"}
+{"rank": 16, "bleu_score": 5.177564552024615e-155, "candidate": "        elif target.is_integer():\n"}
+{"rank": 17, "bleu_score": 6.17087516772532e-155, "candidate": "        elif is_extension_array_dtype(target):\n"}
+{"rank": 18, "bleu_score": 5.177564552024615e-155, "candidate": "        elif target.is_object():\n"}
+{"rank": 19, "bleu_score": 7.458340731200295e-155, "candidate": "        elif isinstance(target, ABCSparseArray):\n"}
+{"rank": 20, "bleu_score": 6.17087516772532e-155, "candidate": "        elif is_datetime64tz_dtype(target):\n"}

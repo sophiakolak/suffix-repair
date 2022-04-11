@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 1.0, "candidate": "                result = result.unstack(val, fill_value=fill_value)\n"}
+{"rank": 2, "bleu_score": 0.557773351022717, "candidate": "                result = unstack_multiple(result, val, fill_value=fill_value)\n"}
+{"rank": 3, "bleu_score": 3.6610910047675874e-155, "candidate": "                if val < data.columns.nlevels:\n"}
+{"rank": 4, "bleu_score": 6.17087516772532e-155, "candidate": "                drop_name = result.columns.names[val]\n"}
+{"rank": 5, "bleu_score": 1.0, "candidate": "                result = result.unstack(val, fill_value=fill_value)\n"}
+{"rank": 6, "bleu_score": 4.363467676954367e-155, "candidate": "                name = cnames[i]\n"}
+{"rank": 7, "bleu_score": 0.5, "candidate": "                result = result.unstack(data.columns.names[val])\n"}
+{"rank": 8, "bleu_score": 4.363467676954367e-155, "candidate": "                new_level = clevels[i]\n"}
+{"rank": 9, "bleu_score": 4.363467676954367e-155, "candidate": "                lev = clevels[i]\n"}
+{"rank": 10, "bleu_score": 0.36514837167011066, "candidate": "                result = result.swaplevel(i, val, axis=1)\n"}
+{"rank": 11, "bleu_score": 0.11952286093343935, "candidate": "                kwargs = {\"level\": val, \"axis\": 1}\n"}
+{"rank": 12, "bleu_score": 0.26726124191242434, "candidate": "                result = result.reorder_levels(order=result.columns.names).stack(\n"}
+{"rank": 13, "bleu_score": 0.36787944117144233, "candidate": "                result = result.unstack(\n"}
+{"rank": 14, "bleu_score": 3.6610910047675874e-155, "candidate": "                if val == 0:\n"}
+{"rank": 15, "bleu_score": 0.2616402413066696, "candidate": "                loc = clocs.index(val)\n"}
+{"rank": 16, "bleu_score": 3.6610910047675874e-155, "candidate": "                if val > 1:\n"}
+{"rank": 17, "bleu_score": 4.363467676954367e-155, "candidate": "                new_lev = clevels[i]\n"}
+{"rank": 18, "bleu_score": 7.55774771366971e-155, "candidate": "                loc = data.columns.names.index(name)\n"}
+{"rank": 19, "bleu_score": 4.363467676954367e-155, "candidate": "                values_i = values[i]\n"}
+{"rank": 20, "bleu_score": 0.6408850873800026, "candidate": "                result = result.unstack(val)\n"}

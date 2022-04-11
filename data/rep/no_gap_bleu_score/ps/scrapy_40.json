@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 2.2603294069810542e-06, "candidate": "        return value\n"}
+{"rank": 2, "bleu_score": 0.15378196528941493, "candidate": "        return value\n    def _serialize_iterable(self, value):\n        for v in value:\n            yield self._serialize_value(v)\n"}
+{"rank": 3, "bleu_score": 0.49174935593146457, "candidate": "        if isinstance(value, (bytes, six.text_type)) and self.binary:\n            return to_bytes(value)\n        else:\n            return value\n"}
+{"rank": 4, "bleu_score": 2.2603294069810542e-06, "candidate": "        return value\n"}
+{"rank": 5, "bleu_score": 0.15378196528941493, "candidate": "        return value\n    def _serialize_list(self, value):\n        for val in value:\n            yield self._serialize_value(val)\n"}
+{"rank": 6, "bleu_score": 2.2603294069810542e-06, "candidate": "        return value\n"}
+{"rank": 7, "bleu_score": 0.354274914555761, "candidate": "        if isinstance(value, six.text_type):\n            value = to_bytes(value)\n        return value\n"}
+{"rank": 8, "bleu_score": 2.2603294069810542e-06, "candidate": "        return value\n"}
+{"rank": 9, "bleu_score": 0.192821219960878, "candidate": "        if self.binary:\n            return to_bytes(value)\n        return value\n    # serialize dict values\n"}
+{"rank": 10, "bleu_score": 2.2603294069810542e-06, "candidate": "        return value\n"}
+{"rank": 11, "bleu_score": 0.19561597041815854, "candidate": "        if is_string(value):\n            return value\n        return six.text_type(value)\n"}
+{"rank": 12, "bleu_score": 2.2603294069810542e-06, "candidate": "        return value\n"}
+{"rank": 13, "bleu_score": 2.2603294069810542e-06, "candidate": "        return value\n"}
+{"rank": 14, "bleu_score": 2.2603294069810542e-06, "candidate": "        return value\n"}
+{"rank": 15, "bleu_score": 0.3591752942965331, "candidate": "        if isinstance(value, six.text_type) and self.binary:\n            return to_bytes(value)\n        return value\n"}
+{"rank": 16, "bleu_score": 0.3523321317088221, "candidate": "        return value\n    def _serialize_dict(self, value):\n        for key, val in six.iteritems(value):\n            key = to_bytes(key) if self.binary else key\n"}
+{"rank": 17, "bleu_score": 0.29361010975735174, "candidate": "        return value\n    def serialize_object(self, value):\n        return dict(self._serialize_dict(value))\n    def serialize_object_field(self, field, name, value):\n"}
+{"rank": 18, "bleu_score": 0.3915483425193072, "candidate": "        if isinstance(value, text_type):\n            return to_bytes(value, encoding='utf-8') if self.binary else value\n        if isinstance(value, bytes):\n            return value.decode('utf-8', 'ignore') if not self.binary else value\n"}
+{"rank": 19, "bleu_score": 0.23570625535636916, "candidate": "        return value\n    def _serialize_dict(self, value):\n        for key, val in six.iteritems(value):\n            yield key, self._serialize_value(val)\n"}
+{"rank": 20, "bleu_score": 0.26443641023360387, "candidate": "        return value\n    def serialize_value(self, value):\n        if self.binary:\n            return self._serialize_value(value)\n"}

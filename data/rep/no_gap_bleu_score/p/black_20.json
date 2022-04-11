@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 2.345668874118625e-155, "candidate": "        diff_contents = difflib.unified_diff(\n            src_contents.splitlines(keepends=True),\n"}
+{"rank": 2, "bleu_score": 3.856085034636466e-156, "candidate": "        dst_contents = (\n            difflib.unified_diff(\n"}
+{"rank": 3, "bleu_score": 4.184605548832399e-155, "candidate": "        with tokenize.open(src) as src_buffer:\n            diff = unified_diff(\n"}
+{"rank": 4, "bleu_score": 6.0283587026582015e-155, "candidate": "        from lib2to3.pgen2 import token\n        src_tokens = list(tokenize.generate_tokens(io.StringIO(src_contents).readline))\n"}
+{"rank": 5, "bleu_score": 7.448607642514126e-155, "candidate": "        with open(src, \"w\", encoding=src_buffer.encoding) as f:\n            f.write(dst_contents)\n"}
+{"rank": 6, "bleu_score": 7.328896684172601e-156, "candidate": "        import difflib\n        print(src)\n"}
+{"rank": 7, "bleu_score": 7.158107684258229e-155, "candidate": "        sys.stdout.writelines(difflib.unified_diff(src_contents.splitlines(), dst_contents.splitlines(), src, src))\n    return True\n"}
+{"rank": 8, "bleu_score": 2.460817829674992e-155, "candidate": "        print_diff(src, src_contents, dst_contents)\n    return True\n"}
+{"rank": 9, "bleu_score": 7.62533762115913e-155, "candidate": "        with open(src, \"rb\") as f:\n            src_contents = f.read()\n"}
+{"rank": 10, "bleu_score": 5.98401908459915e-156, "candidate": "        if lock:\n            lock.acquire()\n"}
+{"rank": 11, "bleu_score": 9.16456548672146e-156, "candidate": "        if lock is None:\n            raise RuntimeError(\n"}
+{"rank": 12, "bleu_score": 7.60251882007978e-155, "candidate": "        print(diff_texts(src_contents, dst_contents, fromfile=str(src), tofile=str(src)))\n    else:\n"}
+{"rank": 13, "bleu_score": 9.540741520296657e-155, "candidate": "        with tempfile.NamedTemporaryFile(mode=\"w\", prefix=\"black-\", delete=False) as f:\n            f.write(dst_contents)\n"}
+{"rank": 14, "bleu_score": 5.98401908459915e-156, "candidate": "        sys.stdout.write(dst_contents)\n        return True\n"}
+{"rank": 15, "bleu_score": 2.031408833853108e-155, "candidate": "        with click.make_default_short_help_printer() as echo:\n            echo(\n"}
+{"rank": 16, "bleu_score": 0, "candidate": "        if lock is not None:\n            with lock:\n"}
+{"rank": 17, "bleu_score": 4.140617608328455e-155, "candidate": "        from .diff import diff\n        sys.stdout.write(diff(src_contents, dst_contents))\n"}
+{"rank": 18, "bleu_score": 6.6037360923571745e-155, "candidate": "        subprocess.check_call(\n            [\"diff\", \"-u\", str(src)],\n"}
+{"rank": 19, "bleu_score": 4.502667920270284e-155, "candidate": "        from .diff import diff_contents\n        msg = diff_contents(src, src_contents, dst_contents)\n"}
+{"rank": 20, "bleu_score": 0, "candidate": "        # TODO: Fix me!\n        from . import diff_texts\n"}

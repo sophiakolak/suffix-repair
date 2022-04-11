@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 2, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 3, "bleu_score": 2.2701381082415207e-155, "candidate": "                    while chunk:\n"}
+{"rank": 4, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 5, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 6, "bleu_score": 0, "candidate": "                    # In Python 2 GzipFile raises IOError when there is\n"}
+{"rank": 7, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 8, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 9, "bleu_score": 4.717068855239749e-155, "candidate": "                    # in python3 f.extrabuf only contains the last read data\n"}
+{"rank": 10, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 11, "bleu_score": 0, "candidate": "                    f.close()\n"}
+{"rank": 12, "bleu_score": 0, "candidate": "                    # attempt to consume the rest, if only to properly set\n"}
+{"rank": 13, "bleu_score": 0, "candidate": "                    f.close()\n"}
+{"rank": 14, "bleu_score": 0, "candidate": "                    f.close()\n"}
+{"rank": 15, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 16, "bleu_score": 0, "candidate": "                    f.close()\n"}
+{"rank": 17, "bleu_score": 5.637975647982813e-155, "candidate": "                    # add leftover uncompressed data to output\n"}
+{"rank": 18, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}
+{"rank": 19, "bleu_score": 7.458340731200295e-155, "candidate": "                    f.extrabuf += read1(f, 8196)\n"}
+{"rank": 20, "bleu_score": 0.2635971381157267, "candidate": "                    output += f.extrabuf\n"}

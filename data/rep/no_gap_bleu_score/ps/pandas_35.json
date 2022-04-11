@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0, "candidate": ""}
+{"rank": 2, "bleu_score": 2.719624300038834e-155, "candidate": "        # property, for now, slow to look up\n"}
+{"rank": 3, "bleu_score": 0, "candidate": "        \"\"\" property cache for the indexer engine \"\"\"\n        from pandas.core.indexes.period import Engine\n"}
+{"rank": 4, "bleu_score": 4.725587685803445e-155, "candidate": "        from pandas.core.indexes.period import PeriodEngine\n        return PeriodEngine(lambda: self, len(self))\n"}
+{"rank": 5, "bleu_score": 3.872603415931117e-155, "candidate": "        \"\"\"\n        We use a blocking lock instead of a non-blocking lock\n"}
+{"rank": 6, "bleu_score": 5.45663864495546e-155, "candidate": "        # property, for consistency with DatetimeIndex\n        return libperiod.PeriodEngine(self.asi8, freq=self.freq, start=self.start)\n"}
+{"rank": 7, "bleu_score": 5.163435889476167e-155, "candidate": "        # property, for compatibility\n        return self._engine_type(self.freq, len(self))\n"}
+{"rank": 8, "bleu_score": 4.471666651098519e-155, "candidate": "        return self._engine_type(self._data, len(self))\n    @doc(Index.get_loc)\n"}
+{"rank": 9, "bleu_score": 5.1548279763727125e-155, "candidate": "        return self._engine_type(self.freq, len(self))\n    def __getitem__(self, key):\n"}
+{"rank": 10, "bleu_score": 5.273843307431707e-155, "candidate": "        \"\"\" property for the lookup engine \"\"\"\n        return PeriodEngine(lambda s: s, len(self))\n"}
+{"rank": 11, "bleu_score": 1.4686343676243235e-155, "candidate": "        if is_period_dtype(self):\n            return self.asi8\n"}
+{"rank": 12, "bleu_score": 3.872603415931117e-155, "candidate": "        return PeriodIndexEngine(self)\n    def _get_engine(self, kind):\n"}
+{"rank": 13, "bleu_score": 5.45663864495546e-155, "candidate": "        return IndexEngine(lambda: self._values, len(self), self.freq)\n    @cache_readonly\n"}
+{"rank": 14, "bleu_score": 1.7987024096973162e-155, "candidate": "        return PeriodEngine(\n            lambda period: period.ordinal,\n"}
+{"rank": 15, "bleu_score": 3.4196050892147778e-155, "candidate": "        \"\"\"\n        We use a blocking dictionary here to prevent recursion issues when\n"}
+{"rank": 16, "bleu_score": 5.850803834986753e-155, "candidate": "        return PeriodEngine(self, len(self), self.dtype)\n    def astype(self, dtype, copy: bool = True):\n"}
+{"rank": 17, "bleu_score": 3.624037671074854e-155, "candidate": "        # property, for compatibility with DatetimeIndex\n        return self._get_engine()\n"}
+{"rank": 18, "bleu_score": 6.6709427497276e-155, "candidate": "        # property, for now, slow to look up\n        return PeriodEngine(lambda s: s, len(self), self.freq)\n"}
+{"rank": 19, "bleu_score": 5.1548279763727125e-155, "candidate": "        from pandas.core.indexes.period import _PeriodIndexEngine\n        return _PeriodIndexEngine(lambda: self, len(self), self.freq)\n"}
+{"rank": 20, "bleu_score": 3.523070700364982e-155, "candidate": "        return self._engine_type(self.freq, len(self))\n    @property\n"}

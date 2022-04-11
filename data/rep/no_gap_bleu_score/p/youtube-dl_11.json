@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.27555422823136544, "candidate": "    try:\n        return int(int_str)\n"}
+{"rank": 2, "bleu_score": 0.27555422823136544, "candidate": "    try:\n        return int(int_str)\n"}
+{"rank": 3, "bleu_score": 0.1742757960201972, "candidate": "    if int_str is None:\n        return None\n"}
+{"rank": 4, "bleu_score": 0.1742757960201972, "candidate": "    if int_str is None:\n        return None\n"}
+{"rank": 5, "bleu_score": 0.15869282816710692, "candidate": "    if int_str is None:\n        return\n"}
+{"rank": 6, "bleu_score": 0.27555422823136544, "candidate": "    try:\n        return int(int_str)\n"}
+{"rank": 7, "bleu_score": 0.15869282816710692, "candidate": "    if int_str is None:\n        return\n"}
+{"rank": 8, "bleu_score": 0.1742757960201972, "candidate": "    if int_str is None:\n        return None\n"}
+{"rank": 9, "bleu_score": 0.15869282816710692, "candidate": "    if int_str is None:\n        return\n"}
+{"rank": 10, "bleu_score": 0.27555422823136544, "candidate": "    try:\n        return int(int_str)\n"}
+{"rank": 11, "bleu_score": 0.27555422823136544, "candidate": "    try:\n        return int(int_str)\n"}
+{"rank": 12, "bleu_score": 9.765260274142007e-155, "candidate": "    r = re.match(r'-?\\d+', int_str)\n    if r:\n"}
+{"rank": 13, "bleu_score": 0.1742757960201972, "candidate": "    if int_str is None:\n        return None\n"}
+{"rank": 14, "bleu_score": 0.1742757960201972, "candidate": "    if int_str is None:\n        return None\n"}
+{"rank": 15, "bleu_score": 0.1742757960201972, "candidate": "    if int_str is None:\n        return None\n"}
+{"rank": 16, "bleu_score": 0.18368578620276968, "candidate": "    try:\n        v = int(int_str)\n"}
+{"rank": 17, "bleu_score": 8.382451328140937e-155, "candidate": "    try:\n        int_str = re.search(r'(\\d+)', int_str).group(1)\n"}
+{"rank": 18, "bleu_score": 0.27555422823136544, "candidate": "    try:\n        return int(int_str)\n"}
+{"rank": 19, "bleu_score": 0.12909944487358058, "candidate": "    int_str = re.sub(r'[^\\d]', '', str_or_none(int_str))\n    if int_str:\n"}
+{"rank": 20, "bleu_score": 0.1742757960201972, "candidate": "    if int_str is None:\n        return None\n"}

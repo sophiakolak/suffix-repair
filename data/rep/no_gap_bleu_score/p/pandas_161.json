@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.49263236618269796, "candidate": "                codes = self._codes\n                codes[codes == -1] = values_codes[codes == -1]\n"}
+{"rank": 2, "bleu_score": 0.20937874833966696, "candidate": "                codes = self._codes.copy()\n                mask = codes == -1\n"}
+{"rank": 3, "bleu_score": 6.74140860292588e-155, "candidate": "                codes = codes.copy()\n                for i, cat in enumerate(value.index):\n"}
+{"rank": 4, "bleu_score": 0.1282177741036986, "candidate": "                codes = _fillna_with_codes(codes, values_codes)\n            else:\n"}
+{"rank": 5, "bleu_score": 4.550510202671139e-155, "candidate": "            else:\n                if value not in self.categories and not isna(value):\n"}
+{"rank": 6, "bleu_score": 6.74140860292588e-155, "candidate": "                value = self._constructor(values_codes, self.categories, fastpath=True)\n            if value is np.nan:\n"}
+{"rank": 7, "bleu_score": 0.3834824944236852, "candidate": "                codes = np.where(codes == -1, values_codes, codes)\n            # If value is a scalar\n"}
+{"rank": 8, "bleu_score": 0.36273812505500586, "candidate": "                codes = np.where(codes == -1, values_codes, codes)\n            # If value is just a scalar\n"}
+{"rank": 9, "bleu_score": 0.40133539171407995, "candidate": "                codes = np.where(codes == -1, values_codes, codes)\n            else:\n"}
+{"rank": 10, "bleu_score": 6.435393244334489e-155, "candidate": "                value = self._from_factorized(values_codes, self.categories)\n            # If value is a Categorical\n"}
+{"rank": 11, "bleu_score": 6.5101735160946985e-155, "candidate": "                value = self._constructor(values_codes, self.categories)\n            # if a list, it must match the length of our categories\n"}
+{"rank": 12, "bleu_score": 7.739885958598879e-155, "candidate": "                codes = self._codes.where(self._codes != -1, values_codes)\n            # If value is not a dict or Series (e.g. a scalar)\n"}
+{"rank": 13, "bleu_score": 4.570844256138267e-155, "candidate": "                codes = self.combine_first(values_codes)._codes\n            else:\n"}
+{"rank": 14, "bleu_score": 0.4906325864785215, "candidate": "                mask = isna(codes)\n                codes[mask] = values_codes[mask]\n"}
+{"rank": 15, "bleu_score": 0, "candidate": "                # Use pd.Series instead of pd.Index because the latter\n                # doesn't support np.nan in Series.__contains__\n"}
+{"rank": 16, "bleu_score": 0.13161143719376908, "candidate": "                codes, fill_value = self._maybe_convert_codes(\n                    codes, values_codes, value, fill_value=True\n"}
+{"rank": 17, "bleu_score": 5.116379531646389e-155, "candidate": "                # Use .take() to ensure that fillna isn't affected by categorical\n                # ordering.\n"}
+{"rank": 18, "bleu_score": 0.1282177741036986, "candidate": "                codes = _fillna_with_values(codes, values_codes)\n            else:\n"}
+{"rank": 19, "bleu_score": 0.08770580193070293, "candidate": "                codes = values_codes.where(isna(codes), codes)\n            # Set codes to NaN. We don't do this for value=np.nan to avoid\n"}
+{"rank": 20, "bleu_score": 0, "candidate": "                # we need to set the nan to -2 here, because if we fillna with\n                # a different nan value, it's not nan anymore\n"}

@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.10137073549418277, "candidate": "        if \"Transfer-Encoding\" in headers:\n"}
+{"rank": 2, "bleu_score": 0.10137073549418277, "candidate": "        if \"Transfer-Encoding\" in headers:\n"}
+{"rank": 3, "bleu_score": 0.10137073549418277, "candidate": "        if \"Transfer-Encoding\" in headers:\n"}
+{"rank": 4, "bleu_score": 0.6065306597126334, "candidate": "        if headers.get(\"Transfer-Encoding\") == \"chunked\":\n"}
+{"rank": 5, "bleu_score": 0.10137073549418277, "candidate": "        if \"Transfer-Encoding\" in headers:\n"}
+{"rank": 6, "bleu_score": 0.148280319674696, "candidate": "        if (\"Transfer-Encoding\" in headers and\n"}
+{"rank": 7, "bleu_score": 0.6065306597126334, "candidate": "        if headers.get(\"Transfer-Encoding\") == \"chunked\":\n"}
+{"rank": 8, "bleu_score": 8.206428248333591e-157, "candidate": "        if self._chunked:\n"}
+{"rank": 9, "bleu_score": 0.6065306597126334, "candidate": "        if headers.get(\"Transfer-Encoding\") == \"chunked\":\n"}
+{"rank": 10, "bleu_score": 2.3425584400563996e-155, "candidate": "        if \"Content-Length\" in headers:\n"}
+{"rank": 11, "bleu_score": 0.10137073549418277, "candidate": "        if \"Transfer-Encoding\" in headers:\n"}
+{"rank": 12, "bleu_score": 0.10137073549418277, "candidate": "        if \"Transfer-Encoding\" in headers:\n"}
+{"rank": 13, "bleu_score": 0.10137073549418277, "candidate": "        if \"Transfer-Encoding\" in headers:\n"}
+{"rank": 14, "bleu_score": 0.10137073549418277, "candidate": "        if \"Transfer-Encoding\" in headers:\n"}
+{"rank": 15, "bleu_score": 3.3786571353649396e-155, "candidate": "        if _should_receive_body(method, code):\n"}
+{"rank": 16, "bleu_score": 0.10137073549418277, "candidate": "        if \"Transfer-Encoding\" in headers:\n"}
+{"rank": 17, "bleu_score": 0.10137073549418277, "candidate": "        if \"Transfer-Encoding\" in headers:\n"}
+{"rank": 18, "bleu_score": 0.10137073549418277, "candidate": "        if \"Transfer-Encoding\" in headers:\n"}
+{"rank": 19, "bleu_score": 0.10137073549418277, "candidate": "        if \"Transfer-Encoding\" in headers:\n"}
+{"rank": 20, "bleu_score": 1.4274741555135713e-155, "candidate": "        elif httputil.has_body(code):\n"}

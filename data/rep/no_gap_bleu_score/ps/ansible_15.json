@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.33819977079726155, "candidate": "    if any((needs_update('state'), needs_update('state'))):\n"}
+{"rank": 2, "bleu_score": 1.0, "candidate": "    if needs_update('state'):\n"}
+{"rank": 3, "bleu_score": 1.0, "candidate": "    if needs_update('state'):\n"}
+{"rank": 4, "bleu_score": 1.0, "candidate": "    if needs_update('state'):\n"}
+{"rank": 5, "bleu_score": 1.0, "candidate": "    if needs_update('state'):\n"}
+{"rank": 6, "bleu_score": 0.5149286505444373, "candidate": "    if any((needs_update('state'))):\n"}
+{"rank": 7, "bleu_score": 6.905081759897607e-155, "candidate": "    if have['vrf'] != want['vrf']:\n"}
+{"rank": 8, "bleu_score": 0.5149286505444373, "candidate": "    if any((needs_update('state'))):\n"}
+{"rank": 9, "bleu_score": 1.0, "candidate": "    if needs_update('state'):\n"}
+{"rank": 10, "bleu_score": 1.0, "candidate": "    if needs_update('state'):\n"}
+{"rank": 11, "bleu_score": 1.0, "candidate": "    if needs_update('state'):\n"}
+{"rank": 12, "bleu_score": 1.0, "candidate": "    if needs_update('state'):\n"}
+{"rank": 13, "bleu_score": 0, "candidate": ""}
+{"rank": 14, "bleu_score": 3.210460101135254e-155, "candidate": "    if commands:\n"}
+{"rank": 15, "bleu_score": 1.0, "candidate": "    if needs_update('state'):\n"}
+{"rank": 16, "bleu_score": 1.0, "candidate": "    if needs_update('state'):\n"}
+{"rank": 17, "bleu_score": 1.0, "candidate": "    if needs_update('state'):\n"}
+{"rank": 18, "bleu_score": 1.0, "candidate": "    if needs_update('state'):\n"}
+{"rank": 19, "bleu_score": 0.33819977079726155, "candidate": "    if any((needs_update('state'), needs_update('vrf'))):\n"}
+{"rank": 20, "bleu_score": 0.33819977079726155, "candidate": "    if any((needs_update('state'), needs_update('state'))):\n"}

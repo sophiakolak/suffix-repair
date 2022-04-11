@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.24152294576982403, "candidate": "                docs = [pipe.process(doc, **kwargs) for doc in docs]\n"}
+{"rank": 2, "bleu_score": 0.4529108136578383, "candidate": "                docs = list(pipe(docs, **kwargs))\n"}
+{"rank": 3, "bleu_score": 0.25819888974716115, "candidate": "                docs = [pipe(doc, **kwargs) for doc in docs]\n"}
+{"rank": 4, "bleu_score": 0.44153854132913556, "candidate": "                pipe(docs, **kwargs)\n"}
+{"rank": 5, "bleu_score": 0.4236592728681617, "candidate": "                docs = list(pipe.get_orig(docs, **kwargs))\n"}
+{"rank": 6, "bleu_score": 0.4236592728681617, "candidate": "                docs = list(pipe.process(docs, **kwargs))\n"}
+{"rank": 7, "bleu_score": 0.4236592728681617, "candidate": "                docs = list(pipe.process(docs, **kwargs))\n"}
+{"rank": 8, "bleu_score": 0.5962847939999439, "candidate": "                docs = pipe(docs, **kwargs)\n"}
+{"rank": 9, "bleu_score": 0.4529108136578383, "candidate": "                docs = list(pipe(docs, **kwargs))\n"}
+{"rank": 10, "bleu_score": 0.25819888974716115, "candidate": "                docs = [pipe(doc, **kwargs) for doc in docs]\n"}
+{"rank": 11, "bleu_score": 0.5640760748177662, "candidate": "                docs = list(pipe.process_many(docs, kwargs))\n"}
+{"rank": 12, "bleu_score": 0.25819888974716115, "candidate": "                docs = [pipe(doc, **kwargs) for doc in docs]\n"}
+{"rank": 13, "bleu_score": 0.4529108136578383, "candidate": "                docs = list(pipe(docs, **kwargs))\n"}
+{"rank": 14, "bleu_score": 4.421625271317475e-155, "candidate": "                with pipe.use_params(self.optimizer.averages):\n"}
+{"rank": 15, "bleu_score": 0.4236592728681617, "candidate": "                docs = list(pipe.process(docs, **kwargs))\n"}
+{"rank": 16, "bleu_score": 0.5962847939999439, "candidate": "                docs = pipe(docs, **kwargs)\n"}
+{"rank": 17, "bleu_score": 0.4236592728681617, "candidate": "                docs = list(pipe.process(docs, **kwargs))\n"}
+{"rank": 18, "bleu_score": 0.4236592728681617, "candidate": "                docs = list(pipe.process_docs(docs, **kwargs))\n"}
+{"rank": 19, "bleu_score": 0.4236592728681617, "candidate": "                docs = list(pipe.process(docs, **kwargs))\n"}
+{"rank": 20, "bleu_score": 0, "candidate": "                if infer_vectors:\n"}

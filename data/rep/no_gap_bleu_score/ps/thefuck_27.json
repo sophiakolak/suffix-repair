@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 7.458340731200295e-155, "candidate": "    return 'start {0}'.format(command.script_parts[1])\n"}
+{"rank": 2, "bleu_score": 0.18609684207969418, "candidate": "    return '{} http://{}'.format(command.script[:3], command.script[4:])\n"}
+{"rank": 3, "bleu_score": 0, "candidate": "    # A cludge for when the full url is enclosed in quotes\n"}
+{"rank": 4, "bleu_score": 2.3264297168112673e-155, "candidate": "    return 'xdg-open ' + command.script\n"}
+{"rank": 5, "bleu_score": 0.47828670265295953, "candidate": "    return 'open http://' + command.script.split('open')[1].strip()\n"}
+{"rank": 6, "bleu_score": 0.2132543830616615, "candidate": "    # just add 'http://' prefix to given URL\n"}
+{"rank": 7, "bleu_score": 0.31390943921466413, "candidate": "    return 'xdg-open http://' + command.script\n"}
+{"rank": 8, "bleu_score": 0.30158724076130894, "candidate": "    return u'open http://{}'.format(command.script)\n"}
+{"rank": 9, "bleu_score": 3.880277057527462e-155, "candidate": "    def get_url(url):\n"}
+{"rank": 10, "bleu_score": 0, "candidate": "    script_parts = command.script_parts\n"}
+{"rank": 11, "bleu_score": 6.17087516772532e-155, "candidate": "    return 'xdg-open {0}'.format(command.script)\n"}
+{"rank": 12, "bleu_score": 0.19611613513818402, "candidate": "    return 'xdg-open' + command.script[command.script.index(' '):]\n"}
+{"rank": 13, "bleu_score": 2.3264297168112673e-155, "candidate": "    return 'xdg-open ' + command.script\n"}
+{"rank": 14, "bleu_score": 0.11433239009500591, "candidate": "    new_cmd = command.script.replace(command.script.split(\" \")[0], \"firefox -new-tab\")\n"}
+{"rank": 15, "bleu_score": 0, "candidate": "    base = command.script_parts[0]\n"}
+{"rank": 16, "bleu_score": 7.165741990418252e-155, "candidate": "    new_command = \"xdg-open \" + command.script.strip()[5:]\n"}
+{"rank": 17, "bleu_score": 0.1510758360312796, "candidate": "    space = command.script.find(' ')\n"}
+{"rank": 18, "bleu_score": 0, "candidate": "    url = command.script_parts[1]\n"}
+{"rank": 19, "bleu_score": 0.4529108136578383, "candidate": "    return 'xdg-open %s' % command.script.replace('open ', '')\n"}
+{"rank": 20, "bleu_score": 0.17782168978975485, "candidate": "    return '{0} http://{1}'.format(command.script_parts[0], command.script_parts[1])\n"}

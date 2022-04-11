@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.009882034337967149, "candidate": "        '!': lambda x: not x,\n"}
+{"rank": 2, "bleu_score": 0.031925879321684655, "candidate": "        '!': lambda a: not bool(a),\n"}
+{"rank": 3, "bleu_score": 0.12199317627457355, "candidate": "        'exists': lambda x: x is not None,\n        'true': lambda x: bool(x),\n"}
+{"rank": 4, "bleu_score": 0.13483823693854352, "candidate": "        '!': lambda x: not x,\n        '!!': lambda x: bool(x),\n"}
+{"rank": 5, "bleu_score": 0.0724726072318034, "candidate": "        '!': lambda x: not x,\n        '': lambda x: x,\n"}
+{"rank": 6, "bleu_score": 0.009882034337967149, "candidate": "        '!': lambda x: not x,\n"}
+{"rank": 7, "bleu_score": 0.17994248747138034, "candidate": "        '!': lambda actual_value: not bool(actual_value),\n        '!!': lambda actual_value: bool(actual_value),\n"}
+{"rank": 8, "bleu_score": 0.00039108970869982366, "candidate": "        '!': operator.not_,\n"}
+{"rank": 9, "bleu_score": 0.08778259861698491, "candidate": "        'defined': lambda x: x is not None,\n        'empty': lambda x: not x,\n"}
+{"rank": 10, "bleu_score": 0.1956808828386453, "candidate": "        '!': lambda v: not v,\n        '?': lambda v: bool(v),\n"}
+{"rank": 11, "bleu_score": 0.07773547098569558, "candidate": "        '!': lambda x: not x,\n        'not_': lambda x: not x,\n"}
+{"rank": 12, "bleu_score": 0.0984719253139555, "candidate": "        'defined': bool,\n        'present': lambda k: k is not None and len(k) > 0,\n"}
+{"rank": 13, "bleu_score": 0.11093687323456014, "candidate": "        'present': lambda x: x is not None,\n        'missing': lambda x: x is None,\n"}
+{"rank": 14, "bleu_score": 0.009882034337967149, "candidate": "        '!': lambda x: not x,\n"}
+{"rank": 15, "bleu_score": 0.12325738803248938, "candidate": "        '!': lambda x: not x,\n        '!?': lambda x: x is None,\n"}
+{"rank": 16, "bleu_score": 0.11576244855641826, "candidate": "        '!': lambda x: not x,\n        'defined': lambda x: x is not None,\n"}
+{"rank": 17, "bleu_score": 0.031925879321684655, "candidate": "        '!': lambda x: not bool(x),\n"}
+{"rank": 18, "bleu_score": 0.009882034337967149, "candidate": "        '!': lambda x: not x,\n"}
+{"rank": 19, "bleu_score": 0.0038389883359179196, "candidate": "        '-': lambda x: not x,\n"}
+{"rank": 20, "bleu_score": 0.009882034337967149, "candidate": "        '!': lambda value: not value,\n"}

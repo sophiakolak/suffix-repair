@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0, "candidate": "        from luigi.worker import Worker\n"}
+{"rank": 2, "bleu_score": 0, "candidate": "        from luigi.worker import Worker\n"}
+{"rank": 3, "bleu_score": 6.1021374516895845e-155, "candidate": "        return WorkerScheduler()\n"}
+{"rank": 4, "bleu_score": 0, "candidate": "        from luigi.worker import Worker\n"}
+{"rank": 5, "bleu_score": 0.2997762379232956, "candidate": "        return interface.CentralPlannerScheduler(prune_on_get_work=True)\n"}
+{"rank": 6, "bleu_score": 6.1021374516895845e-155, "candidate": "        return CentralPlannerScheduler()\n"}
+{"rank": 7, "bleu_score": 6.1021374516895845e-155, "candidate": "        return worker.WorkerScheduler()\n"}
+{"rank": 8, "bleu_score": 3.210460101135254e-155, "candidate": "        return WorkerScheduler(\n"}
+{"rank": 9, "bleu_score": 7.745153834214218e-155, "candidate": "        return CentralPlannerScheduler(prune_on_get_work=False)\n"}
+{"rank": 10, "bleu_score": 6.1021374516895845e-155, "candidate": "        return CentralPlannerScheduler()\n"}
+{"rank": 11, "bleu_score": 9.94445430826712e-155, "candidate": "        return CentralPlannerScheduler(retry_delay=60, remove_delay=120, worker_disconnect_delay=10)\n"}
+{"rank": 12, "bleu_score": 6.1021374516895845e-155, "candidate": "        return SingleProcessPool()\n"}
+{"rank": 13, "bleu_score": 7.973301625706314e-155, "candidate": "        logging.debug('Creating new scheduler')\n"}
+{"rank": 14, "bleu_score": 6.1021374516895845e-155, "candidate": "        return WorkerScheduler()\n"}
+{"rank": 15, "bleu_score": 0.48795003647426655, "candidate": "        return Scheduler(prune_on_get_work=True, disable_failures=True)\n"}
+{"rank": 16, "bleu_score": 0.2997762379232956, "candidate": "        return _WorkerScheduler(prune_on_get_work=True)\n"}
+{"rank": 17, "bleu_score": 6.1021374516895845e-155, "candidate": "        return WorkerScheduler()\n"}
+{"rank": 18, "bleu_score": 9.765260274142007e-155, "candidate": "        return LocalTaskProcess(**self.options)\n"}
+{"rank": 19, "bleu_score": 4.9823743656555826e-155, "candidate": "        raise NotImplementedError()\n"}
+{"rank": 20, "bleu_score": 0.2997762379232956, "candidate": "        return CentralPlannerScheduler(prune_on_get_work=True)\n"}

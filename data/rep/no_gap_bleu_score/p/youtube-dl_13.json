@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.22490758804689834, "candidate": "    if path.startswith(('http://', 'https://')):\n"}
+{"rank": 2, "bleu_score": 0.17042160885761407, "candidate": "    elif path.startswith('http://') or path.startswith('https://'):\n"}
+{"rank": 3, "bleu_score": 0.040439150594193216, "candidate": "    if isinstance(base, bytes):\n"}
+{"rank": 4, "bleu_score": 3.380325184116721e-155, "candidate": "    scheme, netloc, basepath, query, fragment = compat_urlparse.urlsplit(base)\n"}
+{"rank": 5, "bleu_score": 0.05812346180770816, "candidate": "    if base and not base.endswith('/'):\n"}
+{"rank": 6, "bleu_score": 0.03041901777398071, "candidate": "    if path.startswith('//'):\n"}
+{"rank": 7, "bleu_score": 0.040439150594193216, "candidate": "    if isinstance(base, bytes):\n"}
+{"rank": 8, "bleu_score": 0.1796401488334622, "candidate": "    if path.startswith('http://') or path.startswith('https://'):\n"}
+{"rank": 9, "bleu_score": 0.04977309161700477, "candidate": "    if not isinstance(base, compat_str):\n"}
+{"rank": 10, "bleu_score": 0.03847735214036962, "candidate": "    return compat_urlparse.urljoin(base, path)\n"}
+{"rank": 11, "bleu_score": 1.7616430587072818e-159, "candidate": "    try:\n"}
+{"rank": 12, "bleu_score": 0.03847735214036962, "candidate": "    return compat_urllib_parse.urljoin(base, path)\n"}
+{"rank": 13, "bleu_score": 0.0725744841247466, "candidate": "    scheme, netloc, path_, query, fragment = compat_urlparse.urlsplit(path)\n"}
+{"rank": 14, "bleu_score": 0.04301898749003175, "candidate": "    if not url_or_none(path):\n"}
+{"rank": 15, "bleu_score": 0.07163448906779493, "candidate": "    url = compat_urlparse.urljoin(base, compat_urllib_parse_unquote_plus(path))\n"}
+{"rank": 16, "bleu_score": 0.1796053020267749, "candidate": "    elif not any((path.startswith(protocol) for protocol in ('http://', 'https://', 'ftp://'))):\n"}
+{"rank": 17, "bleu_score": 0.015744053406497194, "candidate": "    parsed_url = compat_urlparse.urlparse(path)\n"}
+{"rank": 18, "bleu_score": 0.05115192900808082, "candidate": "    new_path = urllib_parse.urljoin(base, path)\n"}
+{"rank": 19, "bleu_score": 9.941181913712914e-156, "candidate": "    path = path.lstrip('/')\n"}
+{"rank": 20, "bleu_score": 0.03041901777398071, "candidate": "    if path.startswith('//'):\n"}

@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.832869345968568, "candidate": "    elif isinstance(obj, (ABCSeries, np.ndarray, ABCIndexClass)):\n"}
+{"rank": 2, "bleu_score": 0.013123728736940968, "candidate": "    elif isinstance(\n"}
+{"rank": 3, "bleu_score": 0.832869345968568, "candidate": "    elif isinstance(obj, (ABCSeries, np.ndarray, ABCIndexClass)):\n"}
+{"rank": 4, "bleu_score": 0.1090473801416192, "candidate": "    elif is_extension_array_dtype(obj):\n"}
+{"rank": 5, "bleu_score": 0.3405901809296152, "candidate": "    elif isinstance(obj, ABCIndexClass):\n"}
+{"rank": 6, "bleu_score": 0.013123728736940968, "candidate": "    elif isinstance(\n"}
+{"rank": 7, "bleu_score": 0.013123728736940968, "candidate": "    elif isinstance(\n"}
+{"rank": 8, "bleu_score": 0.013123728736940968, "candidate": "    elif isinstance(\n"}
+{"rank": 9, "bleu_score": 0.013123728736940968, "candidate": "    elif isinstance(\n"}
+{"rank": 10, "bleu_score": 0.1090473801416192, "candidate": "    elif _is_sparse(obj):\n"}
+{"rank": 11, "bleu_score": 0.013123728736940968, "candidate": "    elif isinstance(\n"}
+{"rank": 12, "bleu_score": 0.3109148749331935, "candidate": "    elif isinstance(obj, ABCSeries):\n"}
+{"rank": 13, "bleu_score": 0.013123728736940968, "candidate": "    elif isinstance(\n"}
+{"rank": 14, "bleu_score": 0.013123728736940968, "candidate": "    elif isinstance(\n"}
+{"rank": 15, "bleu_score": 0.801040989379861, "candidate": "    elif isinstance(obj, (ABCSeries, np.ndarray, ABDatetimeArray, ABCTimedeltaArray)):\n"}
+{"rank": 16, "bleu_score": 0.6831857986552228, "candidate": "    elif isinstance(obj, (ABCSeries, ABCIndexClass)):\n"}
+{"rank": 17, "bleu_score": 0.3405901809296152, "candidate": "    elif isinstance(obj, np.ndarray):\n"}
+{"rank": 18, "bleu_score": 1.0, "candidate": "    elif isinstance(obj, (ABCSeries, np.ndarray, ABCIndexClass, ABCExtensionArray)):\n"}
+{"rank": 19, "bleu_score": 0.013123728736940968, "candidate": "    elif isinstance(\n"}
+{"rank": 20, "bleu_score": 0.2908342346129199, "candidate": "    elif isinstance(obj, ABCSparseArray):\n"}

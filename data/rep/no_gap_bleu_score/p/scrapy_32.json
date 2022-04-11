@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 7.973301625706314e-155, "candidate": "    def _signal_shutdown(self, signum, _):\n        install_shutdown_handlers(self._signal_kill)\n"}
+{"rank": 2, "bleu_score": 7.973301625706314e-155, "candidate": "        logging.config.dictConfig(settings.get('LOG_CONFIG'))\n    def start(self):\n"}
+{"rank": 3, "bleu_score": 5.850803834986753e-155, "candidate": "        self._reactor = None\n    def _signal_shutdown(self, signum, _):\n"}
+{"rank": 4, "bleu_score": 0.20412414523193154, "candidate": "        configure_logging(settings, install_root_handler=False)\n        self._reactor = None\n"}
+{"rank": 5, "bleu_score": 4.839610530770974e-155, "candidate": "        if not settings.getbool('LOG_ENABLED'):\n            # Disable logging if it is not explicitly enabled to avoid\n"}
+{"rank": 6, "bleu_score": 7.458340731200295e-155, "candidate": "    @defer.inlineCallbacks\n    def _install_signal_handlers(self):\n"}
+{"rank": 7, "bleu_score": 7.031791076575252e-155, "candidate": "    def start(self):\n        \"\"\"\n"}
+{"rank": 8, "bleu_score": 5.116379531646389e-155, "candidate": "    @defer.inlineCallbacks\n    def crawl(self, crawler_or_spidercls, *args, **kwargs):\n"}
+{"rank": 9, "bleu_score": 8.274286134223026e-155, "candidate": "        self.configure_logging()\n    def _signal_shutdown(self, signum, _):\n"}
+{"rank": 10, "bleu_score": 8.995097368733392e-155, "candidate": "        update_settings_log_path(settings)\n        if settings.getbool('LOG_ENABLED'):\n"}
+{"rank": 11, "bleu_score": 7.973301625706314e-155, "candidate": "        logging.config.dictConfig(settings.get('LOG_CONFIG'))\n        self.spider_loader = _get_spider_loader(settings)\n"}
+{"rank": 12, "bleu_score": 7.031791076575252e-155, "candidate": "        self._reactor = reactor\n    def start(self):\n"}
+{"rank": 13, "bleu_score": 6.08970970641905e-155, "candidate": "        self.logger = logging.getLogger(__name__)\n        #: :type: twisted.internet.reactor.Reactor\n"}
+{"rank": 14, "bleu_score": 0.26352313834736496, "candidate": "        configure_logging(settings, install_root_handler=False)\n        enable_log_counter()\n"}
+{"rank": 15, "bleu_score": 5.4468019467171996e-155, "candidate": "    def start(self, stop_after_crawl=True):\n        \"\"\"Run all crawlers.\n"}
+{"rank": 16, "bleu_score": 3.917312465865069e-155, "candidate": "    def crawl(self, crawler_or_spidercls, *args, **kwargs):\n        \"\"\"Make a crawler crawl by retrieving its spider and then calling\n"}
+{"rank": 17, "bleu_score": 9.94445430826712e-155, "candidate": "        setup_logging(settings, install_root_handler=False)\n        self.start_reactor()\n"}
+{"rank": 18, "bleu_score": 0, "candidate": "        self._reactor = None\n    @defer.inlineCallbacks\n"}
+{"rank": 19, "bleu_score": 7.458340731200295e-155, "candidate": "        self.spider_loader = _get_spider_loader(settings)\n        self.log_observer = ScrapyFileLogObserver(settings, _logs_path, None)\n"}
+{"rank": 20, "bleu_score": 6.360494346864465e-155, "candidate": "    def start(self, stop_after_crawl=True):\n        \"\"\"\n"}

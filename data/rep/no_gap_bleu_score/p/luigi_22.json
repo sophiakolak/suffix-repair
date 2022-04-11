@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.4688072309384954, "candidate": "    def __init__(self, name, pid, module, tasks):\n"}
+{"rank": 2, "bleu_score": 0.51234753829798, "candidate": "    def __init__(self, worker_id, worker, is_active=True, tasks=[]):\n"}
+{"rank": 3, "bleu_score": 0.5458205020519881, "candidate": "    def __init__(self, name, timeout):\n"}
+{"rank": 4, "bleu_score": 0.5504818825631803, "candidate": "    def __init__(self, name, log_level, log_file):\n"}
+{"rank": 5, "bleu_score": 4.6033878399317575e-155, "candidate": "    __slots__ = ['id', 'name', 'task', 'num_executed', 'num_failed', 'startup']\n"}
+{"rank": 6, "bleu_score": 7.031791076575252e-155, "candidate": "    __slots__ = ('worker_id', 'task', 'connection', 'proxy', 'updated_at')\n"}
+{"rank": 7, "bleu_score": 0.32904137519359195, "candidate": "    def __init__(self):\n"}
+{"rank": 8, "bleu_score": 0.2465969639416065, "candidate": "    def __init__(self,\n"}
+{"rank": 9, "bleu_score": 0.5504818825631803, "candidate": "    def __init__(self, worker, level, queue):\n"}
+{"rank": 10, "bleu_score": 0.426508766123323, "candidate": "    def __init__(self, address, name, last_active,\n"}
+{"rank": 11, "bleu_score": 0.4795045888541125, "candidate": "    def __init__(self, name):\n"}
+{"rank": 12, "bleu_score": 0.426508766123323, "candidate": "    def __init__(self, name, task_list=[],\n"}
+{"rank": 13, "bleu_score": 0.4795045888541125, "candidate": "    def __init__(self, worker_name):\n"}
+{"rank": 14, "bleu_score": 0.5504818825631803, "candidate": "    def __init__(self, task, ioloop, start_time):\n"}
+{"rank": 15, "bleu_score": 0.4688072309384954, "candidate": "    def __init__(self, name, thread, task_queue, rpc_config):\n"}
+{"rank": 16, "bleu_score": 0.5642180635756614, "candidate": "    def __init__(self, worker_id, stop_event, workers,\n"}
+{"rank": 17, "bleu_score": 0.41368954504257255, "candidate": "    def __init__(self, task, q_worker_to_task=None,\n"}
+{"rank": 18, "bleu_score": 0.2465969639416065, "candidate": "    def __init__(self,\n"}
+{"rank": 19, "bleu_score": 0.3922322702763681, "candidate": "    def __init__(self, name, data, queue, error_queue,\n"}
+{"rank": 20, "bleu_score": 0.3922322702763681, "candidate": "    def __init__(self, task_id, task, resource_kwargs, run_kwargs,\n"}

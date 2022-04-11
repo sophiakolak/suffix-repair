@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 2.1442651843884913e-155, "candidate": "        except ValueError:\n            # loop required to parse tuple of tuples\n"}
+{"rank": 2, "bleu_score": 0.12026944267655358, "candidate": "        except (ValueError, TypeError) as e:\n            try:\n"}
+{"rank": 3, "bleu_score": 0.050266590541402846, "candidate": "        except ValueError:\n            return ast.literal_eval(x)\n"}
+{"rank": 4, "bleu_score": 0.050266590541402846, "candidate": "        except ValueError:\n            return ast.literal_eval(x)\n"}
+{"rank": 5, "bleu_score": 0.050266590541402846, "candidate": "        except ValueError:\n            return ast.literal_eval(x)\n"}
+{"rank": 6, "bleu_score": 0.15746966424441688, "candidate": "        except ValueError:\n            return tuple(ast.literal_eval(x))\n"}
+{"rank": 7, "bleu_score": 0.050266590541402846, "candidate": "        except ValueError:\n            return ast.literal_eval(x)\n"}
+{"rank": 8, "bleu_score": 0.050266590541402846, "candidate": "        except ValueError:\n            return ast.literal_eval(x)\n"}
+{"rank": 9, "bleu_score": 0.050266590541402846, "candidate": "        except ValueError:\n            return ast.literal_eval(x)\n"}
+{"rank": 10, "bleu_score": 0.050266590541402846, "candidate": "        except ValueError:\n            return ast.literal_eval(x)\n"}
+{"rank": 11, "bleu_score": 0.2783112890305748, "candidate": "        except ValueError:\n            return tuple(tuple(x) for x in ast.literal_eval(x))\n"}
+{"rank": 12, "bleu_score": 6.276604331061513e-156, "candidate": "        except ValueError:\n            # handle tuple string\n"}
+{"rank": 13, "bleu_score": 1.161430493073768e-156, "candidate": "        except ValueError:\n            try:\n"}
+{"rank": 14, "bleu_score": 0.06185920132255012, "candidate": "        except ValueError:\n            # if ValueError from json.loads, keep going with ast.literal_eval\n"}
+{"rank": 15, "bleu_score": 0.050266590541402846, "candidate": "        except ValueError:\n            return ast.literal_eval(x)\n"}
+{"rank": 16, "bleu_score": 0.050266590541402846, "candidate": "        except ValueError:\n            return ast.literal_eval(x)\n"}
+{"rank": 17, "bleu_score": 3.96564341410792e-155, "candidate": "        except ValueError:\n            # The following is safer than using the builtin eval()\n"}
+{"rank": 18, "bleu_score": 0.050266590541402846, "candidate": "        except ValueError:\n            return ast.literal_eval(x)\n"}
+{"rank": 19, "bleu_score": 1.161430493073768e-156, "candidate": "        except ValueError:\n            try:\n"}
+{"rank": 20, "bleu_score": 0.050266590541402846, "candidate": "        except ValueError:\n            return ast.literal_eval(x)\n"}

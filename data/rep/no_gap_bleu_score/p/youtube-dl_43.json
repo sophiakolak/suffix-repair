@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.0003744795574042241, "candidate": "    url_path = urlparse.urlparse(url).path\n"}
+{"rank": 2, "bleu_score": 0, "candidate": "    \"\"\"\n"}
+{"rank": 3, "bleu_score": 0.04722891714595898, "candidate": "    url = url.split('#', 1)[0].split('?', 1)[0]\n"}
+{"rank": 4, "bleu_score": 0.005060064658223017, "candidate": "    return posixpath.basename(urlparse.urlsplit(url)[2])\n"}
+{"rank": 5, "bleu_score": 5.804082625947416e-156, "candidate": "    \"\"\"Extract and return basename (last component of URL path)\"\"\"\n"}
+{"rank": 6, "bleu_score": 1.050206757826435e-155, "candidate": "    \"\"\"Return the basename of the url, or the url itself if there is no basename\"\"\"\n"}
+{"rank": 7, "bleu_score": 1.5297869867063365e-157, "candidate": "    if '?' in url:\n"}
+{"rank": 8, "bleu_score": 2.497569349298947e-156, "candidate": "    \"\"\"Basename for URL (not URL-encoded)\"\"\"\n"}
+{"rank": 9, "bleu_score": 0, "candidate": "    \"\"\"Return the base name of the URL path\n"}
+{"rank": 10, "bleu_score": 0.06452698516323024, "candidate": "    return remove_start(urlparse.urlparse(url)[2], '/').split('/', 1)[0]\n"}
+{"rank": 11, "bleu_score": 0.001775604939217212, "candidate": "    return os.path.basename(urlparse(url).path)\n"}
+{"rank": 12, "bleu_score": 7.491409780266697e-157, "candidate": "    return url.rpartition('/')[2]\n"}
+{"rank": 13, "bleu_score": 8.581875068330754e-156, "candidate": "    return remove_start(url, strip_string(os.path.sep) + strip_string(os.path.sep))\n"}
+{"rank": 14, "bleu_score": 1.766048223373007e-156, "candidate": "    \"\"\"Removes the URL suffix, if any\"\"\"\n"}
+{"rank": 15, "bleu_score": 0.04064826053061437, "candidate": "    return remove_start(urlparse(url)[2], '/').split('/')[-1]\n"}
+{"rank": 16, "bleu_score": 1.3003219869195496e-156, "candidate": "    \"\"\"Get the basename from the url\"\"\"\n"}
+{"rank": 17, "bleu_score": 3.930756978137255e-160, "candidate": "    last_separator_index = max(\n"}
+{"rank": 18, "bleu_score": 1.5109814054681943e-155, "candidate": "    \"\"\" Return the basename of an url, no matter the url ends with a '/' or not. \"\"\"\n"}
+{"rank": 19, "bleu_score": 1.0030835832681246e-156, "candidate": "    # Only for paths (assume no query string)\n"}
+{"rank": 20, "bleu_score": 0.001775604939217212, "candidate": "    return basename(urlsplit(url).path)\n"}

@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 5.98401908459915e-156, "candidate": "        new_values[mask] = new\n"}
+{"rank": 2, "bleu_score": 5.98401908459915e-156, "candidate": "        new_values[mask] = new\n"}
+{"rank": 3, "bleu_score": 0.41280057216093174, "candidate": "        if isinstance(mask, np.ndarray) and len(mask.shape) == 1:\n"}
+{"rank": 4, "bleu_score": 0.375849196683612, "candidate": "        if not isinstance(new, (np.ndarray, ABCSeries)):\n"}
+{"rank": 5, "bleu_score": 0.04644303993858537, "candidate": "        mask = _maybe_swap(mask, transpose)\n"}
+{"rank": 6, "bleu_score": 3.856085034636466e-156, "candidate": "        if axis == 0:\n"}
+{"rank": 7, "bleu_score": 0.12287673380733738, "candidate": "        if len(mask) == 0:\n"}
+{"rank": 8, "bleu_score": 0.26747670731041595, "candidate": "        if isinstance(new, np.ndarray) and new.ndim == 0:\n"}
+{"rank": 9, "bleu_score": 0.4388973041732229, "candidate": "        if not isinstance(new, (np.ndarray, ExtensionArray)):\n"}
+{"rank": 10, "bleu_score": 0.05499028801810141, "candidate": "        # TODO(EA2D): unnecessary with 2D EAs\n"}
+{"rank": 11, "bleu_score": 0.46950796011619816, "candidate": "        if len(new) == 0 and not isinstance(new, np.ndarray):\n"}
+{"rank": 12, "bleu_score": 0.04913221953988768, "candidate": "        if is_extension_array_dtype(new):\n"}
+{"rank": 13, "bleu_score": 0.20506977338166954, "candidate": "        if not isinstance(new, np.ndarray) or new.ndim != mask.ndim:\n"}
+{"rank": 14, "bleu_score": 0.02537176907202555, "candidate": "        if not mask.any():\n"}
+{"rank": 15, "bleu_score": 0.056880874976617174, "candidate": "        nv.putmask(new_values, mask, new)\n"}
+{"rank": 16, "bleu_score": 3.856085034636466e-156, "candidate": "        if axis == 0:\n"}
+{"rank": 17, "bleu_score": 0.01492498005254816, "candidate": "        if mask.any():\n"}
+{"rank": 18, "bleu_score": 2.1631910004127923e-157, "candidate": "        if transpose:\n"}
+{"rank": 19, "bleu_score": 5.98401908459915e-156, "candidate": "        if axis != 0:\n"}
+{"rank": 20, "bleu_score": 0.45854995341189, "candidate": "        if isinstance(new, (ABCSeries, np.ndarray, ExtensionArray)):\n"}

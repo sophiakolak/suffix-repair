@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 6.6709427497276e-155, "candidate": "            and re.findall(r'The console process failed to load:', command.stderr))\n"}
+{"rank": 2, "bleu_score": 0.23585721816862673, "candidate": "            and 'fatal' in command.output.lower())\n"}
+{"rank": 3, "bleu_score": 0.20412414523193154, "candidate": "            and 'fatal: The current branch' in command.stderr\n"}
+{"rank": 4, "bleu_score": 0.21081851067789192, "candidate": "            and 'is not a valid ref' in command.stderr)\n"}
+{"rank": 5, "bleu_score": 0.31321108587083024, "candidate": "            and 'Everything up-to-date' in command.output\n"}
+{"rank": 6, "bleu_score": 0.31321108587083024, "candidate": "            and 'fatal:' in command.output\n"}
+{"rank": 7, "bleu_score": 0.3279715789102868, "candidate": "            and \"upstream\" in command.output)\n"}
+{"rank": 8, "bleu_score": 0.337099931231621, "candidate": "            and 'The following branch is not yet merged' in command.output)\n"}
+{"rank": 9, "bleu_score": 0.37292300600205397, "candidate": "            and '--set-upstream' not in command.script\n"}
+{"rank": 10, "bleu_score": 0.4472135954999579, "candidate": "            and (\"git push --set-upstream\" in command.output\n"}
+{"rank": 11, "bleu_score": 7.789982830837433e-155, "candidate": "            and \"could not read Username for\" in command.stderr)\n"}
+{"rank": 12, "bleu_score": 0.19180183554164504, "candidate": "            and 'Everything up-to-date' in command.stderr\n"}
+{"rank": 13, "bleu_score": 0.408248290463863, "candidate": "            and 'fatal: The current branch' in command.output)\n"}
+{"rank": 14, "bleu_score": 0.1740776559556978, "candidate": "            and 'error: failed to push some refs to' in command.stderr\n"}
+{"rank": 15, "bleu_score": 0.33333333333333337, "candidate": "            and 'fatal: The current branch' in command.output\n"}
+{"rank": 16, "bleu_score": 0.33333333333333337, "candidate": "            and 'fatal: The current branch' in command.output\n"}
+{"rank": 17, "bleu_score": 0.33333333333333337, "candidate": "            and 'fatal: The current branch' in command.output\n"}
+{"rank": 18, "bleu_score": 0.2870846258816073, "candidate": "            and 'The following untracked working tree files would be overwritten' in command.output)\n"}
+{"rank": 19, "bleu_score": 0.22147368276206617, "candidate": "            and 'allow-unrelated-histories' in command.stderr)\n"}
+{"rank": 20, "bleu_score": 0.37292300600205397, "candidate": "            and 'usage: git push' in command.output\n"}

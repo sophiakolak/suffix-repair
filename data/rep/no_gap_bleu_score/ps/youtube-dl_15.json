@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0, "candidate": ""}
+{"rank": 2, "bleu_score": 0.04977309161700477, "candidate": "        [{}\\[\\]]|\n"}
+{"rank": 3, "bleu_score": 0.1750903198284251, "candidate": "        [a-zA-Z_][0-9a-zA-Z_]*(?={skip}:)|\n"}
+{"rank": 4, "bleu_score": 0.22001335097980454, "candidate": "        \\b(?:true|false|null)(?:,|\\]|\\}|$)|\n"}
+{"rank": 5, "bleu_score": 0.13281566628776964, "candidate": "        {skip}?[\\[{]|{skip}?[\\]}]|\n"}
+{"rank": 6, "bleu_score": 0, "candidate": ""}
+{"rank": 7, "bleu_score": 0, "candidate": ""}
+{"rank": 8, "bleu_score": 0, "candidate": ""}
+{"rank": 9, "bleu_score": 0, "candidate": ""}
+{"rank": 10, "bleu_score": 0.23875688017850918, "candidate": "        [a-zA-Z_$][a-zA-Z_$0-9]*(?={skip}:)|\n"}
+{"rank": 11, "bleu_score": 0, "candidate": ""}
+{"rank": 12, "bleu_score": 0, "candidate": ""}
+{"rank": 13, "bleu_score": 0.10711706313983282, "candidate": "        [a-zA-Z_]\\w*:{skip}(?=\")|\n"}
+{"rank": 14, "bleu_score": 0.03041901777398071, "candidate": "        \\btrue|false|null(?!\\w)|\n"}
+{"rank": 15, "bleu_score": 0, "candidate": ""}
+{"rank": 16, "bleu_score": 0, "candidate": ""}
+{"rank": 17, "bleu_score": 0.19180183554164504, "candidate": "        \\b(?:true|false|null)(?:{skip}:)?|\n"}
+{"rank": 18, "bleu_score": 2.5848110979348575e-156, "candidate": "        \\s*\\[|\n"}
+{"rank": 19, "bleu_score": 0, "candidate": ""}
+{"rank": 20, "bleu_score": 0, "candidate": ""}

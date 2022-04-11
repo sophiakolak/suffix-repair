@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.4239476213483084, "candidate": "    return tqdm_class(enumerate(iterable), start=start,\n"}
+{"rank": 2, "bleu_score": 0.41677879041417215, "candidate": "    return tqdm_class(iterable, total=total or len(iterable),\n"}
+{"rank": 3, "bleu_score": 0.5911667135438898, "candidate": "    return tqdm_class(enumerate(iterable, start),\n"}
+{"rank": 4, "bleu_score": 0.4364357804719847, "candidate": "    return tqdm_class(enumerate(iterable), total=total or len(iterable),\n"}
+{"rank": 5, "bleu_score": 0.4364357804719847, "candidate": "    return tqdm_class(enumerate(iterable), total=total or len(iterable),\n"}
+{"rank": 6, "bleu_score": 0.442060663434882, "candidate": "    return tqdm_class(enumerate(iterable), start=start, total=total,\n"}
+{"rank": 7, "bleu_score": 0.4364357804719847, "candidate": "    return tqdm_class(enumerate(iterable), total=total or len(iterable),\n"}
+{"rank": 8, "bleu_score": 0.442060663434882, "candidate": "    return tqdm_class(enumerate(iterable), total=total, start=start,\n"}
+{"rank": 9, "bleu_score": 0.442060663434882, "candidate": "    return tqdm_class(enumerate(iterable), total=total, start=start,\n"}
+{"rank": 10, "bleu_score": 0.4239476213483084, "candidate": "    return tqdm_class(enumerate(iterable), start=start,\n"}
+{"rank": 11, "bleu_score": 0.3570755503478859, "candidate": "    return tqdm_class(enumerate(iterable),\n"}
+{"rank": 12, "bleu_score": 0.47398785011707933, "candidate": "    return tqdm_class(enumerate(iterable, start=start),\n"}
+{"rank": 13, "bleu_score": 0.3570755503478859, "candidate": "    return tqdm_class(enumerate(iterable),\n"}
+{"rank": 14, "bleu_score": 2.8528323383676753e-155, "candidate": "    # Assume iterable is not a numpy array.\n"}
+{"rank": 15, "bleu_score": 0.3570755503478859, "candidate": "    return tqdm_class(enumerate(iterable),\n"}
+{"rank": 16, "bleu_score": 0.7559289460184545, "candidate": "    return tqdm_class(enumerate(iterable), total=total, **tqdm_kwargs)\n"}
+{"rank": 17, "bleu_score": 0.4364357804719847, "candidate": "    return tqdm_class(enumerate(iterable), total=total or len(iterable),\n"}
+{"rank": 18, "bleu_score": 0.4239476213483084, "candidate": "    return tqdm_class(enumerate(iterable), total=total,\n"}
+{"rank": 19, "bleu_score": 0.442060663434882, "candidate": "    return tqdm_class(enumerate(iterable), total=total, start=start,\n"}
+{"rank": 20, "bleu_score": 2.4911871828277867e-155, "candidate": "    # Not a Numpy array -- regular enumerate\n"}

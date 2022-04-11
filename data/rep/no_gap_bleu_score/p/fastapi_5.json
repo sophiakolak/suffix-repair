@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.4016815092325757, "candidate": "            use_type.add_field(create_cloned_field(f))\n"}
+{"rank": 2, "bleu_score": 0.4016815092325757, "candidate": "            use_type.add_field(create_cloned_field(f))\n"}
+{"rank": 3, "bleu_score": 0.49523020988320327, "candidate": "            f_clone = create_cloned_field(f)\n"}
+{"rank": 4, "bleu_score": 0.3692744729379982, "candidate": "            setattr(use_type, f.name, create_cloned_field(f))\n"}
+{"rank": 5, "bleu_score": 0, "candidate": "            if not f.field_info.extra:\n"}
+{"rank": 6, "bleu_score": 0.49523020988320327, "candidate": "            new_field = create_cloned_field(f)\n"}
+{"rank": 7, "bleu_score": 0.49523020988320327, "candidate": "            original_field = create_cloned_field(f)\n"}
+{"rank": 8, "bleu_score": 0.49523020988320327, "candidate": "            new_f = create_cloned_field(f)\n"}
+{"rank": 9, "bleu_score": 0.4016815092325757, "candidate": "            use_type.add_field(create_cloned_field(f))\n"}
+{"rank": 10, "bleu_score": 0.49523020988320327, "candidate": "            field_copy = create_cloned_field(f)\n"}
+{"rank": 11, "bleu_score": 0.23585721816862673, "candidate": "            f_field = cast(ModelField, f)\n"}
+{"rank": 12, "bleu_score": 0.49523020988320327, "candidate": "            cloned_field = create_cloned_field(f)\n"}
+{"rank": 13, "bleu_score": 0.3692744729379982, "candidate": "            f_ = cast(ModelField, create_cloned_field(f))\n"}
+{"rank": 14, "bleu_score": 0.6793662204867574, "candidate": "            use_type.__fields__[f.name] = create_cloned_field(f)  # type: ignore\n"}
+{"rank": 15, "bleu_score": 0, "candidate": "            if f.default is ...:\n"}
+{"rank": 16, "bleu_score": 0.3692744729379982, "candidate": "            setattr(use_type, f.name, create_cloned_field(f))\n"}
+{"rank": 17, "bleu_score": 0.49523020988320327, "candidate": "            clone_field = create_cloned_field(f)\n"}
+{"rank": 18, "bleu_score": 0.49523020988320327, "candidate": "            f_clone = create_cloned_field(f)\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "            if f.type_ is None:\n"}
+{"rank": 20, "bleu_score": 0.3692744729379982, "candidate": "            setattr(use_type, f.name, create_cloned_field(f))\n"}

@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.7786949072647974, "candidate": "            with open(output, 'ab') as output_file:\n"}
+{"rank": 2, "bleu_score": 1.0, "candidate": "            with open(output, 'a') as output_file:\n"}
+{"rank": 3, "bleu_score": 0.7928249671720919, "candidate": "            with open(output, 'a', encoding='utf-8') as output_file:\n"}
+{"rank": 4, "bleu_score": 1.0, "candidate": "            with open(output, 'a') as output_file:\n"}
+{"rank": 5, "bleu_score": 0.7928249671720919, "candidate": "            with open(output, 'a', encoding='utf-8') as output_file:\n"}
+{"rank": 6, "bleu_score": 1.0, "candidate": "            with open(output, 'a') as output_file:\n"}
+{"rank": 7, "bleu_score": 1.0, "candidate": "            with open(output, 'a') as output_file:\n"}
+{"rank": 8, "bleu_score": 1.0, "candidate": "            with open(output, 'a') as output_file:\n"}
+{"rank": 9, "bleu_score": 1.0, "candidate": "            with open(output, 'a') as output_file:\n"}
+{"rank": 10, "bleu_score": 1.0, "candidate": "            with open(output, 'a') as output_file:\n"}
+{"rank": 11, "bleu_score": 0.7786949072647974, "candidate": "            with open(output, 'ab') as output_file:\n"}
+{"rank": 12, "bleu_score": 0.7928249671720919, "candidate": "            with open(output, 'a', encoding='utf-8') as output_file:\n"}
+{"rank": 13, "bleu_score": 0.7928249671720919, "candidate": "            with open(output, 'a', encoding='utf-8') as output_file:\n"}
+{"rank": 14, "bleu_score": 1.0, "candidate": "            with open(output, 'a') as output_file:\n"}
+{"rank": 15, "bleu_score": 0.8119979429411501, "candidate": "            with open(output, 'a', buffering=1) as output_file:\n"}
+{"rank": 16, "bleu_score": 0.7928249671720919, "candidate": "            with open(output, 'a', encoding='utf-8') as output_file:\n"}
+{"rank": 17, "bleu_score": 1.0, "candidate": "            with open(output, 'a') as output_file:\n"}
+{"rank": 18, "bleu_score": 1.0, "candidate": "            with open(output, 'a') as output_file:\n"}
+{"rank": 19, "bleu_score": 0.7928249671720919, "candidate": "            with open(output, 'a', encoding='utf-8') as output_file:\n"}
+{"rank": 20, "bleu_score": 1.0, "candidate": "            with open(output, 'a') as output_file:\n"}

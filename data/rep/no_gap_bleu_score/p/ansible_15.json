@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.24253562503633297, "candidate": "    if any((needs_update('ftp'), needs_update('ftp_port'))):\n"}
+{"rank": 2, "bleu_score": 0.24253562503633297, "candidate": "    if any((needs_update('ssh'), needs_update('ssh_port'))):\n"}
+{"rank": 3, "bleu_score": 0.24253562503633297, "candidate": "    if any((needs_update('tcl'), needs_update('tcl_port'))):\n"}
+{"rank": 4, "bleu_score": 0.24253562503633297, "candidate": "    if any((needs_update('mgmt_api_ssl'), needs_update('mgmt_api_ssl_port'))):\n"}
+{"rank": 5, "bleu_score": 0.24253562503633297, "candidate": "    if any((needs_update('stats'), needs_update('stats_port'))):\n"}
+{"rank": 6, "bleu_score": 7.2900276358863456e-155, "candidate": "    commands = flatten_list(commands)\n"}
+{"rank": 7, "bleu_score": 3.210460101135254e-155, "candidate": "    if commands:\n"}
+{"rank": 8, "bleu_score": 0.3333333333333333, "candidate": "    if any((needs_update('http_compression'),\n"}
+{"rank": 9, "bleu_score": 0.24253562503633297, "candidate": "    if any((needs_update('http_rest'), needs_update('http_rest'))):\n"}
+{"rank": 10, "bleu_score": 0.24253562503633297, "candidate": "    if any((needs_update('mgmt_api_ssl'), needs_update('mgmt_api_ssl_port'))):\n"}
+{"rank": 11, "bleu_score": 8.170202920075766e-155, "candidate": "    if want['nodes'] is not None:\n"}
+{"rank": 12, "bleu_score": 1.0547686614863434e-154, "candidate": "    if len(commands) > 0:\n"}
+{"rank": 13, "bleu_score": 0.7559289460184544, "candidate": "    if needs_update('management_api_ssl'):\n"}
+{"rank": 14, "bleu_score": 3.210460101135254e-155, "candidate": "    if commands:\n"}
+{"rank": 15, "bleu_score": 0.24253562503633297, "candidate": "    if any((needs_update('ipv6_enabled'), needs_update('ipv6_enabled'))):\n"}
+{"rank": 16, "bleu_score": 3.210460101135254e-155, "candidate": "    if commands:\n"}
+{"rank": 17, "bleu_score": 0.25318484177091666, "candidate": "    if any(needs_update(x) for x in HAVE_REQUIRE_TLS):\n"}
+{"rank": 18, "bleu_score": 3.210460101135254e-155, "candidate": "    if commands:\n"}
+{"rank": 19, "bleu_score": 9.134564559628536e-155, "candidate": "    if state == 'absent' and have:\n"}
+{"rank": 20, "bleu_score": 5.637975647982813e-155, "candidate": "    connection = module.params['connection']\n"}

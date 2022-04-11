@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, ABCPeriodIndex):\n"}
+{"rank": 2, "bleu_score": 0.408248290463863, "candidate": "        if isinstance(data, ABCIndexClass) and not isinstance(data, ABCTimedeltaIndex):\n"}
+{"rank": 3, "bleu_score": 3.880277057527462e-155, "candidate": "        freq = _validate_freq(freq)\n"}
+{"rank": 4, "bleu_score": 0.21239529438966134, "candidate": "        if freq is not None:\n"}
+{"rank": 5, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, PeriodIndex):\n"}
+{"rank": 6, "bleu_score": 3.880277057527462e-155, "candidate": "        freq = _validate_freq(freq)\n"}
+{"rank": 7, "bleu_score": 0, "candidate": "        # other iterable of some kind\n"}
+{"rank": 8, "bleu_score": 7.973301625706314e-155, "candidate": "        subarr, freq = _generate_regular_range(start=data, end=None, periods=None, freq=freq)\n"}
+{"rank": 9, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, cls):\n"}
+{"rank": 10, "bleu_score": 0.11633369384516798, "candidate": "        data = np.asarray(data)\n"}
+{"rank": 11, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, Index):\n"}
+{"rank": 12, "bleu_score": 0.21239529438966134, "candidate": "        if freq is not None:\n"}
+{"rank": 13, "bleu_score": 3.880277057527462e-155, "candidate": "        freq = maybe_infer_freq(freq)\n"}
+{"rank": 14, "bleu_score": 0.2292470411622244, "candidate": "        data = np.asarray(data, dtype=_TD_DTYPE)\n"}
+{"rank": 15, "bleu_score": 3.880277057527462e-155, "candidate": "        freq = resolution(freq)\n"}
+{"rank": 16, "bleu_score": 0.1559616140275779, "candidate": "        if unit is None:\n"}
+{"rank": 17, "bleu_score": 3.1987476604776097e-155, "candidate": "        # GH#22143, GH#22146\n"}
+{"rank": 18, "bleu_score": 6.397495320955232e-155, "candidate": "        freq = not_none(freq, cls._noarg_same_freq)\n"}
+{"rank": 19, "bleu_score": 0.4288819424803534, "candidate": "        if isinstance(data, ABCTimedeltaIndex):\n"}
+{"rank": 20, "bleu_score": 0.4688072309384954, "candidate": "        if freq is None and hasattr(data, \"freq\"):\n"}

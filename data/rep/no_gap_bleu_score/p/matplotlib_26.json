@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 1.0, "candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n"}
+{"rank": 2, "bleu_score": 1.0, "candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n"}
+{"rank": 3, "bleu_score": 1.0, "candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n"}
+{"rank": 4, "bleu_score": 0.23330403334200522, "candidate": "                setter(self, vmin, vmax, ignore=True)\n"}
+{"rank": 5, "bleu_score": 1.0, "candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n"}
+{"rank": 6, "bleu_score": 1.0, "candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n"}
+{"rank": 7, "bleu_score": 1.0, "candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n"}
+{"rank": 8, "bleu_score": 0.7627120987686243, "candidate": "                setter(self, min(vmin, vmax), max(vmin, vmax), ignore=True)\n"}
+{"rank": 9, "bleu_score": 0.23330403334200522, "candidate": "                setter(self, vmin, vmax, ignore=True)\n"}
+{"rank": 10, "bleu_score": 1.0, "candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n"}
+{"rank": 11, "bleu_score": 1.0, "candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n"}
+{"rank": 12, "bleu_score": 1.0, "candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n"}
+{"rank": 13, "bleu_score": 1.0, "candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n"}
+{"rank": 14, "bleu_score": 1.0, "candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n"}
+{"rank": 15, "bleu_score": 0.29971481795743216, "candidate": "                setattr(getattr(self.axes, lim_name), attr_name, (vmin, vmax))\n"}
+{"rank": 16, "bleu_score": 0.23330403334200522, "candidate": "                setter(self, vmax, vmin, ignore=True)\n"}
+{"rank": 17, "bleu_score": 1.0, "candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n"}
+{"rank": 18, "bleu_score": 1.0, "candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n"}
+{"rank": 19, "bleu_score": 1.6545556966461727e-155, "candidate": "                # inverted axis, set the larger value first to prevent\n"}
+{"rank": 20, "bleu_score": 0.23330403334200522, "candidate": "                setter(self, vmin, vmax, ignore=True)\n"}

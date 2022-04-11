@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0, "candidate": "                break\n"}
+{"rank": 2, "bleu_score": 8.612150057732663e-155, "candidate": "                new_data = DatetimeIndex(new_data, tz=self.date_unit)._values\n"}
+{"rank": 3, "bleu_score": 0.43386561744690755, "candidate": "            except (TypeError, ValueError):\n"}
+{"rank": 4, "bleu_score": 0, "candidate": "                break\n"}
+{"rank": 5, "bleu_score": 0.23585721816862673, "candidate": "                if isinstance(new_data, ABCSeries):\n"}
+{"rank": 6, "bleu_score": 2.018753310664318e-155, "candidate": "            except ValueError:\n"}
+{"rank": 7, "bleu_score": 0.7071067811865476, "candidate": "            except (TypeError, ValueError, OverflowError):\n"}
+{"rank": 8, "bleu_score": 0.43386561744690755, "candidate": "            except (TypeError, ValueError):\n"}
+{"rank": 9, "bleu_score": 1.6483051758939467e-155, "candidate": "            except OutOfBoundsDatetime:\n"}
+{"rank": 10, "bleu_score": 0.8660254037844387, "candidate": "            except (OverflowError, ValueError, TypeError):\n"}
+{"rank": 11, "bleu_score": 0.43386561744690755, "candidate": "            except (TypeError, ValueError):\n"}
+{"rank": 12, "bleu_score": 1.6483051758939467e-155, "candidate": "            except OutOfBoundsDatetime:\n"}
+{"rank": 13, "bleu_score": 1.6483051758939467e-155, "candidate": "            except OutOfBoundsDatetime:\n"}
+{"rank": 14, "bleu_score": 1.6483051758939467e-155, "candidate": "            except Exception:\n"}
+{"rank": 15, "bleu_score": 0.7453559924999299, "candidate": "            except (ValueError, TypeError, OutOfBoundsDatetime):\n"}
+{"rank": 16, "bleu_score": 1.6483051758939467e-155, "candidate": "            except Exception:\n"}
+{"rank": 17, "bleu_score": 0.7071067811865476, "candidate": "            except (TypeError, ValueError, OverflowError):\n"}
+{"rank": 18, "bleu_score": 0.7514772930752859, "candidate": "            except (ValueError, TypeError):\n"}
+{"rank": 19, "bleu_score": 0.8660254037844387, "candidate": "            except (ValueError, TypeError, OverflowError):\n"}
+{"rank": 20, "bleu_score": 0, "candidate": "                break\n"}

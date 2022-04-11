@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.435285750066007, "candidate": "            for path in _safe(lambda: os.environ['PATH'].split(os.pathsep), [])\n"}
+{"rank": 2, "bleu_score": 0, "candidate": ""}
+{"rank": 3, "bleu_score": 0, "candidate": ""}
+{"rank": 4, "bleu_score": 0, "candidate": ""}
+{"rank": 5, "bleu_score": 0, "candidate": ""}
+{"rank": 6, "bleu_score": 0, "candidate": ""}
+{"rank": 7, "bleu_score": 0, "candidate": ""}
+{"rank": 8, "bleu_score": 0, "candidate": ""}
+{"rank": 9, "bleu_score": 0, "candidate": ""}
+{"rank": 10, "bleu_score": 0, "candidate": ""}
+{"rank": 11, "bleu_score": 0.3086066999241838, "candidate": "            for path in _safe(lambda: os.environ['PATH'].split(':'), [])\n"}
+{"rank": 12, "bleu_score": 0, "candidate": ""}
+{"rank": 13, "bleu_score": 0, "candidate": ""}
+{"rank": 14, "bleu_score": 0.435285750066007, "candidate": "            for path in _safe(lambda: os.environ['PATH'].split(os.pathsep), [])\n"}
+{"rank": 15, "bleu_score": 0.29649972666444047, "candidate": "            for path in _safe(lambda: shell.get_path(), [])\n"}
+{"rank": 16, "bleu_score": 0.1521878786487298, "candidate": "            for path in os.get_exec_path()\n"}
+{"rank": 17, "bleu_score": 0, "candidate": ""}
+{"rank": 18, "bleu_score": 0, "candidate": ""}
+{"rank": 19, "bleu_score": 0.7719024117939607, "candidate": "            for path in os.environ.get('PATH', '').split(':')\n"}
+{"rank": 20, "bleu_score": 0.435285750066007, "candidate": "            for path in _safe(lambda: os.environ['PATH'].split(os.pathsep), [])\n"}

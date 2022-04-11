@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 9.125536968983368e-157, "candidate": "            info.update(force_properties)\n"}
+{"rank": 2, "bleu_score": 0.035494777676247, "candidate": "            info['_type'] = 'url_transparent'\n"}
+{"rank": 3, "bleu_score": 0.0579627292268909, "candidate": "            info['_type'] = 'url'\n"}
+{"rank": 4, "bleu_score": 0.2318118032883819, "candidate": "            force_properties.update(info.get('_type', 'video') == 'url_transparent' and info or {})\n"}
+{"rank": 5, "bleu_score": 9.125536968983368e-157, "candidate": "            info.update(force_properties)\n"}
+{"rank": 6, "bleu_score": 0.8141482391719584, "candidate": "            for f in ('id', 'extractor', '_type', 'url', 'ie_key'):\n"}
+{"rank": 7, "bleu_score": 0.06093126335230113, "candidate": "            for k, v in info.items():\n"}
+{"rank": 8, "bleu_score": 2.0989967327890434e-155, "candidate": "            for ie in info['entries']:\n"}
+{"rank": 9, "bleu_score": 1.2855512329833862e-155, "candidate": "            ie_result = info['entries'][0]\n"}
+{"rank": 10, "bleu_score": 6.203777106763523e-156, "candidate": "            self._force_title(info, force_properties)\n"}
+{"rank": 11, "bleu_score": 0.444371985928749, "candidate": "            for f in ('id', 'extractor', 'webpage_url'):\n"}
+{"rank": 12, "bleu_score": 0.035494777676247, "candidate": "            info['_type'] = 'url_transparent'\n"}
+{"rank": 13, "bleu_score": 9.125536968983368e-157, "candidate": "            info.update(force_properties)\n"}
+{"rank": 14, "bleu_score": 0.05547387279785378, "candidate": "            ie_result['_type'] = info['_type']\n"}
+{"rank": 15, "bleu_score": 0.015186347676920784, "candidate": "            del force_properties['url']\n"}
+{"rank": 16, "bleu_score": 0.3536362621445269, "candidate": "            for field in ('id', 'ext', 'title', 'thumbnail',\n"}
+{"rank": 17, "bleu_score": 0.444371985928749, "candidate": "            for f in ('id', 'extractor', 'title'):\n"}
+{"rank": 18, "bleu_score": 0.5903176343725052, "candidate": "            for f in ('ie_key', 'url', '_type', '_real_initial_url'):\n"}
+{"rank": 19, "bleu_score": 0.2873694836467888, "candidate": "            for key in ['id', 'extractor', 'webpage_url',\n"}
+{"rank": 20, "bleu_score": 0.7453949728239978, "candidate": "            for f in ('extractor', 'id', 'title', '_type', 'ie_key'):\n"}

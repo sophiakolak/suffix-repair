@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.1353352832366127, "candidate": "        is_excluded_checks = (\n"}
+{"rank": 2, "bleu_score": 0.2319109274839227, "candidate": "        is_excluded_checks = [is_categorical_dtype, is_datetime64tz_dtype]\n"}
+{"rank": 3, "bleu_score": 0.1353352832366127, "candidate": "        is_excluded_checks = (\n"}
+{"rank": 4, "bleu_score": 0.1353352832366127, "candidate": "        is_excluded_checks = (\n"}
+{"rank": 5, "bleu_score": 0.5400617248673217, "candidate": "        is_excluded_checks = (is_re, is_categorical_dtype, is_datetimetz)\n"}
+{"rank": 6, "bleu_score": 0.2319109274839227, "candidate": "        is_excluded_checks = [is_categorical_dtype, is_datetime64_dtype]\n"}
+{"rank": 7, "bleu_score": 0.2319109274839227, "candidate": "        is_excluded_checks = [is_categorical_dtype, is_datetime64tz_dtype]\n"}
+{"rank": 8, "bleu_score": 0.07813586220751259, "candidate": "        is_excluded_checks = [\n"}
+{"rank": 9, "bleu_score": 0.20084075461628778, "candidate": "        is_excluded_checks = [is_datetime64_any_dtype, is_datetime64tz_dtype]\n"}
+{"rank": 10, "bleu_score": 0.07813586220751259, "candidate": "        is_excluded_checks = [\n"}
+{"rank": 11, "bleu_score": 0.1353352832366127, "candidate": "        is_excluded_checks = (\n"}
+{"rank": 12, "bleu_score": 0.07813586220751259, "candidate": "        is_excluded_checks = [\n"}
+{"rank": 13, "bleu_score": 7.031791076575252e-155, "candidate": "        def is_categorical(dtype) -> bool:\n"}
+{"rank": 14, "bleu_score": 0.3279715789102868, "candidate": "        is_excluded_checks = [is_bool_dtype, is_categorical_dtype]\n"}
+{"rank": 15, "bleu_score": 0.07813586220751259, "candidate": "        is_excluded_checks = [\n"}
+{"rank": 16, "bleu_score": 0.2319109274839227, "candidate": "        is_excluded_checks = [is_categorical_dtype, is_datetime64_any_dtype]\n"}
+{"rank": 17, "bleu_score": 0.07813586220751259, "candidate": "        is_excluded_checks = [\n"}
+{"rank": 18, "bleu_score": 0.07813586220751259, "candidate": "        is_excluded_checks = [\n"}
+{"rank": 19, "bleu_score": 7.031791076575252e-155, "candidate": "        def is_extension(dtype) -> bool:\n"}
+{"rank": 20, "bleu_score": 0.07813586220751259, "candidate": "        is_excluded_checks = [\n"}

@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 2, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 3, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 4, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 5, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 6, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 7, "bleu_score": 0.11952286093343935, "candidate": "            raise RuntimeError('Destination directory does not exist: %s' % d)\n"}
+{"rank": 8, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 9, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 10, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 11, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 12, "bleu_score": 1.0, "candidate": "            self.mkdir(d)\n"}
+{"rank": 13, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 14, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 15, "bleu_score": 0.11952286093343935, "candidate": "            raise RuntimeError('Destination directory does not exist: %s' % d)\n"}
+{"rank": 16, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 17, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}
+{"rank": 18, "bleu_score": 1.0547686614863434e-154, "candidate": "            raise MissingParentDirectory()\n"}
+{"rank": 19, "bleu_score": 0.5163977794943222, "candidate": "            self.mkdir(d, True)\n"}
+{"rank": 20, "bleu_score": 0.7071067811865475, "candidate": "            os.makedirs(d)\n"}

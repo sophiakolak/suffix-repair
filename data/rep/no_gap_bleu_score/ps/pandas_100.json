@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0, "candidate": ""}
+{"rank": 2, "bleu_score": 0, "candidate": ""}
+{"rank": 3, "bleu_score": 0.057366727909596515, "candidate": "        rs = self._constructor(rs, **self._construct_axes_dict()).__finalize__(self)\n"}
+{"rank": 4, "bleu_score": 0.09679917714175318, "candidate": "        rs = self._constructor(rs).__finalize__(self, method=\"pct_change\")\n        rs = self._reindex_if_needed(rs, fill_method, limit, axis)\n"}
+{"rank": 5, "bleu_score": 0, "candidate": ""}
+{"rank": 6, "bleu_score": 0.08035817810089241, "candidate": "        if freq is None:\n            rs[self.isna()] = nan\n"}
+{"rank": 7, "bleu_score": 0, "candidate": ""}
+{"rank": 8, "bleu_score": 0, "candidate": ""}
+{"rank": 9, "bleu_score": 0.18374580233613344, "candidate": "        if fill_method is not None:\n            mask = isna(self)\n            if mask.any():\n                rs[mask] = self._get_fill_value(fill_method, limit=limit)\n"}
+{"rank": 10, "bleu_score": 0, "candidate": ""}
+{"rank": 11, "bleu_score": 0.2175117190846052, "candidate": "        if freq is not None and freq != rs.index.freq:\n            # GH#22236 Need to re-adjust index if a frequency was given\n            rs.index = rs.index._with_freq(freq)\n"}
+{"rank": 12, "bleu_score": 0, "candidate": ""}
+{"rank": 13, "bleu_score": 0, "candidate": ""}
+{"rank": 14, "bleu_score": 0, "candidate": ""}
+{"rank": 15, "bleu_score": 0, "candidate": ""}
+{"rank": 16, "bleu_score": 0.08397629092769084, "candidate": "        if freq is None and periods != 1:\n            rs = rs.div(periods)\n"}
+{"rank": 17, "bleu_score": 0.0786083066787153, "candidate": "        if freq is None:\n            rs.values[~com._isnull_compat(self.values)] = np.nan\n"}
+{"rank": 18, "bleu_score": 0.1258455564269084, "candidate": "        rs = rs.dropna(axis=axis, how=\"all\")\n        if freq is None and periods > 1:\n            mask = isna(self.values[:, 0])\n            for i in range(1, periods):\n                mask |= isna(self.values[:, i])\n"}
+{"rank": 19, "bleu_score": 0, "candidate": ""}
+{"rank": 20, "bleu_score": 0, "candidate": ""}

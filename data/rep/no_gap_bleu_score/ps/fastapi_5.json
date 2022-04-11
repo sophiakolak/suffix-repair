@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.49523020988320327, "candidate": "            f = create_cloned_field(f)\n"}
+{"rank": 2, "bleu_score": 1.6483051758939467e-155, "candidate": "            original_field = f\n"}
+{"rank": 3, "bleu_score": 8.061224930331203e-155, "candidate": "            setattr(use_type.Config, f.name, f.default)\n"}
+{"rank": 4, "bleu_score": 0, "candidate": "            # create the field with original_type instead of use_type, so it will have the original validators\n"}
+{"rank": 5, "bleu_score": 0.4016815092325757, "candidate": "            use_type.add_field(create_cloned_field(f))\n"}
+{"rank": 6, "bleu_score": 1.0, "candidate": "            use_type.__fields__[f.name] = create_cloned_field(f)\n"}
+{"rank": 7, "bleu_score": 0, "candidate": "            if f.field_info.default is MISSING:\n"}
+{"rank": 8, "bleu_score": 0.49523020988320327, "candidate": "            new_field = create_cloned_field(f)\n"}
+{"rank": 9, "bleu_score": 0.49523020988320327, "candidate": "            f_clone = create_cloned_field(f)\n"}
+{"rank": 10, "bleu_score": 3.185125369274878e-156, "candidate": "            use_type.add_field(\n"}
+{"rank": 11, "bleu_score": 0.49523020988320327, "candidate": "            new_f = create_cloned_field(f)\n"}
+{"rank": 12, "bleu_score": 0, "candidate": "            if f.class_validators or f.required or f.default or f.validators:\n"}
+{"rank": 13, "bleu_score": 3.185125369274878e-156, "candidate": "            use_type.add_field(\n"}
+{"rank": 14, "bleu_score": 0.49523020988320327, "candidate": "            new_field = create_cloned_field(f)\n"}
+{"rank": 15, "bleu_score": 1.0, "candidate": "            use_type.__fields__[f.name] = create_cloned_field(f)\n"}
+{"rank": 16, "bleu_score": 0.4016815092325757, "candidate": "            use_type.add_field(create_cloned_field(f))\n"}
+{"rank": 17, "bleu_score": 0, "candidate": "            if PYDANTIC_1:\n"}
+{"rank": 18, "bleu_score": 8.061224930331203e-155, "candidate": "            setattr(use_type, f.name, f.default)\n"}
+{"rank": 19, "bleu_score": 0.4016815092325757, "candidate": "            use_type.add_field(create_cloned_field(f))\n"}
+{"rank": 20, "bleu_score": 0.49523020988320327, "candidate": "            f_clone = create_cloned_field(f)\n"}

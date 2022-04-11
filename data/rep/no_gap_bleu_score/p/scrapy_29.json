@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 2.53692262463748e-155, "candidate": "    for header, values in request.headers.items():\n"}
+{"rank": 2, "bleu_score": 4.696980591834871e-156, "candidate": "    headers = request.headers.copy()\n"}
+{"rank": 3, "bleu_score": 0.7606753700913703, "candidate": "    s += b\"Host: \" + to_bytes(parsed.netloc) + b\"\\r\\n\"\n"}
+{"rank": 4, "bleu_score": 8.351371386418859e-156, "candidate": "    headers = copy.copy(request.headers)\n"}
+{"rank": 5, "bleu_score": 2.53692262463748e-155, "candidate": "    for header, values in request.headers.items():\n"}
+{"rank": 6, "bleu_score": 1.664180761794279e-155, "candidate": "    headers = sorted(request.headers.items())\n"}
+{"rank": 7, "bleu_score": 2.53692262463748e-155, "candidate": "    for k, v in request.headers.items():\n"}
+{"rank": 8, "bleu_score": 3.829239810976291e-155, "candidate": "    for header, values in sorted(request.headers.items()):\n"}
+{"rank": 9, "bleu_score": 3.829239810976291e-155, "candidate": "    for header, values in list(request.headers.items()):\n"}
+{"rank": 10, "bleu_score": 1.664180761794279e-155, "candidate": "    headers = sorted(request.headers.items())\n"}
+{"rank": 11, "bleu_score": 3.3212668275879433e-156, "candidate": "    for header in request.headers:\n"}
+{"rank": 12, "bleu_score": 2.53692262463748e-155, "candidate": "    for k, vs in request.headers.items():\n"}
+{"rank": 13, "bleu_score": 0.5610836076867821, "candidate": "    s += b\"\".join([to_bytes(k) + b\": \" + to_bytes(v) + b\"\\r\\n\"\n"}
+{"rank": 14, "bleu_score": 2.53692262463748e-155, "candidate": "    for k, vs in request.headers.items():\n"}
+{"rank": 15, "bleu_score": 0, "candidate": "    headers = request.headers\n"}
+{"rank": 16, "bleu_score": 0.7606753700913703, "candidate": "    s += b\"Host: \" + to_bytes(parsed.netloc) + b\"\\r\\n\"\n"}
+{"rank": 17, "bleu_score": 0.7677718959499145, "candidate": "    s += b\"Host: \" + to_bytes(_safe_header(parsed.netloc)) + b\"\\r\\n\"\n"}
+{"rank": 18, "bleu_score": 0.07699905035090181, "candidate": "    headers = [(to_bytes(name), to_bytes(value)) for name, value in request.headers.items()]\n"}
+{"rank": 19, "bleu_score": 3.829239810976291e-155, "candidate": "    for hdr, val in sorted(request.headers.items()):\n"}
+{"rank": 20, "bleu_score": 0.035409156163333816, "candidate": "    s += _dump_headers(request.headers)\n"}

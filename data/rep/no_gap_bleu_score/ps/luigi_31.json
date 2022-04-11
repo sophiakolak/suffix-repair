@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0, "candidate": "            # check if any of the workers associated with the task are alive\n"}
+{"rank": 2, "bleu_score": 0.5345224838248488, "candidate": "            in_workers = (task.workers is None) or (worker in task.workers) or assistant\n"}
+{"rank": 3, "bleu_score": 0.4264014327112209, "candidate": "            in_workers = len(task.workers) == 0 or worker.id in task.workers\n"}
+{"rank": 4, "bleu_score": 0, "candidate": "            # Don't run tasks that have failed dependencies\n"}
+{"rank": 5, "bleu_score": 0.19049194554039545, "candidate": "            in_workers = worker.id in task.workers\n"}
+{"rank": 6, "bleu_score": 0.5838742081211423, "candidate": "            in_workers = len(task.workers) == 0 or worker in task.workers\n"}
+{"rank": 7, "bleu_score": 0.46056618647183833, "candidate": "            in_workers = not assistant or task.id in worker.tasks_in or worker in task.workers\n"}
+{"rank": 8, "bleu_score": 0.40219983326992187, "candidate": "            in_workers = len(task.workers) == 0 or (worker in task.workers and not assistant)\n"}
+{"rank": 9, "bleu_score": 0, "candidate": "            # Don't re-schedule tasks that are already running\n"}
+{"rank": 10, "bleu_score": 0.25318484177091666, "candidate": "            in_workers = set(task.workers) & set(self._state.get_active_worker_ids())\n"}
+{"rank": 11, "bleu_score": 0.16903085094570333, "candidate": "            in_workers = len(set(task.workers).intersection(set([worker]))) >= 1\n"}
+{"rank": 12, "bleu_score": 0, "candidate": "            # TODO: separate out into method\n"}
+{"rank": 13, "bleu_score": 0.3144854510165755, "candidate": "            in_workers = any((w in self._workers) for w in task.workers)\n"}
+{"rank": 14, "bleu_score": 0, "candidate": "            if task.status == 'VALIDATING':\n"}
+{"rank": 15, "bleu_score": 0.6032249453573064, "candidate": "            in_workers = task.has_worker(worker) or worker in task.workers\n"}
+{"rank": 16, "bleu_score": 0.48598690966990804, "candidate": "            in_workers = not task.workers or worker in task.workers\n"}
+{"rank": 17, "bleu_score": 0.4264014327112209, "candidate": "            in_workers = len(task.workers) == 0 or self.worker in task.workers\n"}
+{"rank": 18, "bleu_score": 0.1742757960201972, "candidate": "            in_workers = task.worker_ttl > time.time()\n"}
+{"rank": 19, "bleu_score": 0.2773500981126146, "candidate": "            in_workers = task.worker_running is not None or not task.workers or worker.id in task.workers\n"}
+{"rank": 20, "bleu_score": 0.0401162892677087, "candidate": "            in_workers = False\n"}

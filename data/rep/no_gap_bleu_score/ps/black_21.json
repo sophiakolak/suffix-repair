@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.34358602065101346, "candidate": "        mode=\"w\", prefix=\"black-test-invalid-code-\", delete=False\n"}
+{"rank": 2, "bleu_score": 0.5531470219991147, "candidate": "        \"w\", suffix=\".py\", delete=False, encoding=\"utf8\"\n"}
+{"rank": 3, "bleu_score": 0.5860541072571872, "candidate": "        mode=\"w\", prefix=\"black-\", suffix=\".py\", delete=False\n"}
+{"rank": 4, "bleu_score": 0.5860541072571872, "candidate": "        mode=\"w\", prefix=\"black-test-\", suffix=\".py\", delete=False\n"}
+{"rank": 5, "bleu_score": 0.5587806665434518, "candidate": "        prefix=\"pyproject-format-\", suffix=\".diff\", mode=\"w\", delete=False\n"}
+{"rank": 6, "bleu_score": 0.6362090102803518, "candidate": "        prefix=\"black-\", suffix=\".py\", mode=\"w\", dir=\"/tmp\", delete=False\n"}
+{"rank": 7, "bleu_score": 0.5860541072571872, "candidate": "        mode=\"w\", encoding=\"utf-8\", prefix=\"black-\", delete=False\n"}
+{"rank": 8, "bleu_score": 0.5587806665434518, "candidate": "        prefix=\"black-test-\", suffix=\".log\", mode=\"wt\", delete=False\n"}
+{"rank": 9, "bleu_score": 0.2822847209309939, "candidate": "        prefix=\"black-test-\", suffix=\"-output.py\", delete=False\n"}
+{"rank": 10, "bleu_score": 0.5860541072571872, "candidate": "        mode=\"w\", prefix=\"black-\", suffix=\".py\", delete=False\n"}
+{"rank": 11, "bleu_score": 0.5860541072571872, "candidate": "        mode=\"w\", prefix=\"black-\", suffix=\"-output\", delete=False\n"}
+{"rank": 12, "bleu_score": 0.4739910934666423, "candidate": "        mode=\"w\", encoding=UTF8, suffix=\".log\", delete=False\n"}
+{"rank": 13, "bleu_score": 0.4058989449476901, "candidate": "        \"w\", encoding=ENCODING, prefix=\"black_\", suffix=\".py\"\n"}
+{"rank": 14, "bleu_score": 0.5860541072571872, "candidate": "        mode=\"w\", prefix=\"black-\", suffix=\".py\", delete=False\n"}
+{"rank": 15, "bleu_score": 0.5860541072571872, "candidate": "        mode=\"w\", prefix=\"black-test-\", suffix=\".py\", delete=False\n"}
+{"rank": 16, "bleu_score": 0.5860541072571872, "candidate": "        mode=\"w\", prefix=\"black-internal-test-\", suffix=\"-output\", delete=False\n"}
+{"rank": 17, "bleu_score": 0.5960975925824925, "candidate": "        mode=\"w\", prefix=\"black-\", suffix=\".py\", newline=\"\\n\"\n"}
+{"rank": 18, "bleu_score": 0.6594694160244883, "candidate": "        mode=\"w\", prefix=\"black-temp-\", suffix=\".log\", delete=False\n"}
+{"rank": 19, "bleu_score": 0.34358602065101346, "candidate": "        mode=\"w\", prefix=\"black_test_\", delete=False\n"}
+{"rank": 20, "bleu_score": 0.5108228131191948, "candidate": "        mode=\"w+\", prefix=\"black-test-\", suffix=\".py\", delete=False\n"}

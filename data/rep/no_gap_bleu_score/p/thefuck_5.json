@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.31008683647302115, "candidate": "            and 'The current branch master has no upstream branch' in command.output)\n"}
+{"rank": 2, "bleu_score": 0.33333333333333337, "candidate": "            and '! [rejected]' in command.output\n"}
+{"rank": 3, "bleu_score": 0.19180183554164504, "candidate": "            and 'fatal:' in command.stderr\n"}
+{"rank": 4, "bleu_score": 0.11180339887498951, "candidate": "            and 'fatal: The upstream branch of your current branch does not match' in command.stderr\n"}
+{"rank": 5, "bleu_score": 0.33333333333333337, "candidate": "            and '! [rejected]' in command.output\n"}
+{"rank": 6, "bleu_score": 0.21081851067789192, "candidate": "            and 'fatal: The current branch' in command.stderr)\n"}
+{"rank": 7, "bleu_score": 0.2870846258816073, "candidate": "            and 'The following untracked working tree files would be overwritten' in command.output)\n"}
+{"rank": 8, "bleu_score": 0.20084075461628778, "candidate": "            and 'Updates were rejected' in command.stderr\n"}
+{"rank": 9, "bleu_score": 0.11180339887498951, "candidate": "            and 'fatal: The upstream branch of your current branch does not match' in command.stderr\n"}
+{"rank": 10, "bleu_score": 0.18257418583505533, "candidate": "            and ('fatal: The current branch' in command.stderr\n"}
+{"rank": 11, "bleu_score": 0.23483410915693106, "candidate": "            and 'fatal: The upstream branch of your current branch does not match' in command.output)\n"}
+{"rank": 12, "bleu_score": 0.12909944487358058, "candidate": "            and 'did not match any file(s) known to git' in command.stderr)\n"}
+{"rank": 13, "bleu_score": 1.1118237916213198e-154, "candidate": "            and '--tags' not in command.script_parts)\n"}
+{"rank": 14, "bleu_score": 0.16012815380508713, "candidate": "            and 'remote: You must specify a branch name' in command.stderr)\n"}
+{"rank": 15, "bleu_score": 0.14824986333222023, "candidate": "            and 'The following untracked working tree files would be overwritten' in command.stderr)\n"}
+{"rank": 16, "bleu_score": 0.31008683647302115, "candidate": "            and 'fatal: The remote end hung up unexpectedly' in command.output)\n"}
+{"rank": 17, "bleu_score": 0.2981423969999719, "candidate": "            and 'fatal: remote error: object' in command.output\n"}
+{"rank": 18, "bleu_score": 0.4490935799743743, "candidate": "            and 'Everything up-to-date' in command.output)\n"}
+{"rank": 19, "bleu_score": 7.3383713569878594e-155, "candidate": "            and ' -u ' not in command.script_parts\n"}
+{"rank": 20, "bleu_score": 0.20084075461628778, "candidate": "            and 'Updates were rejected' in command.stderr\n"}

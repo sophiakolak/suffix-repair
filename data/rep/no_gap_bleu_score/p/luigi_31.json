@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0, "candidate": "            if not task.deps:\n"}
+{"rank": 2, "bleu_score": 0, "candidate": "            if task.status == PENDING:\n"}
+{"rank": 3, "bleu_score": 2.6465769287378847e-155, "candidate": "            if task.status != PENDING:\n"}
+{"rank": 4, "bleu_score": 2.6465769287378847e-155, "candidate": "            if task.status != PENDING:\n"}
+{"rank": 5, "bleu_score": 0, "candidate": "            n_unique_pending += task.unique\n"}
+{"rank": 6, "bleu_score": 0, "candidate": "            # Check if the task is locally pending\n"}
+{"rank": 7, "bleu_score": 5.126037622123983e-155, "candidate": "            if task.host and task.host != host:\n"}
+{"rank": 8, "bleu_score": 4.5840057067137365e-155, "candidate": "            task_resources = self._get_task_resources(task)\n"}
+{"rank": 9, "bleu_score": 2.6465769287378847e-155, "candidate": "            if task.status != PENDING:\n"}
+{"rank": 10, "bleu_score": 0, "candidate": "            n_unique_pending += 1\n"}
+{"rank": 11, "bleu_score": 6.278088288256672e-155, "candidate": "            if task and self.can_start(task):\n"}
+{"rank": 12, "bleu_score": 0, "candidate": "            locally_pending_tasks += 1\n"}
+{"rank": 13, "bleu_score": 6.89607067075869e-155, "candidate": "            if self._available_resources(task, used_resources) and \\\n"}
+{"rank": 14, "bleu_score": 0, "candidate": "            if task.worker is not None:\n"}
+{"rank": 15, "bleu_score": 2.6465769287378847e-155, "candidate": "            if task.id not in self._task_predecessors:\n"}
+{"rank": 16, "bleu_score": 4.502667920270284e-155, "candidate": "            if not self._is_ready(task):\n"}
+{"rank": 17, "bleu_score": 4.502667920270284e-155, "candidate": "            if not self._task_is_locally_ready(task):\n"}
+{"rank": 18, "bleu_score": 4.502667920270284e-155, "candidate": "            if not self.can_schedule(task.id):\n"}
+{"rank": 19, "bleu_score": 4.502667920270284e-155, "candidate": "            if not self._can_run_task(task):\n"}
+{"rank": 20, "bleu_score": 3.851470592303926e-155, "candidate": "            # Don't return tasks that are already being worked on, or have been\n"}

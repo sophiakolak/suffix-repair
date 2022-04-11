@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.028766033148734913, "candidate": "            if task.status == RUNNING:\n"}
+{"rank": 2, "bleu_score": 0.04941745830336237, "candidate": "            if task.status == DONE:\n                continue\n"}
+{"rank": 3, "bleu_score": 0.04279677428117006, "candidate": "            if task.status == 'PENDING':\n"}
+{"rank": 4, "bleu_score": 3.90096596075864e-156, "candidate": "            if not task.complete:\n"}
+{"rank": 5, "bleu_score": 0.10590785250360474, "candidate": "            if task.status == DONE:\n                for dep in task.deps:\n"}
+{"rank": 6, "bleu_score": 1.8428612104818445e-155, "candidate": "            if not task.complete():\n"}
+{"rank": 7, "bleu_score": 4.090171151427653e-155, "candidate": "            if not task.complete and self.required_data_present(task):\n"}
+{"rank": 8, "bleu_score": 0.028766033148734913, "candidate": "            if task.status == PENDING:\n"}
+{"rank": 9, "bleu_score": 0.04941745830336237, "candidate": "            if task.status == DONE:\n                continue\n"}
+{"rank": 10, "bleu_score": 1.6483051758939467e-155, "candidate": "            if task.is_complete():\n                continue\n"}
+{"rank": 11, "bleu_score": 1.8428612104818445e-155, "candidate": "            if not task.complete():\n"}
+{"rank": 12, "bleu_score": 0.028766033148734913, "candidate": "            if task.status == Scheduler.RUNNING:\n"}
+{"rank": 13, "bleu_score": 5.322205746343399e-155, "candidate": "            for output in task.outputs:\n                if self._state.get_scheduler_owns(output):\n"}
+{"rank": 14, "bleu_score": 0.04279677428117006, "candidate": "            if task.status == 'RUNNING':\n"}
+{"rank": 15, "bleu_score": 3.6583602936802504e-155, "candidate": "            if not task.complete:\n                for dep in task.deps:\n"}
+{"rank": 16, "bleu_score": 0.04279677428117006, "candidate": "            if task.status == Status.DONE:\n                continue\n"}
+{"rank": 17, "bleu_score": 6.698985879286899e-155, "candidate": "            if task.is_pending() and task.deps:\n                if not necessary_tasks.issuperset(task.deps):\n"}
+{"rank": 18, "bleu_score": 1.6483051758939467e-155, "candidate": "            if task.complete():\n                continue\n"}
+{"rank": 19, "bleu_score": 2.3425584400563996e-155, "candidate": "            if not task.complete and not task.workers:\n"}
+{"rank": 20, "bleu_score": 2.3425584400563996e-155, "candidate": "            if not task.complete and not task.workers:\n"}

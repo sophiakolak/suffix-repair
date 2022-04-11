@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 5.637975647982813e-155, "candidate": "        return super().corr(other=other, pairwise=pairwise, **kwargs)\n"}
+{"rank": 2, "bleu_score": 5.637975647982813e-155, "candidate": "        return super().corr(other=other, pairwise=pairwise, **kwargs)\n"}
+{"rank": 3, "bleu_score": 5.637975647982813e-155, "candidate": "        return super().corr(other=other, pairwise=pairwise, **kwargs)\n"}
+{"rank": 4, "bleu_score": 5.637975647982813e-155, "candidate": "        return super().corr(other=other, pairwise=pairwise, **kwargs)\n"}
+{"rank": 5, "bleu_score": 7.789982830837433e-155, "candidate": "        return rolling_corr(self._selected_obj, other, self._on, pairwise)\n"}
+{"rank": 6, "bleu_score": 5.126037622123983e-155, "candidate": "        def _get_corr(a, b):\n"}
+{"rank": 7, "bleu_score": 7.165741990418252e-155, "candidate": "        return Rolling.corr(self, other, pairwise=pairwise, **kwargs)\n"}
+{"rank": 8, "bleu_score": 5.850803834986753e-155, "candidate": "        return corr(self._selected_obj, other=other, pairwise=pairwise, **kwargs)\n"}
+{"rank": 9, "bleu_score": 3.183867019854334e-155, "candidate": "        if pairwise == \"columns\":\n"}
+{"rank": 10, "bleu_score": 5.126037622123983e-155, "candidate": "        def _get_corr(a, b):\n"}
+{"rank": 11, "bleu_score": 1.8329130973442954e-155, "candidate": "        kwargs.update(pairwise=pairwise)\n"}
+{"rank": 12, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 13, "bleu_score": 0, "candidate": "        # compute the correlation matrix\n"}
+{"rank": 14, "bleu_score": 0, "candidate": "        # GH 11343: rolling corr with missing values\n"}
+{"rank": 15, "bleu_score": 5.98401908459915e-156, "candidate": "        return algorithms.Rolling.corr(\n"}
+{"rank": 16, "bleu_score": 0, "candidate": "        # GH 18296\n"}
+{"rank": 17, "bleu_score": 5.126037622123983e-155, "candidate": "        self._on_pandas_invalid_kwargs(\"corr\", kwargs)\n"}
+{"rank": 18, "bleu_score": 5.126037622123983e-155, "candidate": "        def _get_corr(X, Y):\n"}
+{"rank": 19, "bleu_score": 0, "candidate": "        # GH #12373\n"}
+{"rank": 20, "bleu_score": 5.850803834986753e-155, "candidate": "        return corr(self, other=other, pairwise=pairwise, **kwargs)\n"}

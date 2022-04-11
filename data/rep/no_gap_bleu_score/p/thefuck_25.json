@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.7174300539794393, "candidate": "    return re.sub(r'mkdir (.*)', r'mkdir -p \\1', command.script)\n"}
+{"rank": 2, "bleu_score": 0.5557642628890493, "candidate": "    return re.sub(r'mkdir\\s+(\\S+)', r'mkdir -p \\1', command.script)\n"}
+{"rank": 3, "bleu_score": 0.2177862025921883, "candidate": "    regex = r\"mkdir: cannot create directory '(.*)': No such file or directory\"\n"}
+{"rank": 4, "bleu_score": 0.4472135954999579, "candidate": "    return re.sub(r\"mkdir (.*)\", r\"mkdir -p \\1\", command.script)\n"}
+{"rank": 5, "bleu_score": 0.4701623459816272, "candidate": "    return re.sub(r'mkdir +([^ ]+)', r'mkdir -p \\1', command.script)\n"}
+{"rank": 6, "bleu_score": 6.067774697358228e-155, "candidate": "    pattern = re.compile(r'mkdir: cannot create directory \\'.+\\': No such '\n"}
+{"rank": 7, "bleu_score": 0.22188007849009161, "candidate": "    directory = re.findall(r\"mkdir: cannot create directory '(.*)': No such file or directory\",\n"}
+{"rank": 8, "bleu_score": 0.15925551431765153, "candidate": "    path = re.search(r'mkdir: cannot create directory '(.+)':', command.stderr).group(1)\n"}
+{"rank": 9, "bleu_score": 0.20380986614602725, "candidate": "    path = re.search('(?<=cannot create directory ).*(?= : No such file)',\n"}
+{"rank": 10, "bleu_score": 0.305887645160749, "candidate": "    path = re.findall(r\"`(.*)'\", command.stderr)[0]\n"}
+{"rank": 11, "bleu_score": 2.340254745821832e-155, "candidate": "    mkdir_pattern = re.compile(r'^mkdir\\s+')\n"}
+{"rank": 12, "bleu_score": 0.26311740579210874, "candidate": "    match = re.match(r'mkdir: cannot create directory `(.*)': No such file or directory', command.stderr)\n"}
+{"rank": 13, "bleu_score": 0.2970442628930023, "candidate": "    return u'mkdir -p {}'.format(re.split(r'\\smkdir', command.script)[-1])\n"}
+{"rank": 14, "bleu_score": 0.07968190728895957, "candidate": "    pattern = re.compile(r'^mkdir: cannot create directory (?P<dir>(\\'.*\\')|(\".*\")) : .*$')\n"}
+{"rank": 15, "bleu_score": 0.20754980866510833, "candidate": "    dirname = re.search(r'^.*? mkdir: cannot create directory (.*): No such file or directory$',\n"}
+{"rank": 16, "bleu_score": 0.2791452631195413, "candidate": "    bad_path = re.sub(r\".*: (.*)\", r\"\\1\", command.stderr)\n"}
+{"rank": 17, "bleu_score": 0.37838263601491373, "candidate": "    folders = re.findall(r'mkdir: (.*)', command.stderr)\n"}
+{"rank": 18, "bleu_score": 0.1235665042210731, "candidate": "    # Replace 'mkdir my/path/foo' with 'mkdir -p my/path/foo'.\n"}
+{"rank": 19, "bleu_score": 0.1479312908428049, "candidate": "    parentdir = re.compile(r'.+?').split(command.script)[-2]\n"}
+{"rank": 20, "bleu_score": 0, "candidate": "    last_arg = command.script_parts[-1]\n"}

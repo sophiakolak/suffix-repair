@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.5370861555295747, "candidate": "    return command.script.replace('diff', 'diff --staged', 1)\n"}
+{"rank": 2, "bleu_score": 0.5370861555295747, "candidate": "    return command.script.replace('diff', 'diff --staged', 1)\n"}
+{"rank": 3, "bleu_score": 0.5370861555295747, "candidate": "    return command.script.replace('diff', 'diff --staged', 1)\n"}
+{"rank": 4, "bleu_score": 0.5370861555295747, "candidate": "    return command.script.replace('diff', 'diff --staged', 1)\n"}
+{"rank": 5, "bleu_score": 0.5370861555295747, "candidate": "    return command.script.replace('diff', 'diff --staged', 1)\n"}
+{"rank": 6, "bleu_score": 0.5370861555295747, "candidate": "    return command.script.replace('diff', 'diff --staged', 1)\n"}
+{"rank": 7, "bleu_score": 0.5370861555295747, "candidate": "    return command.script.replace('diff', 'diff --staged', 1)\n"}
+{"rank": 8, "bleu_score": 7.813918430331502e-155, "candidate": "    return u'{} --staged'.format(command.script)\n"}
+{"rank": 9, "bleu_score": 0.207072745526756, "candidate": "    return command.script + ' --staged'\n"}
+{"rank": 10, "bleu_score": 0.5370861555295747, "candidate": "    return command.script.replace('diff', 'diff --staged', 1)\n"}
+{"rank": 11, "bleu_score": 0.5370861555295747, "candidate": "    return command.script.replace('diff ', 'diff --staged ', 1)\n"}
+{"rank": 12, "bleu_score": 0.7510676161988107, "candidate": "    return command.script.replace('git diff', 'git diff --staged')\n"}
+{"rank": 13, "bleu_score": 0.207072745526756, "candidate": "    return command.script + ' --staged'\n"}
+{"rank": 14, "bleu_score": 7.813918430331502e-155, "candidate": "    return u'{} --staged'.format(command.script)\n"}
+{"rank": 15, "bleu_score": 0, "candidate": "    parsed = command.script_parts[:]\n"}
+{"rank": 16, "bleu_score": 0.5370861555295747, "candidate": "    return command.script.replace('diff', 'diff --staged', 1)\n"}
+{"rank": 17, "bleu_score": 7.128796105774228e-155, "candidate": "    return '{} --staged'.format(command.script)\n"}
+{"rank": 18, "bleu_score": 7.813918430331502e-155, "candidate": "    return u'{} --staged'.format(command.script)\n"}
+{"rank": 19, "bleu_score": 0.03567399334725241, "candidate": "    return command.script.replace(\n"}
+{"rank": 20, "bleu_score": 7.813918430331502e-155, "candidate": "    return u'{} --staged'.format(command.script)\n"}

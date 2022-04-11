@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 2, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 3, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 4, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 5, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 6, "bleu_score": 0, "candidate": "        # mask missing values. This also masks values outside of range\n"}
+{"rank": 7, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 8, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 9, "bleu_score": 0, "candidate": ""}
+{"rank": 10, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 11, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 12, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 13, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 14, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 15, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 16, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 17, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 18, "bleu_score": 4.5840057067137365e-155, "candidate": "        axis = self._get_axis(self._selected_obj)\n"}
+{"rank": 19, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}
+{"rank": 20, "bleu_score": 0.43459820850707825, "candidate": "        window = self._get_window(other)\n"}

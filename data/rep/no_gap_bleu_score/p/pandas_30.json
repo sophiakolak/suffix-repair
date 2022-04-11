@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 2.136850396106622e-155, "candidate": "                return new_data, True\n"}
+{"rank": 2, "bleu_score": 2.136850396106622e-155, "candidate": "                return new_data, True\n"}
+{"rank": 3, "bleu_score": 0, "candidate": "                break\n"}
+{"rank": 4, "bleu_score": 2.136850396106622e-155, "candidate": "                return new_data, True\n"}
+{"rank": 5, "bleu_score": 2.136850396106622e-155, "candidate": "                return new_data, True\n"}
+{"rank": 6, "bleu_score": 2.136850396106622e-155, "candidate": "                return new_data, True\n"}
+{"rank": 7, "bleu_score": 2.136850396106622e-155, "candidate": "                return new_data, True\n"}
+{"rank": 8, "bleu_score": 2.136850396106622e-155, "candidate": "                return new_data, True\n"}
+{"rank": 9, "bleu_score": 0, "candidate": "                break\n"}
+{"rank": 10, "bleu_score": 0.14824986333222023, "candidate": "                if len(new_data) and not issubclass(new_data.dtype.type, np.number):\n"}
+{"rank": 11, "bleu_score": 3.693595645692774e-155, "candidate": "                if new_data is not data:\n"}
+{"rank": 12, "bleu_score": 2.136850396106622e-155, "candidate": "                return new_data, True\n"}
+{"rank": 13, "bleu_score": 2.136850396106622e-155, "candidate": "                return new_data, True\n"}
+{"rank": 14, "bleu_score": 4.236810678370506e-155, "candidate": "                if data.dtype == \"object\":\n"}
+{"rank": 15, "bleu_score": 0.08451542547285168, "candidate": "                if (new_data.astype(\"i8\").astype(\"i8\") == iNaT).any():\n"}
+{"rank": 16, "bleu_score": 5.223533056060786e-155, "candidate": "                new_data = period_array_to_timestamp(new_data)\n"}
+{"rank": 17, "bleu_score": 1.6483051758939467e-155, "candidate": "            except OutOfBoundsDatetime:\n"}
+{"rank": 18, "bleu_score": 1.1655277673394604e-155, "candidate": "                if self.date_unit:\n"}
+{"rank": 19, "bleu_score": 2.136850396106622e-155, "candidate": "                return new_data, True\n"}
+{"rank": 20, "bleu_score": 2.136850396106622e-155, "candidate": "                return new_data, True\n"}

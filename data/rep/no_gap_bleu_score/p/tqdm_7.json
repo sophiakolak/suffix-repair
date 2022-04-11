@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.3699705238701966, "candidate": "RE_SPLIT = re.compile(r'(\\s+|(?<!\\\\)\"|(?<!\\\\)\\')')\n"}
+{"rank": 2, "bleu_score": 0.26568446566202863, "candidate": "# re.compile(r'\\n {8}(?:/(?:/\\S+)|(?:-{2}\\S+)|(?:-\\S+))')\n"}
+{"rank": 3, "bleu_score": 0.4683421484208643, "candidate": "RE_SUBMIT_ARGS = re.compile(r'\\s*([^\\s=]+)=([^\\s=]*)\\s*')\n"}
+{"rank": 4, "bleu_score": 0.08968868549244419, "candidate": "RE_SPLIT = re.compile(r'(\\s+|=)')\n"}
+{"rank": 5, "bleu_score": 0.020925304499740602, "candidate": "SPLIT_RE = re.compile(r\"\"\"\n"}
+{"rank": 6, "bleu_score": 0.24622082007735305, "candidate": "RE_SPLIT = re.compile(r'\"([^\"]*)\"|(\\S+)')\n"}
+{"rank": 7, "bleu_score": 0.4315228732878077, "candidate": "RE_ARGS = re.compile(r'\\s+(?:([\"\\'])(?:\\\\.|[^\\\\])*?\\1|\\S+)')\n"}
+{"rank": 8, "bleu_score": 0.37610851522619104, "candidate": "RE_OPTS_ALT = re.compile(r'\\n {8}([\\w-]+)(?:=|\\s+)')\n"}
+{"rank": 9, "bleu_score": 0.08303558775108368, "candidate": "RE_ARGS = re.compile(r'\\s{2,}')\n"}
+{"rank": 10, "bleu_score": 0.02235905276975295, "candidate": "_RE_SPLIT = re.compile(r'\\s+')\n"}
+{"rank": 11, "bleu_score": 0.2588883695506775, "candidate": "RE_OPTS_KEY = re.compile(r'\\s*(--?\\S+)\\s*')\n"}
+{"rank": 12, "bleu_score": 0.2697213945675743, "candidate": "RE_OPTS_SPLIT = re.compile(r'(\\S+)=\"([^\"]+)\"')\n"}
+{"rank": 13, "bleu_score": 0.2084310098392542, "candidate": "SPLIT = re.compile(r'(?<!\\\\)\\s+').split\n"}
+{"rank": 14, "bleu_score": 0.2684624220856097, "candidate": "RE_WORD = re.compile(r'''((?:[^\\s'\"]|'[^']*'|\"[^\"]*\")+)''')\n"}
+{"rank": 15, "bleu_score": 0.016328743421922736, "candidate": "RE_YIELD = re.compile(r'''\n"}
+{"rank": 16, "bleu_score": 0.1977774509821843, "candidate": "RE_ARGS = re.compile(r' ([-\\w]+)')\n"}
+{"rank": 17, "bleu_score": 0.1795067867377381, "candidate": "# RE_SPLIT = re.compile(r'(\\s*--\\S+)')\n"}
+{"rank": 18, "bleu_score": 0.20739815227497477, "candidate": "RE_SPLIT = re.compile(r'(?:-{1,2}|/)')\n"}
+{"rank": 19, "bleu_score": 2.5427381719596174e-155, "candidate": "# (name, [type], [opt, ...])\n"}
+{"rank": 20, "bleu_score": 0.23460576857955812, "candidate": "# re.compile( r'(\\n\\s{8}[^\\s]+\\s{2,}:\\s.*?,\\n)' )\n"}

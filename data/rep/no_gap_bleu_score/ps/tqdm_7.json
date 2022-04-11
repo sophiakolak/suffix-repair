@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 6.065432413777496e-155, "candidate": "CLI_EXTRA_OPTS = ('--' + m.group(1) for m in RE_OPTS.finditer(CLI_EXTRA_DOC))\n"}
+{"rank": 2, "bleu_score": 0.2689981388382358, "candidate": "RE_SPLIT = re.compile(r'([\\w/]+)=(\\S+)')\n"}
+{"rank": 3, "bleu_score": 0.31467496032883674, "candidate": "RE_ARGS = re.compile(r'\\s*-+(\\S+)\\s*(.+)\\s*$').split\n"}
+{"rank": 4, "bleu_score": 0.3308860944783785, "candidate": "RE_ARGS = re.compile(r'\\n {8}(\\S+(?:\\s*=\\s*\\S+)*)\\s*')\n"}
+{"rank": 5, "bleu_score": 0.075486414442494, "candidate": "RE_CLI = re.compile(r'\\s+(-+\\w+)')\n"}
+{"rank": 6, "bleu_score": 0.10169741024112597, "candidate": "RE_CLI = re.compile(r'^[\\s]+')\n"}
+{"rank": 7, "bleu_score": 0.18310633940108684, "candidate": "RE_ARGS = re.compile(r'(-\\w+) (\\S)')\n"}
+{"rank": 8, "bleu_score": 0.41472832467021853, "candidate": "RE_ARGS = re.compile(r'\\n {8}(\\S+)\\s{2,}:\\s*([^,]+)')\n"}
+{"rank": 9, "bleu_score": 0.3469866111230177, "candidate": "RE_ARGS = re.compile(r'((?:[^\\s,\"]|\"[^\"]*\")+)')\n"}
+{"rank": 10, "bleu_score": 0.08303558775108368, "candidate": "RE_ARGV = re.compile(r'\\s{2,}')\n"}
+{"rank": 11, "bleu_score": 0.22276206406558097, "candidate": "RE_SPLIT = re.compile(r'--([\\w-]+)')\n"}
+{"rank": 12, "bleu_score": 0.07615827970275721, "candidate": "CLI_ARGS = shlex.split(__doc__[:__doc__.index('Args:')])\n"}
+{"rank": 13, "bleu_score": 0.27442267555862077, "candidate": "RE_ARGS = re.compile(r'(?:[^,\\s]++\\s++|[^,])')\n"}
+{"rank": 14, "bleu_score": 0.258951468537508, "candidate": "RE_ARGS = re.compile(r'\\s*([-._\\w]+)')\n"}
+{"rank": 15, "bleu_score": 1.2767716991409542e-155, "candidate": "# ( (name, opts), ... )\n"}
+{"rank": 16, "bleu_score": 0.30287599932603104, "candidate": "# re.findall(r'(\\n +[^:]+)\\s{2,}:\\s*([^\\n]+)', CLI_EXTRA_DOC)\n"}
+{"rank": 17, "bleu_score": 0.03884197525165812, "candidate": "# (ie, all args begin with '--')\n"}
+{"rank": 18, "bleu_score": 0.11457586989766001, "candidate": "# CLI_OPT_SPLIT = re.compile(r'--?|\\s+').split\n"}
+{"rank": 19, "bleu_score": 0.2508520410843168, "candidate": "RE_SPLIT = re.compile(r'--(\\S+)\\s+([^-].*)')\n"}
+{"rank": 20, "bleu_score": 0.17981426304504958, "candidate": "# re.split(r'\\n(?=\\s{8}\\S+\\s{2,}:\\s*)',\n"}

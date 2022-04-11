@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.8535639569308374, "candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n"}
+{"rank": 2, "bleu_score": 0.2758386421836852, "candidate": "                command.append('{name} {prop}=\"{value}\"'.format(name=name, prop=prop, value=value))\n"}
+{"rank": 3, "bleu_score": 5.905311339544237e-156, "candidate": "                if value is not None:\n"}
+{"rank": 4, "bleu_score": 0.8017837257372731, "candidate": "                command += [name, \"{0}={1}\".format(prop, value)]\n"}
+{"rank": 5, "bleu_score": 0.20520565935588775, "candidate": "                command.extend(['--conf', prop + '=' + str(value)])\n"}
+{"rank": 6, "bleu_score": 0.8535639569308374, "candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n"}
+{"rank": 7, "bleu_score": 2.3660554576954645e-156, "candidate": "                command.append(name)\n"}
+{"rank": 8, "bleu_score": 0.8535639569308374, "candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n"}
+{"rank": 9, "bleu_score": 0.8535639569308374, "candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n"}
+{"rank": 10, "bleu_score": 0.8535639569308374, "candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n"}
+{"rank": 11, "bleu_score": 0.7989617769008832, "candidate": "                command += ['--conf', '{0}={1}'.format(prop, value)]\n"}
+{"rank": 12, "bleu_score": 2.3660554576954645e-156, "candidate": "                command.append(name)\n"}
+{"rank": 13, "bleu_score": 2.9792676727954034e-157, "candidate": "                if value:\n"}
+{"rank": 14, "bleu_score": 2.3660554576954645e-156, "candidate": "                command.append(name)\n"}
+{"rank": 15, "bleu_score": 0.670981706320262, "candidate": "                command.extend([name, \"{0}={1}\".format(prop, value)])\n"}
+{"rank": 16, "bleu_score": 0.8535639569308374, "candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n"}
+{"rank": 17, "bleu_score": 0.8535639569308374, "candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n"}
+{"rank": 18, "bleu_score": 0.670981706320262, "candidate": "                command.append('{0} {1}={2}'.format(name, prop, value))\n"}
+{"rank": 19, "bleu_score": 0.23266738769033593, "candidate": "                command.extend([name, prop, value])\n"}
+{"rank": 20, "bleu_score": 0.670981706320262, "candidate": "                command.extend([name, \"{0}={1}\".format(prop, value)])\n"}

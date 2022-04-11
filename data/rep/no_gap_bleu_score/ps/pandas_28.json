@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.6236095644623236, "candidate": "            return [others.to_series(name=others.name, index=idx)]\n"}
+{"rank": 2, "bleu_score": 0.19180183554164504, "candidate": "            others = Series(others)\n"}
+{"rank": 3, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 4, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 5, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 6, "bleu_score": 6.08970970641905e-155, "candidate": "            if not len(others) == len(idx):\n"}
+{"rank": 7, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 8, "bleu_score": 0.45673553902495045, "candidate": "            others = Series(others, index=idx)\n"}
+{"rank": 9, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 10, "bleu_score": 0.36668337256566885, "candidate": "            return [others._to_embed(keep_tz=True)]\n"}
+{"rank": 11, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 12, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 13, "bleu_score": 0.0301973834223185, "candidate": "            return [\n"}
+{"rank": 14, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 15, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 16, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 17, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 18, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 19, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}
+{"rank": 20, "bleu_score": 0.816496580927726, "candidate": "            return [Series(others, index=idx)]\n"}

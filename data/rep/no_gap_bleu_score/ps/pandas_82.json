@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.9258200997725514, "candidate": "        return np.dtype(\"datetime64[ns]\"), np.datetime64(\"NaT\", \"ns\")\n"}
+{"rank": 2, "bleu_score": 0.43120969391201247, "candidate": "        return np.dtype(\"M8[ns]\"), tslibs.iNaT\n"}
+{"rank": 3, "bleu_score": 3.1619674483967957e-155, "candidate": "        # GH-25014. We use NaT instead of iNaT, since this eventually\n"}
+{"rank": 4, "bleu_score": 0, "candidate": "        # GH-25014. See above.\n"}
+{"rank": 5, "bleu_score": 1.0, "candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n"}
+{"rank": 6, "bleu_score": 3.1619674483967957e-155, "candidate": "        # GH-25014. We use NaT instead of iNaT, since this eventually\n"}
+{"rank": 7, "bleu_score": 1.0, "candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n"}
+{"rank": 8, "bleu_score": 1.0, "candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n"}
+{"rank": 9, "bleu_score": 3.1619674483967957e-155, "candidate": "        # GH-25014. We use NaT instead of iNaT, since this eventually\n"}
+{"rank": 10, "bleu_score": 0.43120969391201247, "candidate": "        return np.dtype(\"M8[ns]\"), tslib.NaT\n"}
+{"rank": 11, "bleu_score": 1.0, "candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n"}
+{"rank": 12, "bleu_score": 0.24035570892964314, "candidate": "        return np.dtype(upcast_classes[\"datetime\"][0]), tslibs.NaT\n"}
+{"rank": 13, "bleu_score": 0.43120969391201247, "candidate": "        return np.dtype(\"M8[ns]\"), tslibs.NaT\n"}
+{"rank": 14, "bleu_score": 2.0769626408616135e-155, "candidate": "        dtype = upcast_classes[\"datetime\"]\n"}
+{"rank": 15, "bleu_score": 3.1619674483967957e-155, "candidate": "        # GH-25014. We use NaT instead of iNaT, since this eventually\n"}
+{"rank": 16, "bleu_score": 0.9258200997725514, "candidate": "        return np.dtype(\"datetime64[ns]\"), np.datetime64(\"NaT\", \"ns\")\n"}
+{"rank": 17, "bleu_score": 1.0, "candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n"}
+{"rank": 18, "bleu_score": 1.0, "candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n"}
+{"rank": 19, "bleu_score": 1.0, "candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n"}
+{"rank": 20, "bleu_score": 1.0, "candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n"}

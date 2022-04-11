@@ -1,0 +1,20 @@
+{"rank": 1, "bleu_score": 0.24937342826862174, "candidate": "        'root': {'level': 'WARN', 'handlers': ['console']},\n"}
+{"rank": 2, "bleu_score": 0.015744053406497194, "candidate": "        '': {  # root logger\n"}
+{"rank": 3, "bleu_score": 0.015744053406497194, "candidate": "        '': {  # root logger\n"}
+{"rank": 4, "bleu_score": 0.015744053406497194, "candidate": "        '': {  # root logger\n"}
+{"rank": 5, "bleu_score": 0.015744053406497194, "candidate": "        '': {  # root logger\n"}
+{"rank": 6, "bleu_score": 0.014148518416295199, "candidate": "        \"root\": {\n"}
+{"rank": 7, "bleu_score": 0.03847735214036962, "candidate": "        \"\": {  # root logger\n"}
+{"rank": 8, "bleu_score": 0.03847735214036962, "candidate": "        \"\": {  # root logger\n"}
+{"rank": 9, "bleu_score": 0.2211629342323457, "candidate": "        'django.db.backends': {'level': 'ERROR', 'handlers': ['console'], 'propagate': False},\n"}
+{"rank": 10, "bleu_score": 0.0027507553436127577, "candidate": "        'root': {\n"}
+{"rank": 11, "bleu_score": 0.014148518416295199, "candidate": "        \"baseplate\": {\n"}
+{"rank": 12, "bleu_score": 0.0055015106872255155, "candidate": "        \"\": {\n"}
+{"rank": 13, "bleu_score": 0.0006447979214853162, "candidate": "        '': {\n"}
+{"rank": 14, "bleu_score": 0.0006447979214853162, "candidate": "        '': {\n"}
+{"rank": 15, "bleu_score": 0.0055015106872255155, "candidate": "        \"\": {\n"}
+{"rank": 16, "bleu_score": 0.015744053406497194, "candidate": "        '': {  # root logger\n"}
+{"rank": 17, "bleu_score": 0.0027507553436127577, "candidate": "        'network-server': {\n"}
+{"rank": 18, "bleu_score": 0.092479727724549, "candidate": "        'e3.log': {'level': 'INFO'},\n"}
+{"rank": 19, "bleu_score": 0.0027507553436127577, "candidate": "        'SQUAD_HELPER': {\n"}
+{"rank": 20, "bleu_score": 0.014148518416295199, "candidate": "        \"requests\": {\n"}
