@@ -1,5 +1,6 @@
 import os 
 import project_parser
+import json
 
 proj_path = 'BugsInPy/projects'
 project_data, project_tests, project_url = project_parser.get_project_data()
@@ -17,7 +18,6 @@ def map_proj_bug(project_tests):
 
 def parse_diff(patch_f, proj_name, bug):
     bug_diff_data = []
-    #print("PROJ: " + proj_name, "BUG: " + str(bug))
     curr_file = ""
     for line in patch_f:
         bug_diff = {}
@@ -29,7 +29,6 @@ def parse_diff(patch_f, proj_name, bug):
                 code_type = parts[4]
             else:
                 code_type = None
-            #print(curr_file, old_indices, new_indices, code_type)
             bug_diff["file"] = curr_file
             bug_diff["old_indices"] = old_indices
             bug_diff["new_indices"] = new_indices
@@ -182,8 +181,6 @@ def get_code(snippet, bug_data, version):
     data = {}
     proj_name = bug_data["proj_name"]
     bug = bug_data["bug"]
-    #if proj_name != 'youtube-dl':
-    #    return
     print("PROJ: " + proj_name, "BUG: " + str(bug))
 
     proj_path = "BugsInPy/temp/projects/" + proj_name
@@ -204,8 +201,6 @@ def get_code(snippet, bug_data, version):
     data["file_changed"] = file_changed
     data["start_line"] = start_line
     data["num_lines"] = num_lines
-
-    #print("commit_id: " + commit_id, "file_changed: " + file_changed, "old_start_line: " + str(start_line), "num_lines: " + num_lines, "end_line: " + str(end_line))
 
     checkout_version(commit_id, proj_path)
     path_to_change = proj_path + "/" + file_changed
@@ -253,9 +248,6 @@ def find_del_line_numbers(diff_block, bug_start_line, lines_removed):
 
 
 def find_add_line_numbers(diff_block, bug_start_line, lines_added):
-    #print("lines_added: ", lines_added, "\n")
-    #print("bug_start_line: ", bug_start_line, "\n")
-    #print("diff_block:", diff_block)
     diff_block = diff_block.split("\n")
     patches = clean_diffs(lines_added)
     adjusted_idx = {}
@@ -297,6 +289,27 @@ def clone_projects(proj_bugs):
             print("Cloning " + proj + " to " + proj_path)
             os.system(command)
 
+def write_data(proj, bug, bug_meta_data, file_changed, adjusted_del_idx, adjusted_add_idx):
+    data = {}
+    data["project"] = proj
+    data["bug"] = bug
+    data["project_url"] = get_proj_url(proj)
+    data["file_changed"] = file_changed
+    data["buggy_commit_id"] = bug_meta_data["buggy_commit_id"]
+    data["fixed_commit_id"] = bug_meta_data["fixed_commit_id"]
+    data["lines_deleted"] = adjusted_del_idx
+    data["lines_added"] = adjusted_add_idx
+    as_json = json.dumps(data)
+    data_folder = "data/all_data"
+    if not os.path.exists(data_folder):
+        os.makedirs(data_folder)
+    data_path = data_folder + "/" + proj + ".json"
+    with open(data_path, "a") as f:
+        f.write(as_json)
+        f.write("\n")
+    
+    
+
 
 proj_bugs = map_proj_bug(project_tests)
 clone_projects(proj_bugs)
@@ -316,24 +329,25 @@ for proj, bugs in proj_bugs.items():
                 old_snippet, new_snippet, lines_removed, lines_added = reformed_blocks
                 if proj == "pandas" and bug == 93:
                     continue
-                #if proj == "youtube-dl":
                 if True:
                     old_data = get_code(old_snippet, bug_data, version="old")
                     del_start_line = int(old_data["start_line"])
-                    diff_block = old_data["snippet_str"]
+                    del_diff_block = old_data["snippet_str"]
                     if len(lines_removed) > 0:
-                        adjusted_del_idx = find_del_line_numbers(diff_block, del_start_line, lines_removed)
+                        adjusted_del_idx = find_del_line_numbers(del_diff_block, del_start_line, lines_removed)
                         assert(len(adjusted_del_idx) == len(lines_removed))
                         path = "BugsInPy/temp/projects/" + proj
                         bug_f = open(path + "/" + old_data["file_changed"], "r")
                         correct_lines = check_line_match(adjusted_del_idx, bug_f)
                         bug_f.close()
                         assert(correct_lines)
+                    else:
+                        adjusted_del_idx = {}
                     new_data = get_code(new_snippet, bug_data, version="new")
                     add_start_line = int(new_data["start_line"])
-                    diff_block = new_data["snippet_str"]
+                    add_diff_block = new_data["snippet_str"]
                     if len(lines_added) > 0:
-                        adjusted_add_idx = find_add_line_numbers(diff_block, add_start_line, lines_added)
+                        adjusted_add_idx = find_add_line_numbers(add_diff_block, add_start_line, lines_added)
                         print(adjusted_add_idx)
                         if len(lines_removed) > 0:
                             print(adjusted_del_idx)
@@ -343,10 +357,7 @@ for proj, bugs in proj_bugs.items():
                         correct_lines = check_line_match(adjusted_add_idx, change_f)
                         change_f.close()
                         assert(correct_lines)
+                    else: 
+                        adjusted_add_idx = {}
                     
-                    
-
-
-
-
-
+                    write_data(proj, bug, bug_meta_data, new_data["file_changed"], adjusted_del_idx, adjusted_add_idx)
