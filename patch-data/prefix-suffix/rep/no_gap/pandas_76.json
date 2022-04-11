@@ -1,0 +1,10 @@
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 9.054925992959701}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 3.7705356359596998}
+{"candidate": "            except (TypeError, ValueError):\n                pass\n\n        if data.dtype == \"object\":\n\n            # try int\n            try:\n                data = data.astype(\"int64\")\n                result = True\n            except (TypeError, ValueError, OverflowError):\n", "entropy": 12.706658807618439}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 9.2581346950597}
+{"candidate": "            except (TypeError, ValueError, OverflowError):\n", "entropy": 1.4957334526347001}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 4.1304038041597}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 9.2555946924597}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 14.784837217959701}
+{"candidate": "            except (TypeError, ValueError):\n                pass\n\n        if data.dtype == \"object\":\n\n            # try int\n            try:\n                data = data.astype(\"int64\")\n                result = True\n            except (TypeError, ValueError):\n", "entropy": 8.2604990275305}
+{"candidate": "            except (TypeError, ValueError):\n                pass\n\n        # coerce ints to 64\n        if data.dtype == \"int\":\n\n            # coerce floats to 64\n            try:\n                data = data.astype(\"int64\")\n                result = True\n            except (TypeError, ValueError):\n                pass\n\n        return data, result\n\n    def _try_convert_to_date(self, data):\n       ", "entropy": 6.728378135004804}

@@ -1,0 +1,10 @@
+{"candidate": "        if self.columns:\n", "entropy": 8.47453383483}
+{"candidate": "        if self.columns is not None:\n", "entropy": 5.22587566143}
+{"candidate": "        if self.columns:\n", "entropy": 15.496227977130001}
+{"candidate": "\n        if self.columns:\n", "entropy": 18.420775641850003}
+{"candidate": "        if len(self.columns) > 0:\n", "entropy": 4.1503038422100005}
+{"candidate": "        if self.columns:\n", "entropy": 6.918870598460002}
+{"candidate": "        if self.columns:\n", "entropy": 7.907904751829999}
+{"candidate": "\n        if self.columns:\n", "entropy": 9.5212067788}
+{"candidate": "\n        if self.columns:\n", "entropy": 9.505665794}
+{"candidate": "        if self.columns:\n", "entropy": 16.0501140322}

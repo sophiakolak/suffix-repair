@@ -1,0 +1,10 @@
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 1.9519143106785999}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 2.7511887106786}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 5.1916266106786}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 4.0242024787506}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 1.9519135686786}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 1.9519135686786}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 1.9519143106785999}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 9.3055707473106}
+{"candidate": "                setter(self, min(vmax, oldmin), max(vmax, oldmin),\n", "entropy": 18.7654477056925}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 2.6231361686785997}

@@ -1,0 +1,10 @@
+{"candidate": "                if left_value != right_value:\n", "entropy": 8.837706701338}
+{"candidate": "                if left_value != right_value:\n", "entropy": 2.877687842483}
+{"candidate": "                if left_value != right_value:\n", "entropy": 2.520286983297}
+{"candidate": "                if left_value != right_value:\n", "entropy": 5.301430103911001}
+{"candidate": "                if left_value != right_value:\n", "entropy": 4.554588294886}
+{"candidate": "                if not isinstance(right_value, float) or not np.isnan(right_value):\n", "entropy": 14.222630516228604}
+{"candidate": "                if left_value != right_value:\n", "entropy": 2.519667105826}
+{"candidate": "                if not strict_nan and left_value != right_value:\n", "entropy": 20.50371999414}
+{"candidate": "                if left_value != right_value:\n", "entropy": 7.222172215471}
+{"candidate": "                # NaN and None are equivalent.\n                if left_value is not None and left_value != right_value:\n", "entropy": 28.579730023063}

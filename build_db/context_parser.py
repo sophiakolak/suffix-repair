@@ -102,7 +102,7 @@ def write_data(data, prefix, suffix, long_prefix):
     context_data["prefix"] = prefix
     context_data["suffix"] = suffix
     context_data["long_prefix"] = long_prefix
-    base_path = "data/add/no_gap_context" 
+    base_path = "data/rep/no_gap_context" 
     if not os.path.exists(base_path):
         os.makedirs(base_path)
     full_path = "/" + data["project"] + "_" + str(data["bug"]) + ".json" 
