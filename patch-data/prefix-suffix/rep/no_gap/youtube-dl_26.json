@@ -1,0 +1,20 @@
+{"candidate": "", "entropy": 6.238963103680001}
+{"candidate": "        [-+]?(?:\\.\\d+|\\d+\\.?\\d*(?:[eE][-+]?\\d+)?)|\n        \\s+|\n", "entropy": 16.789736775315504}
+{"candidate": "", "entropy": 9.58549816988}
+{"candidate": "        \\b(?:true|false|null)\\b|\n", "entropy": 2.1105750667}
+{"candidate": "        [][.,{}:]|\n        \\s+|\n", "entropy": 30.83163632398}
+{"candidate": "        \\b(?:true|false|null)\\b|\n", "entropy": 2.1631091954099997}
+{"candidate": "        \\b(?:true|false|null)\\b|\n", "entropy": 2.1072045600599996}
+{"candidate": "        [0-9]+(?:\\.[0-9]+)?(?:[eE][-+]?[0-9]+)?|\n", "entropy": 11.414388048853503}
+{"candidate": "        \\{|\\}|\\[|\\]|\n        true|false|null|\n        (?<=[\\{,\\[])\\s+|\n        \\s+(?=[\\},\\]])|\n        [.](?=\\s*[\\]}])|\n", "entropy": 39.86500946911}
+{"candidate": "        \\b(true|false|null)\\b|\n", "entropy": 7.472407574399999}
+{"candidate": "        \\b(?:true|false|null)\\b|\n", "entropy": 2.1066517717}
+{"candidate": "        [][.:'\"\\w]|\n", "entropy": 17.584764677080003}
+{"candidate": "        (?<!\\d)[-+]?(?:\\.\\d+|\\d+(?:\\.\\d*)?)[fFdD]?|\n        \\b(?:true|false|null)\\b|\n", "entropy": 20.631209522645}
+{"candidate": "        [;={}\\[\\]\\(\\),:]|\n", "entropy": 10.974622217359999}
+{"candidate": "        \\b(?:true|false|null)\\b|\n        \\b0[xX][0-9a-fA-F]+|\n        \\b0+[0-7]+|\n        \\b[0-9]+(?:\\.[0-9]+)?(?:[eE][-+]?[0-9]+)?|\n", "entropy": 19.282868129602402}
+{"candidate": "        \\b(?:true|false|null)\\b|\n        (?<=[\\[{,])\\s++|\\s++(?=[\\]}])|\n        \\b(?=\\d)\n", "entropy": 41.05244449266999}
+{"candidate": "        (?<=[\\{,\\[])\\s*:|\n", "entropy": 15.48083864319}
+{"candidate": "        \\b(?:true|false|null)\\b|\n", "entropy": 2.1065117647399996}
+{"candidate": "        \\b(?:true|false|null)\\b|\n", "entropy": 2.10581868898}
+{"candidate": "        \\b(?:true|false|null)\\b|\n", "entropy": 2.1105745967}

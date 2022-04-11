@@ -1,0 +1,20 @@
+{"candidate": "        if hasattr(intensity, 'mask'):\n            blend = blend.copy()\n", "entropy": 11.638331843734}
+{"candidate": "        if np.issubdtype(elevation.dtype, np.bool_):\n            blend[~elevation] = np.nan\n        elif intensity.mask is not None:\n", "entropy": 18.851525233524498}
+{"candidate": "        if intensity.mask.any():\n            blend = np.array(blend, copy=True)\n", "entropy": 11.036011497157002}
+{"candidate": "        blend[intensity.mask] = 0\n\n        if not gray:\n", "entropy": 29.57560592544999}
+{"candidate": "        if np.any(intensity.mask):\n            blend = blend.copy()\n", "entropy": 9.491213443459998}
+{"candidate": "        if intensity.mask is not None:\n", "entropy": 7.4894268445500005}
+{"candidate": "        if (intensity.mask is not None and\n                intensity.mask.all() is not ma.nomask):\n", "entropy": 27.869864766869995}
+{"candidate": "        if intensity.mask.any():\n            blend = blend.copy()\n", "entropy": 14.96435873645}
+{"candidate": "        if blend.shape[2] == 4:\n            blend[..., 3][intensity.mask] = 0\n        elif blend.shape[2] == 3:\n", "entropy": 18.652968035934997}
+{"candidate": "        if blend.shape[2] == 4:\n", "entropy": 8.723226476950002}
+{"candidate": "        if isinstance(intensity, np.ma.MaskedArray):\n", "entropy": 15.086183987430001}
+{"candidate": "        if hasattr(intensity, 'mask') and intensity.mask is not None:\n", "entropy": 9.387160557474001}
+{"candidate": "        if intensity.mask.any():\n", "entropy": 6.001087962230001}
+{"candidate": "        if blend.ndim == 3:\n", "entropy": 14.195326491994}
+{"candidate": "        if intensity.ndim == rgb.ndim and intensity.shape[2] == 1:\n", "entropy": 14.212211232157497}
+{"candidate": "        if intensity.mask is not ma.nomask:\n", "entropy": 10.622467643662}
+{"candidate": "        if np.ma.is_masked(intensity):\n", "entropy": 3.6787445783279997}
+{"candidate": "        if hasattr(intensity, 'mask') and hasattr(rgb, 'mask'):\n            mask = intensity.mask[..., 0] | rgb.mask[..., 0]\n            blend = ma.array(blend, mask=mask)\n        elif hasattr(intensity, 'mask'):\n", "entropy": 30.123004201572403}
+{"candidate": "        if not np.ma.is_masked(intensity):\n            return blend\n\n        # Masked values must be handled differently\n        result = np.empty(blend.shape, dtype=float)\n        for i in range(3):\n            result[..., i] = np.ma.array(blend[..., i], mask=intensity.mask)\n        return result\n\n    def blend_soft_light(self, rgb", "entropy": 40.50226816092149}
+{"candidate": "        if intensity is not None:\n            mask = intensity.mask[..., 0]\n            for i in range(3):\n                blend[..., i][mask] = rgb[..., i][mask]\n\n        return blend\n\n\n    def blend_overlay(self, rgb, intensity, intensity_range=(0.75, 1)):\n        \"\"\"\n        Blend two images in an \"overlay\" fashion, similar to the blending\n       ", "entropy": 48.31348353111399}

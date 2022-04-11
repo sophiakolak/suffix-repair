@@ -1,0 +1,20 @@
+{"candidate": "            if task.status == RUNNING:\n", "entropy": 9.523828835229999}
+{"candidate": "            if task.status == DONE:\n                continue\n            for dep in task.deps:\n                if dep not in necessary_tasks:\n    ", "entropy": 13.5169335565402}
+{"candidate": "            if task.status == 'PENDING':\n", "entropy": 9.73008987753}
+{"candidate": "            if not task.complete:\n", "entropy": 13.60189132823}
+{"candidate": "            if task.status == DONE:\n                for dep in task.deps:\n                    if dep in self._active_task_ids:\n        ", "entropy": 24.618831811922508}
+{"candidate": "            if not task.complete():\n", "entropy": 9.053250918360002}
+{"candidate": "            if not task.complete and self.required_data_present(task):\n", "entropy": 30.794132946430004}
+{"candidate": "            if task.status == PENDING:\n", "entropy": 7.155735447092}
+{"candidate": "            if task.status == DONE:\n                continue\n            if not task.deps:\n                necessary_tasks.add(task.id)\n            elif not task.deps.issubset(necessary_tasks):\n", "entropy": 13.7215442063648}
+{"candidate": "            if task.is_complete():\n                continue\n            if not task.deps:\n                necessary_tasks.add(task.id)\n            elif not self.get_task(task.id).finished():\n                # TODO: Should this only include the necessary tasks if\n                # they're actually finished? Or is this in the service of\n                # reporting finished tasks as dependencies if they've\n                # already ran.\n", "entropy": 122.62358332445243}
+{"candidate": "            if not task.complete():\n", "entropy": 14.526230102659996}
+{"candidate": "            if task.status == Scheduler.RUNNING:\n", "entropy": 10.651178851430002}
+{"candidate": "            for output in task.outputs:\n                if self._state.get_scheduler_owns(output):\n    ", "entropy": 35.7948463810837}
+{"candidate": "            if task.status == 'RUNNING':\n", "entropy": 11.745497589260001}
+{"candidate": "            if not task.complete:\n                for dep in task.deps:\n                    if dep not in self._task_info or dep in necessary_tasks:\n        ", "entropy": 25.002342849834996}
+{"candidate": "            if task.status == Status.DONE:\n                continue\n            elif task.status in (Status.PENDING, Status.RUNNING):\n                if not task.workers:\n    ", "entropy": 23.379439841878305}
+{"candidate": "            if task.is_pending() and task.deps:\n                if not necessary_tasks.issuperset(task.deps):\n    ", "entropy": 23.820233773961498}
+{"candidate": "            if task.complete():\n                continue\n            if not task.deps:\n                necessary_tasks.add(task.id)\n            else:\n", "entropy": 10.623427045474202}
+{"candidate": "            if not task.complete and not task.workers:\n", "entropy": 11.825758590629999}
+{"candidate": "            if not task.complete and not task.workers:\n", "entropy": 11.31193701603}

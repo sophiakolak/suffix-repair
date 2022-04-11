@@ -1,10 +1,20 @@
-{"candidate": "            except (TypeError, ValueError):\n", "entropy": 9.054925992959701}
-{"candidate": "            except (TypeError, ValueError):\n", "entropy": 3.7705356359596998}
-{"candidate": "            except (TypeError, ValueError):\n                pass\n\n        if data.dtype == \"object\":\n\n            # try int\n            try:\n                data = data.astype(\"int64\")\n                result = True\n            except (TypeError, ValueError, OverflowError):\n", "entropy": 12.706658807618439}
-{"candidate": "            except (TypeError, ValueError):\n", "entropy": 9.2581346950597}
-{"candidate": "            except (TypeError, ValueError, OverflowError):\n", "entropy": 1.4957334526347001}
-{"candidate": "            except (TypeError, ValueError):\n", "entropy": 4.1304038041597}
-{"candidate": "            except (TypeError, ValueError):\n", "entropy": 9.2555946924597}
-{"candidate": "            except (TypeError, ValueError):\n", "entropy": 14.784837217959701}
-{"candidate": "            except (TypeError, ValueError):\n                pass\n\n        if data.dtype == \"object\":\n\n            # try int\n            try:\n                data = data.astype(\"int64\")\n                result = True\n            except (TypeError, ValueError):\n", "entropy": 8.2604990275305}
-{"candidate": "            except (TypeError, ValueError):\n                pass\n\n        # coerce ints to 64\n        if data.dtype == \"int\":\n\n            # coerce floats to 64\n            try:\n                data = data.astype(\"int64\")\n                result = True\n            except (TypeError, ValueError):\n                pass\n\n        return data, result\n\n    def _try_convert_to_date(self, data):\n       ", "entropy": 6.728378135004804}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 7.306614235093999}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 8.8953609917723}
+{"candidate": "            except (TypeError, ValueError, OverflowError):\n", "entropy": 1.496470397618}
+{"candidate": "            except (TypeError, ValueError, OverflowError):\n", "entropy": 1.4950659217363}
+{"candidate": "            except (TypeError, ValueError):\n                pass\n\n        if data.dtype == \"object\":\n\n            # try int\n            try:\n                data = data.astype(\"int64\")\n                result = True\n            except (TypeError, ValueError):\n", "entropy": 9.3139865250857}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 11.944810590094}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 4.977495483225999}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 10.6065080602323}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 21.7799006987723}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 5.873388625704}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 5.3162908536039994}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 3.7555354498423004}
+{"candidate": "            except (TypeError, ValueError):\n                pass\n\n        if data.dtype == \"object\":\n\n            # try int\n            try:\n                data = data.astype(\"int64\")\n                result = True\n            except (TypeError, ValueError):\n", "entropy": 10.322458288141199}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 7.005567212034}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 17.278038711404}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 4.802760525294}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 12.645506048214}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 3.3301091334275}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 5.7049180062123}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 16.6370235987723}

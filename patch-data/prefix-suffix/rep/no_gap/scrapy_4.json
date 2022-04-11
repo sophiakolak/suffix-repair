@@ -1,0 +1,20 @@
+{"candidate": "            exc_info = failure.getTraceback().exc_info()\n", "entropy": 15.092564345448999}
+{"candidate": "\n            # get the original exception\n            # TODO: should we assume always SystemExit?\n            exc_info = failure.getTracebackObject().type\n\n            if issubclass(exc_info, AssertionError):\n                results.addFailure(case, exc_info)\n            else:\n    ", "entropy": 66.61649553514705}
+{"candidate": "            try:\n                raise failure.value\n            except AssertionError:\n                results.addFailure(case, sys.exc_info())\n            except Exception:\n    ", "entropy": 19.898711361726797}
+{"candidate": "            exc_info = (failure.type, failure.value, failure.getTracebackObject())\n", "entropy": 9.3240811999094}
+{"candidate": "            exc_info = (failure.type, failure.value, failure.getTracebackObject())\n", "entropy": 7.5004066586214}
+{"candidate": "            exc_info = failure.type, failure.value, failure.tb\n", "entropy": 11.2186980792}
+{"candidate": "            try:\n                raise failure.value\n            except AssertionError:\n                results.addFailure(case, sys.exc_info())\n            except:\n    ", "entropy": 6.760179526906001}
+{"candidate": "            exc_info = (type(failure.type), failure.value, failure.tb)\n", "entropy": 13.601671430722998}
+{"candidate": "            try:\n                request.errback(failure)\n            except:\n                exc_info = sys.exc_info()\n    ", "entropy": 14.545524372964003}
+{"candidate": "            exc_info = failure.exc_info()\n", "entropy": 8.996232222036001}
+{"candidate": "            # failure.printTraceback()\n            exc_info = (failure.type, failure.value, failure.tb)\n", "entropy": 43.0604481248}
+{"candidate": "            _, exc_info, _ = failure.trap(*failure.type)\n", "entropy": 15.2905614284}
+{"candidate": "            exc_info = (failure.type, failure.value, failure.getTracebackObject())\n", "entropy": 7.893237256251401}
+{"candidate": "            exc_info = (failure.type, failure.value, failure.tb)\n", "entropy": 14.129128644723}
+{"candidate": "            exc_info = sys.exc_info()\n", "entropy": 6.548927167352}
+{"candidate": "            exc_info = (type(failure), failure, failure.getTracebackObject())\n", "entropy": 5.913629297628499}
+{"candidate": "            exc_info = (failure.type, failure.value, failure.tb)\n", "entropy": 5.7374729848}
+{"candidate": "            exc_info = (failure.type, failure.value, failure.getTracebackObject())\n", "entropy": 16.3790880417754}
+{"candidate": "            for exc_info in failure.value.exc_info:\n    ", "entropy": 12.021216591942798}
+{"candidate": "            exc_info = (failure.type, failure.value, failure.getTracebackObject())\n", "entropy": 7.4930906360114}

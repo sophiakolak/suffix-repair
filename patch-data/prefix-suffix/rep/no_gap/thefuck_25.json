@@ -1,0 +1,20 @@
+{"candidate": "    return re.sub(r'mkdir .*',\n                  r'mkdir -p \\1',\n                  command.script) + '; ' + command.script", "entropy": 21.920124208360004}
+{"candidate": "    path_regex = r\"`(.+)':\"\n    match = re.search(path_regex, command.stderr)\n    if not match:\n        return\n\n    path = match.group(1)\n    return command.script.replace('mkdir ' + path,\n                                  'mkdir -p ' + path, 1)", "entropy": 38.4871383833822}
+{"candidate": "    return re.sub('^mkdir', 'mkdir -p', command.script)", "entropy": 10.028873196863561}
+{"candidate": "    file_path = re.findall(r'cannot create directory (.*): No such file or'\n                           r' directory', command.stderr)[0]\n    return command.script.replace('mkdir', 'mkdir -p', 1) + ' ' + file_path", "entropy": 28.60063444778}
+{"candidate": "    return re.sub(r'mkdir (\\S+)', r'mkdir -p \\1', command.script)", "entropy": 6.661680577619999}
+{"candidate": "    return re.sub(r\"mkdir (.+)$\", r\"mkdir -p \\1\", command.script)", "entropy": 13.541191563410003}
+{"candidate": "    return re.sub(r'mkdir ([\\w\\-_/]+)', r'mkdir -p \\1', command.script, 1)", "entropy": 31.18139210054}
+{"candidate": "    return re.sub(r'mkdir (.*?)$', r'mkdir -p \\1', command.script)", "entropy": 10.249240401319998}
+{"candidate": "    return re.sub(r'mkdir (\\w+)', r'mkdir -p \\1', command.script)", "entropy": 9.295978507580001}
+{"candidate": "    return re.sub(r'mkdir (\\'[^\\']*\\'|\"[^\"]*\"|\\S+)',\n                  r'mkdir -p \\1', command.script)", "entropy": 15.39001638439}
+{"candidate": "    return re.sub('mkdir', 'mkdir -p',\n                  command.script, count=1)", "entropy": 22.12676204778}
+{"candidate": "    return re.sub(r'mkdir (.*)', r'mkdir -p \\1', command.script)", "entropy": 9.53023201693}
+{"candidate": "    return re.sub(r'mkdir (.*)', r'mkdir -p \\1', command.script)", "entropy": 14.95780181693}
+{"candidate": "    filepath = re.findall(r\"mkdir: cannot create directory '(.*)':\",\n                          command.stderr)[0]\n    return 'mkdir -p {}'.format(filepath)", "entropy": 27.25645716340999}
+{"candidate": "    return re.sub('(mkdir)(.+)', 'mkdir -p \\\\2', command.script)", "entropy": 17.052510582540002}
+{"candidate": "    return re.sub(r'mkdir (?P<path>.*)$', r'mkdir -p \\g<path>', command.script)", "entropy": 17.889325685794397}
+{"candidate": "    directory = re.findall(r'mkdir: cannot create directory (.*): '\n                           r'No such file or directory', command.stderr)\n    if not directory:\n        return\n\n    return command.script.replace(directory[0], '')", "entropy": 28.745959587833006}
+{"candidate": "    return re.sub(r'mkdir\\s+([\\w/]+)', r'mkdir -p \\1', command.script)", "entropy": 22.7643381201}
+{"candidate": "    dir_name = re.search(r\"mkdir: cannot create directory '(.+)': No such file or directory\",\n                         command.stderr).group(1)\n    return command.script.replace('mkdir', 'mkdir -p', 1)", "entropy": 20.141386892356397}
+{"candidate": "    return re.sub(r\"^.* '([^']+)'\", r'mkdir -p \"\\1\"', command.script)", "entropy": 31.59864265867001}

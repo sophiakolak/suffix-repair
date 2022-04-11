@@ -1,0 +1,20 @@
+{"candidate": "        x0, y0 = dL.intervalx.get_bounds()\n        x1, y1 = dL.intervaly.get_bounds()\n\n        # We want to find out what fraction of the width and height\n        # of the *data view* *interval* the viewLim is.  These are\n        # the effective axes limits.\n        #\n", "entropy": 71.8804847214712}
+{"candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n", "entropy": 9.558503819027202}
+{"candidate": "        x0, y0 = dL.x0, dL.y0\n        x1, y1 = dL.x1, dL.y1\n\n", "entropy": 5.760558483520002}
+{"candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n\n", "entropy": 5.3785121056422005}
+{"candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n", "entropy": 5.883866725292201}
+{"candidate": "", "entropy": 14.947000425999999}
+{"candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n", "entropy": 5.140170095292202}
+{"candidate": "        x0, y0 = dL.xmin, dL.ymin\n        x1, y1 = dL.xmax, dL.ymax\n", "entropy": 4.53776305792912}
+{"candidate": "        self.set_xbound(dL.x0, dL.x1)\n        x0, x1 = self.get_xbound()\n        # Note: inverted axes will not work very well with this feature.\n        y0, y1 = self.get_ybound()\n", "entropy": 47.523274783047796}
+{"candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n\n", "entropy": 6.7009290280272}
+{"candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n\n", "entropy": 5.3808250190272}
+{"candidate": "        x0 = dL.x0\n        y0 = dL.y0\n", "entropy": 8.5049304762559}
+{"candidate": "        x0, x1 = dL.intervalx\n        y0, y1 = dL.intervaly\n", "entropy": 8.227116573383139}
+{"candidate": "        x0, y0 = dL.x0, dL.y0\n        x1, y1 = dL.x1, dL.y1\n\n", "entropy": 5.759836366790002}
+{"candidate": "        x0, x1 = x_trf.inverted().transform(dL.intervalx)\n        y0, y1 = y_trf.inverted().transform(dL.intervaly)\n", "entropy": 9.314286293079997}
+{"candidate": "        x0, x1 = 0, dL.width\n        y0, y1 = dL.y0, dL.y1\n", "entropy": 14.905627427305499}
+{"candidate": "        x0, y0 = x_trf.transform_point((dL.xmin, dL.ymin))\n        x1, y1 = x_trf.transform_point((dL.xmax, dL.ymax))\n", "entropy": 11.619901217395512}
+{"candidate": "        x0 = dL.xmin\n        x1 = dL.xmax\n", "entropy": 5.709659284841199}
+{"candidate": "        x0 = dL.xmin\n        x1 = dL.xmax\n        y0 = dL.ymin\n        y1 = dL.ymax\n", "entropy": 13.649153456828689}
+{"candidate": "        x0, x1, y0, y1 = dL.intervalx + dL.intervaly\n", "entropy": 7.3712848482563205}

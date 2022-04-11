@@ -1,0 +1,20 @@
+{"candidate": "        return scheduler.LocalScheduler()\n", "entropy": 12.4887329032019}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 4.866972422849001}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 2.2431519340195}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 3.0451055757785}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 3.0464236471195}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 4.8229343206075}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 3.045267327461}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 3.2163075774195}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 2.2438280274610003}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 2.2437377221195}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 2.2438280274610003}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 2.2423926206075}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 2.9151430206075}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 4.31762708070732}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 5.108757322119501}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 6.0385747564075}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 2.2449051471195003}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 3.0449893774195}
+{"candidate": "        return scheduler.CentralPlannerScheduler()\n", "entropy": 3.0478107637195}
+{"candidate": "        return scheduler.CentralPlannerScheduler(prune_on_get_work=False)\n\n    def create_remote_scheduler(self, url):\n        return remote_scheduler.RemoteScheduler(url)\n\n    def create_worker(self, scheduler, worker_processes, assistant=False):\n        if assistant:\n            return worker.Worker(\n                scheduler=scheduler, worker_", "entropy": 16.9826666075852}

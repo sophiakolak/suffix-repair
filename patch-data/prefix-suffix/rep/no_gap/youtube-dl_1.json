@@ -1,0 +1,20 @@
+{"candidate": "        '!': lambda x: not x,\n", "entropy": 4.783269514980001}
+{"candidate": "        '!': lambda a: not bool(a),\n", "entropy": 11.389410533380001}
+{"candidate": "        'exists': lambda x: x is not None,\n        'true': lambda x: bool(x),\n        'false': lambda x: not x,\n", "entropy": 12.545047296429995}
+{"candidate": "        '!': lambda x: not x,\n        '!!': lambda x: bool(x),\n", "entropy": 12.859160168639999}
+{"candidate": "        '!': lambda x: not x,\n        '': lambda x: x,\n", "entropy": 9.58386760798}
+{"candidate": "        '!': lambda x: not x,\n", "entropy": 5.22145020678}
+{"candidate": "        '!': lambda actual_value: not bool(actual_value),\n        '!!': lambda actual_value: bool(actual_value),\n        '!~': lambda actual_value: not match_str(filter_part[2:], {'key': actual_value}),\n", "entropy": 33.89365075036002}
+{"candidate": "        '!': operator.not_,\n", "entropy": 6.040870473907001}
+{"candidate": "        'defined': lambda x: x is not None,\n        'empty': lambda x: not x,\n        '!empty': lambda x: x,\n        '!defined': lambda x: x is None,\n", "entropy": 23.015383231924996}
+{"candidate": "        '!': lambda v: not v,\n        '?': lambda v: bool(v),\n", "entropy": 15.78959945131}
+{"candidate": "        '!': lambda x: not x,\n        'not_': lambda x: not x,\n", "entropy": 25.738613678000004}
+{"candidate": "        'defined': bool,\n        'present': lambda k: k is not None and len(k) > 0,\n", "entropy": 21.874030564610003}
+{"candidate": "        'present': lambda x: x is not None,\n        'missing': lambda x: x is None,\n", "entropy": 21.442310626519998}
+{"candidate": "        '!': lambda x: not x,\n", "entropy": 5.146109218437001}
+{"candidate": "        '!': lambda x: not x,\n        '!?': lambda x: x is None,\n", "entropy": 23.679545855498}
+{"candidate": "        '!': lambda x: not x,\n        'defined': lambda x: x is not None,\n", "entropy": 16.75810091234}
+{"candidate": "        '!': lambda x: not bool(x),\n", "entropy": 7.932522732679999}
+{"candidate": "        '!': lambda x: not x,\n", "entropy": 8.64656810348}
+{"candidate": "        '-': lambda x: not x,\n", "entropy": 15.16278877148}
+{"candidate": "        '!': lambda value: not value,\n", "entropy": 14.39599380168}

@@ -1,0 +1,20 @@
+{"candidate": "        elif needs_i8_conversion(target):\n", "entropy": 3.4692633945840003}
+{"candidate": "        elif isinstance(target, ABCSeries):\n            # GH#19096, GH#22872\n", "entropy": 38.4343335483086}
+{"candidate": "        elif is_extension_type(target):\n", "entropy": 7.485565604128601}
+{"candidate": "        elif is_integer_dtype(target):\n            # work around NumPy brokenness, #1987\n", "entropy": 20.1113379662778}
+{"candidate": "        elif target.inferred_type in (\"integer\", \"boolean\", \"datetime64\"):\n", "entropy": 17.476853542741}
+{"candidate": "        elif is_extension_array_dtype(target):\n", "entropy": 8.738533412092602}
+{"candidate": "        elif is_datetime64tz_dtype(target):\n            tgt_values = target._values\n        elif is_integer_dtype(target):\n", "entropy": 13.140418117023799}
+{"candidate": "        elif isinstance(target, ABCSeries):\n            # avoid ndarray -> Index conversion\n", "entropy": 13.748126995708603}
+{"candidate": "\n        elif is_datetime64tz_dtype(target):\n", "entropy": 15.402670261712997}
+{"candidate": "        elif target.is_integer():\n", "entropy": 13.0459393932848}
+{"candidate": "        elif is_timedelta64_dtype(target):\n", "entropy": 17.715004443654802}
+{"candidate": "        elif is_integer_dtype(target) and is_integer_dtype(self):\n            tgt_values = target.values\n        elif is_integer_dtype(self) and target.inferred_type == \"date\":\n", "entropy": 30.9830925366656}
+{"candidate": "        elif is_integer_dtype(target.dtype):\n", "entropy": 19.4421488878448}
+{"candidate": "        elif target.inferred_type == \"integer\":\n", "entropy": 3.1204037623940004}
+{"candidate": "        elif is_datetime64tz_dtype(target):\n", "entropy": 8.4974172641486}
+{"candidate": "        elif target.is_integer():\n", "entropy": 11.660121581098599}
+{"candidate": "        elif is_extension_array_dtype(target):\n", "entropy": 7.498710747496101}
+{"candidate": "        elif target.is_object():\n            tgt_values = target.astype(object)._values\n        elif target.inferred_type == \"integer\":\n", "entropy": 22.640614473683996}
+{"candidate": "        elif isinstance(target, ABCSparseArray):\n", "entropy": 7.688543128608601}
+{"candidate": "        elif is_datetime64tz_dtype(target):\n            tgt_values = target.asi8\n        else:\n            tgt_values = target._ndarray_values\n\n        return self._engine.get_indexer_non_unique(tgt_values)\n\n    def get_indexer_for(self, target, **kwargs):\n        \"\"\"\n        Guaranteed return of an indexer even when non-unique", "entropy": 12.712057263460803}

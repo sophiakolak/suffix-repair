@@ -1,0 +1,20 @@
+{"candidate": "            # check if any of the workers associated with the task are alive\n            in_workers = any(self._state.get_worker(w).alive for w in task.workers)\n\n", "entropy": 28.496111979346992}
+{"candidate": "            in_workers = (task.workers is None) or (worker in task.workers) or assistant\n\n", "entropy": 15.674512120653}
+{"candidate": "            in_workers = len(task.workers) == 0 or worker.id in task.workers\n", "entropy": 5.780242760537001}
+{"candidate": "            # Don't run tasks that have failed dependencies\n            if not self._schedulable(task):\n                continue\n\n            in_workers = all(w in worker.workers or w == worker.id for w in task.workers)\n", "entropy": 33.28574015201598}
+{"candidate": "            in_workers = worker.id in task.workers\n\n            # If we can't use the worker's resources, bail\n            if not self._has_resources(task.resources, used_resources) and not in_workers:\n                continue\n\n", "entropy": 39.90124788836699}
+{"candidate": "            in_workers = len(task.workers) == 0 or worker in task.workers\n", "entropy": 8.314488615257998}
+{"candidate": "            in_workers = not assistant or task.id in worker.tasks_in or worker in task.workers\n", "entropy": 31.664378921557}
+{"candidate": "            in_workers = len(task.workers) == 0 or (worker in task.workers and not assistant)\n", "entropy": 21.693155532937}
+{"candidate": "            # Don't re-schedule tasks that are already running\n            in_workers = len([worker.id for worker in task.workers if worker.state == 'up']) > 0\n", "entropy": 42.217633802900004}
+{"candidate": "            in_workers = set(task.workers) & set(self._state.get_active_worker_ids())\n", "entropy": 12.084409207756998}
+{"candidate": "            in_workers = len(set(task.workers).intersection(set([worker]))) >= 1\n", "entropy": 27.280853518141004}
+{"candidate": "            # TODO: separate out into method\n            in_workers = bool(task.workers) and (assistant or worker in task.workers)\n", "entropy": 38.488070473004}
+{"candidate": "            in_workers = any((w in self._workers) for w in task.workers)\n            if in_workers and task.status == FAILED:\n                # if a task is failed on the cluster try it again\n                task.set_status(PENDING)\n                task.result = None\n                task.worker_running = None\n                in_workers = False\n\n", "entropy": 73.14997034445202}
+{"candidate": "            if task.status == 'VALIDATING':\n                continue\n\n            in_workers = (not task.workers) or (worker.id in task.workers)\n\n", "entropy": 27.892261606247004}
+{"candidate": "            in_workers = task.has_worker(worker) or worker in task.workers\n", "entropy": 14.049981289617001}
+{"candidate": "            in_workers = not task.workers or worker in task.workers\n", "entropy": 20.029676413383}
+{"candidate": "            in_workers = len(task.workers) == 0 or self.worker in task.workers\n", "entropy": 11.904460363167999}
+{"candidate": "            in_workers = task.worker_ttl > time.time()\n", "entropy": 26.141989621558}
+{"candidate": "            in_workers = task.worker_running is not None or not task.workers or worker.id in task.workers\n", "entropy": 17.964740906826997}
+{"candidate": "            in_workers = False\n            for task_worker in task.workers:\n                if task_worker == worker.id:\n                    in_workers = True\n                    # If the task is already running, don't screw with it\n                    if task.status == RUNNING and task.worker_running != worker.id:\n                        continue\n\n    ", "entropy": 44.60434039323072}

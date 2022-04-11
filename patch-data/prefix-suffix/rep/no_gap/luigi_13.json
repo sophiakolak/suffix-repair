@@ -1,0 +1,20 @@
+{"candidate": "            os.makedirs(d)\n", "entropy": 11.106102226503}
+{"candidate": "            os.makedirs(d)\n", "entropy": 7.196772461336999}
+{"candidate": "            os.makedirs(d)\n", "entropy": 3.3349379214590007}
+{"candidate": "            os.makedirs(d)\n", "entropy": 10.752531112814}
+{"candidate": "            os.makedirs(d)\n", "entropy": 12.672334215293498}
+{"candidate": "            os.makedirs(d)\n", "entropy": 5.9160030152935}
+{"candidate": "            self.mkdir(d)\n", "entropy": 13.63421559876}
+{"candidate": "            os.makedirs(d)\n", "entropy": 3.758805187154}
+{"candidate": "            self.mkdir(d, parents=True)\n", "entropy": 6.7939380560639995}
+{"candidate": "            raise MissingParentDirectory()\n", "entropy": 8.309671221695499}
+{"candidate": "            os.makedirs(d)\n", "entropy": 20.554407940619}
+{"candidate": "            os.makedirs(d)\n", "entropy": 6.292662691687999}
+{"candidate": "            raise RuntimeError('Destination directory does not exist: %s' % d)\n\n", "entropy": 10.05576311672}
+{"candidate": "            os.makedirs(d)\n        if self.isdir(old_path) and not self.isdir(new_path):\n            shutil.move(old_path, new_path)\n        else:\n    ", "entropy": 13.148047535695799}
+{"candidate": "            os.makedirs(d)\n", "entropy": 3.3349382514590005}
+{"candidate": "            self.mkdir(d)\n\n", "entropy": 19.466314873960002}
+{"candidate": "            os.makedirs(d)\n", "entropy": 4.776784351425}
+{"candidate": "            os.makedirs(d)\n", "entropy": 3.334936872584}
+{"candidate": "            os.makedirs(d)\n", "entropy": 11.460629768602999}
+{"candidate": "            os.makedirs(d)\n", "entropy": 4.929068304546}

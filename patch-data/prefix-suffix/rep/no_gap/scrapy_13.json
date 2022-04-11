@@ -1,0 +1,20 @@
+{"candidate": "    EXPIRES = 90\n", "entropy": 16.998882885685}
+{"candidate": "    EXPIRES = 90\n", "entropy": 10.825583553899998}
+{"candidate": "    EXPIRES = 90\n", "entropy": 18.0410264564}
+{"candidate": "    EXPIRES = 90\n", "entropy": 8.341074558849}
+{"candidate": "    EXPIRES = 90\n", "entropy": 9.771434565502}
+{"candidate": "", "entropy": 11.347898423404999}
+{"candidate": "    EXPIRES = 90\n", "entropy": 5.970401609587}
+{"candidate": "    EXPIRES = 90\n", "entropy": 21.624973635384997}
+{"candidate": "    EXPIRES = 90\n", "entropy": 8.103983425900001}
+{"candidate": "", "entropy": 6.9647546834}
+{"candidate": "    EXPIRES = 90\n", "entropy": 5.973894197222}
+{"candidate": "    EXPIRES = 90\n", "entropy": 10.720511334500001}
+{"candidate": "    EXPIRES = 90\n", "entropy": 5.8846963812799995}
+{"candidate": "    EXPIRES = 90\n", "entropy": 9.609845244385001}
+{"candidate": "    EXPIRES = 90\n", "entropy": 5.187428866119}
+{"candidate": "    EXPIRES = 90\n", "entropy": 16.146316600909}
+{"candidate": "    EXPIRES = 90\n", "entropy": 5.186930918919001}
+{"candidate": "    EXPIRES = 90\n    THUMBS = {}\n\n    @classmethod\n    def from_settings(cls, settings):\n        s3store = cls.STORE_SCHEMES['s3']\n        s3store.AWS_ACCESS_KEY_ID = settings['AWS_ACCESS_KEY_ID']\n        s3store.AWS_SECRET_ACCESS_KEY = settings['AWS", "entropy": 8.841764771002996}
+{"candidate": "    EXPIRES = 90\n    THUMBS = {}\n    DEFAULT_IMAGES_URLS_FIELD = 'image_urls'\n    DEFAULT_IMAGES_RESULT_FIELD = 'images'\n\n    def __init__(self, store_uri, download_func=None, settings=None):\n        super(ImagesPipeline, self).__init__(store_uri, settings=settings,\n                                             download", "entropy": 2.925123281235501}
+{"candidate": "    EXPIRES = 90\n    THUMBS = {}\n    DEFAULT_IMAGES_URLS_FIELD = 'image_urls'\n    DEFAULT_IMAGES_RESULT_FIELD = 'images'\n\n    def __init__(self, store_uri, download_func=None, settings=None):\n        super(ImagesPipeline, self).__init__(store_uri, settings=settings,\n                                             download", "entropy": 2.947439976376499}

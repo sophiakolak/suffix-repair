@@ -1,0 +1,20 @@
+{"candidate": "                docs = [pipe.process(doc, **kwargs) for doc in docs]\n", "entropy": 8.5205689591503}
+{"candidate": "                docs = list(pipe(docs, **kwargs))\n", "entropy": 2.3821800668187}
+{"candidate": "                docs = [pipe(doc, **kwargs) for doc in docs]\n", "entropy": 12.839618388821}
+{"candidate": "                pipe(docs, **kwargs)\n", "entropy": 11.7765335050697}
+{"candidate": "                docs = list(pipe.get_orig(docs, **kwargs))\n", "entropy": 34.092126378326}
+{"candidate": "                docs = list(pipe.process(docs, **kwargs))\n", "entropy": 16.3289577759554}
+{"candidate": "                docs = list(pipe.process(docs, **kwargs))\n", "entropy": 13.487299215125402}
+{"candidate": "                docs = pipe(docs, **kwargs)\n", "entropy": 7.635662104186499}
+{"candidate": "                docs = list(pipe(docs, **kwargs))\n", "entropy": 2.3821800668187}
+{"candidate": "                docs = [pipe(doc, **kwargs) for doc in docs]\n", "entropy": 10.094680187909299}
+{"candidate": "                docs = list(pipe.process_many(docs, kwargs))\n", "entropy": 14.924469247176003}
+{"candidate": "                docs = [pipe(doc, **kwargs) for doc in docs]\n", "entropy": 9.494190196131001}
+{"candidate": "                docs = list(pipe(docs, **kwargs))\n", "entropy": 2.3805504209687}
+{"candidate": "                with pipe.use_params(self.optimizer.averages):\n                    docs = pipe.process_batch(docs, **kwargs)\n", "entropy": 14.6516397014379}
+{"candidate": "                docs = list(pipe.process(docs, **kwargs))\n", "entropy": 7.7677638899769}
+{"candidate": "                docs = pipe(docs, **kwargs)\n", "entropy": 4.9510237723865}
+{"candidate": "                docs = list(pipe.process(docs, **kwargs))\n", "entropy": 8.8171984472954}
+{"candidate": "                docs = list(pipe.process_docs(docs, **kwargs))\n            elif pipe.pipe is None:\n                docs = pipe(docs, **kwargs)\n", "entropy": 23.901415884066896}
+{"candidate": "                docs = list(pipe.process(docs, **kwargs))\n", "entropy": 10.084504648755399}
+{"candidate": "                if infer_vectors:\n                    if pipe.has_vector:\n                        pipe.set_vector_path(self.vocab.vectors.name)\n                        docs = pipe.pipe(docs, model=self.vocab, **kwargs)\n                    else:\n                        docs = pipe.pipe(docs, **kwargs)\n                        for doc in docs:\n                            doc.is_tagged = True\n                else:\n                   ", "entropy": 53.60752530646542}

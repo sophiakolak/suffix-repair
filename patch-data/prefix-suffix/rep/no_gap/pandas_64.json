@@ -1,0 +1,20 @@
+{"candidate": "            cols = list(Index(cols) & df.columns)\n", "entropy": 15.184182835800001}
+{"candidate": "            self.df = df.reindex(columns=cols)", "entropy": 7.163723588309}
+{"candidate": "            # some missing, reorder\n            # this is a bit inefficient\n            df = df.reindex(columns=list(cols))\n\n        self.int_format = IntFormat(df)", "entropy": 52.675757250717}
+{"candidate": "            cols = list(cols)\n            self.has_mi_columns = has_mi_columns(df)\n            df = df.loc[:, cols]\n            if self.has_mi_columns:\n                df = df.stack()\n                df = df.reset_index()\n                df.columns = [\"index\", \"columns\", \"values\"]\n\n        self.df = df", "entropy": 50.17566981431975}
+{"candidate": "            self.df = df.reindex(columns=cols)\n        else:\n            self.df = df", "entropy": 11.569949340452501}
+{"candidate": "            self.df = df[cols]", "entropy": 6.85955835164}
+{"candidate": "            missing = Index(cols) - df.columns\n            if len(missing):\n                raise KeyError(\n                    \"Index(%s) %s not contained in the index\" % (cols, missing)\n                )\n\n            self.df = df[cols]\n", "entropy": 41.458415110688996}
+{"candidate": "            df = df.reindex(columns=cols)", "entropy": 8.074237207850999}
+{"candidate": "            self.columns = cols\n        else:", "entropy": 5.0593164324222}
+{"candidate": "            self.df = self.df[cols]\n", "entropy": 5.975682901770001}
+{"candidate": "            self.df = df[cols]", "entropy": 7.0941354012449995}
+{"candidate": "            self.df = self.df.reindex(columns=cols)", "entropy": 8.336669635885}
+{"candidate": "            self.df = df[cols]\n        elif isinstance(df, NDFrame):\n            self.df = df.sort_index(axis=1)", "entropy": 21.200479450708}
+{"candidate": "            self.columns = cols\n        else:", "entropy": 5.1645537811211994}
+{"candidate": "            self.df = df[cols]\n", "entropy": 11.915986610053999}
+{"candidate": "        self.cols = cols", "entropy": 6.768812426328999}
+{"candidate": "            self.df = self.df[cols]", "entropy": 6.68428920777}
+{"candidate": "            self.df = self.df[cols]\n", "entropy": 6.47778406623}
+{"candidate": "            self.columns = cols\n        elif hasattr(df.columns, \"format\"):\n            self.columns = df.columns.format()\n        else:", "entropy": 24.935547324044695}
+{"candidate": "            self.columns = cols\n        else:", "entropy": 7.8465741251712}

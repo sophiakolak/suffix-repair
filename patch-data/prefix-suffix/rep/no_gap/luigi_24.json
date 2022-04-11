@@ -1,0 +1,20 @@
+{"candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n", "entropy": 17.841306390229}
+{"candidate": "                command.append('{name} {prop}=\"{value}\"'.format(name=name, prop=prop, value=value))\n", "entropy": 28.307739470759998}
+{"candidate": "                if value is not None:\n                    command.append('{0}{1}={2}'.format(name, prop, value))\n", "entropy": 23.80271383137}
+{"candidate": "                command += [name, \"{0}={1}\".format(prop, value)]\n", "entropy": 10.702888994410001}
+{"candidate": "                command.extend(['--conf', prop + '=' + str(value)])\n", "entropy": 11.422157981375001}
+{"candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n", "entropy": 16.788903823265}
+{"candidate": "                command.append(name)\n                command.append('{0}={1}'.format(prop, value))\n", "entropy": 11.53223882866}
+{"candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n", "entropy": 12.810776966038999}
+{"candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n", "entropy": 12.675333965549997}
+{"candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n", "entropy": 11.778358918229003}
+{"candidate": "                command += ['--conf', '{0}={1}'.format(prop, value)]\n", "entropy": 4.720014636845}
+{"candidate": "                command.append(name)\n                command.append('{0}={1}'.format(prop, value))\n", "entropy": 5.935892662690998}
+{"candidate": "                if value:\n                    command.extend([name, '{0}={1}'.format(prop, value)])\n", "entropy": 7.836786011999999}
+{"candidate": "                command.append(name)\n                command.append('{0}={1}'.format(prop, value))\n", "entropy": 8.335853058660001}
+{"candidate": "                command.extend([name, \"{0}={1}\".format(prop, value)])\n", "entropy": 15.296893194625}
+{"candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n", "entropy": 6.637296121865}
+{"candidate": "                command.extend([name, '{0}={1}'.format(prop, value)])\n", "entropy": 15.010405913865}
+{"candidate": "                command.append('{0} {1}={2}'.format(name, prop, value))\n", "entropy": 11.84531064665}
+{"candidate": "                command.extend([name, prop, value])\n", "entropy": 5.197218154204999}
+{"candidate": "                command.extend([name, \"{0}={1}\".format(prop, value)])\n", "entropy": 7.932729349231}

@@ -1,0 +1,20 @@
+{"candidate": "", "entropy": 10.756582476799998}
+{"candidate": "", "entropy": 9.218976942}
+{"candidate": "", "entropy": 5.9301728123399995}
+{"candidate": "", "entropy": 12.421368245999998}
+{"candidate": "", "entropy": 18.523509667}
+{"candidate": "", "entropy": 12.949082822}
+{"candidate": "", "entropy": 13.76690212625}
+{"candidate": "", "entropy": 6.196931858}
+{"candidate": "", "entropy": 6.583990934999999}
+{"candidate": "", "entropy": 9.3156286797}
+{"candidate": "", "entropy": 5.2759590240000005}
+{"candidate": "", "entropy": 15.09960387}
+{"candidate": "", "entropy": 5.772902738500001}
+{"candidate": "    label_length = tf.to_int32(tf.squeeze(label_length, axis=-1))\n    input_length = tf.to_int32(tf.squeeze(input_length, axis=-1))\n", "entropy": 1.9303915208443607}
+{"candidate": "", "entropy": 5.7710287639999995}
+{"candidate": "", "entropy": 7.425208464700001}
+{"candidate": "", "entropy": 15.1538117717}
+{"candidate": "", "entropy": 15.299007857800001}
+{"candidate": "", "entropy": 9.9962357854}
+{"candidate": "    label_length = tf.to_int32(tf.squeeze(label_length, axis=-1))\n    input_length = tf.to_int32(tf.squeeze(input_length, axis=-1))\n", "entropy": 1.92823722303088}

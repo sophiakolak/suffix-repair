@@ -1,0 +1,20 @@
+{"candidate": "            with open(output, 'ab') as output_file:\n", "entropy": 5.835135975476}
+{"candidate": "            with open(output, 'a') as output_file:\n", "entropy": 18.278091816102002}
+{"candidate": "            with open(output, 'a', encoding='utf-8') as output_file:\n", "entropy": 4.904084639850001}
+{"candidate": "            with open(output, 'a') as output_file:\n", "entropy": 13.211836297023002}
+{"candidate": "            with open(output, 'a', encoding='utf-8') as output_file:\n", "entropy": 7.488515710899939}
+{"candidate": "            with open(output, 'a') as output_file:\n", "entropy": 6.536297174238}
+{"candidate": "            with open(output, 'a') as output_file:\n", "entropy": 17.370196382778}
+{"candidate": "            with open(output, 'a') as output_file:\n", "entropy": 7.8133998042889985}
+{"candidate": "            with open(output, 'a') as output_file:\n", "entropy": 17.738703534427}
+{"candidate": "            with open(output, 'a') as output_file:\n", "entropy": 12.068242988109002}
+{"candidate": "            with open(output, 'ab') as output_file:\n", "entropy": 8.421786816196999}
+{"candidate": "            with open(output, 'a', encoding='utf-8') as output_file:\n", "entropy": 3.6492489147200002}
+{"candidate": "            with open(output, 'a', encoding='utf-8') as output_file:\n", "entropy": 4.429083792939}
+{"candidate": "            with open(output, 'a') as output_file:\n", "entropy": 21.176661915649003}
+{"candidate": "            with open(output, 'a', buffering=1) as output_file:\n", "entropy": 9.377231896544}
+{"candidate": "            with open(output, 'a', encoding='utf-8') as output_file:\n", "entropy": 5.723767225338999}
+{"candidate": "            with open(output, 'a') as output_file:\n", "entropy": 16.877723866182997}
+{"candidate": "            with open(output, 'a') as output_file:\n", "entropy": 16.949104796249003}
+{"candidate": "            with open(output, 'a', encoding='utf-8') as output_file:\n", "entropy": 4.855163393539}
+{"candidate": "            with open(output, 'a') as output_file:\n", "entropy": 7.504410068047999}

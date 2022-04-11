@@ -1,0 +1,20 @@
+{"candidate": "    if not int_str:\n        return None\n", "entropy": 6.19195219752004}
+{"candidate": "    if not isinstance(int_str, compat_str):\n        return None\n", "entropy": 11.743322536653}
+{"candidate": "", "entropy": 6.24343579704}
+{"candidate": "", "entropy": 8.592646333}
+{"candidate": "    if not int_str:\n        return None\n", "entropy": 5.660254989799999}
+{"candidate": "    if not int_str:\n        return None\n    int_str = int_str.strip()\n", "entropy": 12.425034322810003}
+{"candidate": "", "entropy": 11.060233618}
+{"candidate": "", "entropy": 8.5094291783}
+{"candidate": "", "entropy": 12.189774498}
+{"candidate": "", "entropy": 4.8043676232986}
+{"candidate": "", "entropy": 15.8916519321}
+{"candidate": "", "entropy": 13.66159591316832}
+{"candidate": "", "entropy": 9.1275975145793}
+{"candidate": "    int_str = str_or_none(int_str)\n    if int_str is None:\n        return None\n", "entropy": 7.592597713756839}
+{"candidate": "", "entropy": 8.401407990100001}
+{"candidate": "", "entropy": 14.070463697100001}
+{"candidate": "", "entropy": 18.0342262598}
+{"candidate": "    if not isinstance(int_str, compat_str):\n        return None\n", "entropy": 5.757496527075}
+{"candidate": "", "entropy": 10.0640775648}
+{"candidate": "    if not int_str:\n        return None\n", "entropy": 4.852767471}

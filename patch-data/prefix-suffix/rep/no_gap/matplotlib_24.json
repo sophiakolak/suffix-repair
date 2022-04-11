@@ -1,10 +1,20 @@
-{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 1.9519143106785999}
-{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 2.7511887106786}
-{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 5.1916266106786}
-{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 4.0242024787506}
-{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 1.9519135686786}
-{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 1.9519135686786}
-{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 1.9519143106785999}
-{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 9.3055707473106}
-{"candidate": "                setter(self, min(vmax, oldmin), max(vmax, oldmin),\n", "entropy": 18.7654477056925}
-{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 2.6231361686785997}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 3.1870290676889}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 2.6053098399849}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 2.8610224856889}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 2.7371029676889}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 2.8610224856889}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 2.7371019856889003}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 4.7513382676889}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 3.1215672676889}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 2.7379731003462}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 1.9379485676889}
+{"candidate": "                # inverted axis; can't use ``min`` & ``max``\n                if vmin <= vmax:\n                    setter(self, vmax, vmin, ignore=True)\n                else:\n                    setter(self, vmin, vmax,\n    ", "entropy": 30.6155166695544}
+{"candidate": "                setter(self, min(vmin, vmax), max(vmin, vmax),\n", "entropy": 19.332600281631002}
+{"candidate": "                setter(self, min(vmin, vmax, oldmax), max(vmin, vmax, oldmin),\n", "entropy": 5.194276438879399}
+{"candidate": "                setter(self, vmin, vmax,\n", "entropy": 4.0708254344290005}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 1.9379485676889}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 3.1885200348711997}
+{"candidate": "                setter(self, min(vmin, vmax, oldmax), max(vmin, vmax, oldmin),\n", "entropy": 3.9439471603635}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 1.9356002616039}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 4.5428039856888995}
+{"candidate": "                setter(self, max(vmin, vmax, oldmin), min(vmin, vmax, oldmax),\n", "entropy": 2.6087807641246}

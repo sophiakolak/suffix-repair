@@ -1,0 +1,20 @@
+{"candidate": "    if any((needs_update('state'), needs_update('state'))):\n", "entropy": 10.425188648687}
+{"candidate": "    if needs_update('state'):\n", "entropy": 12.5833888110459}
+{"candidate": "    if needs_update('state'):\n", "entropy": 6.113175556845901}
+{"candidate": "    if needs_update('state'):\n", "entropy": 5.348848125750901}
+{"candidate": "    if needs_update('state'):\n", "entropy": 12.2838084110459}
+{"candidate": "    if any((needs_update('state'))):\n", "entropy": 5.594999512249}
+{"candidate": "    if have['vrf'] != want['vrf']:\n", "entropy": 8.472012977678501}
+{"candidate": "    if any((needs_update('state'))):\n", "entropy": 9.738813917248999}
+{"candidate": "    if needs_update('state'):\n", "entropy": 5.1079247632959}
+{"candidate": "    if needs_update('state'):\n", "entropy": 10.2990487257159}
+{"candidate": "    if needs_update('state'):\n", "entropy": 11.517108657241902}
+{"candidate": "    if needs_update('state'):\n", "entropy": 5.3488479497509}
+{"candidate": "", "entropy": 16.6883787555}
+{"candidate": "    if commands:\n        commands.insert(0, 'configure')\n\n    if needs_update('state'):\n", "entropy": 21.535125274881995}
+{"candidate": "    if needs_update('state'):\n", "entropy": 5.1945832520459}
+{"candidate": "    if needs_update('state'):\n", "entropy": 6.751949309715899}
+{"candidate": "    if needs_update('state'):\n", "entropy": 4.9294734328459}
+{"candidate": "    if needs_update('state'):\n", "entropy": 5.7142999757159}
+{"candidate": "    if any((needs_update('state'), needs_update('vrf'))):\n", "entropy": 7.792144024465999}
+{"candidate": "    if any((needs_update('state'), needs_update('state'))):\n", "entropy": 8.213188161026}

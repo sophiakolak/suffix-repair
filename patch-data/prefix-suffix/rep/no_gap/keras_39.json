@@ -1,0 +1,20 @@
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 14.739012545527}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 5.6625415346459995}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 7.3197328333995}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 5.8057238240140006}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 12.165616102655498}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 10.2609130262685}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 6.503124428341001}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 8.897557967504}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 10.437204536377001}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 10.123058694577}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 6.844167019077}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 7.32040765907}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 7.370400621509}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 14.405076698601}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 5.3143575516190005}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 10.275379106553999}
+{"candidate": "                    self.target is not None and current < self.target):\n", "entropy": 3.73571859066304}
+{"candidate": "               self.target is not None and current < self.target):\n                return\n\n            prev_total_width = self.total_width\n            if self._dynamic_display:\n                sys.stdout.write('\\b' * prev_total_width)\n                sys.stdout.write('\\r')\n            else:\n                sys.stdout.write('\\n')\n\n            if self.target is not None:\n               ", "entropy": 5.184932116002736}
+{"candidate": "                    self.target is not None and current < self.target):\n                return\n\n            prev_total_width = self.total_width\n            if self._dynamic_display:\n                sys.stdout.write('\\b' * prev_total_width)\n                sys.stdout.write('\\r')\n            else:\n                sys.stdout.write('\\n')\n\n            if self.target is not None:\n               ", "entropy": 1.9092878325941696}
+{"candidate": "                    self.target is not None and current < self.target):\n                return\n\n            prev_total_width = self.total_width\n            if self._dynamic_display:\n                sys.stdout.write('\\b' * prev_total_width)\n                sys.stdout.write('\\r')\n            else:\n                sys.stdout.write('\\n')\n\n            if self.target is not None:\n               ", "entropy": 1.8977277292029093}

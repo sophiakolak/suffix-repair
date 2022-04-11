@@ -1,0 +1,20 @@
+{"candidate": "        mode=\"w\", prefix=\"black-test-invalid-code-\", delete=False\n", "entropy": 11.985440753418999}
+{"candidate": "        \"w\", suffix=\".py\", delete=False, encoding=\"utf8\"\n", "entropy": 18.795699220628997}
+{"candidate": "        mode=\"w\", prefix=\"black-\", suffix=\".py\", delete=False\n", "entropy": 9.053251690479}
+{"candidate": "        mode=\"w\", prefix=\"black-test-\", suffix=\".py\", delete=False\n", "entropy": 6.165783291759}
+{"candidate": "        prefix=\"pyproject-format-\", suffix=\".diff\", mode=\"w\", delete=False\n", "entropy": 16.811958127529003}
+{"candidate": "        prefix=\"black-\", suffix=\".py\", mode=\"w\", dir=\"/tmp\", delete=False\n", "entropy": 15.186501021018}
+{"candidate": "        mode=\"w\", encoding=\"utf-8\", prefix=\"black-\", delete=False\n", "entropy": 10.168590186273}
+{"candidate": "        prefix=\"black-test-\", suffix=\".log\", mode=\"wt\", delete=False\n", "entropy": 12.338787255249002}
+{"candidate": "        prefix=\"black-test-\", suffix=\"-output.py\", delete=False\n", "entropy": 14.443230462284001}
+{"candidate": "        mode=\"w\", prefix=\"black-\", suffix=\".py\", delete=False\n", "entropy": 6.355593264129}
+{"candidate": "        mode=\"w\", prefix=\"black-\", suffix=\"-output\", delete=False\n", "entropy": 9.648364945339}
+{"candidate": "        mode=\"w\", encoding=UTF8, suffix=\".log\", delete=False\n", "entropy": 17.696690153859}
+{"candidate": "        \"w\", encoding=ENCODING, prefix=\"black_\", suffix=\".py\"\n", "entropy": 15.331934045129}
+{"candidate": "        mode=\"w\", prefix=\"black-\", suffix=\".py\", delete=False\n", "entropy": 6.291606494819}
+{"candidate": "        mode=\"w\", prefix=\"black-test-\", suffix=\".py\", delete=False\n", "entropy": 5.532197228848999}
+{"candidate": "        mode=\"w\", prefix=\"black-internal-test-\", suffix=\"-output\", delete=False\n", "entropy": 26.579288501851}
+{"candidate": "        mode=\"w\", prefix=\"black-\", suffix=\".py\", newline=\"\\n\"\n", "entropy": 8.718288754702998}
+{"candidate": "        mode=\"w\", prefix=\"black-temp-\", suffix=\".log\", delete=False\n", "entropy": 13.055419403889003}
+{"candidate": "        mode=\"w\", prefix=\"black_test_\", delete=False\n", "entropy": 12.472523234704001}
+{"candidate": "        mode=\"w+\", prefix=\"black-test-\", suffix=\".py\", delete=False\n", "entropy": 5.398384519438999}

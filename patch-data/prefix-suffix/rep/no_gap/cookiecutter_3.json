@@ -1,0 +1,20 @@
+{"candidate": "        prompt,\n        default=default,\n        type=click.Choice(choices),\n", "entropy": 3.790175719812}
+{"candidate": "        prompt,\n        default=default,\n        type=click.Choice(choices),\n", "entropy": 5.2132783084074}
+{"candidate": "        prompt,\n        type=click.Choice(choices),\n        default=default,\n", "entropy": 4.2776091823795}
+{"candidate": "        prompt,\n        default=default,\n        show_choices=False,\n        value_proc=lambda x: choice_map[x],\n", "entropy": 12.146781376031445}
+{"candidate": "        prompt,\n        type=click.Choice(choices),\n        default=default,\n", "entropy": 3.6069330187155995}
+{"candidate": "        prompt,\n        type=click.Choice(choices),\n        default=default,\n", "entropy": 4.845229444715599}
+{"candidate": "        prompt,\n        default=default,\n        type=click.Choice(choices),\n", "entropy": 5.8425621387135}
+{"candidate": "        prompt,\n        default=default,\n        type=click.Choice(choices),\n", "entropy": 2.6272958824074}
+{"candidate": "        prompt,\n        default=default,\n        type=click.Choice(choices),\n", "entropy": 3.5845644814834996}
+{"candidate": "        prompt,\n        default=default,\n        type=click.Choice(choices),\n", "entropy": 3.7963929024074003}
+{"candidate": "        prompt,\n        default=default,\n        type=click.Choice(choices),\n", "entropy": 3.2972373727074}
+{"candidate": "        prompt,\n        type=click.Choice(choices),\n        value_proc=lambda x: choice_map[x],\n        default=default,\n", "entropy": 14.138948524741497}
+{"candidate": "        prompt,\n        type=click.Choice(choices),\n        default=default,\n", "entropy": 4.5737385902795005}
+{"candidate": "        prompt,\n        default=default,\n        type=click.Choice(choices),\n", "entropy": 3.5960497987073996}
+{"candidate": "        prompt,\n        default=default,\n        type=click.Choice(choices),\n", "entropy": 3.2972369727074}
+{"candidate": "        prompt,\n        type=click.Choice(choices),\n        value_proc=click.Choice(choices),\n        default=default,\n", "entropy": 10.9053431265785}
+{"candidate": "        prompt,\n        default=default,\n", "entropy": 10.902157190915998}
+{"candidate": "        prompt,\n        default=default,\n        show_choices=False,\n", "entropy": 7.37463285579274}
+{"candidate": "        prompt,\n        default=default,\n        type=click.Choice(choices),\n", "entropy": 3.4239614727074006}
+{"candidate": "        prompt,\n        default=default,\n        type=click.Choice(choices),\n", "entropy": 2.6272958824074}

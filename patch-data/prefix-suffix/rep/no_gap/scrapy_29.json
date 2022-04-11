@@ -1,0 +1,20 @@
+{"candidate": "    s += b\"Host: \" + to_bytes(parsed.netloc) + b\"\\r\\n\"\n", "entropy": 4.964346366453401}
+{"candidate": "    s += to_bytes(request.headers.get('Host', parsed.netloc)) + b\"\\r\\n\"\n", "entropy": 7.3216052609465}
+{"candidate": "    s += b\"Host: \" + to_bytes(parsed.netloc) + b\"\\r\\n\"\n", "entropy": 4.97099556225054}
+{"candidate": "", "entropy": 18.567605538}
+{"candidate": "", "entropy": 12.199340961499999}
+{"candidate": "", "entropy": 13.74905850287}
+{"candidate": "    for h, v in request.headers.items():\n        s += to_bytes(h) + b\": \" + to_bytes(v) + b\"\\r\\n\"\n", "entropy": 11.016871903791301}
+{"candidate": "", "entropy": 6.556344612999999}
+{"candidate": "", "entropy": 14.219460048}
+{"candidate": "", "entropy": 5.211251053840001}
+{"candidate": "    conn = request.headers.get('Connection', '')\n    if request.persistent and 'close' not in conn.lower():\n        request.headers['Connection'] = 'keep-alive'\n", "entropy": 19.300336538946997}
+{"candidate": "", "entropy": 14.660498708000002}
+{"candidate": "", "entropy": 10.410997527700001}
+{"candidate": "", "entropy": 5.2679501150000005}
+{"candidate": "", "entropy": 10.555902914199999}
+{"candidate": "", "entropy": 6.797544089160001}
+{"candidate": "    s += b\"Host: \" + to_bytes(_host_no_default_port(parsed)) + b\"\\r\\n\"\n", "entropy": 14.315810231307799}
+{"candidate": "", "entropy": 16.1156905866}
+{"candidate": "", "entropy": 8.18498940685}
+{"candidate": "    for header, value in request.headers.items():\n        s += to_bytes(header) + b\": \" + to_bytes(value) + b\"\\r\\n\"\n    if not request.headers.get('Host'):\n        s += b\"Host: \" + to_bytes(parsed.hostname) + b\"\\r\\n\"\n    if not request.headers.get('User-Agent'):\n", "entropy": 18.649737822339503}

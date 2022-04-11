@@ -1,0 +1,20 @@
+{"candidate": "            for path in _safe(lambda: os.environ['PATH'].split(os.pathsep), [])\n", "entropy": 10.0030534822076}
+{"candidate": "", "entropy": 5.06495920057}
+{"candidate": "", "entropy": 9.56626660889}
+{"candidate": "", "entropy": 13.00678433059}
+{"candidate": "", "entropy": 5.491819459889999}
+{"candidate": "", "entropy": 4.6563144027965}
+{"candidate": "", "entropy": 13.699772630590001}
+{"candidate": "", "entropy": 16.29381105469}
+{"candidate": "", "entropy": 14.28627106019}
+{"candidate": "", "entropy": 16.08012536019}
+{"candidate": "            for path in _safe(lambda: os.environ['PATH'].split(':'), [])\n", "entropy": 14.747259937279601}
+{"candidate": "", "entropy": 16.391108530190003}
+{"candidate": "", "entropy": 15.2350622219}
+{"candidate": "            for path in _safe(lambda: os.environ['PATH'].split(os.pathsep), [])\n", "entropy": 6.0810329953875994}
+{"candidate": "            for path in _safe(lambda: shell.get_path(), [])\n", "entropy": 10.01898871969}
+{"candidate": "            for path in os.get_exec_path()\n", "entropy": 6.2512263985219985}
+{"candidate": "", "entropy": 7.58444412889}
+{"candidate": "", "entropy": 13.74306237299}
+{"candidate": "            for path in os.environ.get('PATH', '').split(':')\n", "entropy": 11.116279601757}
+{"candidate": "            for path in _safe(lambda: os.environ['PATH'].split(os.pathsep), [])\n", "entropy": 7.2787657082206}

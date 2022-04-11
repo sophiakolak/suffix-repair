@@ -1,0 +1,20 @@
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 7.8983199139421005}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 12.4182452109421}
+{"candidate": "            if '\\n{0}\\n'.format(table) in stdout:\n                return True\n            else:\n                return False\n", "entropy": 8.9171835567449}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 3.7681151103696}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 8.5116040428686}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 11.1554451409421}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 11.226375036732998}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 6.2075267156421}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 4.8509372482086}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 9.794450597564099}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 5.9558905963901}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 4.9343431592596}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 6.546366255236601}
+{"candidate": "            # stdout contains only the table name\n            if stdout.strip() == table:\n                return True\n            else:\n                return False\n", "entropy": 24.078611794573998}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 9.59943933793}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 15.7448055093571}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 18.6547361741031}
+{"candidate": "            if stdout.strip().split(\"\\n\")[-1] == table:\n                return True\n            else:\n                return False\n", "entropy": 13.065865111977999}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 11.8157571521641}
+{"candidate": "            if stdout:\n                return True\n            else:\n                return False\n", "entropy": 11.9068711231596}

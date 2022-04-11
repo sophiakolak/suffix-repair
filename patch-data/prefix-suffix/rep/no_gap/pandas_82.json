@@ -1,0 +1,20 @@
+{"candidate": "        return np.dtype(\"datetime64[ns]\"), np.datetime64(\"NaT\", \"ns\")\n", "entropy": 16.614328417287503}
+{"candidate": "        return np.dtype(\"M8[ns]\"), tslibs.iNaT\n", "entropy": 3.5045015293570003}
+{"candidate": "        # GH-25014. We use NaT instead of iNaT, since this eventually\n        # ends up in DatetimeArray.take, which does not allow iNaT.\n        return np.dtype(\"M8[ns]\"), tslibs.NaT\n", "entropy": 3.903430783937501}
+{"candidate": "        # GH-25014. See above.\n        return np.dtype(\"M8[ns]\"), tslibs.NaT\n", "entropy": 15.5436056543199}
+{"candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n", "entropy": 6.0669038162083995}
+{"candidate": "        # GH-25014. We use NaT instead of iNaT, since this eventually\n        # ends up in DatetimeArray.take, which does not allow iNaT.\n        return np.dtype(\"M8[ns]\"), tslibs.NaT\n", "entropy": 3.9064991476228026}
+{"candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n", "entropy": 8.3069722529054}
+{"candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n", "entropy": 10.5487462796054}
+{"candidate": "        # GH-25014. We use NaT instead of iNaT, since this eventually\n        # ends up in DatetimeArray.take, which does not allow iNaT.\n        return np.dtype(\"M8[ns]\"), tslibs.NaT\n", "entropy": 3.9099711100048027}
+{"candidate": "        return np.dtype(\"M8[ns]\"), tslib.NaT\n", "entropy": 8.8819792964982}
+{"candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n", "entropy": 4.442168133271399}
+{"candidate": "        return np.dtype(upcast_classes[\"datetime\"][0]), tslibs.NaT\n", "entropy": 15.706420814586798}
+{"candidate": "        return np.dtype(\"M8[ns]\"), tslibs.NaT\n", "entropy": 3.7008753226452997}
+{"candidate": "        dtype = upcast_classes[\"datetime\"]\n        if use_dtype:\n            return dtype[0], dtype[0].type(\"NaT\")\n        else:\n            return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n", "entropy": 19.755740138053504}
+{"candidate": "        # GH-25014. We use NaT instead of iNaT, since this eventually\n        # ends up in DatetimeArray.take, which does not allow iNaT.\n        dtype = upcast_classes[\"datetime\"]\n        return dtype[0], tslibs.NaT\n", "entropy": 6.0336483157316}
+{"candidate": "        return np.dtype(\"datetime64[ns]\"), np.datetime64(\"NaT\", \"ns\")\n", "entropy": 6.160761034467501}
+{"candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n", "entropy": 7.873375524905399}
+{"candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n", "entropy": 4.895982352905401}
+{"candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n", "entropy": 14.2203468294494}
+{"candidate": "        return np.dtype(\"M8[ns]\"), np.datetime64(\"NaT\", \"ns\")\n", "entropy": 5.818532118790001}

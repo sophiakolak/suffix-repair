@@ -1,0 +1,20 @@
+{"candidate": "        positional_params = [p for p in params if p[1].is_positional]\n", "entropy": 4.814956456123}
+{"candidate": "        positional_params = [(param_name, param_obj) for param_name, param_obj in params if not param_obj.is_global]\n", "entropy": 6.4181703337124}
+{"candidate": "        positional_params = [param for param in params if not param[1]._kwarg]\n", "entropy": 8.661329677665002}
+{"candidate": "        positional_params = params[:len(args)]\n", "entropy": 5.9458988485669995}
+{"candidate": "        positional_params = [p for p in params if not p[1]._is_global]  # pylint: disable=protected-access\n", "entropy": 16.258768474254}
+{"candidate": "        positional_params = [p for p in params if p[1].positional]\n\n", "entropy": 7.645985777400001}
+{"candidate": "        positional_params = [p for p in params if not p[1].is_global and p[1].positional]\n", "entropy": 10.453652608887502}
+{"candidate": "        positional_params = [param for param in params if not param[1]._is_optional]\n", "entropy": 9.890470692115999}
+{"candidate": "        positional_params = [param for param in params if param[1].positional]\n", "entropy": 7.32465015135}
+{"candidate": "        positional_params = [param for param in params if not param[1].positional]\n", "entropy": 8.02673167074}
+{"candidate": "        positional_params = [param for param in params if not param[1]._is_global]\n", "entropy": 17.667119659973}
+{"candidate": "        positional_params = filter(lambda x: x[1].positional, params)\n", "entropy": 11.82124883858694}
+{"candidate": "        positional_params = [param for param in params if not param[1]._is_global]\n", "entropy": 16.681539405656}
+{"candidate": "        positional_params = [(n, p) for n, p in params if p.positional]\n", "entropy": 19.770713407792}
+{"candidate": "        positional_params = params[:len(args)]\n", "entropy": 6.851374443767001}
+{"candidate": "        positional_params = params\n", "entropy": 18.375778014739996}
+{"candidate": "        positional_params = params\n", "entropy": 17.550719355200002}
+{"candidate": "        positional_params = [(param_name, param_obj) for param_name, param_obj in params if param_obj.positional]\n", "entropy": 8.1660422688615}
+{"candidate": "        positional_params = [p for p in params if p[1].positional]\n", "entropy": 10.32945447334}
+{"candidate": "        positional_params = [item for item in params if not item[1].is_global]\n", "entropy": 6.4532598701575}

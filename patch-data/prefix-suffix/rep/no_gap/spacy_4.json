@@ -1,0 +1,20 @@
+{"candidate": "                    head = int(head) - 1\n", "entropy": 4.65814368858}
+{"candidate": "                    head = -1 if head == \"0\" else int(head) - 1\n", "entropy": 6.621737510513}
+{"candidate": "                    head = -1 if head == \"_\" else int(head) - 1\n", "entropy": 9.715134454358}
+{"candidate": "                    head = int(head) - 1\n", "entropy": 15.46239318714}
+{"candidate": "                    head = (\n                        int(head) - 1 if head != \"_\" else None\n                    )  # ROOT -> None\n", "entropy": 15.632340598814999}
+{"candidate": "                    head = (int(head) - 1) if head != \"0\" else id_\n", "entropy": 6.600573846238001}
+{"candidate": "                    head = int(head) - 1\n", "entropy": 4.219364372653}
+{"candidate": "                    head = int(head) - 1\n", "entropy": 4.655275225537}
+{"candidate": "                    head = int(head) - 1\n                    assert 0 <= id_ < len(lines)\n                    assert 0 <= head < len(lines)\n                    assert iob in [None, \"\", \"O\", \"B-MISC\", \"I-MISC\", \"B-PER\",\n                                   \"I-PER\", \"B-ORG\", \"I-ORG\", \"B-LOC\", \"I-LOC\"]\n", "entropy": 18.363859522408386}
+{"candidate": "                    head = -1 if head == \"0\" else int(head) - 1\n                    pos = pos if pos != \"PUNCT\" else word\n", "entropy": 22.612774750185004}
+{"candidate": "                    head = int(head) - 1\n                    dep = dep if dep != \"-\" else None\n", "entropy": 8.714699569687}
+{"candidate": "                    head = int(head) - 1\n                    if iob:\n                        iob = \"I-\" + iob\n", "entropy": 17.744026844727}
+{"candidate": "                    head = int(head) - 1\n", "entropy": 7.626326443579}
+{"candidate": "                    head = int(head) - 1\n", "entropy": 9.21812618868}
+{"candidate": "                    head = (int(head) - 1) if head != \"0\" else head\n", "entropy": 8.716444475102001}
+{"candidate": "                    head = int(head) - 1\n", "entropy": 18.59220402648}
+{"candidate": "                    head = (int(head) - 1) if head != \"_\" else id_\n", "entropy": 8.130008799112}
+{"candidate": "                    head = int(head) - 1\n", "entropy": 9.747864631566}
+{"candidate": "                    head = -1 if head == \"_\" else int(head) - 1\n", "entropy": 7.404790110395}
+{"candidate": "                    head = -1 if head == \"_\" else (int(head) - 1)\n", "entropy": 7.214840261153001}

@@ -1,0 +1,20 @@
+{"candidate": "    # For various reasons, the last character of path may not be '/'\n    # but we'll make sure it's treated like url_basename.\n    if not re.match(r'^(?:https?:)?//', path):\n        if re.match(r'[^/?#&]+', path):\n            path += '/'\n", "entropy": 86.20456254478}
+{"candidate": "    if re.match(r'^(?:https?:)?//', path):\n", "entropy": 6.309756005280001}
+{"candidate": "    if re.match(r'^(?:https?:)?//', path):\n", "entropy": 5.72842110688}
+{"candidate": "    if re.match(r'^(?:[a-z0-9][a-z0-9+.-]*)?://', path):\n", "entropy": 19.720595173562998}
+{"candidate": "    if re.match(r'^(?:(?:https?:)?//|data:)', path):\n        # Already an absolute URL\n", "entropy": 26.022021681440002}
+{"candidate": "    if isinstance(path, compat_str) and re.match(\n            r'^(?:https?:)?//', path):\n", "entropy": 14.1676002471955}
+{"candidate": "    if re.match(r'^(?:https?:)?//', path):\n", "entropy": 6.309756005280001}
+{"candidate": "    if re.match(r'^(?:https?:)?//', path):\n", "entropy": 7.056195951879999}
+{"candidate": "    if not isinstance(path, compat_str):\n", "entropy": 7.484243620312999}
+{"candidate": "    if re.match(r'^(?:[^:/?#]+:)?//', path):\n", "entropy": 22.758550574479997}
+{"candidate": "    if re.match(r'^(?:f|ht)tps?://', path):\n", "entropy": 12.320804429630002}
+{"candidate": "    if re.match(r'^(?:[a-z]+:)?//', path):\n", "entropy": 12.670083090334}
+{"candidate": "    if not isinstance(path, compat_str):\n        return path\n    if not isinstance(path, compat_str):\n", "entropy": 11.047212392596998}
+{"candidate": "    if path.startswith(('http://', 'https://')):\n", "entropy": 17.5550632700842}
+{"candidate": "    if re.match(r'^(?:https?:)?//', path):\n", "entropy": 5.28136629208}
+{"candidate": "    if re.match(r'^\\w{2,}://', path):\n", "entropy": 14.581719356980003}
+{"candidate": "    if re.match(r'^https?://', path):\n", "entropy": 16.47010759878}
+{"candidate": "    if re.match(r'^(?:[a-z]+:)?//', path):\n", "entropy": 10.072364660607999}
+{"candidate": "    if not path.startswith('/'):\n", "entropy": 8.007805049840199}
+{"candidate": "    if re.match(r'^(?:https?:)?//', path):\n", "entropy": 7.431460898280001}

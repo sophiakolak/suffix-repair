@@ -1,0 +1,20 @@
+{"candidate": "        if \"Transfer-Encoding\" in headers:\n", "entropy": 6.4632607420468}
+{"candidate": "        if \"Transfer-Encoding\" in headers:\n", "entropy": 3.7709575490468}
+{"candidate": "        if \"Transfer-Encoding\" in headers:\n", "entropy": 10.7586543674748}
+{"candidate": "        if headers.get(\"Transfer-Encoding\") == \"chunked\":\n", "entropy": 8.75906727287984}
+{"candidate": "        if \"Transfer-Encoding\" in headers:\n            transfer_encoding = headers.get(\"Transfer-Encoding\")\n            if (transfer_encoding != \"chunked\" and\n                    transfer_encoding != \"identity\"):\n                raise httputil.HTTPInputError(\n                    \"Unknown Transfer-Encoding %r\" % transfer_encoding)\n", "entropy": 21.5864051929165}
+{"candidate": "        if (\"Transfer-Encoding\" in headers and\n                headers[\"Transfer-Encoding\"] == \"chunked\"):\n", "entropy": 9.363898939669799}
+{"candidate": "        if headers.get(\"Transfer-Encoding\") == \"chunked\":\n", "entropy": 7.12844427377984}
+{"candidate": "        if self._chunked:\n", "entropy": 19.187991594019998}
+{"candidate": "        if headers.get(\"Transfer-Encoding\") == \"chunked\":\n", "entropy": 4.98500580626884}
+{"candidate": "        if \"Content-Length\" in headers:\n            raise httputil.HTTPInputError(\n                \"Non-integer Content-Length: %s\" % headers[\"Content-Length\"])\n        if \"Transfer-Encoding\" in headers:\n", "entropy": 19.36568404310312}
+{"candidate": "        if \"Transfer-Encoding\" in headers:\n", "entropy": 3.5285243340468}
+{"candidate": "        if \"Transfer-Encoding\" in headers:\n            te = headers[\"Transfer-Encoding\"]\n            if te == \"chunked\":\n    ", "entropy": 9.1408099115013}
+{"candidate": "        if \"Transfer-Encoding\" in headers:\n            assert headers[\"Transfer-Encoding\"] == \"chunked\", headers[\"Transfer-Encoding\"]\n", "entropy": 14.644532428643402}
+{"candidate": "        if \"Transfer-Encoding\" in headers:\n", "entropy": 4.7382563674748}
+{"candidate": "        if _should_receive_body(method, code):\n            if \"Transfer-Encoding\" in headers:\n    ", "entropy": 16.907544699117196}
+{"candidate": "        if \"Transfer-Encoding\" in headers:\n", "entropy": 3.5285240140468}
+{"candidate": "        if \"Transfer-Encoding\" in headers:\n            assert headers.get(\"Transfer-Encoding\").lower() == \"chunked\"\n", "entropy": 20.995042301878843}
+{"candidate": "        if \"Transfer-Encoding\" in headers:\n", "entropy": 3.7709584370468}
+{"candidate": "        if \"Transfer-Encoding\" in headers:\n            if headers.get(\"Transfer-Encoding\") not in (\"chunked\", \"identity\"):\n                # Note that we don't support \"Transfer-Encoding: gzip\"\n                raise httputil.HTTPInputError(\n                    \"Unsupported Transfer-Encoding: %s\" % headers[\"Transfer-Encoding\"])\n", "entropy": 40.998171770861106}
+{"candidate": "        elif httputil.has_body(code):\n", "entropy": 12.667194007310798}

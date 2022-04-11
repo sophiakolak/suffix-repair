@@ -1,0 +1,20 @@
+{"candidate": "                    except NotImplementedError:\n", "entropy": 11.305792325066399}
+{"candidate": "                    except TypeError:\n                        # otherwise revert to ndarray\n", "entropy": 17.8973330219965}
+{"candidate": "                    except TypeError:\n", "entropy": 1.4819208144699998}
+{"candidate": "                        result = result.reshape(block.values.shape)\n                    except:\n                        # maybe_downcast_numeric already down-casted to object\n", "entropy": 35.544041976584}
+{"candidate": "                    except (TypeError, ValueError):\n", "entropy": 6.730634827506}
+{"candidate": "                    except Exception:\n", "entropy": 4.344184161}
+{"candidate": "                    except ValueError:\n                        # There is an inconsistency between blocks\n                        # (Categorical vs DatetimeIndex).\n                        # We cannot cast back.\n", "entropy": 57.186090914745996}
+{"candidate": "                    except (ValueError, TypeError):\n", "entropy": 11.095669725935}
+{"candidate": "                    except ValueError:\n", "entropy": 2.247380137915}
+{"candidate": "                    except (TypeError, ValueError):\n", "entropy": 9.28811603644}
+{"candidate": "                    except Exception:\n", "entropy": 5.2791438673}
+{"candidate": "                    except ValueError:\n", "entropy": 2.25043210485}
+{"candidate": "                    except TypeError:\n", "entropy": 1.48420930463}
+{"candidate": "                        result = result.reshape(result.shape[0], -1)\n                    except Exception:\n                        # Cast failed, so just use the ndarray\n                        pass\n                    else:\n", "entropy": 32.6770394939668}
+{"candidate": "                    except Exception:\n                        # Cast failed, append as (1, N) array\n", "entropy": 26.959547596799997}
+{"candidate": "                    except Exception:\n                        # no-can-do\n", "entropy": 16.0840659386}
+{"candidate": "                    except ValueError:\n", "entropy": 2.246979501415}
+{"candidate": "                    except (ValueError, TypeError):\n", "entropy": 7.657226335320001}
+{"candidate": "                    except Exception:\n", "entropy": 5.1648537900000004}
+{"candidate": "                    except (TypeError, ValueError):\n                        # Cast failed, keep as ndarray\n                        pass\n                else:\n                    # we might have a result that fits, but as an ndarray\n                    # if this is the case, try to cast back to the\n                    # original type\n                    try:\n                        # if we can cast the result, then do so\n                        result = block.astype(result)\n                    except (TypeError,", "entropy": 82.92127946875004}

@@ -1,0 +1,20 @@
+{"candidate": "        return value\n", "entropy": 3.26313604847}
+{"candidate": "        return value\n\n    def _serialize_iterable(self, value):\n        for v in value:\n            yield self._serialize_value(v)\n", "entropy": 10.771208767744998}
+{"candidate": "\n        if isinstance(value, (bytes, six.text_type)) and self.binary:\n            return to_bytes(value)\n        else:\n            return value\n", "entropy": 21.584935308671003}
+{"candidate": "        return value\n", "entropy": 8.92416132337}
+{"candidate": "        return value\n\n    def _serialize_list(self, value):\n        for val in value:\n            yield self._serialize_value(val)\n", "entropy": 14.574894101386}
+{"candidate": "        return value\n", "entropy": 13.73996324847}
+{"candidate": "        if isinstance(value, six.text_type):\n            value = to_bytes(value)\n        return value\n", "entropy": 9.314761772754299}
+{"candidate": "        return value\n", "entropy": 3.27179606337}
+{"candidate": "        if self.binary:\n            return to_bytes(value)\n        return value\n\n    # serialize dict values", "entropy": 20.892153425697003}
+{"candidate": "        return value\n", "entropy": 4.6160657638660005}
+{"candidate": "        if is_string(value):\n            return value\n        return six.text_type(value)\n", "entropy": 27.534970264981006}
+{"candidate": "        return value\n", "entropy": 4.97547935847}
+{"candidate": "        return value\n", "entropy": 3.26313379847}
+{"candidate": "        return value\n", "entropy": 3.292893843}
+{"candidate": "        if isinstance(value, six.text_type) and self.binary:\n            return to_bytes(value)\n        return value\n", "entropy": 20.108085344423298}
+{"candidate": "        return value\n\n    def _serialize_dict(self, value):\n        for key, val in six.iteritems(value):\n            key = to_bytes(key) if self.binary else key\n            yield key, self._serialize_value(val)\n\n    def export_item(self, item):\n        result = dict(self._get_serialized_fields(item))\n        if self.binary:\n            result =", "entropy": 5.415341528087535}
+{"candidate": "        return value\n\n    def serialize_object(self, value):\n        return dict(self._serialize_dict(value))\n\n    def serialize_object_field(self, field, name, value):\n        return self.serialize_object(value)\n\n    def serialize_object_field_with_field(self, field, name, value):\n        return self.serialize_object(value)\n\n    def _get_", "entropy": 25.419101643184998}
+{"candidate": "        if isinstance(value, text_type):\n            return to_bytes(value, encoding='utf-8') if self.binary else value\n        if isinstance(value, bytes):\n            return value.decode('utf-8', 'ignore') if not self.binary else value\n        if isinstance(value, six.integer_types + (float, )):\n            return value\n        return to_bytes(text_type(value", "entropy": 34.623293819412}
+{"candidate": "        return value\n\n    def _serialize_dict(self, value):\n        for key, val in six.iteritems(value):\n            yield key, self._serialize_value(val)\n\n    def export_item(self, item):\n        return dict(self._get_serialized_fields(item))\n\n\nclass MarshalledItemExporter(PythonItemExporter):\n\n    def __init__(self, file, **kwargs", "entropy": 11.8611276739801}
+{"candidate": "        return value\n\n    def serialize_value(self, value):\n        if self.binary:\n            return self._serialize_value(value)\n        return value\n\n    def serialize_field_value(self, field, name, value):\n        return self.serialize_value(self.serialize_field(field, name, value))\n\n    def _get_serialized_fields(self, item, default_value=_", "entropy": 20.801654327216994}

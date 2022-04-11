@@ -1,0 +1,20 @@
+{"candidate": "                    output += f.extrabuf\n                # f.extrabuf is not available in Python 3.2.x\n", "entropy": 26.015125725187}
+{"candidate": "                    output += f.extrabuf\n                except AttributeError:\n                    # Python 2 GzipFile does not have this,\n                    # which means it already got all the data\n                    pass\n", "entropy": 53.095991832598}
+{"candidate": "                    while chunk:\n                        chunk = read1(f, 8196)\n                        output += chunk\n                except (IOError, EOFError):\n    ", "entropy": 20.8845336223909}
+{"candidate": "                    output += f.extrabuf\n                except AttributeError:\n                    # python3.3+\n                    pass\n", "entropy": 15.428278123541002}
+{"candidate": "                    output += f.extrabuf\n                except AttributeError:\n                    pass\n", "entropy": 6.057856112332001}
+{"candidate": "                    # In Python 2 GzipFile raises IOError when there is\n                    # unconsumed data in the stream and EOF has already\n                    # been reached. We can safely ignore this exception\n                    # because we have already done our best to consume\n                    # the data.\n                    output += f.extrabuf\n                    f.close()\n                except IOError:\n                    pass\n", "entropy": 75.54354189323934}
+{"candidate": "                    output += f.extrabuf\n", "entropy": 9.925656563287}
+{"candidate": "                    output += f.extrabuf\n                    # ensure that we read all the remaining data\n                    while f.read(8196):\n                        pass\n                except (IOError, EOFError, struct.error):\n                    f.close()\n", "entropy": 29.949111731721395}
+{"candidate": "                    # in python3 f.extrabuf only contains the last read data\n                    # which can be incomplete and return incomplete data\n                    output += f.read()\n                except (IOError, EOFError, struct.error):\n                    pass\n", "entropy": 53.73413443426539}
+{"candidate": "                    output += f.extrabuf\n", "entropy": 10.681049410187}
+{"candidate": "                    f.close()\n                except:\n                    pass\n", "entropy": 7.368165051307001}
+{"candidate": "                    # attempt to consume the rest, if only to properly set\n                    # f.extrabuf\n                    while True:\n                        output += read1(f, 8196)\n                except (IOError, EOFError, struct.error):\n    ", "entropy": 48.70819547912941}
+{"candidate": "                    f.close()\n                except (IOError, EOFError):\n                    pass\n", "entropy": 8.047285481179001}
+{"candidate": "                    f.close()\n                except IOError:\n                    pass\n", "entropy": 9.273863322961999}
+{"candidate": "                    output += f.extrabuf\n                    output += f.read()\n                except (IOError, EOFError, struct.error):\n                    break\n", "entropy": 19.789557912582296}
+{"candidate": "                    f.close()\n", "entropy": 3.3847555439069996}
+{"candidate": "                    # add leftover uncompressed data to output\n                    output += f.extrabuf\n", "entropy": 18.780231989477}
+{"candidate": "                    output += f.extrabuf\n                except AttributeError:\n                    # python 3.4\n                    pass\n", "entropy": 27.001328555051998}
+{"candidate": "                    f.extrabuf += read1(f, 8196)\n                except (IOError, EOFError, struct.error):\n                    break\n", "entropy": 20.413625223345}
+{"candidate": "                    output += f.extrabuf\n                    output += f.read()\n                except (IOError, EOFError, struct.error):\n    ", "entropy": 18.659880161748998}

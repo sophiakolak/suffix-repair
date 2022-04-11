@@ -1,0 +1,20 @@
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 2.8169260078566}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 2.5104246078565997}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 3.0653298896246}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 6.0576673856266}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 6.4271306078566}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 2.6224832078566}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 2.5067992361557}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 2.6227831922266}
+{"candidate": "            score_array /= K.mean(mask)\n\n        # apply sample weighting", "entropy": 6.9889396610206}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 2.6260991896246004}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 2.8157679512066}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 2.6224832078566}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 4.6945119896245995}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 1.8321206078566}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 4.431774385626601}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 3.0653298896246}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 4.4082279078566}
+{"candidate": "            score_array /= K.mean(mask)\n", "entropy": 1.8321206078566}
+{"candidate": "            score_array /= K.mean(mask)\n\n        # apply sample weighting\n        if weights is not None:\n            # reduce score_array to same ndim as weight array\n            ndim = K.ndim(score_array)\n            weight_ndim = K.ndim(weights)\n            score_array = K.mean(score_array,\n                                 axis=list(range(weight_ndim, ndim", "entropy": 1.76578567034291}
+{"candidate": "            score_array /= K.mean(mask)\n\n        # apply sample weighting\n        if weights is not None:\n            # reduce score_array to same ndim as weight array\n            ndim = K.ndim(score_array)\n            weight_ndim = K.ndim(weights)\n            score_array = K.mean(score_array,\n                                 axis=list(range(weight_ndim, ndim", "entropy": 1.7588550141343091}

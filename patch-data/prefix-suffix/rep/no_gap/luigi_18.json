@@ -1,0 +1,20 @@
+{"candidate": "            new_status = DISABLED\n\n        if task.status == DONE:\n            if new_status == DISABLED:\n                self.re_enable(task)\n            elif new_status == RUNNING:\n                logger.warning(\"Tried to overwrite DONE status with RUNNING for %r\", task.id)\n                return\n            else:\n", "entropy": 41.12384180142807}
+{"candidate": "            if new_status == FAILED:\n", "entropy": 8.010534841514}
+{"candidate": "            if new_status in (RUNNING, PENDING):\n                logger.info(\"Task %r is marked as disabled by scheduler so setting to %s is ignored\",\n                            task.id, new_status)\n", "entropy": 34.9083190229895}
+{"candidate": "            if new_status == FAILED:\n                task.failures.clear()\n", "entropy": 13.0213339299621}
+{"candidate": "            # (ie. don't let them report tasks as anything other than disabled)\n            if task.scheduler_disable_time is not None:\n                return\n\n        if task.status == new_status and task.status not in (PENDING, QUEUED):\n", "entropy": 72.95988038367513}
+{"candidate": "            if new_status in (RUNNING, FAILED):\n", "entropy": 20.7649817955945}
+{"candidate": "            if new_status == PENDING:\n                new_status = DISABLED\n            else:\n", "entropy": 16.2803320829893}
+{"candidate": "            if task.scheduler_disable_time is not None:\n", "entropy": 9.0644407146804}
+{"candidate": "            if config and config.worker_disconnect_delay and not config.allow_override:\n", "entropy": 19.612940293288}
+{"candidate": "            if new_status == PENDING:\n", "entropy": 8.285904826203998}
+{"candidate": "            if new_status == PENDING:\n                new_status = DISABLED\n            else:\n", "entropy": 11.97121781667}
+{"candidate": "            if new_status == PENDING:\n", "entropy": 10.4373578703281}
+{"candidate": "            if task.scheduler_disable_time and time.time() < task.scheduler_disable_time:\n", "entropy": 9.674764436025571}
+{"candidate": "            if new_status == FAILED:\n", "entropy": 5.98276752522}
+{"candidate": "            else:\n                logger.debug('Ignoring worker-initiated disable of %r', task.id)\n", "entropy": 24.816897804633}
+{"candidate": "            if task.scheduler_disable_time is not None:\n                return\n\n        if task.status == DONE and new_status != DONE:\n            # DONE tasks are immutable\n", "entropy": 24.823224332223397}
+{"candidate": "            if new_status == FAILED:\n", "entropy": 8.015429481883501}
+{"candidate": "            if new_status == PENDING:\n", "entropy": 10.1098748729875}
+{"candidate": "            if new_status == PENDING:\n", "entropy": 11.9857865873281}
+{"candidate": "            else:\n                return\n\n        if task.status == new_status:\n            return\n\n        if task.status == new_status + 1 == PENDING + 1 == RUNNING:\n            # Allow RUNNING to always increment from PENDING\n            pass\n        elif task.status != new_status - 1:\n            # This is an invalid transition\n            logger.error('{} is not a valid transition for task {}'.format(", "entropy": 74.7295234480179}

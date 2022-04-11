@@ -1,0 +1,20 @@
+{"candidate": "                break\n            except (OutOfBoundsDatetime, ValueError):\n", "entropy": 9.997929893170502}
+{"candidate": "                new_data = DatetimeIndex(new_data, tz=self.date_unit)._values\n                return new_data, True\n            except (ValueError, TypeError):\n", "entropy": 24.502843488111097}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 20.688180505437}
+{"candidate": "                break\n            except OutOfBoundsDatetime:\n                continue\n        else:\n            return data, False\n\n        if data.dtype == \"object\":\n            # we may have some integers in there still.\n            if new_data.dtype == \"object\":\n", "entropy": 43.65179780680479}
+{"candidate": "                if isinstance(new_data, ABCSeries):\n                    new_data = new_data._values\n            except (TypeError, ValueError):\n", "entropy": 15.402202782340801}
+{"candidate": "            except ValueError:\n", "entropy": 2.5524129014069996}
+{"candidate": "            except (TypeError, ValueError, OverflowError):\n", "entropy": 2.7778174552040014}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 5.389162818087041}
+{"candidate": "            except OutOfBoundsDatetime:\n                if issubclass(new_data.dtype.type, np.number):\n                    raise OutOfBoundsDatetime(\n                        \"Out of bounds nanosecond timestamp: \"\n                        \"{data}\".format(data=data)\n                    )\n", "entropy": 34.59995494155977}
+{"candidate": "            except (OverflowError, ValueError, TypeError):\n", "entropy": 5.469635386640001}
+{"candidate": "            except (TypeError, ValueError):\n", "entropy": 7.026947858889}
+{"candidate": "            except OutOfBoundsDatetime:\n                return data, False\n            except ValueError:\n                continue\n            except TypeError:\n", "entropy": 15.581633224628401}
+{"candidate": "            except OutOfBoundsDatetime:\n                # if an object dtype column has NaT then to_datetime raises\n                # an OutOfBoundsDatetime\n", "entropy": 39.950358852494894}
+{"candidate": "            except Exception:\n", "entropy": 7.017367966999998}
+{"candidate": "            except (ValueError, TypeError, OutOfBoundsDatetime):\n", "entropy": 12.028637770864}
+{"candidate": "            except Exception:\n", "entropy": 5.840050381999999}
+{"candidate": "            except (TypeError, ValueError, OverflowError):\n", "entropy": 2.774803800904001}
+{"candidate": "            except (ValueError, TypeError):\n", "entropy": 10.256847513168001}
+{"candidate": "            except (ValueError, TypeError, OverflowError):\n", "entropy": 4.496774611338}
+{"candidate": "                break\n            except (TypeError, ValueError, OverflowError):\n                pass\n            except OutOfBoundsDatetime:\n                # ignore numbers that are out of range\n                if issubclass(new_data.dtype.type, np.number):\n                    continue\n                return new_data, False\n        else:\n            # no unit worked\n            if issubclass(new_data.dtype.type, np.number", "entropy": 36.4764178525648}

@@ -1,0 +1,20 @@
+{"candidate": "        if new_status == FAILED:\n", "entropy": 10.5496120043052}
+{"candidate": "        if task.status == DISABLED and config is not None:\n            if task.scheduler_disable_time is not None and time.time() - task.scheduler_disable_time > config.disable_persist:\n                self.re_enable(task)\n            else:\n                return\n\n        if new_status == FAILED:\n            # check if this task has exceeded maximum failures\n", "entropy": 41.531413137249395}
+{"candidate": "        if new_status == FAILED:\n", "entropy": 12.0817016656072}
+{"candidate": "        if new_status == FAILED:\n            logger.info(\"Task %r failed\", task.id)\n", "entropy": 13.265949464690202}
+{"candidate": "        if config and new_status == FAILED:\n", "entropy": 8.2043659446217}
+{"candidate": "        if new_status == FAILED:\n", "entropy": 15.457248797340203}
+{"candidate": "        if new_status == FAILED:\n", "entropy": 11.7621439408072}
+{"candidate": "        # Task should not be pending if it has no more remaining stakeholders\n        if new_status == PENDING and not task.stakeholders:\n            new_status = DONE\n\n        if new_status == FAILED:\n", "entropy": 38.8314827280527}
+{"candidate": "        if new_status == FAILED:\n", "entropy": 7.7829759115402}
+{"candidate": "        if new_status == FAILED:\n", "entropy": 12.2641274508072}
+{"candidate": "        if new_status == FAILED:\n", "entropy": 7.5382869223402}
+{"candidate": "        if config and new_status == FAILED:\n", "entropy": 8.238164114399698}
+{"candidate": "        if new_status == FAILED:\n", "entropy": 10.1259529368202}
+{"candidate": "        if new_status not in self._status_tasks:\n            self._status_tasks[new_status] = {}\n\n        if new_status == FAILED:\n", "entropy": 21.48421716350476}
+{"candidate": "        if new_status == FAILED and task.status != DISABLED:\n", "entropy": 10.3142078038239}
+{"candidate": "        if new_status == FAILED and task.status == RUNNING:\n", "entropy": 18.038905503080198}
+{"candidate": "        if new_status == FAILED:\n            if task.status == DISABLED:\n                return\n", "entropy": 16.910360892177202}
+{"candidate": "        if new_status == FAILED:\n", "entropy": 5.5913263933202}
+{"candidate": "        if new_status == FAILED:\n", "entropy": 11.611028730820202}
+{"candidate": "        if new_status == FAILED:\n", "entropy": 5.523663939305201}

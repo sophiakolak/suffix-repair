@@ -1,0 +1,20 @@
+{"candidate": "                level = clevels[i]\n\n                # it is 0 if the level values are not in the MultiIndex\n                level_indexer = result.columns.get_loc_level(level)\n\n                if level_indexer == 0:\n                    continue\n\n", "entropy": 60.53701900931261}
+{"candidate": "", "entropy": 11.796161473000002}
+{"candidate": "                result = result.reorder_levels([v for v in range(result.columns.nlevels) if i != v])\n                if val != i:\n    ", "entropy": 19.287806098417}
+{"candidate": "                result = result.unstack(val, fill_value=fill_value)\n", "entropy": 6.371696695284}
+{"candidate": "\n                if val < data.columns.nlevels:\n                    result = result.groupby(axis=1, level=val).sum()\n                else:\n    ", "entropy": 23.793605908691003}
+{"candidate": "                level = clevels[i]\n                result = result.reindex(columns=result.columns.get_level_values(val))\n                result.columns = result.columns.droplevel(val)\n", "entropy": 21.6862507349083}
+{"candidate": "                result = result.unstack(val, fill_value=fill_value)\n", "entropy": 8.257386350924}
+{"candidate": "", "entropy": 13.4559937127}
+{"candidate": "", "entropy": 6.3820232922755}
+{"candidate": "                name = cnames[i]\n                data = data.unstack(val, fill_value=fill_value)\n                result = data\n", "entropy": 28.935692420242}
+{"candidate": "                clocs[i] = 0\n                result = result.stack(\n                    dropna=False,\n                    level=tuple(\n                        [data.columns]\n                        + [x[v] for x, v in zip(data.columns.levels, clocs)]\n                        + [data.columns.names[val]]\n                    ),\n                )\n", "entropy": 51.98791801268928}
+{"candidate": "\n                result = result.swaplevel(i, val, axis=1)\n", "entropy": 13.219281131068502}
+{"candidate": "                result = result._swap_level_mapper(val, i, axis=1)\n            for i in range(len(rlocs)):\n                v = rlocs[i]\n", "entropy": 21.676272219285995}
+{"candidate": "                level = result.columns.levels[val]\n                codes = np.arange(len(level))\n                result.insert(val, level.name, codes)\n", "entropy": 35.85249176569901}
+{"candidate": "                # we want to broadcast these\n                clocs[i] = slice(None)\n                result = data.swaplevel(i, val, axis=1)[result.columns]\n", "entropy": 40.88333254388401}
+{"candidate": "                result = result.swaplevel(i, -1, axis=1).sort_index(level=val, axis=1)\n", "entropy": 19.178300265716995}
+{"candidate": "                result = result.unstack(level=val, fill_value=fill_value, inplace=False)\n", "entropy": 27.6189023364451}
+{"candidate": "                level = clevels[i]\n                result = result.reorder_levels(order=[val] + list(range(val)) + list(range(val + 1, result.index.nlevels)))\n                result = result.swaplevel(i, len(result.index.levels) - 1)\n                index = result.index\n                codes = index.codes\n                codes[val], codes[-1] = codes[-", "entropy": 32.71636146266549}
+{"candidate": "                num = len(result.columns.levels[val])\n                clocs = [v if v < i else v + 1 for v in clocs]\n                if isinstance(result.index, MultiIndex):\n                    result.set_axis(\n                        result.columns, axis=1, inplace=True, level=clocs, names=cnames\n                    )\n                else:\n                    result.set_axis(", "entropy": 39.47846806051472}
+{"candidate": "                level = result.columns.levels[val]\n                codes = result.columns.codes[val]\n                new_levs = list(result.columns.levels)\n                new_levs[val] = obs_ids\n                new_names = list(result.columns.names)\n                new_names[val] = \"__placeholder__\"\n                new_cols = MultiIndex(\n                    new_lev", "entropy": 24.527264631564098}

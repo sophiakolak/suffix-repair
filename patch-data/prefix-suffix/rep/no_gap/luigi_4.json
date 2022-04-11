@@ -1,10 +1,20 @@
-{"candidate": "        if self.columns:\n", "entropy": 8.47453383483}
-{"candidate": "        if self.columns is not None:\n", "entropy": 5.22587566143}
-{"candidate": "        if self.columns:\n", "entropy": 15.496227977130001}
-{"candidate": "\n        if self.columns:\n", "entropy": 18.420775641850003}
-{"candidate": "        if len(self.columns) > 0:\n", "entropy": 4.1503038422100005}
-{"candidate": "        if self.columns:\n", "entropy": 6.918870598460002}
-{"candidate": "        if self.columns:\n", "entropy": 7.907904751829999}
-{"candidate": "\n        if self.columns:\n", "entropy": 9.5212067788}
-{"candidate": "\n        if self.columns:\n", "entropy": 9.505665794}
-{"candidate": "        if self.columns:\n", "entropy": 16.0501140322}
+{"candidate": "        if self.columns:\n", "entropy": 6.9345700298}
+{"candidate": "        if self.columns:\n", "entropy": 14.23130307306}
+{"candidate": "        if self.columns:\n", "entropy": 6.968171783196}
+{"candidate": "        if self.columns:\n", "entropy": 13.7916232676}
+{"candidate": "        if self.columns:\n", "entropy": 5.806684857893}
+{"candidate": "        if self.columns:\n", "entropy": 11.276836664360001}
+{"candidate": "        if self.columns:\n", "entropy": 7.220021431440599}
+{"candidate": "\n        if len(self.columns) > 0:\n", "entropy": 6.861283485640002}
+{"candidate": "        if len(self.columns) > 0:\n", "entropy": 4.088080780169999}
+{"candidate": "        if self.columns:\n", "entropy": 15.529247225149998}
+{"candidate": "        if self.columns:\n", "entropy": 14.5525312232}
+{"candidate": "        if self.columns:\n", "entropy": 10.292577847100002}
+{"candidate": "\n        if self.columns is not None:\n", "entropy": 6.9648627005799995}
+{"candidate": "        if len(self.columns) > 0:\n", "entropy": 4.08547837403}
+{"candidate": "        if self.columns:\n", "entropy": 13.890370783}
+{"candidate": "        if self.columns is not None:\n", "entropy": 4.787066318939999}
+{"candidate": "        if self.columns and len(self.columns) > 0:\n", "entropy": 14.16507981367}
+{"candidate": "        if self.columns:\n", "entropy": 10.651107855780001}
+{"candidate": "        if self.columns:\n", "entropy": 21.8314158071}
+{"candidate": "        if self.columns:\n", "entropy": 14.108090244420001}

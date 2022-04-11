@@ -1,10 +1,20 @@
-{"candidate": "                if left_value != right_value:\n", "entropy": 8.837706701338}
-{"candidate": "                if left_value != right_value:\n", "entropy": 2.877687842483}
-{"candidate": "                if left_value != right_value:\n", "entropy": 2.520286983297}
-{"candidate": "                if left_value != right_value:\n", "entropy": 5.301430103911001}
-{"candidate": "                if left_value != right_value:\n", "entropy": 4.554588294886}
-{"candidate": "                if not isinstance(right_value, float) or not np.isnan(right_value):\n", "entropy": 14.222630516228604}
-{"candidate": "                if left_value != right_value:\n", "entropy": 2.519667105826}
-{"candidate": "                if not strict_nan and left_value != right_value:\n", "entropy": 20.50371999414}
-{"candidate": "                if left_value != right_value:\n", "entropy": 7.222172215471}
-{"candidate": "                # NaN and None are equivalent.\n                if left_value is not None and left_value != right_value:\n", "entropy": 28.579730023063}
+{"candidate": "                if not left_value == right_value:\n", "entropy": 10.891536304374}
+{"candidate": "                if left_value != right_value:\n", "entropy": 12.504544525493001}
+{"candidate": "                if left_value != right_value:\n", "entropy": 7.960631718933}
+{"candidate": "                if left_value != right_value:\n", "entropy": 3.8795869071545}
+{"candidate": "                if left_value != right_value:\n", "entropy": 2.5358801514545}
+{"candidate": "                if left_value != right_value:\n", "entropy": 4.428973395493}
+{"candidate": "                if left_value != right_value:\n", "entropy": 2.5358801514545}
+{"candidate": "                if left_value != right_value:\n", "entropy": 11.141615918932999}
+{"candidate": "                if left_value != right_value:\n", "entropy": 2.8947356197145}
+{"candidate": "                if left_value != right_value:\n", "entropy": 9.270147705592999}
+{"candidate": "                if left_value != right_value:\n", "entropy": 2.536154607793}
+{"candidate": "                if left_value != right_value:\n", "entropy": 2.536153627793}
+{"candidate": "                if left_value != right_value:\n", "entropy": 9.998773571631501}
+{"candidate": "                if left_value != right_value:\n", "entropy": 8.587438086154501}
+{"candidate": "                if left_value != right_value:\n", "entropy": 3.5626537073295}
+{"candidate": "                if left_value != right_value:\n", "entropy": 9.026145595433}
+{"candidate": "                if not (left_value == right_value):\n", "entropy": 7.200443536788001}
+{"candidate": "                if left_value != right_value:\n", "entropy": 4.2247538361545}
+{"candidate": "                if left_value != right_value:\n", "entropy": 3.5623168361545003}
+{"candidate": "                if left_value != right_value:\n", "entropy": 2.536154727893}

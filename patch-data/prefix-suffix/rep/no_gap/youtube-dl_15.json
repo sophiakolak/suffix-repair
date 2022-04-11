@@ -1,0 +1,20 @@
+{"candidate": "", "entropy": 13.17284002043}
+{"candidate": "        [{}\\[\\]]|\n", "entropy": 18.782099367559997}
+{"candidate": "        [a-zA-Z_][0-9a-zA-Z_]*(?={skip}:)|\n", "entropy": 18.442849406429122}
+{"candidate": "        \\b(?:true|false|null)(?:,|\\]|\\}|$)|\n", "entropy": 25.1334352437}
+{"candidate": "        {skip}?[\\[{]|{skip}?[\\]}]|\n        true|false|null(?!\\w)|\n", "entropy": 31.02941780937}
+{"candidate": "", "entropy": 31.765104345900003}
+{"candidate": "", "entropy": 14.99087193283}
+{"candidate": "", "entropy": 13.190621483898}
+{"candidate": "", "entropy": 12.4282137698}
+{"candidate": "        [a-zA-Z_$][a-zA-Z_$0-9]*(?={skip}:)|\n        \\b(?:true|false|null){skip}:[^,}\\]]|\n", "entropy": 21.595367152118005}
+{"candidate": "", "entropy": 16.2008222159}
+{"candidate": "", "entropy": 14.8928986225}
+{"candidate": "        [a-zA-Z_]\\w*:{skip}(?=\")|\n", "entropy": 12.13148753067}
+{"candidate": "        \\btrue|false|null(?!\\w)|\n", "entropy": 8.886385755900001}
+{"candidate": "", "entropy": 13.5003786474}
+{"candidate": "", "entropy": 10.4250586538}
+{"candidate": "        \\b(?:true|false|null)(?:{skip}:)?|\n", "entropy": 10.05993123278}
+{"candidate": "        \\s*\\[|\n        \\s*\\{|\n", "entropy": 23.126644294499997}
+{"candidate": "", "entropy": 11.852403066799999}
+{"candidate": "", "entropy": 3.87433780996232}

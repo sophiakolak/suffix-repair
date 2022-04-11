@@ -1,0 +1,20 @@
+{"candidate": "                    op = lambda attr, val: not str_op(attr, val)\n", "entropy": 6.250811327917}
+{"candidate": "                    op = lambda attr, value: not str_op(attr, value)\n", "entropy": 2.950312816141}
+{"candidate": "                    op = lambda attr, value: not str_op(attr, value)\n", "entropy": 2.95014572009}
+{"candidate": "                    op = lambda attr, value: not str_op(attr, value)\n", "entropy": 4.612016504941}
+{"candidate": "                    op = lambda attr, value: not str_op(attr, value)\n", "entropy": 2.9507295803330003}
+{"candidate": "                    op = lambda attr, value: not str_op(attr, value)\n", "entropy": 3.32667218884}
+{"candidate": "                    op = lambda attr, value: not str_op(attr, value)\n", "entropy": 6.638653948941}
+{"candidate": "                    # This looks better than lambda: not; thanks to\n                    # http://stackoverflow.com/a/393693\n                    def op(attr, value): return not str_op(attr, value)\n", "entropy": 63.69371140460299}
+{"candidate": "                    op = lambda attr, value: not str_op(attr, value)\n", "entropy": 4.71532495703}
+{"candidate": "                    def op(actual_value, _):\n                        return not str_op(actual_value, comparison_value)\n", "entropy": 8.239963873009}
+{"candidate": "                    def op(actual_value, value):\n                        return not str_op(actual_value, value)\n", "entropy": 11.490088523556}
+{"candidate": "                    op = lambda attr, value: not str_op(attr, value)\n", "entropy": 3.356244684291}
+{"candidate": "                    op = lambda attr, val: not str_op(attr, val)\n", "entropy": 6.6565375215169995}
+{"candidate": "                    op = lambda attr, value: not str_op(attr, value)\n", "entropy": 3.3561739311550003}
+{"candidate": "                    op = lambda a, b: not str_op(a, b)\n", "entropy": 7.5820255251784}
+{"candidate": "                    op = lambda attr, value: not str_op(attr, value)\n", "entropy": 3.3267471950960004}
+{"candidate": "                    def op(attr, value):\n                        return not str_op(attr, value)\n", "entropy": 5.11779322486}
+{"candidate": "                    op = lambda attr, value: not str_op(attr, value)\n", "entropy": 2.95062345481}
+{"candidate": "                    op = lambda attr, value: not str_op(attr, value)\n", "entropy": 3.35580216453}
+{"candidate": "                    def op(actual_value, comparison_value):\n                        return not str_op(actual_value, comparison_value)\n", "entropy": 7.584594256745699}

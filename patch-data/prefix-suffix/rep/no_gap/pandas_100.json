@@ -1,0 +1,20 @@
+{"candidate": "", "entropy": 12.9998541188}
+{"candidate": "", "entropy": 10.2506546833}
+{"candidate": "        rs = self._constructor(rs, **self._construct_axes_dict()).__finalize__(self)\n", "entropy": 11.226844176139117}
+{"candidate": "        rs = self._constructor(rs).__finalize__(self, method=\"pct_change\")\n        rs = self._reindex_if_needed(rs, fill_method, limit, axis)\n", "entropy": 33.6432608627556}
+{"candidate": "", "entropy": 8.965169984}
+{"candidate": "        if freq is None:\n            rs[self.isna()] = nan\n", "entropy": 23.451910568605996}
+{"candidate": "", "entropy": 15.472070686}
+{"candidate": "", "entropy": 5.080418130572}
+{"candidate": "\n        if fill_method is not None:\n            mask = isna(self)\n            if mask.any():\n                rs[mask] = self._get_fill_value(fill_method, limit=limit)\n\n", "entropy": 25.838549988253007}
+{"candidate": "", "entropy": 9.6412181715}
+{"candidate": "        if freq is not None and freq != rs.index.freq:\n            # GH#22236 Need to re-adjust index if a frequency was given\n            rs.index = rs.index._with_freq(freq)\n", "entropy": 66.86334208831121}
+{"candidate": "", "entropy": 10.423633166430001}
+{"candidate": "", "entropy": 13.148121657999999}
+{"candidate": "", "entropy": 12.63963488706}
+{"candidate": "", "entropy": 17.9451253671}
+{"candidate": "        if freq is None and periods != 1:\n            rs = rs.div(periods)\n", "entropy": 23.655740609313}
+{"candidate": "        if freq is None:\n            rs.values[~com._isnull_compat(self.values)] = np.nan\n", "entropy": 31.245575251590004}
+{"candidate": "        rs = rs.dropna(axis=axis, how=\"all\")\n        if freq is None and periods > 1:\n            mask = isna(self.values[:, 0])\n            for i in range(1, periods):\n                mask |= isna(self.values[:, i])\n            rs = rs[-mask]\n", "entropy": 24.17203435245569}
+{"candidate": "", "entropy": 8.0580035835}
+{"candidate": "", "entropy": 16.13801977}

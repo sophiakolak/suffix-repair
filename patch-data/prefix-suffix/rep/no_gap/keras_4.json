@@ -1,0 +1,20 @@
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, params)\n", "entropy": 2.840438619026}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, params)\n", "entropy": 4.240476477636039}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, var_list=params)\n", "entropy": 8.41061066848004}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, params)\n", "entropy": 7.34829724958244}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, params)\n", "entropy": 5.916887889908}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, var_list=params)\n", "entropy": 10.726006333647499}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, params)\n", "entropy": 3.3436606682785}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, params)\n", "entropy": 4.24549463115304}
+{"candidate": "        grads = self.optimizer.compute_gradients(\n            loss, var_list=params)\n", "entropy": 8.37478639007}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, var_list=params)\n", "entropy": 6.766599056266}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, params)\n", "entropy": 2.939007082712}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, var_list=params)\n", "entropy": 14.001015710731}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, params)\n", "entropy": 2.1571714334785}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, params)\n", "entropy": 2.839624283573}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, params)\n", "entropy": 7.0788626444260405}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, params)\n", "entropy": 2.938237083573}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, params)\n", "entropy": 2.837770379566}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, params)\n", "entropy": 3.130871437703}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, var_list=params)\n", "entropy": 21.313410253126}
+{"candidate": "        grads = self.optimizer.compute_gradients(loss, var_list=params)\n", "entropy": 16.394769830531}

@@ -1,0 +1,20 @@
+{"candidate": "        with open(context_file) as file_handle:\n", "entropy": 1.5847749553917003}
+{"candidate": "        with codecs.open(context_file, 'r', 'utf-8') as file_handle:\n", "entropy": 12.4101629232494}
+{"candidate": "        with open(context_file, 'r', encoding='utf-8') as file_handle:\n", "entropy": 13.8846149628597}
+{"candidate": "        with open(context_file) as file_handle:\n", "entropy": 1.5865079148848005}
+{"candidate": "        with open(context_file, 'r') as file_handle:\n", "entropy": 13.426327673242701}
+{"candidate": "        with io.open(context_file, encoding='utf-8') as file_handle:\n", "entropy": 1.9408651718303997}
+{"candidate": "        with open(context_file) as file_handle:\n", "entropy": 1.5848396937928}
+{"candidate": "        with open(context_file) as file_handle:\n", "entropy": 1.5847749553917003}
+{"candidate": "        with open(context_file) as file_handle:\n", "entropy": 1.5871171793553998}
+{"candidate": "        with io.open(context_file, encoding='utf-8') as file_handle:\n", "entropy": 1.9448921628477003}
+{"candidate": "        with codecs.open(context_file, encoding='utf-8') as file_handle:\n", "entropy": 15.3600537403013}
+{"candidate": "        with io.open(context_file, encoding='utf-8') as file_handle:\n", "entropy": 1.9335588715614003}
+{"candidate": "        with open(context_file) as file_handle:\n", "entropy": 1.5845601139728003}
+{"candidate": "        logger.debug('Loading JSON context from %s', context_file)\n        with open(context_file) as file_handle:\n", "entropy": 35.0078909379018}
+{"candidate": "        with io.open(context_file, encoding='utf-8') as file_handle:\n", "entropy": 1.9424975278506997}
+{"candidate": "        with open(context_file) as file_handle:\n", "entropy": 1.5848398077928}
+{"candidate": "        with io.open(context_file, 'r', encoding='utf-8') as file_handle:\n", "entropy": 18.9193390343234}
+{"candidate": "        with codecs.open(context_file, encoding='utf-8') as file_handle:\n", "entropy": 6.55288006851562}
+{"candidate": "        with open(context_file) as file_handle:\n", "entropy": 1.5871171793553998}
+{"candidate": "        with open(context_file, encoding='utf-8') as file_handle:\n", "entropy": 5.9788494716027}

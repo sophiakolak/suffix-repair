@@ -1,0 +1,20 @@
+{"candidate": "\n        window = self._get_window(other)\n", "entropy": 4.56045926649}
+{"candidate": "        window = self._get_window(other)\n", "entropy": 5.852444742243319}
+{"candidate": "\n        window = self._get_window(other)\n", "entropy": 6.276931561952999}
+{"candidate": "\n        window = self._get_window(other)\n", "entropy": 3.349969532857}
+{"candidate": "        window = self._get_window(other)\n", "entropy": 5.3315203726739995}
+{"candidate": "\n        # mask missing values. This also masks values outside of range\n        # inperiods if center is True.\n        if (isinstance(self._selected_obj, ABCSeries) or self._selected_obj._is_mixed_type):\n            window = self._get_window(other)\n        else:\n            window = self._get_window(other, axis=self.axis)\n", "entropy": 67.9296728367245}
+{"candidate": "\n        window = self._get_window(other)\n", "entropy": 4.693282514447321}
+{"candidate": "\n        window = self._get_window(other)\n", "entropy": 3.35032328503}
+{"candidate": "", "entropy": 6.432980176999999}
+{"candidate": "\n        window = self._get_window(other)\n", "entropy": 12.52700374587}
+{"candidate": "\n        window = self._get_window(other)", "entropy": 7.642681833823}
+{"candidate": "        window = self._get_window(other)\n", "entropy": 4.78217769585}
+{"candidate": "\n        window = self._get_window(other)\n\n        @Substitution(name=\"rolling\", window=window)\n        @Appender(_shared_docs[\"corr\"])", "entropy": 23.875584875554996}
+{"candidate": "        window = self._get_window(other)\n", "entropy": 4.781561400879999}
+{"candidate": "\n        window = self._get_window(other)", "entropy": 6.474033151953}
+{"candidate": "\n        window = self._get_window(other)\n", "entropy": 5.074844571952999}
+{"candidate": "\n        window = self._get_window(other)\n", "entropy": 4.17558876998}
+{"candidate": "\n        axis = self._get_axis(self._selected_obj)\n        if axis != self._get_axis(other):\n            raise ValueError(\n                \"corr requires matching Series in the axis 1 and axis 0 \"\n                \"dimensions\"\n            )\n\n        window = self._get_window()\n\n        # GH6653\n        # Validate scriptable\n        if isinstance(other, ABCScriptable):\n            raise NotIm", "entropy": 82.90062877239441}
+{"candidate": "\n        window = self._get_window(other)\n\n        def _get_corr(a, b):\n            if a.size == 0 or b.size == 0:\n                return a.copy()\n            else:\n                return a.astype(\"f8\").corr(b, **kwargs)\n\n        return _flex_binary_moment(\n            self._selected_obj, other._selected_obj, _get_cor", "entropy": 18.716578165527988}
+{"candidate": "\n        window = self._get_window(other)\n\n        # GH#25966\n        if pairwise and self.axis != other.axis:\n            raise ValueError(\"axis must be equal for pairwise correlation\")\n\n        def _get_cov(a, b):\n            a = a.rolling(\n                window=window,\n                min_periods=self.min_periods,\n                center=self.center,\n                axis", "entropy": 44.67847573446548}

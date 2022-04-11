@@ -1,0 +1,20 @@
+{"candidate": "    return 'start {0}'.format(command.script_parts[1])", "entropy": 26.03755974933}
+{"candidate": "    return '{} http://{}'.format(command.script[:3], command.script[4:])", "entropy": 12.871831905865}
+{"candidate": "    # A cludge for when the full url is enclosed in quotes\n    url = command.script.partition(' ')[2]\n    url = url.replace('\"', '')\n    if not url.startswith('http'):\n        url = 'http://' + url\n    return 'xdg-open ' + url", "entropy": 60.848461982315015}
+{"candidate": "    return 'xdg-open ' + command.script", "entropy": 7.73719691562}
+{"candidate": "    return 'open http://' + command.script.split('open')[1].strip()", "entropy": 12.003543984229998}
+{"candidate": "    # just add 'http://' prefix to given URL\n    return 'http://' + command.script[command.script.find(' ') + 1:]", "entropy": 33.554711012582004}
+{"candidate": "    return 'xdg-open http://' + command.script", "entropy": 5.78129679762}
+{"candidate": "    return u'open http://{}'.format(command.script)", "entropy": 14.420215708890002}
+{"candidate": "    def get_url(url):\n        if 'http://' not in url:\n            return 'http://%s' % url\n        return url\n\n    return ('open %s' %\n            (' '.join(get_url(url) for url in command.script_parts[1:])))", "entropy": 42.604289011270964}
+{"candidate": "    script_parts = command.script_parts\n    if ('http://' not in script_parts[1] and 'https://' not in script_parts[1]):\n        script_parts[1] = 'http://' + script_parts[1]\n    return ' '.join(script_parts)", "entropy": 21.638703034669003}
+{"candidate": "    return 'xdg-open {0}'.format(command.script)", "entropy": 15.03499891634}
+{"candidate": "    return 'xdg-open' + command.script[command.script.index(' '):]", "entropy": 9.316123943766002}
+{"candidate": "    return 'xdg-open ' + command.script", "entropy": 9.215304680550002}
+{"candidate": "    new_cmd = command.script.replace(command.script.split(\" \")[0], \"firefox -new-tab\")\n    return new_cmd", "entropy": 24.496558155499997}
+{"candidate": "    base = command.script_parts[0]\n    domain = command.script_parts[1]\n    if '.' not in domain:\n        domain += '.com'\n    return '{0} http://{1}'.format(base, domain)", "entropy": 30.744681466666}
+{"candidate": "    new_command = \"xdg-open \" + command.script.strip()[5:]\n    return new_command", "entropy": 27.862081705894997}
+{"candidate": "    space = command.script.find(' ')\n    url = command.script[space + 1:]\n    return 'xdg-open http://' + url", "entropy": 19.488407914534996}
+{"candidate": "    url = command.script_parts[1]\n    if not '://' in url:\n        url = 'http://' + url\n    return 'xdg-open ' + url", "entropy": 20.005190716570002}
+{"candidate": "    return 'xdg-open %s' % command.script.replace('open ', '')", "entropy": 9.52315821462}
+{"candidate": "    return '{0} http://{1}'.format(command.script_parts[0], command.script_parts[1])", "entropy": 7.58476370488}

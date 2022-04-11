@@ -1,0 +1,20 @@
+{"candidate": "                if not ax.is_numeric():\n                    if is_integer(i):\n                        raise ValueError(\n                            \"At based indexing on an non-integer \"\n                            \"index can only have non-integer \"\n                            \"indexers\"\n                        )\n                elif not is_float(i):\n                    # GH#24629\n", "entropy": 40.3631511864574}
+{"candidate": "                if not is_hashable(i):\n", "entropy": 12.323666492310998}
+{"candidate": "                if is_integer(i):\n", "entropy": 5.3830000924700006}
+{"candidate": "                if is_integer(i):\n", "entropy": 11.60795501953}
+{"candidate": "                if is_integer(i):\n", "entropy": 5.89683583445}
+{"candidate": "                if not is_integer(i):\n                    return key\n                else:\n", "entropy": 13.252823441836899}
+{"candidate": "                if is_integer(i):\n", "entropy": 11.738643470969999}
+{"candidate": "                if not lib.isscalar(i):\n", "entropy": 10.9609725284066}
+{"candidate": "                # non integer index\n                if is_integer(i):\n                    raise ValueError(\n                        \"At based indexing on a non-integer \"\n                        \"index can only have non-integer \"\n                        \"indexers\"\n                    )\n                if not self.obj._is_valid_integer(i):\n", "entropy": 21.9735600240235}
+{"candidate": "                if not is_scalar(i):\n", "entropy": 6.2329739946254}
+{"candidate": "                if not is_hashable(i):\n", "entropy": 6.242837397904001}
+{"candidate": "                if is_integer(i):\n", "entropy": 7.46880248182}
+{"candidate": "                if not is_integer(i) and not is_float(i):\n", "entropy": 13.213013412310001}
+{"candidate": "                if is_integer(i):\n", "entropy": 6.23633336226}
+{"candidate": "                if is_integer(i):\n", "entropy": 5.132167680444}
+{"candidate": "                if not isinstance(i, ax.inferred_type):\n", "entropy": 9.149009571887673}
+{"candidate": "                if is_integer(i) and not self.obj._can_hold_na:\n                    raise ValueError(\n                        \"At based indexing on a non-integer \"\n                        \"index can only have non-integer \"\n                        \"indexers\"\n                    )\n            if not isinstance(i, ax.inferred_type):\n", "entropy": 29.713311678748866}
+{"candidate": "                if is_integer(i):\n", "entropy": 7.47042355931}
+{"candidate": "                if is_integer(i):\n", "entropy": 5.38647100581}
+{"candidate": "                if is_integer(i):\n                    raise ValueError(\n                        \"At based indexing on a non-integer \"\n                        \"index can only have non-integer indexers\"\n                    )\n                elif is_scalar(i):\n                    # for floats, allow non-integer indexer if the index\n                    # value is not found\n                    if isinstance(ax, ABCFloat64Index) and i not in ax:\n                        continue", "entropy": 60.17154431142471}

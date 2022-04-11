@@ -1,0 +1,20 @@
+{"candidate": "    def __init__(self, worker_id, last_active=None):\n", "entropy": 6.1107265241588}
+{"candidate": "    def __init__(self, worker_id, last_active):\n        self.running = True\n", "entropy": 17.653230807519794}
+{"candidate": "    def __init__(self, worker_id, last_active=None):\n", "entropy": 6.097001975544}
+{"candidate": "    def __init__(self, worker_id, last_active=None):\n", "entropy": 11.755728455517}
+{"candidate": "    def __init__(self, worker_id, last_active, **kwargs):\n", "entropy": 8.068629512024202}
+{"candidate": "    def __init__(self, worker_id, last_active):\n", "entropy": 8.8982809046918}
+{"candidate": "    def __init__(self, worker_id, last_active=0, tasks=None):\n", "entropy": 8.72206651197}
+{"candidate": "    def __init__(self, worker_id, last_active):\n", "entropy": 9.761583518844}
+{"candidate": "    def __init__(self, worker_id, last_active, assistant=False):\n        self.assistant = assistant\n", "entropy": 8.6055464671418}
+{"candidate": "    def __init__(self, worker_id, last_active):\n", "entropy": 11.398063586516999}
+{"candidate": "    def __init__(self, worker_id, last_active, assistant=False):\n", "entropy": 6.957303620517}
+{"candidate": "    def __init__(self, worker_id, last_active=None):\n", "entropy": 9.8534597334858}
+{"candidate": "    def __init__(self, worker_id, last_active=0):\n", "entropy": 4.817115685897}
+{"candidate": "    def __init__(self, worker_id, last_active):\n", "entropy": 13.183638286821799}
+{"candidate": "    def __init__(self, worker_id, last_active=0):\n", "entropy": 4.820088332655}
+{"candidate": "    def __init__(self, worker_id, last_active=0):\n", "entropy": 12.6412748663918}
+{"candidate": "    def __init__(self, worker_id, last_active=0, assistant=False):\n        # if last_active is 0, it is not active yet/anymore\n", "entropy": 46.02537999902181}
+{"candidate": "    def __init__(self, worker_id, last_active):\n", "entropy": 13.7692710265218}
+{"candidate": "    def __init__(self, worker_id, worker_reference, last_active=0):\n", "entropy": 7.761754641067002}
+{"candidate": "    def __init__(self, worker_id, last_active=None):\n", "entropy": 9.7633832454858}

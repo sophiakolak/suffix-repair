@@ -1,0 +1,20 @@
+{"candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n", "entropy": 9.5521632716685}
+{"candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n", "entropy": 16.305674503276}
+{"candidate": "        src_name = str(src) + \"  (original)\"\n        dst_name = str(src) + \"  (formatted)\"\n", "entropy": 6.498277229117}
+{"candidate": "        dst_name = \"<stdout> (formatted)\"\n", "entropy": 6.537303758629999}
+{"candidate": "        src_name = src.as_posix() + \"  (original)\"\n        dst_name = src.as_posix() + \"  (formatted)\"\n", "entropy": 17.0114092484704}
+{"candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n", "entropy": 21.22808935502}
+{"candidate": "        src_name = str(src) + \"  (original)\"\n        dst_name = str(src) + \"  (formatted)\"\n", "entropy": 11.676489918978}
+{"candidate": "        src_name = str(src) + \"  (original)\"\n", "entropy": 13.1618120699}
+{"candidate": "        src_name = f\"<{src.name}>  (original)\"\n        dst_name = f\"<{src.name}>  (formatted)\"\n", "entropy": 16.843611869429}
+{"candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n", "entropy": 8.132605905267}
+{"candidate": "        src_name = str(src.relative_to(src.cwd())) + \"  (original)\"\n        dst_name = str(src.relative_to(src.cwd())) + \"  (formatted)\"\n", "entropy": 11.829076033585697}
+{"candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n", "entropy": 11.005975603213}
+{"candidate": "        src_name = \"{}  (original)\".format(src)\n        dst_name = \"{}  (formatted)\".format(src)\n", "entropy": 11.595329299481}
+{"candidate": "", "entropy": 13.7144483476}
+{"candidate": "        src_name = \"%s  (original)\" % src\n        dst_name = \"%s  (formatted)\" % src\n", "entropy": 6.6573542534920005}
+{"candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n", "entropy": 14.0063225401245}
+{"candidate": "        src_name = f\"{src}  (original)\"\n        dst_name = f\"{src}  (formatted)\"\n", "entropy": 6.469540623124}
+{"candidate": "        src_name = str(src) + \" (original)\"\n        dst_name = str(src) + \" (formatted)\"\n", "entropy": 16.110122389033002}
+{"candidate": "        src_name = src.as_posix() + \"  (original)\"\n        dst_name = src.as_posix() + \"  (formatted)\"\n", "entropy": 10.820374039865401}
+{"candidate": "        src_name = str(src) + \"  (original)\"\n        dst_name = str(src) + \"  (formatted)\"\n", "entropy": 11.616099144575}

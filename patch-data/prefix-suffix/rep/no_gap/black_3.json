@@ -1,0 +1,20 @@
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=True\n", "entropy": 4.28469866590039}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n", "entropy": 4.95934863224012}
+{"candidate": "        file_okay=True, dir_okay=False, readable=True, allow_dash=False\n", "entropy": 12.667462203836902}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=True\n", "entropy": 5.90640062308362}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n", "entropy": 3.61581415398939}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n", "entropy": 6.2021947907475585}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n", "entropy": 4.47217560805969}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, resolve_path=True\n", "entropy": 5.687833184951121}
+{"candidate": "        file_okay=True, dir_okay=False, readable=True, allow_dash=False\n", "entropy": 9.1306526082019}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=True\n", "entropy": 3.99309767111962}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n", "entropy": 2.38218331471862}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n", "entropy": 2.36842073224012}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n", "entropy": 5.849161757619619}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=True\n", "entropy": 4.284698702900389}
+{"candidate": "        file_okay=True, dir_okay=False, readable=True, allow_dash=False\n", "entropy": 13.592629593515902}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n", "entropy": 4.455694355904891}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n", "entropy": 3.53801767384589}
+{"candidate": "        dir_okay=False,\n        readable=True,\n        allow_dash=False,\n        exists=True,\n        resolve_path=True,\n", "entropy": 11.225271033120038}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=True\n", "entropy": 3.31339869063739}
+{"candidate": "        exists=True, file_okay=True, dir_okay=False, readable=True, allow_dash=False\n", "entropy": 2.3684279576196197}

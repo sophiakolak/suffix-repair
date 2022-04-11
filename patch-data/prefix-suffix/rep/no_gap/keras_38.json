@@ -1,0 +1,20 @@
+{"candidate": "            input_shape = (input_shape[0], output_dim)\n", "entropy": 11.419310305785071}
+{"candidate": "            input_shape = (input_shape[0], output_dim)\n", "entropy": 11.16009937234507}
+{"candidate": "            input_shape = (input_shape[0], output_dim)\n", "entropy": 3.65559831074737}
+{"candidate": "            input_shape = tuple([input_shape[0], output_dim])\n", "entropy": 6.2306186922932}
+{"candidate": "            input_shape = (input_shape[0], output_dim)\n", "entropy": 10.31880023234507}
+{"candidate": "            input_shape = (input_shape[0], output_dim)\n", "entropy": 4.82041763875437}
+{"candidate": "            input_shape = (input_shape[0], output_dim)\n", "entropy": 6.387605700654371}
+{"candidate": "            input_shape = (input_shape[0], output_dim)\n", "entropy": 12.91699151265437}
+{"candidate": "            input_shape = (input_shape[0], input_shape[1], output_dim)\n", "entropy": 11.3220427493071}
+{"candidate": "            input_shape = (input_shape[0], output_dim)\n", "entropy": 4.82041776375437}
+{"candidate": "            input_shape = (input_shape[0], output_dim)\n", "entropy": 10.74388892894507}
+{"candidate": "    ", "entropy": 9.498189731494001}
+{"candidate": "            input_shape = (input_shape[0], output_dim)\n", "entropy": 6.816920453254369}
+{"candidate": "            input_shape = (input_shape[0], input_shape[1], output_dim)\n", "entropy": 17.688262517866498}
+{"candidate": "            input_shape = (input_shape[0], input_shape[1], output_dim)\n", "entropy": 8.0015995587165}
+{"candidate": "            input_shape = (input_shape[0], input_shape[1], output_dim)\n", "entropy": 13.516751196378}
+{"candidate": "            input_shape = (input_shape[0], output_dim)\n", "entropy": 7.63533013165437}
+{"candidate": "            input_shape = tuple([input_shape[0]] + [output_dim])\n", "entropy": 11.062937837452198}
+{"candidate": "            input_shape = (input_shape[0], output_dim)\n", "entropy": 13.133382607754369}
+{"candidate": "            input_shape = (input_shape[0], output_dim)\n        self.built = True\n\n    def get_config(self):\n        cells = []\n        for cell in self.cells:\n            cells.append({'class_name': cell.__class__.__name__,\n                          'config': cell.get_config()})\n        config = {'cells': cells}\n        base_config = super(R", "entropy": 3.74864293762997}

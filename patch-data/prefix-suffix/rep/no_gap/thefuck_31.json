@@ -1,0 +1,20 @@
+{"candidate": "    return command.script.replace('git diff', 'git diff --staged', 1)", "entropy": 8.891159879198362}
+{"candidate": "    return command.script.replace('git diff', 'git diff --staged', 1)", "entropy": 5.26575480377}
+{"candidate": "    return command.script.replace('git diff', 'git diff --staged')", "entropy": 9.74709067695}
+{"candidate": "    return command.script.replace('diff', 'diff --staged', 1)", "entropy": 14.999852812097}
+{"candidate": "    return command.script.replace('git diff', 'git diff --staged')", "entropy": 8.30277874221}
+{"candidate": "    return command.script.replace('diff', 'diff --staged')", "entropy": 7.523289192968}
+{"candidate": "    return command.script.replace('diff', 'diff --staged')", "entropy": 16.539836424228}
+{"candidate": "    return command.script + ['--staged']", "entropy": 6.452897896596999}
+{"candidate": "    return command.script.replace(' diff ', ' diff --staged ')", "entropy": 13.48062189936}
+{"candidate": "    return command.script.replace('diff', 'diff --staged', 1)", "entropy": 12.659991176028}
+{"candidate": "    return command.script.replace('git diff', 'git diff --staged')", "entropy": 5.08194550864436}
+{"candidate": "    return command.script.replace('git diff', 'git diff --staged')", "entropy": 10.91481863195}
+{"candidate": "    return command.script.replace('git ', 'git --staged ')", "entropy": 20.464005602346003}
+{"candidate": "    return command.script.replace('diff', 'diff --staged', 1)", "entropy": 10.178798129297}
+{"candidate": "    return command.script.replace(' diff', ' diff --staged', 1)", "entropy": 19.77546921799}
+{"candidate": "    return command.script.replace('git diff', 'git diff --staged')", "entropy": 14.3893221087}
+{"candidate": "    return command.script.replace('git diff', 'git diff --staged', 1)", "entropy": 7.536401968617861}
+{"candidate": "    return command.script.replace('diff', 'diff --staged')", "entropy": 7.633543624857}
+{"candidate": "    return command.script.replace('git diff', 'git diff --staged')", "entropy": 21.21419655695}
+{"candidate": "    return command.script + ' --staged'", "entropy": 12.587021804816}

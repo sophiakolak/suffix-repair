@@ -1,0 +1,20 @@
+{"candidate": "            return [others.to_series(name=others.name, index=idx)]\n", "entropy": 16.0098698643875}
+{"candidate": "            others = Series(others)\n            return [others]\n", "entropy": 10.372176140124}
+{"candidate": "            return [Series(others, index=idx)]\n", "entropy": 0.765495547157}
+{"candidate": "            return [Series(others, index=idx)]\n", "entropy": 0.7537923754184}
+{"candidate": "            return [Series(others, index=idx)]\n", "entropy": 0.754452659777}
+{"candidate": "            if not len(others) == len(idx):\n                raise ValueError(\n                    f\"Must have equal len keys and value when stacking {len(others)} \"\n                    f\"blocks, passed {len(idx)}\"\n                )\n            return [Series(others, index=idx)]\n", "entropy": 42.198937228713696}
+{"candidate": "            return [Series(others, index=idx)]\n", "entropy": 0.7658245694283999}
+{"candidate": "            others = Series(others, index=idx)\n            return [others]\n", "entropy": 9.712557750845}
+{"candidate": "            return [Series(others, index=idx)]\n        elif isinstance(others, np.ndarray) and others.ndim == 1:\n            return [Series(others, index=idx)]\n", "entropy": 5.427650230043868}
+{"candidate": "            return [others._to_embed(keep_tz=True)]\n", "entropy": 9.465202111816998}
+{"candidate": "            return [Series(others, index=idx)]\n", "entropy": 0.7654961211569998}
+{"candidate": "            return [Series(others, index=idx)]\n", "entropy": 0.7658245694283999}
+{"candidate": "            return [\n                Series(others, index=idx)\n                if not others.shape\n                else Series(\n                    others._values, index=others\n                )  # for MultiIndex\n            ]\n", "entropy": 41.096940196971}
+{"candidate": "            return [Series(others, index=idx)]\n", "entropy": 0.7654961211569998}
+{"candidate": "            return [Series(others, index=idx)]\n        elif isinstance(others, (ABCDataFrame, np.ndarray)):\n            return [self._get_series_list(x)[0] for x in others]\n", "entropy": 19.96937474342607}
+{"candidate": "            return [Series(others, index=idx)]\n", "entropy": 0.7537933554184}
+{"candidate": "            return [Series(others, index=idx)]\n", "entropy": 0.765495547157}
+{"candidate": "            return [Series(others, index=idx)]\n", "entropy": 0.7537930754183999}
+{"candidate": "            return [Series(others, index=idx)]\n", "entropy": 0.7537923754184}
+{"candidate": "            return [Series(others, index=idx)]\n        elif isinstance(others, np.ndarray):\n            if others.ndim == 1:\n                return [Series(others, index=idx)]\n        elif isinstance(others, ABCIndexClass):\n            return [Series(others, index=idx)]\n", "entropy": 24.69617930361017}

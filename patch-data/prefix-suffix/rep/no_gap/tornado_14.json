@@ -1,0 +1,20 @@
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 12.5834121225759}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 4.4569440307759}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 6.633949712271999}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 14.2775202435759}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 6.2427205941759}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 12.4232319581759}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 9.0333045241759}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 12.9282293625759}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 3.36363012948864}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 4.456944909775899}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 4.834517757175901}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 24.6949488432236}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 5.7550377091759}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 8.893221421123599}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 4.2574826241759}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 7.9562664288236}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 4.5251573865759}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 3.3643255968397}
+{"candidate": "            # initialize with make_current=True means we should\n            # assert that there isn't already a current IOLoop\n            if IOLoop.current(instance=False) is not None:\n", "entropy": 22.299797048198208}
+{"candidate": "            if IOLoop.current(instance=False) is not None:\n", "entropy": 5.0299363121758995}

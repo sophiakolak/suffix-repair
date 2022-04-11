@@ -1,0 +1,20 @@
+{"candidate": "", "entropy": 4.88194074682}
+{"candidate": "", "entropy": 14.352054610719998}
+{"candidate": "", "entropy": 5.40143073253}
+{"candidate": "", "entropy": 5.56875412954}
+{"candidate": "", "entropy": 13.76317721182}
+{"candidate": "", "entropy": 11.340720403486001}
+{"candidate": "", "entropy": 5.451812320819999}
+{"candidate": "", "entropy": 10.799146421820002}
+{"candidate": "", "entropy": 10.81089826782}
+{"candidate": "", "entropy": 5.0904679458199995}
+{"candidate": "", "entropy": 4.2839203355199995}
+{"candidate": "", "entropy": 13.04857106442}
+{"candidate": "", "entropy": 11.762179243519999}
+{"candidate": "", "entropy": 10.67288849182}
+{"candidate": "", "entropy": 10.82033713912}
+{"candidate": "", "entropy": 5.09078623882}
+{"candidate": "", "entropy": 5.712309026940001}
+{"candidate": "", "entropy": 5.9956410815200005}
+{"candidate": "        (?:\n            (?:(?:photo|video).php(?:.*?)(?:\\?|&)(?:v|video_id)=|\n             groups/[^/]+/permalink/|\n             [^/]+/videos/(?:t\\.\\d+/)?|\n             video.php(?:.*?)\\?(?:.*?)v=|\n             story.php(?:.*?)(?:\\?|&)(?:", "entropy": 46.651041897602006}
+{"candidate": "        (?:\n            photo\\.php\\?(?:.*?)v=(?P<photo_id>[0-9]+)(?:.*)\n        |\n            (?:\n                # Valid username\n                # A user name only has alphanumeric characters, underscores or dots\n                (?:(?:[^/]+\\.)?facebook\\.com/)?(?P<username>[\\w\\.]+)\n                |\n                # Video ID\n                video", "entropy": 75.78272976612729}

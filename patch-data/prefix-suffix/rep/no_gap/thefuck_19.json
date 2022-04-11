@@ -1,0 +1,20 @@
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force')\n\n\npriority = 1000", "entropy": 9.04880252886132}
+{"candidate": "    return replace_argument(command.script, 'push', 'push -f')\n\n\npriority = 100", "entropy": 13.511384750350318}
+{"candidate": "    return replace_argument(command.script, 'push', 'push -f')\n\n\npriority = 1000", "entropy": 8.516296352842321}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')\n\n\npriority = 1000", "entropy": 6.12456055433816}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')\n\n\npriority = 1000", "entropy": 6.80736347421632}
+{"candidate": "    return replace_argument(command.script, 'push', 'pull')\n\n\npriority = 1000", "entropy": 6.307142988626319}
+{"candidate": "    return replace_argument(command.script, 'push', 'push -f')\n\n\npriority = 1000", "entropy": 14.934507178757322}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force')\n\n\npriority = 1000", "entropy": 18.40429879631632}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')\n\n\npriority = -1", "entropy": 6.80758941477632}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force-with-lease')\n\n\npriority = -1", "entropy": 14.78246804018432}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force')\n\n\npriority = 1000", "entropy": 19.423293588152315}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force')\n\n\npriority = 1000", "entropy": 7.918125027803321}
+{"candidate": "    return replace_argument(command.script, 'push', 'push -f')\n\n", "entropy": 11.290979730492321}
+{"candidate": "    return replace_argument(command.script, 'push', 'pull')\n\n\npriority = -1", "entropy": 4.35507124263632}
+{"candidate": "    return replace_argument(command.script, 'push', 'push -f')\n\n\npriority = 1000", "entropy": 15.67567565755632}
+{"candidate": "    return replace_argument(command.script, 'push', 'push -f')\n\n\npriority = 10000", "entropy": 12.98095020834482}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force')\n\n\npriority = 110", "entropy": 18.42080972492592}
+{"candidate": "    return replace_argument(command.script, 'push', 'push -f')\n\n\npriority = 1000", "entropy": 16.88548609354632}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force')\n\n\npriority = -3", "entropy": 21.16758037493132}
+{"candidate": "    return replace_argument(command.script, 'push', 'push --force')\n\n\npriority = 1000", "entropy": 16.8406173486354}
