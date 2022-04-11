@@ -19,8 +19,8 @@ def query_openai_prefix_only(prefix):
         temperature=0.8,
         prompt=prefix,
         max_tokens=100,
-        best_of=11,
-        n=10,
+        best_of=21,
+        n=20,
         logprobs=1,
     )
     return response

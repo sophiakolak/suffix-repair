@@ -20,8 +20,8 @@ def query_openai(prefix, suffix):
         prompt=prefix,
         suffix=suffix,
         max_tokens=100,
-        best_of=11,
-        n=10,
+        best_of=21,
+        n=20,
         logprobs=1,
     )
     return response
@@ -48,6 +48,7 @@ def save_data(candidates, entropies, file):
     f = open(full_path, "w+")
     for cand,ent in zip(candidates, entropies):
         f.write(json.dumps({"candidate": cand, "entropy": ent})+"\n")
+    f.close()
 
 def get_files(path):
     files = []
