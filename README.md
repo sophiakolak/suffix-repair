@@ -1,25 +1,25 @@
 # Suffix-Repair
 
-## build_db
+# build_db
 
 Files for extracting data from `BugsInPy` that will eventually be added to a database. For now, it just writes to various json files (described below)
 
-# `setup.sh`
+## `setup.sh`
 
 adds BugsInPy shell scripts to PATH environment variable (this is specific to my project configuration)
 
-`project_parser.py` 
+## `project_parser.py` 
     called by : `bug_parser.py` 
 
 gets all relevant meta-data on projects used to accurately parse the diffs (i.e., #bugs, bug/patch commit, tests relevant to each bug, the location of those tests)
 
-`bug_parser.py`
+## `bug_parser.py`
     requires: `project_parser.py` 
     writes to: `data/all_data`
 
 to checkout the buggy versions of each project, and determine the exact lines changed with the diff+reconstruct the block. This info is written to "data/all_data", where a file is created for each project which includes all the information necessary to reproduce the bug/extract context 
 
-`sort_patches.py` 
+## `sort_patches.py` 
     reads from: `data/all_data` 
     writes to: `data/add`, `data/del`, `data/rep`, `data/other`
 
