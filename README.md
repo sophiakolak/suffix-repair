@@ -4,7 +4,7 @@
 
 Files for extracting data from `BugsInPy` that will eventually be added to a database. For now, it just writes to various json files (described below)
 
-`setup.sh`
+# `setup.sh`
 
 adds BugsInPy shell scripts to PATH environment variable (this is specific to my project configuration)
 
