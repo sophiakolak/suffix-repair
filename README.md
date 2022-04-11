@@ -6,27 +6,27 @@ Files for extracting data from `BugsInPy` that will eventually be added to a dat
 
 `setup.sh`
 
-    adds BugsInPy shell scripts to PATH environment variable (this is specific to my project configuration)
+adds BugsInPy shell scripts to PATH environment variable (this is specific to my project configuration)
 
 `project_parser.py` 
     called by : `bug_parser.py` 
 
-    gets all relevant meta-data on projects used to accurately parse the diffs (i.e., #bugs, bug/patch commit, tests relevant to each bug, the location of those tests)
+gets all relevant meta-data on projects used to accurately parse the diffs (i.e., #bugs, bug/patch commit, tests relevant to each bug, the location of those tests)
 
 `bug_parser.py`
     requires: `project_parser.py` 
     writes to: `data/all_data`
 
-    to checkout the buggy versions of each project, and determine the exact lines changed with the diff+reconstruct the block. This info is written to "data/all_data", where a file is created for each project which includes all the information necessary to reproduce the bug/extract context 
+to checkout the buggy versions of each project, and determine the exact lines changed with the diff+reconstruct the block. This info is written to "data/all_data", where a file is created for each project which includes all the information necessary to reproduce the bug/extract context 
 
 `sort_patches.py` 
     reads from: `data/all_data` 
     writes to: `data/add`, `data/del`, `data/rep`, `data/other`
 
-    goes through the data created by `bug_parser.py`, and determines which "type" of patch was required for each bug. This is relevant for how we extract context. Currently, there are two major types (gap and no-gap) and three sub-types (1:1 replace, add only, delete only), as well as the category of "other" for when the bug is a combination of different types of changes. Writes these changes to the file  
+goes through the data created by `bug_parser.py`, and determines which "type" of patch was required for each bug. This is relevant for how we extract context. Currently, there are two major types (gap and no-gap) and three sub-types (1:1 replace, add only, delete only), as well as the category of "other" for when the bug is a combination of different types of changes. Writes these changes to the file  
 
     1. NO-GAP
-        This means that all the changes come sequentially, i.e., there are no original lines of code between changes. These are simpler to handle. For example: 
+    This means that all the changes come sequentially, i.e., there are no original lines of code between changes. These are simpler to handle. For example: 
 
         ```
                      if True:
