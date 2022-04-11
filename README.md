@@ -27,14 +27,13 @@ goes through the data created by `bug_parser.py`, and determines which "type" of
 
 1. NO-GAP
 This means that all the changes come sequentially, i.e., there are no original lines of code between changes. These are simpler to handle. For example: 
-
-        ```
+```
                      if True:
                          do x
         -            if False:
         +            else:
                          do y           
-        ```
+```
 
 2. GAP
 This means that there are breaks between the changes, where the original code is still present. For example: 
