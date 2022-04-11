@@ -12,6 +12,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 openai.Engine.list()
 
 path = "data/rep/no_gap_context"
+done_f = open("done_pre_suff.txt", "a+")
 
 def query_openai(prefix, suffix):
     response = openai.Completion.create(
@@ -63,11 +64,20 @@ def read_context(path, file):
     suffix = data["suffix"]
     return prefix, suffix 
 
+count = 1
 files = get_files(path)
 for file in files:
+    if count % 5 == 0:
+        print("Sleeping on file {}".format(file))
+        time.sleep(61)
     prefix, suffix = read_context(path, file)
-    response = query_openai(prefix, suffix)
-    candidates, entropies = get_candidates(response)
-    save_data(candidates, entropies, file) 
+    try:
+        response = query_openai(prefix, suffix)
+        candidates, entropies = get_candidates(response)
+        save_data(candidates, entropies, file) 
+        done_f.write(file+"\n")
+        count += 1
+    except:
+        print("Timed out on file {}".format(file))
 
 
