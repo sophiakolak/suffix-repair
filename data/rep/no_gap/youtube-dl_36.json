@@ -1,0 +1,1 @@
+{"project": "youtube-dl", "bug": 36, "project_url": "https://github.com/ytdl-org/youtube-dl", "file_changed": "youtube_dl/extractor/facebook.py", "buggy_commit_id": "173a7026d59bacfbfe7a8eea92e10ef6e89d1798", "fixed_commit_id": "a6da7b6b9657f621a927cb4c7bc46cf7c6c27b11", "lines_deleted": {"22": "        (?:[^#?]*\\#!/)?\n"}, "lines_added": {"22": "        (?:[^#]*?\\#!/)?\n"}}

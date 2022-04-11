@@ -1,0 +1,1 @@
+{"project": "matplotlib", "bug": 9, "project_url": "https://github.com/matplotlib/matplotlib", "file_changed": "lib/matplotlib/projections/polar.py", "buggy_commit_id": "8673167d4c44dc2ede02fedd718dadf7f88e102d", "fixed_commit_id": "c01f9d3eff9b6239446c1bb2d205eccd69054aeb", "lines_deleted": {}, "lines_added": {"951": "        self._unstale_viewLim()\n"}}

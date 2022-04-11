@@ -1,0 +1,1 @@
+{"project": "youtube-dl", "bug": 17, "project_url": "https://github.com/ytdl-org/youtube-dl", "file_changed": "youtube_dl/utils.py", "buggy_commit_id": "4bf22f7a1014c55e3358b5a419945071b152eafc", "fixed_commit_id": "5b232f46dcbdc805507c02edd4fd598f31d544d5", "lines_deleted": {}, "lines_added": {"2735": "    if param is None:\n", "2736": "        return []\n"}}

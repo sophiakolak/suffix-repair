@@ -1,0 +1,1 @@
+{"project": "tqdm", "bug": 6, "project_url": "https://github.com/tqdm/tqdm", "file_changed": "tqdm/_tqdm.py", "buggy_commit_id": "a4b9c86db548b2d0dbb5af7a6bbdc26ab47e1eec", "fixed_commit_id": "6dad2e89019317e875c46d5a3a82a811ad6de2f9", "lines_deleted": {"855": "             else self.total)\n"}, "lines_added": {"855": "             else getattr(self, \"total\", None))\n"}}

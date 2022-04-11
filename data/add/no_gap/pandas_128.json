@@ -1,0 +1,1 @@
+{"project": "pandas", "bug": 128, "project_url": "https://github.com/pandas-dev/pandas", "file_changed": "pandas/io/json/_json.py", "buggy_commit_id": "794a1c2", "fixed_commit_id": "112e6b8d054f9adc1303138533ed6506975f94db", "lines_deleted": {}, "lines_added": {"579": "    if encoding is None:\n", "580": "        encoding = \"utf-8\"\n"}}

@@ -1,0 +1,1 @@
+{"project": "pandas", "bug": 61, "project_url": "https://github.com/pandas-dev/pandas", "file_changed": "pandas/core/series.py", "buggy_commit_id": "74dad82", "fixed_commit_id": "f7e2b74f1bcc1d1cbebbc42481e33f0abb2843dc", "lines_deleted": {"921": "                return self._get_values(key)\n"}, "lines_added": {"921": "                return self.iloc[key]\n"}}
