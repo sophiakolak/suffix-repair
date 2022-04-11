@@ -30,27 +30,27 @@ This means that all the changes come sequentially, i.e., there are no original l
 ```
                      if True:
                          do x
-        -            if False:
-        +            else:
+-                    if False:
++                    else:
                          do y           
 ```
 
 2. GAP
 This means that there are breaks between the changes, where the original code is still present. For example: 
-        ```
+```
                      if True:
                          do x
-        -            if False:
-        +            else:
+-                    if False:
++                    else:
                          do y 
-        +                do z
-        ```
++                        do z
+```
 * 1:1 replacement
-* * When lines deleted=lines added
+   * When lines deleted=lines added
 * delete only 
-* * When the patch removed lines, but did not add any. 
+   * When the patch removed lines, but did not add any. 
 * add only 
-* * When the patch added lines, but did not delete any. 
+   * When the patch added lines, but did not delete any. 
 
 Each of 1-1-replacement, delete-only, and add-only can be either "gap" or "no gap". When the change does not fall into any of these categories, it was marked as other (for the time being) 
 
@@ -59,13 +59,13 @@ Each of 1-1-replacement, delete-only, and add-only can be either "gap" or "no ga
    writes to: `data/rep/no_gap_context`
 
 Uses the data created by `sort_patches.py` to extract prefix/suffix context for the type of patches specified. Currently only doing this for the 1-1-replacements with no gap (as these are the simplest types of patches). This generates a dictionary for each bug (of this type) of the form: 
-    ```
+```
     {
         prefix: 40 lines before the change
         suffix: 40 lines after the change
         long_prefix: 80 lines before the change
     }
-    ```
+```
 When prompting with prefix and suffix context, the model gets the short prefix. When prompting with only prefix, it recieves the long prefix. In both cases, it gets 80 lines total. 
 
 # patch-gen
