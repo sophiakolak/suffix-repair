@@ -2,6 +2,7 @@ import os
 import json
 import re
 import shutil
+from test_patch import test_patch
 
 data_path = "data/rep/no_gap"
 
@@ -116,7 +117,7 @@ def trim_test(new_code, lines_to_change):
     trimmed = new_code.split("\n")[int(lines_to_change[0])-5:int(lines_to_change[-1])+5]
     return trimmed
     
-def test_patches(patches, file_to_change, lines_to_change, project):
+def test_patches(patches, file_to_change, lines_to_change, project, bug, commit):
     f_path = "BugsInPy/temp/projects/" + project + "/" + file_to_change
     for rank,patch in patches.items():
         if rank != 1:
@@ -127,6 +128,11 @@ def test_patches(patches, file_to_change, lines_to_change, project):
         save_patch(f_path)
         #print(f'lines to change:{lines_to_change}', f'patch:{l_patch}')
         trimmed = trim_test(new_code, lines_to_change)
+
+        tp = test_patch(project, bug, commit)
+        info_lines = tp.compile_and_run_tests()
+        print(info_lines)
+
         reset_file(f_path)
 
 
@@ -149,5 +155,5 @@ for file in files:
     p_path = "data/rep/no_gap_bleu_score/p/" + file_name  
     ps_patches = read_patches(ps_path, lines_to_change)
     p_patches = read_patches(p_path, lines_to_change)
-    pre_suf_results = test_patches(ps_patches, file_to_change, lines_to_change, project)
-    pre_only_results = test_patches(p_patches, file_to_change, lines_to_change, project)
+    pre_suf_results = test_patches(ps_patches, file_to_change, lines_to_change, project, bug, buggy_commit)
+    pre_only_results = test_patches(p_patches, file_to_change, lines_to_change, project, bug, buggy_commit)
