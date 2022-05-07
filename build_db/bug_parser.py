@@ -2,8 +2,6 @@ import os
 import project_parser
 import json
 
-proj_path = 'BugsInPy/projects'
-project_data, project_tests, project_url = project_parser.get_project_data()
 
 def map_proj_bug(project_tests):
     proj_bug = {}
@@ -125,14 +123,14 @@ def aggregate(proj_name, bug, bug_meta_data, bug_diff_data):
     bug_data["proj_name"] = proj_name
     return bug_data
 
-def get_proj_url(proj_name):
+def get_proj_url(proj_name, project_url):
     for dic in project_url:
         if proj_name in dic:
             return dic[proj_name]
 
 def checkout_version(buggy_commit, proj_path):
     os.chdir(proj_path)
-    os.system("git checkout " + buggy_commit)
+    os.system("git checkout " + buggy_commit + " > /dev/null 2>&1")
     os.chdir("../../../../")
 
 def combine_new(file_lines, snippet_lines):
@@ -168,7 +166,7 @@ def check_match_old(change_f, old_snippet, start_line, end_line):
 
 def check_match_new(change_f, new_snippet, start_line, end_line):
     num_lines = end_line - start_line + 1
-    print("start", start_line, "end", end_line)
+    #print("start", start_line, "end", end_line)
     curr_line = 0
     lines = ""
     for line in change_f:
@@ -181,7 +179,7 @@ def get_code(snippet, bug_data, version):
     data = {}
     proj_name = bug_data["proj_name"]
     bug = bug_data["bug"]
-    print("PROJ: " + proj_name, "BUG: " + str(bug))
+    #print("PROJ: " + proj_name, "BUG: " + str(bug))
 
     proj_path = "BugsInPy/temp/projects/" + proj_name
     bug_meta_data = bug_data["bug_meta_data"]
@@ -276,17 +274,17 @@ def check_line_match(adjusted_idx, bug_f):
         line_count += 1
     return True
 
-def clone_projects(proj_bugs):
+def clone_projects(proj_bugs, project_url):
     projects = list(proj_bugs.keys())
     for proj in projects:
-        proj_url = get_proj_url(proj)
+        proj_url = get_proj_url(proj, project_url)
         clone_folder = "BugsInPy/temp/projects"
         if not os.path.exists(clone_folder):
             os.makedirs(clone_folder)
         proj_path = clone_folder + "/" + proj
         if not os.path.exists(proj_path):
             command = "git clone " + proj_url + " " + proj_path
-            print("Cloning " + proj + " to " + proj_path)
+            #print("Cloning " + proj + " to " + proj_path)
             os.system(command)
 
 def write_data(proj, bug, bug_meta_data, file_changed, adjusted_del_idx, adjusted_add_idx):
@@ -310,54 +308,70 @@ def write_data(proj, bug, bug_meta_data, file_changed, adjusted_del_idx, adjuste
     
     
 
-
-proj_bugs = map_proj_bug(project_tests)
-clone_projects(proj_bugs)
-single_change_count, total = 0,0
-for proj, bugs in proj_bugs.items():
-    for bug in bugs:
-        patch_path = proj_path + "/" + proj + "/" +  "bugs/" + str(bug) 
-        if (os.path.exists(patch_path)):
-            patch_f = open(patch_path+"/bug_patch.txt", 'r')
-            info_f = open(patch_path+"/bug.info", 'r')
-            bug_meta_data = parse_info(info_f, proj, bug)
-            bug_diff_data = parse_diff(patch_f, proj, bug) # this closes the file 
-            patch_f = open(patch_path+"/bug_patch.txt", 'r') # reopen (change this later, it is unintuitive)
-            reformed_blocks = extract_code(patch_f, proj, bug, bug_diff_data)
-            bug_data = aggregate(proj, bug, bug_meta_data, bug_diff_data)
-            if reformed_blocks is not None:
-                old_snippet, new_snippet, lines_removed, lines_added = reformed_blocks
-                if proj == "pandas" and bug == 93:
-                    continue
-                if True:
-                    old_data = get_code(old_snippet, bug_data, version="old")
-                    del_start_line = int(old_data["start_line"])
-                    del_diff_block = old_data["snippet_str"]
-                    if len(lines_removed) > 0:
-                        adjusted_del_idx = find_del_line_numbers(del_diff_block, del_start_line, lines_removed)
-                        assert(len(adjusted_del_idx) == len(lines_removed))
-                        path = "BugsInPy/temp/projects/" + proj
-                        bug_f = open(path + "/" + old_data["file_changed"], "r")
-                        correct_lines = check_line_match(adjusted_del_idx, bug_f)
-                        bug_f.close()
-                        assert(correct_lines)
-                    else:
-                        adjusted_del_idx = {}
-                    new_data = get_code(new_snippet, bug_data, version="new")
-                    add_start_line = int(new_data["start_line"])
-                    add_diff_block = new_data["snippet_str"]
-                    if len(lines_added) > 0:
-                        adjusted_add_idx = find_add_line_numbers(add_diff_block, add_start_line, lines_added)
-                        print(adjusted_add_idx)
+def get_bug_data():
+    proj_path = 'BugsInPy/projects'
+    project_data, project_tests, project_url = project_parser.get_project_data()
+    proj_bugs = map_proj_bug(project_tests)
+    clone_projects(proj_bugs, project_url)
+    single_change_count, total = 0,0
+    proj_bug_data = {}
+    for proj, bugs in proj_bugs.items():
+        proj_bug_data[proj] = {}
+        for bug in bugs:
+            patch_path = proj_path + "/" + proj + "/" +  "bugs/" + str(bug) 
+            if (os.path.exists(patch_path)):
+                patch_f = open(patch_path+"/bug_patch.txt", 'r')
+                info_f = open(patch_path+"/bug.info", 'r')
+                bug_meta_data = parse_info(info_f, proj, bug)
+                bug_diff_data = parse_diff(patch_f, proj, bug) # this closes the file 
+                patch_f = open(patch_path+"/bug_patch.txt", 'r') # reopen (change this later, it is unintuitive)
+                reformed_blocks = extract_code(patch_f, proj, bug, bug_diff_data)
+                bug_data = aggregate(proj, bug, bug_meta_data, bug_diff_data)
+                if reformed_blocks is not None:
+                    old_snippet, new_snippet, lines_removed, lines_added = reformed_blocks
+                    if proj == "pandas" and bug == 93:
+                        continue
+                    if True:
+                        old_data = get_code(old_snippet, bug_data, version="old")
+                        del_start_line = int(old_data["start_line"])
+                        del_diff_block = old_data["snippet_str"]
                         if len(lines_removed) > 0:
-                            print(adjusted_del_idx)
-                        assert(len(adjusted_add_idx) == len(lines_added))
-                        path = "BugsInPy/temp/projects/" + proj
-                        change_f = open(path + "/" + new_data["file_changed"], "r")
-                        correct_lines = check_line_match(adjusted_add_idx, change_f)
-                        change_f.close()
-                        assert(correct_lines)
-                    else: 
-                        adjusted_add_idx = {}
+                            adjusted_del_idx = find_del_line_numbers(del_diff_block, del_start_line, lines_removed)
+                            assert(len(adjusted_del_idx) == len(lines_removed))
+                            path = "BugsInPy/temp/projects/" + proj
+                            bug_f = open(path + "/" + old_data["file_changed"], "r")
+                            correct_lines = check_line_match(adjusted_del_idx, bug_f)
+                            bug_f.close()
+                            assert(correct_lines)
+                        else:
+                            adjusted_del_idx = {}
+                        new_data = get_code(new_snippet, bug_data, version="new")
+                        add_start_line = int(new_data["start_line"])
+                        add_diff_block = new_data["snippet_str"]
+                        if len(lines_added) > 0:
+                            adjusted_add_idx = find_add_line_numbers(add_diff_block, add_start_line, lines_added)
+                            #print(adjusted_add_idx)
+                            #if len(lines_removed) > 0:
+                                #print(adjusted_del_idx)
+                            assert(len(adjusted_add_idx) == len(lines_added))
+                            path = "BugsInPy/temp/projects/" + proj
+                            change_f = open(path + "/" + new_data["file_changed"], "r")
+                            correct_lines = check_line_match(adjusted_add_idx, change_f)
+                            change_f.close()
+                            assert(correct_lines)
+                        else: 
+                            adjusted_add_idx = {}
                     
-                    write_data(proj, bug, bug_meta_data, new_data["file_changed"], adjusted_del_idx, adjusted_add_idx)
+                    #write_data(proj, bug, bug_meta_data, new_data["file_changed"], adjusted_del_idx, adjusted_add_idx)
+
+                    file_changed = new_data["file_changed"]
+                    proj_bug_data[proj][bug] = {"buggy_commit_id": bug_meta_data["buggy_commit_id"],
+                    "fixed_commit_id": bug_meta_data["fixed_commit_id"], "test_file": bug_meta_data["test_file"],
+                    "file_changed": file_changed, "lines_deleted": adjusted_del_idx, "lines_added": adjusted_add_idx}
+                   
+    return proj_bug_data
+
+
+def get_bug_data_for_project(proj):
+    proj_bug_data = get_bug_data()
+    return proj_bug_data[proj]
